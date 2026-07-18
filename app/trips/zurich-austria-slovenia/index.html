@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="./route.css?v=2" />
+    <link rel="stylesheet" href="./route.css?v=3" />
   </head>
   <body>
     <a class="skip-link" href="#route">Skip to route</a>
@@ -59,25 +59,31 @@
 
         <div class="hero-gallery" aria-label="Alpine route highlights">
           <figure class="hero-photo hero-photo-main">
-            <img
-              src="../../assets/austria-days/day-07-gosausee-real.jpg"
-              alt="Gosausee reflecting the Dachstein mountains"
-            />
-            <figcaption><span>01</span> Gosausee, Austria</figcaption>
+            <a href="./details/?id=gosausee" aria-label="Open detailed guide to Gosausee">
+              <img
+                src="../../assets/austria-days/day-07-gosausee-real.jpg"
+                alt="Gosausee reflecting the Dachstein mountains"
+              />
+              <span class="hero-figcaption"><span>01</span> Gosausee, Austria <b>Explore ↗</b></span>
+            </a>
           </figure>
           <figure class="hero-photo hero-photo-top">
-            <img
-              src="../../assets/slovenia-julian-alps-venice-days/day-09-soca-river-kobarid-and-kozjak-waterfall.jpg"
-              alt="Turquoise Soča River flowing through a forested gorge"
-            />
-            <figcaption><span>02</span> Soča Valley, Slovenia</figcaption>
+            <a href="./details/?id=vrsic-soca" aria-label="Open detailed guide to the Soča Valley">
+              <img
+                src="../../assets/slovenia-julian-alps-venice-days/day-09-soca-river-kobarid-and-kozjak-waterfall.jpg"
+                alt="Turquoise Soča River flowing through a forested gorge"
+              />
+              <span class="hero-figcaption"><span>02</span> Soča Valley, Slovenia <b>Explore ↗</b></span>
+            </a>
           </figure>
           <figure class="hero-photo hero-photo-bottom">
-            <img
-              src="../../assets/austria-days/day-08-hallstatt-real.jpg"
-              alt="Hallstatt village beside its alpine lake"
-            />
-            <figcaption><span>03</span> Hallstatt, Austria</figcaption>
+            <a href="./details/?id=hallstatt" aria-label="Open detailed guide to Hallstatt">
+              <img
+                src="../../assets/austria-days/day-08-hallstatt-real.jpg"
+                alt="Hallstatt village beside its alpine lake"
+              />
+              <span class="hero-figcaption"><span>03</span> Hallstatt, Austria <b>Explore ↗</b></span>
+            </a>
           </figure>
           <div class="hero-seal" aria-hidden="true">
             <span>47° N</span>
@@ -101,25 +107,31 @@
 
         <div class="salz-gallery" aria-label="Salzkammergut highlights">
           <figure class="salz-main-image">
-            <img src="../../assets/austria-days/day-07-gosausee-real.jpg" alt="Gosausee reflecting the Dachstein massif" />
-            <figcaption><span>Base camp view</span><strong>Gosausee</strong></figcaption>
+            <a href="./details/?id=gosausee" aria-label="Open detailed Gosausee excursion guide">
+              <img src="../../assets/austria-days/day-07-gosausee-real.jpg" alt="Gosausee reflecting the Dachstein massif" />
+              <span class="salz-caption"><span>Base camp view</span><strong>Gosausee</strong><b>Open excursion ↗</b></span>
+            </a>
           </figure>
           <figure>
-            <img src="../../assets/austria-days/day-08-hallstatt-real.jpg" alt="Hallstatt village and Hallstättersee" />
-            <figcaption><span>First-light village</span><strong>Hallstatt</strong></figcaption>
+            <a href="./details/?id=hallstatt" aria-label="Open detailed Hallstatt excursion guide">
+              <img src="../../assets/austria-days/day-08-hallstatt-real.jpg" alt="Hallstatt village and Hallstättersee" />
+              <span class="salz-caption"><span>First-light village</span><strong>Hallstatt</strong><b>Open excursion ↗</b></span>
+            </a>
           </figure>
           <figure>
-            <img src="../../assets/austria-days/day-10-schafberg.jpg" alt="Mountain panorama from the Schafberg above Wolfgangsee" />
-            <figcaption><span>Big-view day</span><strong>Schafberg</strong></figcaption>
+            <a href="./details/?id=wolfgangsee-schafberg" aria-label="Open detailed Wolfgangsee and Schafberg excursion guide">
+              <img src="../../assets/austria-days/day-10-schafberg.jpg" alt="Mountain panorama from the Schafberg above Wolfgangsee" />
+              <span class="salz-caption"><span>Big-view day</span><strong>Schafberg</strong><b>Open excursion ↗</b></span>
+            </a>
           </figure>
         </div>
 
-        <dl class="salz-facts" aria-label="Salzkammergut at a glance">
-          <div><dt>4</dt><dd>nights in one base</dd></div>
-          <div><dt>3</dt><dd>headline lake days</dd></div>
-          <div><dt>35 min</dt><dd>up the Schafberg by cog railway</dd></div>
-          <div><dt>Gosau</dt><dd>the quieter home base</dd></div>
-        </dl>
+        <div class="salz-facts" role="list" aria-label="Salzkammergut at a glance">
+          <a role="listitem" href="./details/?id=gosau-base" aria-label="Open details about the four-night Gosau base"><span class="salz-fact-value">4</span><span class="salz-fact-label">nights in one base · details ↗</span></a>
+          <a role="listitem" href="./details/?id=gosau-base" aria-label="Open the three headline Salzkammergut lake days"><span class="salz-fact-value">3</span><span class="salz-fact-label">headline lake days · details ↗</span></a>
+          <a role="listitem" href="./details/?id=wolfgangsee-schafberg" aria-label="Open the Schafberg cog railway excursion"><span class="salz-fact-value">35 min</span><span class="salz-fact-label">up the Schafberg by cog railway · details ↗</span></a>
+          <a role="listitem" href="./details/?id=gosau-base" aria-label="Learn why Gosau is the recommended base"><span class="salz-fact-value">Gosau</span><span class="salz-fact-label">the quieter home base · details ↗</span></a>
+        </div>
 
         <div class="salz-value-grid">
           <article>
@@ -154,24 +166,32 @@
           </div>
           <ol class="salz-days">
             <li>
-              <span>Day 01</span>
-              <div><strong>Hallstatt before breakfast</strong><p>See the famous waterfront while it is quiet, then slow down beside Hallstättersee.</p></div>
-              <b>Dawn light</b>
+              <a href="./details/?id=hallstatt">
+                <span>Day 01</span>
+                <div><strong>Hallstatt before breakfast</strong><p>See the famous waterfront while it is quiet, then slow down beside Hallstättersee.</p></div>
+                <b>Dawn light · open ↗</b>
+              </a>
             </li>
             <li>
-              <span>Day 02</span>
-              <div><strong>Gosausee, unhurried</strong><p>Walk the easy shoreline, picnic under the Dachstein, and keep the afternoon deliberately open.</p></div>
-              <b>Best lake day</b>
+              <a href="./details/?id=gosausee">
+                <span>Day 02</span>
+                <div><strong>Gosausee, unhurried</strong><p>Walk the easy shoreline, picnic under the Dachstein, and keep the afternoon deliberately open.</p></div>
+                <b>Best lake day · open ↗</b>
+              </a>
             </li>
             <li>
-              <span>Day 03</span>
-              <div><strong>Wolfgangsee + Schafberg</strong><p>Ride the historic cog railway for the panorama, then come back down for a lake cruise or swim.</p></div>
-              <b>Clear-sky pick</b>
+              <a href="./details/?id=wolfgangsee-schafberg">
+                <span>Day 03</span>
+                <div><strong>Wolfgangsee + Schafberg</strong><p>Ride the historic cog railway for the panorama, then come back down for a lake cruise or swim.</p></div>
+                <b>Clear-sky pick · open ↗</b>
+              </a>
             </li>
             <li>
-              <span>Day 04</span>
-              <div><strong>Dachstein—or culture</strong><p>Choose Krippenstein’s viewpoints and caves in clear weather; pivot to Bad Ischl or Salzburg under cloud.</p></div>
-              <b>Flex day</b>
+              <a href="./details/?id=dachstein">
+                <span>Day 04</span>
+                <div><strong>Dachstein—or culture</strong><p>Choose Krippenstein’s viewpoints and caves in clear weather; pivot to Bad Ischl or Salzburg under cloud.</p></div>
+                <b>Flex day · open ↗</b>
+              </a>
             </li>
           </ol>
         </div>
@@ -190,8 +210,8 @@
         <div>
           <h2>The route gets better when you stop thinking in borders.</h2>
           <p>
-            Zürich is the soft landing. Western Austria brings the first big alpine reveal.
-            Salzkammergut delivers the lakes. Slovenia gives the trip its wild, turquoise finale.
+            <a href="./details/?id=zurich-reset">Zürich</a> is the soft landing. Western Austria brings the first big alpine reveal.
+            <a href="./details/?id=gosau-base">Salzkammergut</a> delivers the lakes. <a href="./details/?id=vrsic-soca">Slovenia</a> gives the trip its wild, turquoise finale.
           </p>
         </div>
         <aside>
@@ -267,30 +287,30 @@
           <p>Six stops, each with a different kind of alpine payoff.</p>
         </div>
         <div class="place-grid">
-          <article class="place-card place-featured">
+          <a class="place-card place-featured" href="./details/?id=gosausee" aria-label="Open detailed Gosausee guide">
             <img src="../../assets/austria-days/day-07-gosausee-real.jpg" alt="Gosausee and the Dachstein range" />
-            <div><span>Austria · essential</span><h3>Gosausee</h3><p>Walk the flat shoreline early, before the day-trippers and afternoon cloud.</p></div>
-          </article>
-          <article class="place-card">
+            <div><span>Austria · essential</span><h3>Gosausee</h3><p>Walk the flat shoreline early, before the day-trippers and afternoon cloud.</p><b>Explore excursion ↗</b></div>
+          </a>
+          <a class="place-card" href="./details/?id=hallstatt" aria-label="Open detailed Hallstatt guide">
             <img src="../../assets/austria-days/day-08-hallstatt-real.jpg" alt="Hallstatt lakefront village" />
-            <div><span>Austria · dawn stop</span><h3>Hallstatt</h3><p>Treat it as a beautiful morning, not an all-day base.</p></div>
-          </article>
-          <article class="place-card">
+            <div><span>Austria · dawn stop</span><h3>Hallstatt</h3><p>Treat it as a beautiful morning, not an all-day base.</p><b>Explore excursion ↗</b></div>
+          </a>
+          <a class="place-card" href="./details/?id=salzburg" aria-label="Open detailed Salzburg guide">
             <img src="../../assets/austria-days/day-13-salzburg-real.jpg" alt="Salzburg skyline and fortress" />
-            <div><span>Austria · culture</span><h3>Salzburg</h3><p>Old-town lanes, fortress views, and a civilized pause between lake days.</p></div>
-          </article>
-          <article class="place-card">
+            <div><span>Austria · culture</span><h3>Salzburg</h3><p>Old-town lanes, fortress views, and a civilized pause between lake days.</p><b>Explore excursion ↗</b></div>
+          </a>
+          <a class="place-card" href="./details/?id=jasna-zelenci" aria-label="Open detailed Lake Jasna and Zelenci guide">
             <img src="../../assets/slovenia-julian-alps-venice-days/day-07-kranjska-gora-and-lake-jasna-alpine-picnic.jpg" alt="Lake Jasna beneath the Julian Alps" />
-            <div><span>Slovenia · easy beauty</span><h3>Lake Jasna</h3><p>A low-effort picnic-and-paddle reset beneath serious peaks.</p></div>
-          </article>
-          <article class="place-card place-wide">
+            <div><span>Slovenia · easy beauty</span><h3>Lake Jasna</h3><p>A low-effort picnic-and-paddle reset beneath serious peaks.</p><b>Explore excursion ↗</b></div>
+          </a>
+          <a class="place-card place-wide" href="./details/?id=vrsic-soca" aria-label="Open detailed Vršič Pass and Soča Valley guide">
             <img src="../../assets/slovenia-julian-alps-venice-days/day-09-soca-river-kobarid-and-kozjak-waterfall.jpg" alt="The clear turquoise Soča River" />
-            <div><span>Slovenia · the wild card</span><h3>Vršič → Soča</h3><p>Drive the pass one way, follow the river south, and let the color change the mood of the trip.</p></div>
-          </article>
-          <article class="place-card">
+            <div><span>Slovenia · the wild card</span><h3>Vršič → Soča</h3><p>Drive the pass one way, follow the river south, and let the color change the mood of the trip.</p><b>Explore excursion ↗</b></div>
+          </a>
+          <a class="place-card" href="./details/?id=bled-bohinj" aria-label="Open detailed Bled and Bohinj guide">
             <img src="../../assets/slovenia-julian-alps-venice-days/day-03-lake-bled-island-castle-views-and-cream-cake.jpg" alt="Lake Bled with its island church" />
-            <div><span>Slovenia · finale</span><h3>Bled + Bohinj</h3><p>See the icon, then spend the slower day at the quieter lake.</p></div>
-          </article>
+            <div><span>Slovenia · finale</span><h3>Bled + Bohinj</h3><p>See the icon, then spend the slower day at the quieter lake.</p><b>Explore excursion ↗</b></div>
+          </a>
         </div>
       </section>
 
@@ -389,9 +409,9 @@
             Austria is the heart of the trip. Slovenia is what makes it memorable.
           </p>
           <div class="verdict-notes">
-            <div><span>01</span><p><strong>Keep Zürich short.</strong> One recovery night is enough before the landscapes take over.</p></div>
-            <div><span>02</span><p><strong>Give Salzkammergut four nights.</strong> It is the densest concentration of the trip’s best lake days.</p></div>
-            <div><span>03</span><p><strong>Protect the final night.</strong> Stay at Venice airport instead of gambling on a border-crossing flight morning.</p></div>
+            <div><span>01</span><p><a href="./details/?id=zurich-reset"><strong>Keep Zürich short.</strong></a> One recovery night is enough before the landscapes take over.</p></div>
+            <div><span>02</span><p><a href="./details/?id=gosau-base"><strong>Give Salzkammergut four nights.</strong></a> It is the densest concentration of the trip’s best lake days.</p></div>
+            <div><span>03</span><p><a href="./details/?id=bohinj-venice"><strong>Protect the final night.</strong></a> Stay at Venice airport instead of gambling on a border-crossing flight morning.</p></div>
           </div>
           <a class="light-button" href="#route">Run the route again <span aria-hidden="true">↑</span></a>
         </div>
@@ -405,6 +425,6 @@
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="./route.js?v=2"></script>
+    <script src="./route.js?v=3"></script>
   </body>
 </html>
