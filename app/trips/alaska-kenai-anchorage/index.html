@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alaska Kenai + Anchorage Bookable Loop</title>
+    <link rel="stylesheet" href="../../styles.css?v=route-map-9" />
+  </head>
+  <body class="detail-page bookable-page" data-page="overview">
+    <header id="hero" class="trip-hero">
+      <nav class="topbar" aria-label="Trip navigation">
+        <a href="../../index.html?v=route-map-9">All trips</a>
+        <a href="#days">Days</a>
+        <a href="#sources">Sources</a>
+      </nav>
+      <div class="hero-copy"><p id="eyebrow" class="eyebrow"></p><h1 id="title"></h1><p id="subtitle"></p></div>
+    </header>
+    <main>
+      <section id="summaryStats" class="decision-strip detail-strip" aria-label="Trip summary"></section>
+      <section class="section"><div class="section-heading"><p class="eyebrow">Why this order</p><h2>Route Logic</h2></div><ul id="routeRationale" class="rationale-list"></ul></section>
+      <section class="section"><div class="section-heading"><p class="eyebrow">Pinned route</p><h2>Map + Daily Pins</h2></div><div id="routeMap"></div></section>
+      <section class="section"><div class="section-heading"><p class="eyebrow">Flight pick</p><h2>Delta Snapshot</h2></div><article id="flightCard" class="feature-panel"></article></section>
+      <section class="section"><div class="section-heading"><p class="eyebrow">Fixed planning costs</p><h2>Budget Rollup</h2></div><div id="budgetGrid" class="budget-grid"></div></section>
+      <section class="section"><div class="section-heading"><p class="eyebrow">Where we sleep</p><h2>Lodging Bases</h2></div><div id="baseGrid" class="base-grid"></div></section>
+      <section id="days" class="section"><div class="section-heading"><p class="eyebrow">Click into each day</p><h2>Daily Pages</h2></div><div id="dayRows" class="itinerary-list"></div></section>
+      <section id="sources" class="section"><div class="section-heading"><p class="eyebrow">Research trail</p><h2>Sources</h2></div><div id="sourceGrid" class="source-grid"></div></section>
+    </main>
+    <script src="../../bookable-trip.js?v=route-map-9" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,696 @@
+{
+  "id": "slovenia-julian-alps-venice",
+  "name": "Slovenia Julian Alps + Venice Gateway Loop",
+  "lastUpdated": "2026-06-27",
+  "priceSnapshotDate": "2026-06-27 planning snapshot",
+  "dates": {
+    "depart": "2026-08-31",
+    "return": "2026-09-13",
+    "nights": 13,
+    "why": "Built to match the current comparison window: depart Monday, August 31 and return Sunday, September 13."
+  },
+  "travelers": "2 adults + one infant-in-lap",
+  "currency": "USD planning snapshot",
+  "exchangeRateNote": "International lodging/activity costs are USD planning estimates; live booking should re-price in local currency before purchase.",
+  "positioning": "An Austria-adjacent alternative that keeps the alpine lake/farm/spa feeling but shifts the center of gravity to Slovenia: Bled, Bohinj, Soča Valley, Ljubljana, and a Venice airport buffer.",
+  "routeRationale": [
+    "Use Venice as the Delta-friendly gateway and avoid a complicated Ljubljana connection with a baby.",
+    "Start at Bled because it gives the fastest alpine payoff after landing.",
+    "Move Bled → Bohinj → Soča in a westward mountain arc to reduce backtracking.",
+    "Finish in Ljubljana for stroller-friendly city comfort, then protect the flight with a Venice airport buffer night."
+  ],
+  "budget": {
+    "flightTotal": 3150,
+    "lodgingTotal": 3745,
+    "carTransportTotal": 1445,
+    "activitiesTotal": 805,
+    "foodTotal": 2570,
+    "estimatedTripTotal": 11715
+  },
+  "flights": {
+    "recommended": {
+      "label": "Delta-first Venice gateway",
+      "fareSnapshotPerAdultRoundTrip": 1445,
+      "totalFlightBudget": 3150,
+      "infantNote": "Budget includes two adult cash fares plus infant-in-lap international fee/tax estimate; re-check Delta before booking.",
+      "outbound": {
+        "date": "Mon Aug 31",
+        "flight": "DL ATL-VCE seasonal nonstop / Delta-marketed alternative",
+        "from": "ATL",
+        "to": "VCE",
+        "depart": "Evening",
+        "arrive": "Morning Sep 1"
+      },
+      "return": {
+        "date": "Sun Sep 13",
+        "flight": "DL VCE-ATL seasonal nonstop / Delta-marketed alternative",
+        "from": "VCE",
+        "to": "ATL",
+        "depart": "Late morning/afternoon",
+        "arrive": "Same day ATL"
+      },
+      "sourceLinks": [
+        "Delta flights to Italy",
+        "ATL-VCE Delta flight reference",
+        "Delta infant travel policy"
+      ]
+    }
+  },
+  "bases": [
+    {
+      "name": "Lake Bled farm/glamping base",
+      "dates": "Sep 1-4",
+      "nights": 3,
+      "hotel": "Garden Village Bled",
+      "room": "Family-friendly glamping/apartment unit; crib request",
+      "nightlyRate": 365,
+      "total": 1095,
+      "why": "Closest match to the farm/nature stay vibe while keeping Bled walkable.",
+      "bookingUrl": "https://www.gardenvillagebled.com/",
+      "sourceKey": "gardenVillage"
+    },
+    {
+      "name": "Lake Bohinj mountain-water base",
+      "dates": "Sep 4-7",
+      "nights": 3,
+      "hotel": "Bohinj ECO Hotel / Sunrose 7 alternative",
+      "room": "Family room with pool/wellness access",
+      "nightlyRate": 315,
+      "total": 945,
+      "why": "Quieter lake base with mountain access and baby-friendly recovery options.",
+      "bookingUrl": "https://www.bohinj-eco-hotel.si/en/",
+      "sourceKey": "bohinjEco"
+    },
+    {
+      "name": "Soča Valley adventure-light base",
+      "dates": "Sep 7-10",
+      "nights": 3,
+      "hotel": "Hotel Dobra Vila Bovec",
+      "room": "Boutique room with crib request",
+      "nightlyRate": 325,
+      "total": 975,
+      "why": "Gives the emerald river/mountain drama without needing intense adventure sports.",
+      "bookingUrl": "https://www.dobra-vila-bovec.si/en/",
+      "sourceKey": "dobraVila"
+    },
+    {
+      "name": "Ljubljana + Venice buffer",
+      "dates": "Sep 10-13",
+      "nights": 3,
+      "hotel": "InterContinental Ljubljana + Venice airport hotel",
+      "room": "City hotel and airport-buffer room",
+      "nightlyRate": 243,
+      "total": 730,
+      "why": "City comfort plus a protected flight home.",
+      "bookingUrl": "https://www.ihg.com/intercontinental/hotels/us/en/ljubljana/ljbha/hoteldetail",
+      "sourceKey": "intercontinentalLj"
+    }
+  ],
+  "dailyItinerary": [
+    {
+      "day": 1,
+      "slug": "day-01",
+      "date": "Mon Aug 31",
+      "title": "Delta nonstop ATL to Venice",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-01-delta-nonstop-atl-to-venice.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Venice_Marco_Polo_Airport",
+      "overnight": "In flight",
+      "lodgingCost": 0,
+      "transport": "Depart ATL on Delta ATL-VCE seasonal nonstop planning snapshot, evening departure and morning Venice arrival; book two adult Main Cabin tickets and add infant-in-lap.",
+      "transportCost": 3150,
+      "primaryActivity": "Flight logistics day: keep the Slovenia loop simple by using Venice as the gateway, then driving straight into the Julian Alps after a reset stop.",
+      "activityCost": 0,
+      "backupActivity": "If ATL-VCE prices spike, compare Delta/KLM/Air France one-stop routings into Venice, Ljubljana via partner connection, or Munich with a longer drive.",
+      "foodPlan": "Airport dinner and baby snacks; pack sleep kit, stroller gate-check, carrier, bottles, and one change for everyone.",
+      "foodCost": 90,
+      "babyPlan": "Infant-in-lap; budget includes an international infant fee estimate and taxes.",
+      "bookingPriority": "Book transatlantic flights first; all lodging dates depend on the Venice arrival/return.",
+      "dayTotal": 3240,
+      "sourceLinks": [
+        "Delta flights to Italy",
+        "ATL-VCE Delta flight reference",
+        "Delta infant travel policy"
+      ],
+      "why": "Venice keeps this Slovenia-focused Alps loop realistic from Atlanta: one gateway, a straightforward rental car pickup, and less time lost crossing Europe with a one-year-old.",
+      "moments": [
+        "Choose the Venice nonstop/Delta-first routing before locking hotels.",
+        "Keep arrival morning gentle: no sightseeing pressure, just bags, car seat, and the drive into Slovenia.",
+        "Use this route to make Slovenia the core, not a side trip."
+      ],
+      "costNote": "Transport is the full round-trip flight budget for two adults plus infant-in-lap estimate.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Atlanta to Venice flight",
+        "lat": 45.5053,
+        "lon": 12.3519
+      }
+    },
+    {
+      "day": 2,
+      "slug": "day-02",
+      "date": "Tue Sep 1",
+      "title": "Arrive Venice and drive to Lake Bled",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-02-arrive-venice-and-drive-to-lake-bled.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Lake_Bled",
+      "overnight": "Garden Village Bled",
+      "lodgingCost": 365,
+      "transport": "Pick up rental car at Venice Marco Polo and drive to Lake Bled, about 3 hours before baby stops and border timing.",
+      "transportCost": 980,
+      "primaryActivity": "Settle into Garden Village Bled, walk the lakeshore, and keep the first evening about fresh air, dinner, and sleep.",
+      "activityCost": 0,
+      "backupActivity": "If arrival is rough, stop near Udine/Tarvisio for lunch and go straight to the room instead of lakeshore exploring.",
+      "foodPlan": "Groceries/snacks plus relaxed dinner at Garden Village or Bled town; budget $175.",
+      "foodCost": 175,
+      "babyPlan": "Long transfer, but nap-friendly. Request crib, kettle, and early dinner seating.",
+      "bookingPriority": "Confirm rental car cross-border permission for Italy-Slovenia and child-seat plan.",
+      "dayTotal": 1520,
+      "sourceLinks": [
+        "Garden Village Bled",
+        "Lake Bled official tourism"
+      ],
+      "why": "This is the reveal: instead of lingering near Venice, the trip immediately becomes alpine Slovenia, with Bled as the softest, prettiest landing pad.",
+      "moments": [
+        "Drive once, unpack, and let the lake reset everyone.",
+        "Use the lakeshore path as the baby-friendly first activity.",
+        "Garden Village gives the farm/glamping texture that echoes the Switzerland vibe."
+      ],
+      "costNote": "Transport includes the full rental-car budget for the Slovenia loop, allocated on pickup day.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Lake Bled",
+        "lat": 46.3639,
+        "lon": 14.0942
+      }
+    },
+    {
+      "day": 3,
+      "slug": "day-03",
+      "date": "Wed Sep 2",
+      "title": "Lake Bled island, castle views, and cream cake",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-03-lake-bled-island-castle-views-and-cream-cake.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Bled_Castle",
+      "overnight": "Garden Village Bled",
+      "lodgingCost": 365,
+      "transport": "Local Bled driving/walking only; use stroller for lakeshore and carrier for castle grades.",
+      "transportCost": 25,
+      "primaryActivity": "Morning pletna-style lake/island view plan, Bled Castle viewpoint, lakeside playground/walk, and cafe stop for kremšnita.",
+      "activityCost": 90,
+      "backupActivity": "Skip the boat/castle if weather is wet and do Bled lakeshore plus Radovljica old town.",
+      "foodPlan": "Breakfast at stay, lakeside lunch, casual dinner; budget $190.",
+      "foodCost": 190,
+      "babyPlan": "Stroller works on flat lakeshore; carrier for castle and older paths.",
+      "bookingPriority": "Reserve any boat/castle timing only after checking weather.",
+      "dayTotal": 670,
+      "sourceLinks": [
+        "Lake Bled official tourism",
+        "Slovenia official tourism"
+      ],
+      "why": "Bled is famous for a reason: island church, castle, lake path, mountain backdrop, and enough easy surfaces for a toddler-paced day.",
+      "moments": [
+        "Take the classic lake/island view while energy is highest.",
+        "Use a nap break back at Garden Village.",
+        "End with a low-pressure lakeside dinner rather than a second excursion."
+      ],
+      "costNote": "Activities cover castle/boat-style sightseeing buffer for two adults.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Bled Castle / Lake Bled",
+        "lat": 46.3692,
+        "lon": 14.1006
+      }
+    },
+    {
+      "day": 4,
+      "slug": "day-04",
+      "date": "Thu Sep 3",
+      "title": "Vintgar Gorge and Radovljica honey town",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-04-vintgar-gorge-and-radovljica-honey-town.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Vintgar_Gorge",
+      "overnight": "Garden Village Bled",
+      "lodgingCost": 365,
+      "transport": "Bled to Vintgar Gorge and Radovljica loop, roughly 45 minutes total driving.",
+      "transportCost": 35,
+      "primaryActivity": "Early Vintgar Gorge boardwalk walk, then Radovljica old town, honey/bee museum style stop, and easy farm-country lunch.",
+      "activityCost": 75,
+      "backupActivity": "If Vintgar is crowded or wet, do Lake Bohinj preview or Bled wellness/pool time.",
+      "foodPlan": "Radovljica lunch, grocery dinner or Garden Village dinner; budget $185.",
+      "foodCost": 185,
+      "babyPlan": "Carrier is safer for gorge boardwalk; use stroller in Radovljica.",
+      "bookingPriority": "Pre-book Vintgar timed entry if required for the season.",
+      "dayTotal": 660,
+      "sourceLinks": [
+        "Lake Bled official tourism",
+        "Slovenia official tourism"
+      ],
+      "why": "This adds texture beyond postcard Bled: gorge water, wooden walkways, bees/honey, and a small-town Slovenia feel.",
+      "moments": [
+        "Start early before crowds.",
+        "Make Radovljica the crawl-around/reset town stop.",
+        "Keep afternoon unplanned for naps and weather."
+      ],
+      "costNote": "Vintgar timed-entry and small museum/cafe buffer.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Vintgar Gorge",
+        "lat": 46.3928,
+        "lon": 14.0844
+      }
+    },
+    {
+      "day": 5,
+      "slug": "day-05",
+      "date": "Fri Sep 4",
+      "title": "Transfer to Bohinj and Vogel mountain views",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-05-transfer-to-bohinj-and-vogel-mountain-views.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Lake_Bohinj",
+      "overnight": "Bohinj ECO Hotel",
+      "lodgingCost": 315,
+      "transport": "Bled to Bohinj, about 35 minutes, then short drive to Vogel cable car base.",
+      "transportCost": 35,
+      "primaryActivity": "Move to Bohinj, ride Vogel cable car if clear, and spend late afternoon on Lake Bohinj shore.",
+      "activityCost": 95,
+      "backupActivity": "If clouds hide the view, skip Vogel and use Aquapark Bohinj / hotel pool time.",
+      "foodPlan": "Bohinj lakeside lunch and hotel dinner; budget $185.",
+      "foodCost": 185,
+      "babyPlan": "Cable car is baby-friendly with carrier; bring layers for the top.",
+      "bookingPriority": "Check Vogel operating hours and weather the night before.",
+      "dayTotal": 630,
+      "sourceLinks": [
+        "Bohinj official tourism"
+      ],
+      "why": "Bohinj is the quieter, wilder counterpoint to Bled: less polished, more mountain-valley, and ideal for a slower family base.",
+      "moments": [
+        "Keep the transfer short.",
+        "Use Vogel only if the view is worth it.",
+        "Let Lake Bohinj be the evening reset."
+      ],
+      "costNote": "Includes cable car buffer for two adults.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Lake Bohinj / Vogel",
+        "lat": 46.2769,
+        "lon": 13.8882
+      }
+    },
+    {
+      "day": 6,
+      "slug": "day-06",
+      "date": "Sat Sep 5",
+      "title": "Lake Bohinj slow shore and farm-country day",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-06-lake-bohinj-slow-shore-and-farm-country-day.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Bohinj",
+      "overnight": "Bohinj ECO Hotel",
+      "lodgingCost": 315,
+      "transport": "Short local drives around Bohinj only.",
+      "transportCost": 25,
+      "primaryActivity": "Lake Bohinj shoreline walk, Ukanc/Zlatorog area, simple picnic, and farm-valley exploring without a big objective.",
+      "activityCost": 20,
+      "backupActivity": "If weather is poor, use Aquapark Bohinj and a cafe lunch in Bohinjska Bistrica.",
+      "foodPlan": "Picnic groceries, lakeside cafe, hotel dinner; budget $175.",
+      "foodCost": 175,
+      "babyPlan": "This is a true baby day: grass, water views, stroller sections, and room/pool reset.",
+      "bookingPriority": "No hard booking; protect this as a low-pressure day.",
+      "dayTotal": 535,
+      "sourceLinks": [
+        "Bohinj official tourism"
+      ],
+      "why": "After five travel/sightseeing days, this one earns its place by not asking too much: beautiful water, mountain air, and time for the baby to actually explore.",
+      "moments": [
+        "Morning lakeshore before day-trippers peak.",
+        "Picnic instead of a formal lunch.",
+        "Afternoon pool/nap buffer at the hotel."
+      ],
+      "costNote": "Low activity cost by design.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Lake Bohinj shore",
+        "lat": 46.2817,
+        "lon": 13.8427
+      }
+    },
+    {
+      "day": 7,
+      "slug": "day-07",
+      "date": "Sun Sep 6",
+      "title": "Kranjska Gora and Lake Jasna alpine picnic",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-07-kranjska-gora-and-lake-jasna-alpine-picnic.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Lake_Jasna",
+      "overnight": "Bohinj ECO Hotel",
+      "lodgingCost": 315,
+      "transport": "Bohinj to Kranjska Gora/Lake Jasna and back, about 2h30m total driving.",
+      "transportCost": 65,
+      "primaryActivity": "Scenic drive to Kranjska Gora, Lake Jasna picnic/walk, and optional Planica Nordic center stop.",
+      "activityCost": 40,
+      "backupActivity": "Stay in Bohinj and do Savica Waterfall viewpoint if the longer drive feels like too much.",
+      "foodPlan": "Picnic lunch, Kranjska Gora cafe, hotel dinner; budget $185.",
+      "foodCost": 185,
+      "babyPlan": "Break the drive around nap; Lake Jasna has easy stroller-friendly edges.",
+      "bookingPriority": "Keep this flexible; it is the optional high-alpine day.",
+      "dayTotal": 605,
+      "sourceLinks": [
+        "Slovenia official tourism"
+      ],
+      "why": "Lake Jasna gives the glassy alpine-lake look and Julian Alps drama without a major hike.",
+      "moments": [
+        "Use the drive as scenic nap time.",
+        "Walk the lake rather than stacking activities.",
+        "Treat Planica as a bonus, not a requirement."
+      ],
+      "costNote": "Fuel/parking plus small attraction buffer.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Lake Jasna / Kranjska Gora",
+        "lat": 46.4833,
+        "lon": 13.7856
+      }
+    },
+    {
+      "day": 8,
+      "slug": "day-08",
+      "date": "Mon Sep 7",
+      "title": "Vršič Pass to Soča Valley and Bovec",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-08-vrsic-pass-to-soca-valley-and-bovec.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Vr%C5%A1i%C4%8D_Pass",
+      "overnight": "Hotel Dobra Vila Bovec",
+      "lodgingCost": 325,
+      "transport": "Bohinj/Kranjska Gora side to Bovec via Vršič Pass and Soča Valley, about 2h45m before viewpoint stops.",
+      "transportCost": 80,
+      "primaryActivity": "Drive the Vršič Pass, stop at safe viewpoints, then settle into Bovec with a short Soča river walk.",
+      "activityCost": 20,
+      "backupActivity": "If weather is rough, use the easier Predel/Tarvisio routing and go straight to Bovec.",
+      "foodPlan": "Mountain-pass lunch stop, Bovec dinner; budget $190.",
+      "foodCost": 190,
+      "babyPlan": "Carrier for viewpoints; avoid ambitious hikes on transfer day.",
+      "bookingPriority": "Confirm Dobra Vila crib/parking and check pass conditions.",
+      "dayTotal": 615,
+      "sourceLinks": [
+        "Soca Valley official tourism",
+        "Hotel Dobra Vila Bovec"
+      ],
+      "why": "This is the route day that makes Slovenia feel epic: switchbacks, limestone peaks, and the emerald Soča reveal.",
+      "moments": [
+        "Treat Vršič as the activity, not just transportation.",
+        "Stop only where parking/safety are easy with the baby.",
+        "Arrive early enough for a calm Bovec dinner."
+      ],
+      "costNote": "Transport covers mountain transfer fuel/parking/tolls buffer.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Vrsic Pass / Soca Valley",
+        "lat": 46.4335,
+        "lon": 13.7449
+      }
+    },
+    {
+      "day": 9,
+      "slug": "day-09",
+      "date": "Tue Sep 8",
+      "title": "Soča River, Kobarid, and Kozjak Waterfall",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-09-soca-river-kobarid-and-kozjak-waterfall.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Kobarid",
+      "overnight": "Hotel Dobra Vila Bovec",
+      "lodgingCost": 325,
+      "transport": "Bovec to Kobarid and Kozjak area, about 1h15m total driving.",
+      "transportCost": 40,
+      "primaryActivity": "Soča river viewpoints, Kobarid history/old town lunch, and Kozjak Waterfall carrier walk if trail conditions are good.",
+      "activityCost": 55,
+      "backupActivity": "Skip Kozjak with wet footing and use Tolmin/Kobarid cafes plus riverside viewpoints.",
+      "foodPlan": "Kobarid lunch, Bovec dinner; budget $195.",
+      "foodCost": 195,
+      "babyPlan": "Carrier only for Kozjak; avoid slippery sections if rain.",
+      "bookingPriority": "Check trail/parking notes and weather before committing.",
+      "dayTotal": 615,
+      "sourceLinks": [
+        "Soca Valley official tourism"
+      ],
+      "why": "The Soča Valley is the adventure-looking part of Slovenia, but this version keeps it family-scaled: river color, short walks, and good food towns.",
+      "moments": [
+        "Prioritize turquoise river stops over mileage.",
+        "Make Kobarid the civilized lunch/reset point.",
+        "Use Kozjak only if it feels safe and dry."
+      ],
+      "costNote": "Parking/trail/museum-style buffer.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Kobarid / Kozjak Waterfall",
+        "lat": 46.2474,
+        "lon": 13.5796
+      }
+    },
+    {
+      "day": 10,
+      "slug": "day-10",
+      "date": "Wed Sep 9",
+      "title": "Bovec slow day and optional Kanin lift views",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-10-bovec-slow-day-and-optional-kanin-lift-views.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Bovec",
+      "overnight": "Hotel Dobra Vila Bovec",
+      "lodgingCost": 325,
+      "transport": "Local Bovec day; optional lift/base-area driving only.",
+      "transportCost": 25,
+      "primaryActivity": "Bovec town, easy Soča access points, optional Kanin lift/viewpoint if operating, and a true slow afternoon.",
+      "activityCost": 80,
+      "backupActivity": "If lifts are closed/weather is poor, do a short drive to Great Soča Gorge viewpoints and cafe time.",
+      "foodPlan": "Bovec cafe lunch, nicer dinner; budget $200.",
+      "foodCost": 200,
+      "babyPlan": "Keep this as a recovery day between the pass/river days and Ljubljana transfer.",
+      "bookingPriority": "Check Kanin operation status before treating it as the plan.",
+      "dayTotal": 630,
+      "sourceLinks": [
+        "Soca Valley official tourism"
+      ],
+      "why": "This gives the itinerary breathing room in the most rugged region, with a weather-dependent mountain-view option but no pressure to perform.",
+      "moments": [
+        "Let the baby reset after two big scenery days.",
+        "Use Soča river access as sensory play.",
+        "Make the lift a bonus, not the day’s success condition."
+      ],
+      "costNote": "Activity budget includes optional lift/cable car style spend.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Bovec",
+        "lat": 46.3375,
+        "lon": 13.5527
+      }
+    },
+    {
+      "day": 11,
+      "slug": "day-11",
+      "date": "Thu Sep 10",
+      "title": "Transfer to Ljubljana via Postojna Cave",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-11-transfer-to-ljubljana-via-postojna-cave.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Postojna_Cave",
+      "overnight": "InterContinental Ljubljana",
+      "lodgingCost": 285,
+      "transport": "Bovec to Ljubljana via Postojna Cave, about 3h20m driving plus cave stop.",
+      "transportCost": 75,
+      "primaryActivity": "Drive toward Ljubljana with Postojna Cave as the weather-proof wow stop, then check into Ljubljana for city comfort.",
+      "activityCost": 110,
+      "backupActivity": "If the cave timing is too much, skip Postojna and stop in Vipava Valley for lunch.",
+      "foodPlan": "Postojna/Vipava lunch, Ljubljana dinner; budget $205.",
+      "foodCost": 205,
+      "babyPlan": "Postojna’s train/cave can work with layers and carrier; keep stroller expectations modest.",
+      "bookingPriority": "Pre-book cave time if choosing Postojna; request crib at Ljubljana hotel.",
+      "dayTotal": 675,
+      "sourceLinks": [
+        "Postojna Cave official",
+        "Ljubljana official tourism",
+        "InterContinental Ljubljana"
+      ],
+      "why": "This day changes gears from alpine roads to Slovenia’s polished capital, with one distinctive cave stop that works even if weather turns.",
+      "moments": [
+        "Use Postojna as the built-in rainy-day attraction.",
+        "Arrive in Ljubljana before dinner.",
+        "Enjoy a real hotel reset after mountain guesthouses."
+      ],
+      "costNote": "Includes Postojna tickets for two adults.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Postojna Cave",
+        "lat": 45.7816,
+        "lon": 14.2034
+      }
+    },
+    {
+      "day": 12,
+      "slug": "day-12",
+      "date": "Fri Sep 11",
+      "title": "Ljubljana market, castle, and riverfront",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-12-ljubljana-market-castle-and-riverfront.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Ljubljana",
+      "overnight": "InterContinental Ljubljana",
+      "lodgingCost": 285,
+      "transport": "Walk/taxi day in Ljubljana; no meaningful driving.",
+      "transportCost": 25,
+      "primaryActivity": "Central market, riverfront stroller walk, funicular/castle view, Tivoli Park crawl-around time, and farm-to-table dinner.",
+      "activityCost": 65,
+      "backupActivity": "If everyone needs a break, skip castle and do market plus Tivoli only.",
+      "foodPlan": "Market breakfast/lunch, good Ljubljana dinner; budget $230.",
+      "foodCost": 230,
+      "babyPlan": "Best stroller day of the trip: compact, flat center with parks and cafes.",
+      "bookingPriority": "Reserve dinner if choosing a specific farm-to-table restaurant.",
+      "dayTotal": 605,
+      "sourceLinks": [
+        "Ljubljana official tourism"
+      ],
+      "why": "Ljubljana gives the trip a civilized finale: beautiful but manageable, with cafes, markets, river paths, and parks that fit a one-year-old.",
+      "moments": [
+        "Use the market as breakfast/lunch theater.",
+        "Castle only if the day is going well.",
+        "Let Tivoli Park be the baby’s real activity."
+      ],
+      "costNote": "Activity budget covers funicular/castle and small city attractions.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Ljubljana old town",
+        "lat": 46.0511,
+        "lon": 14.5051
+      }
+    },
+    {
+      "day": 13,
+      "slug": "day-13",
+      "date": "Sat Sep 12",
+      "title": "Trieste coast or Venice airport buffer",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-13-trieste-coast-or-venice-airport-buffer.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Trieste",
+      "overnight": "Venice airport hotel",
+      "lodgingCost": 260,
+      "transport": "Ljubljana to Venice airport area, with optional Trieste/Miramare stop, about 3 hours before stops.",
+      "transportCost": 70,
+      "primaryActivity": "Return toward Italy, stop at Trieste/Miramare if timing works, return rental car or sleep near Venice airport for the flight home.",
+      "activityCost": 35,
+      "backupActivity": "Drive direct to the airport hotel and keep the day intentionally boring.",
+      "foodPlan": "Trieste lunch or airport-area dinner; budget $190.",
+      "foodCost": 190,
+      "babyPlan": "Protect the return flight: do not make this a predawn Slovenia-to-Venice drive.",
+      "bookingPriority": "Book airport hotel and confirm car-return hours.",
+      "dayTotal": 555,
+      "sourceLinks": [
+        "Slovenia official tourism"
+      ],
+      "why": "This buffer day makes the international return sane. With a baby, sleeping near the airport beats gambling on a long morning drive.",
+      "moments": [
+        "Only stop in Trieste if the drive is smooth.",
+        "Return car/check bags logistics calmly.",
+        "Make dinner early and simple."
+      ],
+      "costNote": "Airport hotel and return-drive costs only; flight already counted on Day 1.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Venice airport buffer",
+        "lat": 45.5053,
+        "lon": 12.3519
+      }
+    },
+    {
+      "day": 14,
+      "slug": "day-14",
+      "date": "Sun Sep 13",
+      "title": "Fly Venice to Atlanta",
+      "heroImage": "/app/assets/slovenia-julian-alps-venice-days/day-14-fly-venice-to-atlanta.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Venice",
+      "overnight": "Home",
+      "lodgingCost": 0,
+      "transport": "Return Venice to Atlanta on Delta/partner Venice-ATL planning snapshot; use direct Delta seasonal flight if operating or Delta-partner connection if not.",
+      "transportCost": 85,
+      "primaryActivity": "Breakfast, airport check-in, stroller gate-check, and flight home.",
+      "activityCost": 0,
+      "backupActivity": "If nonstop is unavailable, choose the shortest Delta-marketed one-stop routing with enough connection padding for a stroller/car seat.",
+      "foodPlan": "Airport breakfast/lunch and baby snacks; budget $110.",
+      "foodCost": 110,
+      "babyPlan": "Keep the airport morning simple and early; infant-in-lap already included in Day 1 flight budget.",
+      "bookingPriority": "Confirm exact return schedule when booking flights.",
+      "dayTotal": 195,
+      "sourceLinks": [
+        "Delta flights to Italy",
+        "Delta infant travel policy"
+      ],
+      "why": "A practical departure day keeps the Slovenia trip feeling polished rather than frantic.",
+      "moments": [
+        "Wake at the airport rather than on the road.",
+        "Use stroller/carrier until boarding.",
+        "Keep snacks and spare clothes accessible."
+      ],
+      "costNote": "Return-day local costs only; round-trip airfare is allocated on Day 1.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Venice airport departure",
+        "lat": 45.5053,
+        "lon": 12.3519
+      }
+    }
+  ],
+  "sourceLinks": [
+    {
+      "label": "Delta infant travel policy",
+      "url": "https://www.delta.com/us/en/children-infant-travel/infant-travel"
+    },
+    {
+      "label": "Delta flights to Italy",
+      "url": "https://www.delta.com/us/en/flight-deals/europe-flights/flights-to-italy"
+    },
+    {
+      "label": "ATL-VCE Delta flight reference",
+      "url": "https://www.flightconnections.com/flights-from-atl-to-vce"
+    },
+    {
+      "label": "Slovenia official tourism",
+      "url": "https://www.slovenia.info/en"
+    },
+    {
+      "label": "Lake Bled official tourism",
+      "url": "https://www.bled.si/en/"
+    },
+    {
+      "label": "Bohinj official tourism",
+      "url": "https://www.bohinj.si/en/"
+    },
+    {
+      "label": "Soca Valley official tourism",
+      "url": "https://www.soca-valley.com/en/"
+    },
+    {
+      "label": "Ljubljana official tourism",
+      "url": "https://www.visitljubljana.com/en/visitors/"
+    },
+    {
+      "label": "Postojna Cave official",
+      "url": "https://www.postojnska-jama.eu/en/"
+    },
+    {
+      "label": "Garden Village Bled",
+      "url": "https://www.gardenvillagebled.com/"
+    },
+    {
+      "label": "Bohinj ECO Hotel",
+      "url": "https://www.bohinj-eco-hotel.si/en/"
+    },
+    {
+      "label": "Hotel Dobra Vila Bovec",
+      "url": "https://www.dobra-vila-bovec.si/en/"
+    },
+    {
+      "label": "InterContinental Ljubljana",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/ljubljana/ljbha/hoteldetail"
+    }
+  ],
+  "routeLabel": "Venice → Bled → Bohinj → Soča Valley → Ljubljana → Venice",
+  "routeMap": {
+    "note": "Real OpenStreetMap route view. Solid blue route lines use cached OSRM driving geometry to follow the roads we would actually drive; dashed clay lines are direct reference legs for non-road or unavailable segments. Numbered day pins may fan out slightly when several days share the same base."
+  }
+}

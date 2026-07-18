@@ -1,0 +1,176 @@
+{
+  "tripId": "teton-yellowstone-oregon-cascades",
+  "generatedAt": "2026-06-27T03:25:00.000Z",
+  "provider": "Schematic direct reference lines for a multi-city route; flight and long transfer legs are intentionally not road-routed.",
+  "segments": [
+    {
+      "fromDay": 1,
+      "toDay": 2,
+      "mode": "car",
+      "label": "Jackson Hole Airport to Jackson",
+      "routed": false,
+      "distanceKm": 14,
+      "durationMinutes": 20,
+      "geometry": [
+        [43.607, -110.737],
+        [43.48, -110.762]
+      ]
+    },
+    {
+      "fromDay": 2,
+      "toDay": 3,
+      "mode": "car",
+      "label": "Jackson to Jenny Lake",
+      "routed": false,
+      "distanceKm": 35,
+      "durationMinutes": 45,
+      "geometry": [
+        [43.48, -110.762],
+        [43.76, -110.727]
+      ]
+    },
+    {
+      "fromDay": 3,
+      "toDay": 4,
+      "mode": "car",
+      "label": "Grand Teton to Old Faithful",
+      "routed": false,
+      "distanceKm": 145,
+      "durationMinutes": 210,
+      "geometry": [
+        [43.76, -110.727],
+        [44.46, -110.828]
+      ]
+    },
+    {
+      "fromDay": 4,
+      "toDay": 5,
+      "mode": "car",
+      "label": "Old Faithful local geyser basin",
+      "routed": false,
+      "distanceKm": 1,
+      "durationMinutes": 5,
+      "geometry": [
+        [44.46, -110.828],
+        [44.461, -110.832]
+      ]
+    },
+    {
+      "fromDay": 5,
+      "toDay": 6,
+      "mode": "car",
+      "label": "Old Faithful to Grand Prismatic",
+      "routed": false,
+      "distanceKm": 16,
+      "durationMinutes": 30,
+      "geometry": [
+        [44.461, -110.832],
+        [44.525, -110.838]
+      ]
+    },
+    {
+      "fromDay": 6,
+      "toDay": 7,
+      "mode": "car",
+      "label": "Grand Prismatic to Canyon",
+      "routed": false,
+      "distanceKm": 70,
+      "durationMinutes": 100,
+      "geometry": [
+        [44.525, -110.838],
+        [44.72, -110.496]
+      ]
+    },
+    {
+      "fromDay": 7,
+      "toDay": 8,
+      "mode": "flight",
+      "label": "Yellowstone region to Oregon flight hop",
+      "routed": false,
+      "distanceKm": 900,
+      "durationMinutes": 300,
+      "geometry": [
+        [44.72, -110.496],
+        [44.058, -121.315]
+      ]
+    },
+    {
+      "fromDay": 8,
+      "toDay": 9,
+      "mode": "car",
+      "label": "Bend/Sunriver to Smith Rock",
+      "routed": false,
+      "distanceKm": 43,
+      "durationMinutes": 45,
+      "geometry": [
+        [44.058, -121.315],
+        [44.369, -121.139]
+      ]
+    },
+    {
+      "fromDay": 9,
+      "toDay": 10,
+      "mode": "car",
+      "label": "Smith Rock to Newberry",
+      "routed": false,
+      "distanceKm": 98,
+      "durationMinutes": 100,
+      "geometry": [
+        [44.369, -121.139],
+        [43.69, -121.254]
+      ]
+    },
+    {
+      "fromDay": 10,
+      "toDay": 11,
+      "mode": "car",
+      "label": "Newberry to Crater Lake",
+      "routed": false,
+      "distanceKm": 210,
+      "durationMinutes": 180,
+      "geometry": [
+        [43.69, -121.254],
+        [42.91, -122.14]
+      ]
+    },
+    {
+      "fromDay": 11,
+      "toDay": 12,
+      "mode": "car",
+      "label": "Crater Lake to Columbia Gorge",
+      "routed": false,
+      "distanceKm": 430,
+      "durationMinutes": 330,
+      "geometry": [
+        [42.91, -122.14],
+        [45.683, -121.88]
+      ]
+    },
+    {
+      "fromDay": 12,
+      "toDay": 13,
+      "mode": "car",
+      "label": "Gorge base to Mount Hood",
+      "routed": false,
+      "distanceKm": 100,
+      "durationMinutes": 120,
+      "geometry": [
+        [45.683, -121.88],
+        [45.268, -121.739]
+      ]
+    },
+    {
+      "fromDay": 13,
+      "toDay": 14,
+      "mode": "car",
+      "label": "Mount Hood / Gorge to PDX",
+      "routed": false,
+      "distanceKm": 95,
+      "durationMinutes": 90,
+      "geometry": [
+        [45.268, -121.739],
+        [45.589, -122.597]
+      ]
+    }
+  ]
+}

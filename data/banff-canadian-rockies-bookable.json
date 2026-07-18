@@ -1,0 +1,709 @@
+{
+  "id": "banff-canadian-rockies",
+  "name": "Banff + Lake Louise Bookable Rockies Loop",
+  "lastUpdated": "2026-06-22",
+  "priceSnapshotDate": "2026-06-22",
+  "dates": {
+    "depart": "2026-08-31",
+    "return": "2026-09-13",
+    "nights": 13,
+    "why": "Aug 31-Sep 13 keeps the route in early September, starts with an easy Calgary arrival, and preserves a low-backtracking Calgary → Canmore → Lake Louise/Yoho → Jasper → Lake Louise return shape."
+  },
+  "travelers": "2 adults + 1 infant-in-lap",
+  "currency": "USD",
+  "exchangeRateNote": "Foreign-currency items use planning conversions and must be re-priced before booking.",
+  "positioning": "Budget-rebalanced Canadian Rockies loop: condo/lodge bases carry the trip, with Fairmont and Post Hotel called out as upgrade options rather than the default.",
+  "routeLabel": "Calgary → Canmore → Lake Louise → Jasper → Lake Louise",
+  "routeRationale": [
+    "The route is ordered as Calgary → Canmore → Lake Louise → Jasper → Lake Louise to reduce backtracking and keep the biggest transfers between lodging bases.",
+    "Each base lasts 2-4 nights so the baby has repeated sleep environments instead of daily hotel churn.",
+    "High-impact sights are paired with nearby backup options so weather does not break the trip.",
+    "The Ryan Shirley/video inspiration is used for idea generation, then validated with official tourism, park, hotel, airline, and activity sources."
+  ],
+  "budget": {
+    "flightTotal": 1120,
+    "lodgingTotal": 3700,
+    "carTransportTotal": 1665,
+    "activitiesTotal": 808,
+    "foodTotal": 2145,
+    "estimatedTripTotal": 9438,
+    "note": "Reworked under target by using Canmore and practical Lake Louise/Jasper lodging as the default. Fairmont/Post remain upgrade choices."
+  },
+  "flights": {
+    "recommended": {
+      "label": "Recommended Delta/WestJet nonstop codeshare",
+      "fareSnapshotPerAdultRoundTrip": 520,
+      "adultTickets": 2,
+      "adultFareTotal": 1040,
+      "infantInLapEstimate": 80,
+      "totalFlightBudget": 1120,
+      "cabin": "Main Cabin / WestJet economy planning snapshot",
+      "outbound": {
+        "date": "2026-08-31",
+        "flight": "DL7203 / WS1593",
+        "airline": "Delta marketed, WestJet operated",
+        "from": "ATL",
+        "to": "YYC",
+        "depart": "2:25 PM EDT",
+        "arrive": "5:10 PM MDT",
+        "duration": "about 4h45m",
+        "aircraft": "Boeing 737"
+      },
+      "return": {
+        "date": "2026-09-13",
+        "flight": "DL6880 / WS1592",
+        "airline": "Delta marketed, WestJet operated",
+        "from": "YYC",
+        "to": "ATL",
+        "depart": "8:15 AM MDT",
+        "arrive": "2:55 PM EDT",
+        "duration": "about 4h40m",
+        "aircraft": "Boeing 737"
+      },
+      "infantNote": "Canada infant-in-lap fees/taxes should be modest, but add the infant during Delta/WestJet booking.",
+      "sourceLinks": [
+        "Delta Calgary flights",
+        "DL7203 schedule",
+        "WestJet direct flights",
+        "ATL-YYC fare snapshot"
+      ],
+      "fareSnapshot": 520,
+      "priceSnapshotDate": "2026-06-22",
+      "budgetNote": "Planning snapshot uses the Delta-marketed WestJet ATL-YYC nonstop pattern; re-price Aug 31-Sep 13 in Delta/WestJet checkout."
+    },
+    "alternates": [
+      {
+        "label": "Cash/points alternative",
+        "summary": "Re-price on Delta with flexible dates and compare points value before booking.",
+        "estimatedTotalForTwoAdults": 900
+      }
+    ]
+  },
+  "bases": [
+    {
+      "name": "Calgary arrival night",
+      "dates": "Aug 31-Sep 1",
+      "nights": 1,
+      "hotel": "Calgary Airport Marriott or Applause Hotel",
+      "room": "Airport family room",
+      "nightlyRate": 260,
+      "total": 260,
+      "why": "Avoids a late mountain drive after flying with the baby.",
+      "bookingUrl": "https://www.marriott.com/en-us/hotels/yycxa-calgary-airport-marriott-in-terminal-hotel/overview/"
+    },
+    {
+      "name": "Canmore condo base",
+      "dates": "Sep 1-5",
+      "nights": 4,
+      "hotel": "Blackstone Mountain Lodge / Canmore condo alternative",
+      "room": "One-bedroom suite with kitchen/laundry",
+      "nightlyRate": 260,
+      "total": 1040,
+      "why": "Kitchen, laundry, and lower rates make Banff days easier with a one-year-old.",
+      "bookingUrl": "https://www.blackstonelodge.ca/"
+    },
+    {
+      "name": "Lake Louise/Golden practical base",
+      "dates": "Sep 5-8",
+      "nights": 3,
+      "hotel": "Lake Louise Inn or Golden lodge base",
+      "room": "Family room, crib requested",
+      "nightlyRate": 300,
+      "total": 900,
+      "why": "Keeps Moraine, Lake Louise, and Yoho accessible without Post/Fairmont every night.",
+      "bookingUrl": "https://www.lakelouiseinn.com/"
+    },
+    {
+      "name": "Jasper cabin/lodge base",
+      "dates": "Sep 8-11",
+      "nights": 3,
+      "hotel": "Pyramid Lake Lodge / Jasper Inn style base",
+      "room": "Cabin or family room",
+      "nightlyRate": 300,
+      "total": 900,
+      "why": "Still gives Jasper lakes and wildlife, but at a saner target rate.",
+      "bookingUrl": "https://www.banffjaspercollection.com/hotels/pyramid-lake-lodge/"
+    },
+    {
+      "name": "Lake Louise finale",
+      "dates": "Sep 11-13",
+      "nights": 2,
+      "hotel": "Lake Louise Inn / Mountaineer Lodge",
+      "room": "Practical lake-area room",
+      "nightlyRate": 300,
+      "total": 600,
+      "why": "Returns south for the flight and gives one more lake day.",
+      "bookingUrl": "https://www.mountaineerlodge.com/"
+    }
+  ],
+  "dailyItinerary": [
+    {
+      "day": 1,
+      "slug": "day-01",
+      "date": "Mon Aug 31",
+      "title": "Fly ATL to Calgary",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-01-fly-atl-to-calgary.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ACalgary_AB_Airport_Calgary-International-Airport_2022-09-29.jpg",
+      "overnight": "Calgary Airport Marriott / Applause Hotel",
+      "lodgingCost": 260,
+      "transport": "Fly ATL to YYC on Delta-marketed WestJet DL7203 / WS1593, 2:25 PM to 5:10 PM on Aug 31.",
+      "transportCost": 1120,
+      "primaryActivity": "The main experience is Fly ATL to Calgary: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 90,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this setup matters",
+      "why": "Fly ATL to Calgary is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Fly ATL to Calgary.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "The transport line is the full round-trip flight budget for two adult tickets plus infant-in-lap estimate where applicable. Planning snapshot uses the Delta-marketed WestJet ATL-YYC nonstop pattern; re-price Aug 31-Sep 13 in Delta/WestJet checkout.",
+      "dayTotal": 1470,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Calgary Airport",
+        "lat": 51.13,
+        "lon": -114.01
+      }
+    },
+    {
+      "day": 2,
+      "slug": "day-02",
+      "date": "Tue Sep 1",
+      "title": "Arrival reset and airport hotel",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-02-arrival-reset-and-airport-hotel.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ALunch_on_canada_day_at_three_sisters_diner_in_Canmore_(27947611322).jpg",
+      "overnight": "Canmore condo base",
+      "lodgingCost": 260,
+      "transport": "Route leg planned for Arrival reset and airport hotel. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 920,
+      "primaryActivity": "The main experience is Arrival reset and airport hotel: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 150,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this setup matters",
+      "why": "Arrival reset and airport hotel is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Arrival reset and airport hotel.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 1330,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Canmore",
+        "lat": 51.09,
+        "lon": -115.36
+      }
+    },
+    {
+      "day": 3,
+      "slug": "day-03",
+      "date": "Wed Sep 2",
+      "title": "Drive to Canmore and Bow River walk",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-03-drive-to-canmore-and-bow-river-walk.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AWandering_around_the_Bow_river_in_Canmore_Alberta_Canada_Aug_1st_2015_(20027208769).jpg",
+      "overnight": "Canmore condo base",
+      "lodgingCost": 260,
+      "transport": "Route leg planned for Drive to Canmore and Bow River walk. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "The main experience is Drive to Canmore and Bow River walk: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 155,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Drive to Canmore and Bow River walk is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Drive to Canmore and Bow River walk.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 450,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Canmore / Bow River",
+        "lat": 51.09,
+        "lon": -115.36
+      }
+    },
+    {
+      "day": 4,
+      "slug": "day-04",
+      "date": "Thu Sep 3",
+      "title": "Banff town, Bow Falls, and Cave/Basin backup",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-04-banff-town-bow-falls-and-cave-basin-backup.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ABow_Falls_at_Banff_(AB)_September_2019_(49580988458).jpg",
+      "overnight": "Canmore condo base",
+      "lodgingCost": 260,
+      "transport": "Route leg planned for Banff town, Bow Falls, and Cave/Basin backup. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 45,
+      "primaryActivity": "The main experience is Banff town, Bow Falls, and Cave/Basin backup: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 78,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 160,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Banff town, Bow Falls, and Cave/Basin backup is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Banff town, Bow Falls, and Cave/Basin backup.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 543,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Banff / Bow Falls",
+        "lat": 51.178,
+        "lon": -115.57
+      }
+    },
+    {
+      "day": 5,
+      "slug": "day-05",
+      "date": "Fri Sep 4",
+      "title": "Johnston Canyon lower falls carrier hike",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-05-johnston-canyon-lower-falls-carrier-hike.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AJohnstons_Canyon_Banff_national_Park_Alberta_Canada_(15518156753).jpg",
+      "overnight": "Canmore condo base",
+      "lodgingCost": 260,
+      "transport": "Route leg planned for Johnston Canyon lower falls carrier hike. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "The main experience is Johnston Canyon lower falls carrier hike: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 130,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 160,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Johnston Canyon lower falls carrier hike is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Johnston Canyon lower falls carrier hike.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 585,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Johnston Canyon",
+        "lat": 51.245,
+        "lon": -115.839
+      }
+    },
+    {
+      "day": 6,
+      "slug": "day-06",
+      "date": "Sat Sep 5",
+      "title": "Transfer to Lake Louise and lakeshore walk",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-06-transfer-to-lake-louise-and-lakeshore-walk.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ALake_Louise_and_Chateau%2C_as_seen_from_Fairmont_Lookout_20240822_3.jpg",
+      "overnight": "Lake Louise Inn / Golden lodge base",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Transfer to Lake Louise and lakeshore walk. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 70,
+      "primaryActivity": "The main experience is Transfer to Lake Louise and lakeshore walk: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 165,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Transfer to Lake Louise and lakeshore walk is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Transfer to Lake Louise and lakeshore walk.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted. Option for nicer/more expensive option here: Post Hotel & Spa at roughly $520/night for the Lake Louise block adds about $660 over the practical base.",
+      "dayTotal": 535,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Lake Louise",
+        "lat": 51.425,
+        "lon": -116.177
+      }
+    },
+    {
+      "day": 7,
+      "slug": "day-07",
+      "date": "Sun Sep 6",
+      "title": "Moraine Lake shuttle and Ten Peaks reveal",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-07-moraine-lake-shuttle-and-ten-peaks-reveal.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ALake_Moraine_at_it's_best.jpg",
+      "overnight": "Lake Louise Inn / Golden lodge base",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Moraine Lake shuttle and Ten Peaks reveal. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 30,
+      "primaryActivity": "The main experience is Moraine Lake shuttle and Ten Peaks reveal: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 90,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 165,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Moraine Lake shuttle and Ten Peaks reveal is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Moraine Lake shuttle and Ten Peaks reveal.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 585,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Moraine Lake",
+        "lat": 51.321,
+        "lon": -116.186
+      }
+    },
+    {
+      "day": 8,
+      "slug": "day-08",
+      "date": "Mon Sep 7",
+      "title": "Yoho: Emerald Lake and Natural Bridge",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-08-yoho-emerald-lake-and-natural-bridge.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AEmerald_Lake%2C_Yoho_National_Park.jpg",
+      "overnight": "Lake Louise Inn / Golden lodge base",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Yoho: Emerald Lake and Natural Bridge. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 55,
+      "primaryActivity": "The main experience is Yoho: Emerald Lake and Natural Bridge: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 70,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 165,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Yoho: Emerald Lake and Natural Bridge is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Yoho: Emerald Lake and Natural Bridge.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 590,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Emerald Lake / Yoho",
+        "lat": 51.439,
+        "lon": -116.531
+      }
+    },
+    {
+      "day": 9,
+      "slug": "day-09",
+      "date": "Tue Sep 8",
+      "title": "Icefields Parkway to Jasper",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-09-icefields-parkway-to-jasper.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ASunwapta_Pass_-_Icefields_Parkway%2C_Alberta%2C_Canada_-_Summer_1990.jpg",
+      "overnight": "Jasper practical lodge",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Icefields Parkway to Jasper. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 95,
+      "primaryActivity": "The main experience is Icefields Parkway to Jasper: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 120,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 170,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Icefields Parkway to Jasper is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Icefields Parkway to Jasper.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 685,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Icefields Parkway",
+        "lat": 52.22,
+        "lon": -117.224
+      }
+    },
+    {
+      "day": 10,
+      "slug": "day-10",
+      "date": "Wed Sep 9",
+      "title": "Pyramid Lake and Maligne Canyon",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-10-pyramid-lake-and-maligne-canyon.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3A2025-06-10-192306_CAN_Alberta_Western_Alberta_(Jasper)_1173.8.jpg",
+      "overnight": "Jasper practical lodge",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Pyramid Lake and Maligne Canyon. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "The main experience is Pyramid Lake and Maligne Canyon: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 70,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 165,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Pyramid Lake and Maligne Canyon is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Pyramid Lake and Maligne Canyon.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 570,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Jasper / Pyramid Lake",
+        "lat": 52.873,
+        "lon": -118.083
+      }
+    },
+    {
+      "day": 11,
+      "slug": "day-11",
+      "date": "Thu Sep 10",
+      "title": "Maligne Lake scenic day",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-11-maligne-lake-scenic-day.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AMaligne_Lake_Tour_Boat_'Mary_Schaffer'_--_Jasper_National_Park_Alberta_(CA)_September_2019_(49124595281).jpg",
+      "overnight": "Jasper practical lodge",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Maligne Lake scenic day. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 45,
+      "primaryActivity": "The main experience is Maligne Lake scenic day: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 80,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 165,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Maligne Lake scenic day is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Maligne Lake scenic day.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 590,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Maligne Lake",
+        "lat": 52.728,
+        "lon": -117.638
+      }
+    },
+    {
+      "day": 12,
+      "slug": "day-12",
+      "date": "Fri Sep 11",
+      "title": "Return to Lake Louise practical base",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-12-return-to-lake-louise-practical-base.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Lake_Louise%2C_Alberta",
+      "overnight": "Lake Louise practical base",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Return to Lake Louise Fairmont splurge. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 120,
+      "primaryActivity": "Return down the Icefields Parkway to the Lake Louise area, check into the practical base, and use the lakefront walk as the scenic payoff without defaulting to Fairmont pricing.",
+      "activityCost": 110,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 175,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "This keeps the beautiful Lake Louise finish but shifts the default stay to a practical inn, with Fairmont preserved as the optional splurge.",
+      "moments": [
+        "See the signature view or place tied to Return to Lake Louise practical base.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted. Option for nicer/more expensive option here: Fairmont Chateau Lake Louise at roughly $780/night for the final two nights adds about $960 total but creates the big lakefront-resort finish.",
+      "dayTotal": 705,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Lake Louise return",
+        "lat": 51.425,
+        "lon": -116.177
+      }
+    },
+    {
+      "day": 13,
+      "slug": "day-13",
+      "date": "Sat Sep 12",
+      "title": "Lake Louise lakefront and canoe/spa option",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-13-lake-louise-lakefront-and-canoe-spa-option.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AFairmont_Chateau_Lake_Louise_(8168776624).jpg",
+      "overnight": "Lake Louise practical base",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Fairmont lakefront canoe/spa day. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "Lake Louise shoreline morning, optional canoe if weather and baby rhythm work, then a relaxed final mountain afternoon at the practical base.",
+      "activityCost": 60,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 170,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "This is the polished finale day: the view is still Lake Louise, but the cost stays grounded unless you choose the Fairmont upgrade.",
+      "moments": [
+        "See the signature view or place tied to Lake Louise lakefront and canoe/spa option.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 565,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Lake Louise lakefront",
+        "lat": 51.425,
+        "lon": -116.177
+      }
+    },
+    {
+      "day": 14,
+      "slug": "day-14",
+      "date": "Sun Sep 13",
+      "title": "Drive to Calgary and fly home",
+      "heroImage": "/app/assets/banff-canadian-rockies-days/day-14-drive-to-calgary-and-fly-home.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AWestjet_BCF.jpg",
+      "overnight": "Home",
+      "lodgingCost": 0,
+      "transport": "Return YYC to ATL on DL6880 / WS1592, 8:15 AM to 2:55 PM on Sep 13.",
+      "transportCost": 145,
+      "primaryActivity": "The main experience is Drive to Calgary and fly home: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 90,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Drive to Calgary and fly home is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Drive to Calgary and fly home.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Departure-day baseline: return drive/airport food only; the return flight is already included in Day 1's flight budget. Planning snapshot uses the Delta-marketed WestJet ATL-YYC nonstop pattern; re-price Aug 31-Sep 13 in Delta/WestJet checkout.",
+      "dayTotal": 235,
+      "sourceLinks": [
+        "Banff Lake Louise official",
+        "Parks Canada Lake Louise shuttle",
+        "Ryan/North America Rockies inspiration"
+      ],
+      "mapPoint": {
+        "label": "Calgary Airport departure",
+        "lat": 51.13,
+        "lon": -114.01
+      }
+    }
+  ],
+  "sourceLinks": [
+    {
+      "label": "Delta Calgary flights",
+      "url": "https://www.delta.com/us/en/flight-deals/canada-flights/flights-to-calgary"
+    },
+    {
+      "label": "DL7203 schedule",
+      "url": "https://us.trip.com/flights/status-dl7203/"
+    },
+    {
+      "label": "WestJet direct flights",
+      "url": "https://www.westjet.com/en-us/flights/direct-flights"
+    },
+    {
+      "label": "ATL-YYC fare snapshot",
+      "url": "https://www.expedia.com/lp/flight-routes/delta-from-hartsfield-jackson-atlanta-intl-to-calgary-intl/dl/atl/yyc"
+    },
+    {
+      "label": "Banff Lake Louise official",
+      "url": "https://www.banfflakelouise.com/"
+    },
+    {
+      "label": "Parks Canada Lake Louise shuttle",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise"
+    },
+    {
+      "label": "Ryan/North America Rockies inspiration",
+      "url": "https://www.youtube.com/watch?v=25qgcLdenc4&t=0s"
+    }
+  ],
+  "routeMap": {
+    "type": "schematic-latlon",
+    "note": "Real OpenStreetMap route view. Solid blue route lines use cached OSRM driving geometry to follow the roads we would actually drive; dashed clay lines are direct reference legs for non-road or unavailable segments. Numbered day pins may fan out slightly when several days share the same base.",
+    "startLabel": "Calgary Airport",
+    "endLabel": "Calgary Airport departure"
+  }
+}

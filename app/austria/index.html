@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="An interactive, map-first field guide to every Austrian place featured in Ryan Shirley's Top 25 Places To Visit in Austria video."
+    />
+    <title>Austria Through the Lens · Video Field Guide</title>
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css?v=1" />
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script defer src="./app.js?v=1"></script>
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <nav class="nav" aria-label="Austria field guide navigation">
+        <a class="nav-brand" href="../" aria-label="Back to Trip Planning HQ">
+          <span>TP</span>
+          <strong>Research desk</strong>
+        </a>
+        <div class="nav-links">
+          <a href="#atlas">Atlas</a>
+          <a href="#places">All places</a>
+          <a href="https://youtu.be/tl223Zu09CE" target="_blank" rel="noreferrer">Watch video ↗</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="kicker">A video field guide · 14 minutes across Austria</p>
+        <h1>Austria,<br /><em>through the lens.</em></h1>
+        <p class="hero-deck">
+          Every town, lake, castle, glacier, mountain road, and high-alpine objective
+          in Ryan Shirley’s <cite>Top 25 Places To Visit in Austria</cite>—unpacked and pinned.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#atlas">Explore the map</a>
+          <a class="button button-ghost" href="#places">Browse 29 places</a>
+        </div>
+      </div>
+
+      <div class="hero-meta" aria-label="Guide summary">
+        <div><strong>29</strong><span>distinct map pins</span></div>
+        <div><strong>4</strong><span>geographic clusters</span></div>
+        <div><strong>00:26–13:38</strong><span>video sequence</span></div>
+      </div>
+
+      <p class="frame-credit">
+        Video frame: Lünersee · 11:59 · Ryan Shirley
+      </p>
+    </header>
+
+    <main>
+      <section class="editorial-intro" aria-labelledby="guide-title">
+        <div>
+          <p class="section-kicker">What this is</p>
+          <h2 id="guide-title">A research layer,<br />not a route.</h2>
+        </div>
+        <div class="intro-copy">
+          <p>
+            The video jumps across the country for visual storytelling; it is not a sensible
+            point-to-point itinerary. The map preserves that distinction: numbered pins follow
+            the video, but there is deliberately no route line between them.
+          </p>
+          <p>
+            Each entry pairs a frame from the video with the creator’s main takeaway, the real
+            location, the kind of experience it is, and the practical caveat most worth knowing.
+          </p>
+        </div>
+      </section>
+
+      <aside class="status-note" aria-label="Important current research note">
+        <span class="status-icon">!</span>
+        <div>
+          <p class="section-kicker">Important 2026 update</p>
+          <h3>The Silvretta High Alpine Road shown in the video is closed.</h3>
+          <p>
+            The official operator says the through-road will remain closed to public traffic
+            until summer 2030 following rockfalls and mudslides. The Vermuntbahn and selected
+            Bielerhöhe experiences can still operate separately—check live conditions.
+          </p>
+        </div>
+        <a href="https://www.silvretta-bielerhoehe.at/en/silvretta-hochalpenstrasse" target="_blank" rel="noreferrer">Official status ↗</a>
+      </aside>
+
+      <section class="atlas-section" id="atlas" aria-labelledby="atlas-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Interactive atlas</p>
+            <h2 id="atlas-title">See the whole story.</h2>
+          </div>
+          <p>Choose a lens, then tap any numbered pin or place card.</p>
+        </div>
+
+        <div class="filter-bar" aria-label="Filter places by type">
+          <button class="filter-button is-active" type="button" data-filter="all">All 29</button>
+          <button class="filter-button" type="button" data-filter="town">Towns & cities</button>
+          <button class="filter-button" type="button" data-filter="lake">Lakes & water</button>
+          <button class="filter-button" type="button" data-filter="alpine">High alpine</button>
+          <button class="filter-button" type="button" data-filter="heritage">Castles & culture</button>
+          <button class="filter-button" type="button" data-filter="road">Scenic roads</button>
+        </div>
+
+        <div class="atlas-shell">
+          <div id="map" aria-label="Map of the Austrian places shown in the video"></div>
+          <div class="map-legend" aria-hidden="true">
+            <span><i class="legend-dot video-order"></i>Number = video order</span>
+            <span><i class="legend-dot warning"></i>Extra planning caution</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="places-section" id="places" aria-labelledby="places-title">
+        <div class="section-heading places-heading">
+          <div>
+            <p class="section-kicker">The complete cut</p>
+            <h2 id="places-title">Place by place.</h2>
+          </div>
+          <p id="result-count" aria-live="polite">Showing all 29 places</p>
+        </div>
+        <div class="place-grid" id="place-grid"></div>
+      </section>
+
+      <section class="research-notes" aria-labelledby="notes-title">
+        <div class="notes-lead">
+          <p class="section-kicker">Read before planning</p>
+          <h2 id="notes-title">Three useful distinctions.</h2>
+        </div>
+        <article>
+          <span>01</span>
+          <h3>Some “places” are full regions.</h3>
+          <p>Vorarlberg, Wachau, and Lake Constance are broad areas. Their pins are orientation points, not a single attraction entrance.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Two highlights are serious objectives.</h3>
+          <p>The Donnerkogel Sky Ladder is an exposed via ferrata; Olpererhütte is a steep mountain hike. Neither belongs in a casual sightseeing bucket.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>High-alpine access is seasonal.</h3>
+          <p>Glacier lifts, cog railways, mountain huts, panoramic roads, and cable cars need same-season schedule and weather checks.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p class="section-kicker">Source video</p>
+        <h2>Top 25 Places To Visit in Austria</h2>
+        <p>Ryan Shirley · published November 17, 2024 · 14:01</p>
+      </div>
+      <a class="button button-primary" href="https://youtu.be/tl223Zu09CE" target="_blank" rel="noreferrer">Watch on YouTube ↗</a>
+      <p class="footer-note">
+        Video frames are used here only as visual reference for this private research page.
+        Place details are paraphrased and should be rechecked with official operators before travel.
+      </p>
+    </footer>
+  </body>
+</html>

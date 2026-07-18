@@ -1,0 +1,1310 @@
+{
+  "id": "newfoundland-labrador-coast",
+  "name": "Newfoundland Coast + Gros Morne",
+  "lastUpdated": "2026-06-27",
+  "priceSnapshotDate": "2026-06-27",
+  "dates": {
+    "depart": "2026-08-31",
+    "return": "2026-09-13",
+    "nights": 13,
+    "why": "Aug 31-Sep 13 keeps Newfoundland in early September shoulder season: enough daylight, fewer peak crowds, and still-good odds for coastal hiking, boats, and village restaurants."
+  },
+  "travelers": "2 adults + 1 infant-in-lap",
+  "currency": "USD",
+  "exchangeRateNote": "Canadian-dollar lodging, food, ferry, and activity estimates use planning conversions and should be re-priced before booking.",
+  "positioning": "A slower, wilder Atlantic Canada route: St. John's color and food, puffins and lighthouses, Trinity/Bonavista village coast, Twillingate and Fogo Island, then a Gros Morne finale with Tablelands and Western Brook Pond.",
+  "overviewHeroImage": "/app/assets/newfoundland-days/day-13-western-brook-pond.jpg",
+  "routeLabel": "St. John's -> Avalon -> Trinity/Bonavista -> Twillingate -> Fogo -> Gros Morne -> Deer Lake",
+  "routeRationale": [
+    "The route starts with three nights in St. John's so the first days have city services, stroller walks, good food, and easy weather backups before the long cross-island drives.",
+    "Bonavista/Trinity is the first rural base because it concentrates Skerwink Trail, Elliston puffins, Bonavista lighthouse, Port Rexton food, and heritage villages with short local drives.",
+    "Twillingate and Fogo are kept as two compact northern-island bases: high scenic payoff, ferry logistics, and one controlled splurge window without making Fogo Island Inn the default.",
+    "Gros Morne is saved for the finale because Tablelands, Woody Point, Norris Point, and Western Brook Pond are the most mountain-like Newfoundland moments and pair well with a Deer Lake departure.",
+    "The longest drives are broken by Terra Nova, Gander, Grand Falls-Windsor, or Deer Lake so the plan works around a one-year-old rather than assuming heroic car-seat tolerance."
+  ],
+  "visualStory": [
+    {
+      "kicker": "First impression",
+      "title": "A city of color at the edge of the Atlantic",
+      "copy": "St. John's and Quidi Vidi make the trip feel alive before the road trip starts: bright houses, old harbor lanes, sea cliffs, and excellent food within short baby-friendly hops.",
+      "image": "/app/assets/newfoundland-gallery/st-johns-jellybean-row.jpg",
+      "alt": "Bright Jellybean Row houses in St. John's."
+    },
+    {
+      "kicker": "Eastern edge",
+      "title": "Lighthouses, puffins, and open water",
+      "copy": "Cape Spear and Witless Bay add the first wild-ocean day, with the boat kept optional so weather and baby rhythm stay in charge.",
+      "image": "/app/assets/newfoundland-gallery/witless-bay-puffins.jpg",
+      "alt": "Atlantic puffins on Gull Island near Witless Bay."
+    },
+    {
+      "kicker": "Village coast",
+      "title": "Trinity, Skerwink, and Bonavista cliffs",
+      "copy": "The Bonavista Peninsula is the sweet spot: sea stacks, painted harbor towns, lighthouses, puffin cliffs, and food-forward inns without changing beds every night.",
+      "image": "/app/assets/newfoundland-gallery/skerwink-sea-stacks-01.jpg",
+      "alt": "Sea stacks along the Port Rexton coast."
+    },
+    {
+      "kicker": "Northern islands",
+      "title": "Twillingate and Fogo feel remote in the best way",
+      "copy": "This is the atmospheric middle of the trip: ferry timing, fishing villages, fog, art, and the option to turn one or two nights into a design-led splurge.",
+      "image": "/app/assets/newfoundland-days/day-10-fogo-slow-day-and-studios.jpg",
+      "alt": "Fogo Island Inn on the rocky Newfoundland coast."
+    },
+    {
+      "kicker": "Mountain finale",
+      "title": "Gros Morne is the big scenic payoff",
+      "copy": "The route ends with the island's most dramatic landscape: Tablelands, Bonne Bay, rocky lighthouses, and Western Brook Pond's fjord-like cliffs.",
+      "image": "/app/assets/newfoundland-days/day-13-western-brook-pond.jpg",
+      "alt": "Western Brook Pond in Gros Morne National Park."
+    }
+  ],
+  "overviewGallery": [
+    {
+      "url": "/app/assets/newfoundland-gallery/st-johns-jellybean-row.jpg",
+      "alt": "Bright Jellybean Row houses in St. John's.",
+      "caption": "St. John's color",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jellybean_Row_Houses_of_St._John%27s,_Newfoundland.jpg"
+    },
+    {
+      "url": "/app/assets/newfoundland-gallery/quidi-vidi-panorama.jpg",
+      "alt": "Quidi Vidi village and harbor panorama.",
+      "caption": "Quidi Vidi harbor",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quidi_Vidi_Village_(St._John%27s)_Panorama.jpg"
+    },
+    {
+      "url": "/app/assets/newfoundland-gallery/witless-bay-puffins.jpg",
+      "alt": "Atlantic puffins on Gull Island.",
+      "caption": "Witless Bay puffins",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atlantic_puffins_Gull_Island.jpg"
+    },
+    {
+      "url": "/app/assets/newfoundland-gallery/skerwink-sea-stacks-01.jpg",
+      "alt": "Sea stacks near Port Rexton.",
+      "caption": "Skerwink-style cliff coast",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sea_Stacks_in_Robinhood_Bay_-_Port_Rexton,_Newfoundland_2019-08-14_(01).jpg"
+    },
+    {
+      "url": "/app/assets/newfoundland-gallery/trinity-harbour.jpg",
+      "alt": "Trinity harbor in Newfoundland.",
+      "caption": "Trinity village harbor",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trinity_harbour.jpg"
+    },
+    {
+      "url": "/app/assets/newfoundland-gallery/bonavista-lighthouse.jpg",
+      "alt": "Cape Bonavista Lighthouse.",
+      "caption": "Cape Bonavista Lighthouse",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Bonavista_Lighthouse.JPG"
+    },
+    {
+      "url": "/app/assets/newfoundland-days/day-08-twillingate-lighthouse-and-boat-option.jpg",
+      "alt": "Twillingate coast and lighthouse.",
+      "caption": "Twillingate coast",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Twillingate,_Newfoundland_(105321651).jpg"
+    },
+    {
+      "url": "/app/assets/newfoundland-days/day-10-fogo-slow-day-and-studios.jpg",
+      "alt": "Fogo Island Inn on the rocky coast.",
+      "caption": "Fogo Island Inn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fogo_Island_Inn.jpg"
+    },
+    {
+      "url": "/app/assets/newfoundland-days/day-04-drive-to-port-rexton-via-terra-nova.jpg",
+      "alt": "Terra Nova National Park coastline.",
+      "caption": "Terra Nova coast",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terra_Nova_National_Park_-_Newfoundland_2019-08-21_(04).jpg"
+    },
+    {
+      "url": "/app/assets/newfoundland-days/day-13-western-brook-pond.jpg",
+      "alt": "Western Brook Pond cliffs.",
+      "caption": "Western Brook Pond",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG"
+    }
+  ],
+  "budget": {
+    "flightTotal": 1800,
+    "lodgingTotal": 4470,
+    "carTransportTotal": 1380,
+    "activitiesTotal": 620,
+    "foodTotal": 2140,
+    "estimatedTripTotal": 10410,
+    "note": "Near-target Atlantic Canada plan. Fogo Island Inn is listed as an explicit upgrade, not the default, because it can overwhelm the budget in one move."
+  },
+  "flights": {
+    "recommended": {
+      "label": "Recommended Air Canada open-jaw via Toronto",
+      "fareSnapshotPerAdultRoundTrip": 900,
+      "adultTickets": 2,
+      "adultFareTotal": 1800,
+      "infantInLapEstimate": 0,
+      "totalFlightBudget": 1800,
+      "cabin": "Economy planning snapshot",
+      "outbound": {
+        "date": "2026-08-31",
+        "flight": "AC via YYZ",
+        "airline": "Air Canada",
+        "from": "ATL",
+        "to": "YYT",
+        "depart": "Morning or midday",
+        "arrive": "Evening in St. John's",
+        "duration": "about 7-10h with connection",
+        "aircraft": "Mainline/regional mix"
+      },
+      "return": {
+        "date": "2026-09-13",
+        "flight": "AC via YYZ",
+        "airline": "Air Canada",
+        "from": "YDF",
+        "to": "ATL",
+        "depart": "Morning or midday",
+        "arrive": "Evening in Atlanta",
+        "duration": "about 7-10h with connection",
+        "aircraft": "Regional/mainline mix"
+      },
+      "infantNote": "Add the infant to the Air Canada reservation and re-check bassinet/seat and car-seat rules before ticketing.",
+      "sourceLinks": [
+        "Google Flights",
+        "Air Canada",
+        "Air Canada infant policy",
+        "St. John's Airport",
+        "Deer Lake Airport"
+      ],
+      "fareSnapshot": 900,
+      "priceSnapshotDate": "2026-06-27",
+      "budgetNote": "Use an open-jaw search into YYT and home from YDF. If Deer Lake return prices spike, add a final St. John's reposition day instead."
+    },
+    "alternates": [
+      {
+        "label": "Round-trip St. John's",
+        "summary": "Usually simpler to price, but it adds a long final cross-island return drive or domestic positioning flight.",
+        "estimatedTotalForTwoAdults": 1500
+      }
+    ]
+  },
+  "bases": [
+    {
+      "name": "St. John's soft-landing base",
+      "dates": "Aug 31-Sep 3",
+      "nights": 3,
+      "hotel": "Blue on Water / downtown apartment hotel",
+      "room": "King room or suite with crib request",
+      "nightlyRate": 240,
+      "total": 720,
+      "why": "Walkable harbor, Signal Hill, Quidi Vidi, good restaurants, groceries, and bad-weather museums.",
+      "bookingUrl": "https://blueonwater.com/"
+    },
+    {
+      "name": "Port Rexton / Trinity coastal base",
+      "dates": "Sep 3-6",
+      "nights": 3,
+      "hotel": "Fisher's Loft Inn / Port Rexton cottage alternative",
+      "room": "Suite or cottage-style room",
+      "nightlyRate": 300,
+      "total": 900,
+      "why": "Best base for Skerwink Trail, Trinity, Bonavista, Elliston puffins, and farmy village dinners.",
+      "bookingUrl": "https://fishersloft.com/"
+    },
+    {
+      "name": "Twillingate practical island base",
+      "dates": "Sep 6-8",
+      "nights": 2,
+      "hotel": "Anchor Inn Hotel / waterside cottage",
+      "room": "Harbor-view room or kitchenette unit",
+      "nightlyRate": 240,
+      "total": 480,
+      "why": "Iceberg Alley scenery, Long Point Lighthouse, gentle boat option, and a bridge toward Fogo.",
+      "bookingUrl": "https://anchorinnhotel.ca/"
+    },
+    {
+      "name": "Fogo Island special stay",
+      "dates": "Sep 8-10",
+      "nights": 2,
+      "hotel": "Fogo Island cottage / Fogo Island Inn upgrade",
+      "room": "Cottage or inn room if splurging",
+      "nightlyRate": 450,
+      "total": 900,
+      "why": "Tilting, artist studios, barrens, fishing villages, ferry rhythm, and the most distinctive design/splurge candidate.",
+      "bookingUrl": "https://fogoislandinn.ca/"
+    },
+    {
+      "name": "Gros Morne mountain-and-fjord finale",
+      "dates": "Sep 10-13",
+      "nights": 3,
+      "hotel": "Neddies Harbour Inn / Sugar Hill Inn",
+      "room": "Comfort room with crib request",
+      "nightlyRate": 410,
+      "total": 1230,
+      "why": "Norris Point, Woody Point, Tablelands, Green Gardens, and Western Brook Pond access.",
+      "bookingUrl": "https://theinn.ca/"
+    },
+    {
+      "name": "Deer Lake departure buffer",
+      "dates": "Sep 13",
+      "nights": 0,
+      "hotel": "No overnight planned",
+      "room": "Airport departure day",
+      "nightlyRate": 0,
+      "total": 0,
+      "why": "Fly from Deer Lake instead of driving all the way back to St. John's.",
+      "bookingUrl": "https://deerlakeairport.com/"
+    }
+  ],
+  "premiumStayStrategy": [
+    {
+      "slug": "monastery-hotel-spa",
+      "base": "St. John's arrival",
+      "name": "Monastery Hotel + Spa",
+      "url": "https://monasteryspa.com/",
+      "heroImage": "/app/assets/newfoundland-stays/monastery/spa-hero.jpg",
+      "cardImage": "/app/assets/newfoundland-stays/monastery/massage.jpg",
+      "cardAlt": "Spa treatment imagery at Monastery Hotel + Spa.",
+      "priceDisplay": "From about CAD $400/night for spa-package style stays",
+      "priceNote": "Public package pricing shows a one-night King Jacuzzi Suite stay package from CAD $400; ordinary room-only rates should be re-quoted for Aug 31-Sep 3, 2026.",
+      "vibe": "The clearest St. John's spa reset: massage/spa services in a quieter historic property, useful after the flight before the rural route starts.",
+      "story": "Use Monastery when the first nights should feel like recovery, not just arrival logistics. It is the Newfoundland answer to the resort/spa note in the brief: land, sleep, take turns with a treatment, then begin the road trip calmer.",
+      "useFor": "Swap for Blue on Water if the first two nights should feel restorative instead of just practical.",
+      "budgetEffect": "Moderate premium; likely worth it for 2-3 arrival nights if spa access matters.",
+      "babyNote": "Best as parent turn-taking during nap windows; request crib and confirm room layout.",
+      "bookingNote": "Confirm whether the package rate applies to your dates and whether spa appointments can be reserved before arrival.",
+      "logistics": "Works best as an arrival decompression base. Keep St. John's sightseeing short and let spa appointments sit around naps.",
+      "highlights": [
+        "A real spa reset at the start of the route.",
+        "Short drives to Signal Hill, Quidi Vidi, and Cape Spear.",
+        "More restorative than a purely practical downtown room."
+      ],
+      "images": [
+        {
+          "url": "/app/assets/newfoundland-stays/monastery/spa-hero.jpg",
+          "alt": "Spa treatment setting at Monastery Hotel + Spa.",
+          "caption": "Spa-first arrival reset",
+          "sourceUrl": "https://monasteryspa.com/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/monastery/spa-interior.webp",
+          "alt": "Interior spa and hotel image from Monastery Hotel + Spa.",
+          "caption": "Hotel/spa interior feel",
+          "sourceUrl": "https://monasteryspa.com/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/monastery/massage.jpg",
+          "alt": "Massage treatment image from Monastery Spa.",
+          "caption": "Massage / parent turn-taking",
+          "sourceUrl": "https://monasteryspa.com/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/monastery/facials.jpg",
+          "alt": "Facial treatment image from Monastery Spa.",
+          "caption": "Treatment-menu depth",
+          "sourceUrl": "https://monasteryspa.com/"
+        }
+      ],
+      "sourceLinks": ["Monastery Hotel + Spa", "Monastery Spa package rates", "Signal Hill Parks Canada", "Quidi Vidi Village"]
+    },
+    {
+      "slug": "alt-hotel-st-johns",
+      "base": "St. John's polished city option",
+      "name": "Alt Hotel St. John's",
+      "url": "https://www.germainhotels.com/en/alt-hotel/st-johns",
+      "heroImage": "/app/assets/newfoundland-stays/alt/room-4.jpg",
+      "cardImage": "/app/assets/newfoundland-stays/alt/lobby-8.jpg",
+      "cardAlt": "Alt Hotel St. John's lobby.",
+      "priceDisplay": "Recent public snapshot around USD $277/night incl. taxes/fees",
+      "priceNote": "OTA snapshot pricing varies by date and room type; use the official hotel site or preferred booking channel for Aug 31-Sep 3, 2026.",
+      "vibe": "Modern harborfront boutique feel rather than resort/spa: easy walking, big water views, and less old-inn charm.",
+      "story": "Alt is the clean, stylish, harborfront version of St. John's. It does not solve the spa wish the way Monastery does, but it makes the city base feel contemporary and easy.",
+      "useFor": "Use if you want the city base to feel crisp, stylish, and low-friction.",
+      "budgetEffect": "Usually a manageable premium over simpler downtown rooms.",
+      "babyNote": "Strong convenience play: downtown walks, easy stroller outings, and straightforward hotel logistics.",
+      "bookingNote": "Ask for crib availability, parking details, and a room category with enough floor space for baby gear.",
+      "logistics": "Best when you want St. John's to be walkable and polished, with restaurants and harbor strolls close by.",
+      "highlights": [
+        "Modern harborfront base.",
+        "Easy stroller access to downtown St. John's.",
+        "Less old-world romance, more polished convenience."
+      ],
+      "images": [
+        {
+          "url": "/app/assets/newfoundland-stays/alt/room-4.jpg",
+          "alt": "Guest room at Alt Hotel St. John's.",
+          "caption": "Modern guest room",
+          "sourceUrl": "https://www.germainhotels.com/en/alt-hotel/st-johns/gallery"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/alt/room-12.jpg",
+          "alt": "Guest room detail at Alt Hotel St. John's.",
+          "caption": "Room design detail",
+          "sourceUrl": "https://www.germainhotels.com/en/alt-hotel/st-johns/gallery"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/alt/lobby-8.jpg",
+          "alt": "Lobby at Alt Hotel St. John's.",
+          "caption": "Lobby / arrival feel",
+          "sourceUrl": "https://www.germainhotels.com/en/alt-hotel/st-johns/gallery"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/alt/building-2.jpg",
+          "alt": "Alt Hotel St. John's exterior.",
+          "caption": "Harborfront city base",
+          "sourceUrl": "https://www.germainhotels.com/en/alt-hotel/st-johns/gallery"
+        }
+      ],
+      "sourceLinks": ["Alt Hotel St. John's", "Alt Hotel public rate snapshot", "St. John's Airport"]
+    },
+    {
+      "slug": "fishers-loft-inn",
+      "base": "Port Rexton / Trinity",
+      "name": "Fisher's Loft Inn",
+      "url": "https://fishersloft.com/",
+      "heroImage": "/app/assets/newfoundland-stays/fishers-loft/header-rooms.jpg",
+      "cardImage": "/app/assets/newfoundland-stays/fishers-loft/garden-room.jpg",
+      "cardAlt": "Guest room at Fisher's Loft Inn.",
+      "priceDisplay": "Published-style planning range: about CAD $185-$355/night",
+      "priceNote": "Use as a planning range for room/cottage categories; exact 2026 availability and tax-inclusive pricing should be confirmed directly.",
+      "vibe": "Not a spa resort, but very much the refined countryside-inn version: views, gardens, good food, and an intimate Newfoundland village-coast feel.",
+      "story": "Fisher's Loft is the reason to linger around Port Rexton instead of making Bonavista a drive-through. It is the family-run, food-and-view inn that gives the middle of the trip a romantic countryside base.",
+      "useFor": "Keep as the default nice stay for Trinity/Bonavista; this is the base where charm matters more than formal luxury.",
+      "budgetEffect": "Worth preserving in the nice version; cottages/suites may push the base cost upward.",
+      "babyNote": "Ask for crib, kitchenette/fridge options, and the easiest room-to-parking setup.",
+      "bookingNote": "Book early and ask which room/cottage category works best with a crib and stroller gear.",
+      "logistics": "Use this as a 3-night base for Skerwink, Trinity, Bonavista, Elliston, Port Rexton Brewing, and low-transit inn afternoons.",
+      "highlights": [
+        "The refined village-inn anchor of the route.",
+        "Best base for Skerwink and Trinity.",
+        "Food-forward without being a formal resort."
+      ],
+      "images": [
+        {
+          "url": "/app/assets/newfoundland-stays/fishers-loft/header-rooms.jpg",
+          "alt": "Rooms and suites image from Fisher's Loft Inn.",
+          "caption": "Rooms-and-suites arrival feel",
+          "sourceUrl": "https://fishersloft.com/rooms-suites/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/fishers-loft/garden-room.jpg",
+          "alt": "Garden room at Fisher's Loft Inn.",
+          "caption": "Garden room",
+          "sourceUrl": "https://fishersloft.com/rooms-suites/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/fishers-loft/hilltop-room.jpg",
+          "alt": "Hilltop room at Fisher's Loft Inn.",
+          "caption": "Hilltop room",
+          "sourceUrl": "https://fishersloft.com/rooms-suites/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/fishers-loft/suite.jpg",
+          "alt": "Suite at Fisher's Loft Inn.",
+          "caption": "Suite category",
+          "sourceUrl": "https://fishersloft.com/rooms-suites/"
+        }
+      ],
+      "sourceLinks": ["Fisher's Loft Inn", "Fisher's Loft rate reference", "Skerwink Trail", "Trinity Historical Society"]
+    },
+    {
+      "slug": "fogo-island-inn",
+      "base": "Fogo Island splurge",
+      "name": "Fogo Island Inn",
+      "url": "https://fogoislandinn.ca/",
+      "heroImage": "/app/assets/newfoundland-stays/fogo/suite-left.jpg",
+      "cardImage": "/app/assets/newfoundland-stays/fogo/hero-still.jpg",
+      "cardAlt": "Fogo Island Inn exterior and coastline.",
+      "priceDisplay": "Public estimates often start around CAD $2,875+/night",
+      "priceNote": "Fogo's official rate page emphasizes inclusions and direct inquiry; exact nightly rates for your dates should be confirmed with the inn. Treat this as the budget-changing centerpiece.",
+      "vibe": "The true destination-resort moment of the whole trip: architecture, remote coast, serious food, cultural programming, and a design-hotel sense of occasion.",
+      "story": "This is the stay that can sell the whole Newfoundland idea by itself. If the trip should have a world-class resort moment, make Fogo Island Inn the intentional two-night centerpiece and simplify spending elsewhere.",
+      "useFor": "Make this the deliberate 2-night splurge if the trip should have a world-class stay.",
+      "budgetEffect": "Major premium; this can add several thousand dollars versus a cottage/inn. Treat as the luxury version's centerpiece.",
+      "babyNote": "Confirm child policy, crib, meal pacing, and whether the experience still feels relaxed with a one-year-old.",
+      "bookingNote": "Contact the inn directly for exact dates, inclusions, dining, child policy, crib, and transfer/ferry advice.",
+      "logistics": "Only do this if you are happy letting the stay itself be the activity: coast, design, food, cultural programming, and quiet.",
+      "highlights": [
+        "The strongest resort-design moment in Newfoundland.",
+        "All-in destination-stay energy.",
+        "Best used as a two-night splurge, not a casual add-on."
+      ],
+      "images": [
+        {
+          "url": "/app/assets/newfoundland-stays/fogo/suite-left.jpg",
+          "alt": "Suite interior at Fogo Island Inn.",
+          "caption": "Suite interior",
+          "sourceUrl": "https://fogoislandinn.ca/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/fogo/suite-right.jpg",
+          "alt": "Suite sitting area at Fogo Island Inn.",
+          "caption": "Room as the destination",
+          "sourceUrl": "https://fogoislandinn.ca/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/fogo/sunset.jpg",
+          "alt": "Fogo Island Inn at sunset.",
+          "caption": "Sunset dining / property atmosphere",
+          "sourceUrl": "https://fogoislandinn.ca/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/fogo/hero-still.jpg",
+          "alt": "Fogo Island Inn exterior by the coast.",
+          "caption": "Architecture on the coast",
+          "sourceUrl": "https://fogoislandinn.ca/"
+        }
+      ],
+      "sourceLinks": ["Fogo Island Inn", "Fogo Island Inn rates", "Fogo Island public rate estimate", "Fogo Island Ferry", "Shorefast"]
+    },
+    {
+      "slug": "sugar-hill-inn",
+      "base": "Gros Morne finale",
+      "name": "Sugar Hill Inn",
+      "url": "https://sugarhillinn.ca/",
+      "heroImage": "/app/assets/newfoundland-stays/sugar-hill/interior-room-5.jpg",
+      "cardImage": "/app/assets/newfoundland-stays/sugar-hill/restaurant.jpg",
+      "cardAlt": "Restaurant at Sugar Hill Inn.",
+      "priceDisplay": "Tourism-board range: about CAD $150-$499/night",
+      "priceNote": "Newfoundland and Labrador Tourism lists Sugar Hill in this broad nightly range; exact room/category/date pricing must be confirmed directly.",
+      "vibe": "More polished country inn and fine-dining finale than spa resort, with a quieter grown-up feel near Gros Morne.",
+      "story": "Sugar Hill is the elevated west-coast finale if the trip should end with a quieter, more adult-feeling inn and strong food after the active Gros Morne days.",
+      "useFor": "Swap into the west-coast finale if you want the last three nights to feel elevated and food-forward.",
+      "budgetEffect": "Moderate-to-high premium depending room; less budget-breaking than Fogo Island Inn.",
+      "babyNote": "Check stairs, room size, crib, and dinner timing; this may feel more adult than family-resort.",
+      "bookingNote": "Confirm crib, dinner hours, restaurant availability, and the room category with easiest baby logistics.",
+      "logistics": "Best after Fogo or Twillingate if you want the final three nights to feel settled, scenic, and food-forward.",
+      "highlights": [
+        "Polished country-inn ending.",
+        "Good fit for Tablelands and Western Brook days.",
+        "More refined than resorty."
+      ],
+      "images": [
+        {
+          "url": "/app/assets/newfoundland-stays/sugar-hill/interior-room-5.jpg",
+          "alt": "Guest room at Sugar Hill Inn.",
+          "caption": "Guest room",
+          "sourceUrl": "https://sugarhillinn.ca/rooms/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/sugar-hill/interior-room-1.jpg",
+          "alt": "Guest room interior at Sugar Hill Inn.",
+          "caption": "Room detail",
+          "sourceUrl": "https://sugarhillinn.ca/rooms/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/sugar-hill/restaurant.jpg",
+          "alt": "Restaurant at Sugar Hill Inn.",
+          "caption": "Fine-dining emphasis",
+          "sourceUrl": "https://sugarhillinn.ca/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/sugar-hill/wine.jpg",
+          "alt": "Wine image from Sugar Hill Inn.",
+          "caption": "Wine / grown-up finale feel",
+          "sourceUrl": "https://sugarhillinn.ca/"
+        }
+      ],
+      "sourceLinks": ["Sugar Hill Inn", "Sugar Hill tourism rate reference", "Gros Morne Parks Canada", "Tablelands Parks Canada"]
+    },
+    {
+      "slug": "neddies-harbour-inn",
+      "base": "Gros Morne comfort base",
+      "name": "Neddies Harbour Inn",
+      "url": "https://theinn.ca/",
+      "heroImage": "/app/assets/newfoundland-stays/neddies/aerial.jpg",
+      "cardImage": "/app/assets/newfoundland-stays/neddies/aerial.jpg",
+      "cardAlt": "Aerial view of Neddies Harbour Inn.",
+      "priceDisplay": "Published direct rates from about CAD $250-$350/night",
+      "priceNote": "Neddies publishes room categories in this range; confirm exact 2026 seasonal pricing, taxes, and cancellation rules.",
+      "vibe": "Comfortable Bonne Bay inn with strong views and a calmer lodge-style ending, but not a full spa resort. Official static imagery is property-forward rather than room-forward.",
+      "story": "Neddies is the comfortable scenic default for Gros Morne: less precious than Sugar Hill, easier to imagine with baby gear, and still very much an elevated ending compared with a basic motel.",
+      "useFor": "Keep if you want scenic comfort near Norris Point without making the finale too expensive.",
+      "budgetEffect": "Good nice-version default for Gros Morne if Sugar Hill is too adult or too pricey.",
+      "babyNote": "Good base rhythm for naps between Tablelands, Lobster Cove, and Western Brook days.",
+      "bookingNote": "Ask about crib, room size, dining, and whether the room has the easiest access for stroller/car-seat gear.",
+      "logistics": "Use this when the Gros Morne finale should be comfortable and scenic without turning into another major splurge.",
+      "highlights": [
+        "Scenic Bonne Bay / Norris Point base.",
+        "Practical comfort for three active days.",
+        "Good balance if Fogo is the main splurge."
+      ],
+      "images": [
+        {
+          "url": "/app/assets/newfoundland-stays/neddies/aerial.jpg",
+          "alt": "Aerial view of Neddies Harbour Inn.",
+          "caption": "Official property aerial",
+          "sourceUrl": "https://theinn.ca/"
+        },
+        {
+          "url": "/app/assets/newfoundland-stays/neddies/aerial.jpg",
+          "alt": "Aerial view of Neddies Harbour Inn and surroundings.",
+          "caption": "Bonne Bay lodge setting",
+          "sourceUrl": "https://theinn.ca/"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-13-western-brook-pond.jpg",
+          "alt": "Western Brook Pond in Gros Morne.",
+          "caption": "Nearby signature day",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG"
+        }
+      ],
+      "sourceLinks": ["Neddies Harbour Inn", "Neddies direct rates", "Gros Morne Parks Canada", "Western Brook Pond BonTours"]
+    }
+  ],
+  "dailyItinerary": [
+    {
+      "day": 1,
+      "slug": "day-01",
+      "date": "Mon Aug 31",
+      "title": "Fly ATL to St. John's",
+      "heroImage": "/app/assets/newfoundland-gallery/st-johns-jellybean-row.jpg",
+      "thumbnailImage": "/app/assets/newfoundland-gallery/st-johns-painted-houses.jpeg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Jellybean_Row_Houses_of_St._John%27s,_Newfoundland.jpg",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-gallery/st-johns-jellybean-row.jpg",
+          "alt": "Bright Jellybean Row houses in St. John's.",
+          "caption": "Arrive into color",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jellybean_Row_Houses_of_St._John%27s,_Newfoundland.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-01-fly-atl-to-st-johns.jpg",
+          "alt": "Cabot Tower on Signal Hill.",
+          "caption": "Signal Hill above the harbor",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cabot_Tower_on_Signal_Hill_in_St._John%27s,_Newfoundland.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-gallery/quidi-vidi-harbour.jpg",
+          "alt": "Quidi Vidi fishing village harbor.",
+          "caption": "The first small-cove preview",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quidi_Vidi.jpg"
+        }
+      ],
+      "overnight": "Blue on Water / downtown St. John's",
+      "lodgingCost": 240,
+      "transport": "Fly ATL to YYT on Air Canada or best one-stop routing via Toronto; taxi or short rental-car pickup to downtown.",
+      "transportCost": 1800,
+      "primaryActivity": "Land, check in, stretch legs around Water Street and the harbor if arrival energy allows.",
+      "activityCost": 0,
+      "backupActivity": "If delayed, skip everything except hotel check-in, simple food, and sleep.",
+      "foodPlan": "Airport meals, then simple downtown dinner or room snacks.",
+      "foodCost": 120,
+      "babyPlan": "Travel day: stroller in airports, carrier for boarding, no sightseeing pressure.",
+      "bookingPriority": "Price open-jaw flights into YYT and home from YDF, then book refundable downtown lodging.",
+      "pitchTitle": "Why start here",
+      "why": "St. John's gives the trip a colorful, serviced landing pad before the rural road trip begins.",
+      "moments": [
+        "Wake up already downtown instead of adding a first-night drive.",
+        "Use city groceries and pharmacies before smaller villages.",
+        "Let the first evening be deliberately small."
+      ],
+      "costNote": "Day 1 carries the full two-adult flight budget; return flight is counted here.",
+      "dayTotal": 2160,
+      "sourceLinks": ["Google Flights", "Air Canada", "Blue on Water", "St. John's Airport"],
+      "mapPoint": { "label": "St. John's", "lat": 47.5615, "lon": -52.7126 }
+    },
+    {
+      "day": 2,
+      "slug": "day-02",
+      "date": "Tue Sep 1",
+      "title": "Signal Hill, Quidi Vidi, and city recovery",
+      "heroImage": "/app/assets/newfoundland-gallery/quidi-vidi-panorama.jpg",
+      "thumbnailImage": "/app/assets/newfoundland-gallery/quidi-vidi-harbour.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Quidi_Vidi_Village_(St._John%27s)_Panorama.jpg",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-gallery/quidi-vidi-panorama.jpg",
+          "alt": "Quidi Vidi village panorama.",
+          "caption": "Quidi Vidi village",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quidi_Vidi_Village_(St._John%27s)_Panorama.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-02-signal-hill-and-quidi-vidi.jpg",
+          "alt": "Cabot Tower on Signal Hill.",
+          "caption": "Signal Hill landmark",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cabot_Tower,_St._John%27s.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-gallery/st-johns-painted-houses.jpeg",
+          "alt": "Painted houses in St. John's.",
+          "caption": "Downtown house color",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Newfoundland_Painted_Houses_(189131715).jpeg"
+        }
+      ],
+      "overnight": "Blue on Water / downtown St. John's",
+      "lodgingCost": 240,
+      "transport": "Short city driving or taxi loops; avoid parking stress if weather is rough.",
+      "transportCost": 45,
+      "primaryActivity": "Signal Hill viewpoints and Cabot Tower area, then Quidi Vidi village for a gentle harbor-and-cafe wander.",
+      "activityCost": 0,
+      "backupActivity": "The Rooms museum, Bannerman Park, or a nap-heavy downtown cafe day.",
+      "foodPlan": "Breakfast downtown, lunch around Quidi Vidi or Rocket Bakery-style casual food, early dinner at Terre or Mallard Cottage if reservations work.",
+      "foodCost": 180,
+      "babyPlan": "Stroller for downtown; carrier for Signal Hill steps and uneven paths.",
+      "bookingPriority": "Reserve one early dinner if choosing Mallard Cottage or Terre.",
+      "pitchTitle": "First real Newfoundland day",
+      "why": "Signal Hill and Quidi Vidi make the place legible immediately: harbor, cliffs, painted houses, and old fishing-village texture without a long drive.",
+      "moments": [
+        "Cabot Tower and the Narrows view.",
+        "Quidi Vidi harbor with an easy snack stop.",
+        "Nap back downtown before dinner."
+      ],
+      "costNote": "Mostly food and local transport; no major paid activity required.",
+      "dayTotal": 465,
+      "sourceLinks": ["Signal Hill Parks Canada", "Quidi Vidi Village", "Mallard Cottage", "Terre Restaurant"],
+      "mapPoint": { "label": "Signal Hill", "lat": 47.5703, "lon": -52.6817 }
+    },
+    {
+      "day": 3,
+      "slug": "day-03",
+      "date": "Wed Sep 2",
+      "title": "Cape Spear and Witless Bay decision day",
+      "heroImage": "/app/assets/newfoundland-gallery/cape-spear-lighthouse-2026.jpg",
+      "thumbnailImage": "/app/assets/newfoundland-gallery/witless-bay-puffins.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Newer_Lighthouse_at_Cape_Spear_June_10,_2026.jpg",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-gallery/cape-spear-lighthouse-2026.jpg",
+          "alt": "Cape Spear lighthouse near the Atlantic.",
+          "caption": "Cape Spear edge-of-continent moment",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Newer_Lighthouse_at_Cape_Spear_June_10,_2026.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-03-cape-spear-and-witless-bay.jpg",
+          "alt": "Cape Spear lighthouse and coastline.",
+          "caption": "Lighthouse backup view",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Spear_(new_lighthouse).JPG"
+        },
+        {
+          "url": "/app/assets/newfoundland-gallery/witless-bay-puffins.jpg",
+          "alt": "Atlantic puffins at Witless Bay.",
+          "caption": "Puffins if seas cooperate",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atlantic_puffins_Gull_Island.jpg"
+        }
+      ],
+      "overnight": "Blue on Water / downtown St. John's",
+      "lodgingCost": 240,
+      "transport": "Cape Spear is about 25 minutes from downtown; Witless Bay boat docks are about 35-45 minutes south of St. John's.",
+      "transportCost": 65,
+      "primaryActivity": "Cape Spear lighthouse and ocean viewpoints, with an optional short Witless Bay puffin/whale boat only if seas and baby temperament are good.",
+      "activityCost": 120,
+      "backupActivity": "Skip the boat and do Petty Harbour, Bowring Park, and a calm late lunch instead.",
+      "foodPlan": "Breakfast downtown, lunch near Petty Harbour or Bay Bulls, easy St. John's dinner.",
+      "foodCost": 170,
+      "babyPlan": "Carrier at Cape Spear; boat is optional and should be skipped in wind, rain, or rough seas.",
+      "bookingPriority": "Ask the boat operator about infants, life jackets, sea conditions, and cancellation policy before paying.",
+      "pitchTitle": "Atlantic edge day",
+      "why": "This is the closest big-ocean drama to St. John's, with a flexible puffin/whale layer if conditions are kind.",
+      "moments": [
+        "Stand at Cape Spear's eastern-edge viewpoints.",
+        "Decide on the boat based on weather, not sunk cost.",
+        "Keep bedtime protected before the first transfer day."
+      ],
+      "costNote": "Activity cost assumes two adult boat tickets; it drops near zero if you choose the land-only version.",
+      "dayTotal": 595,
+      "sourceLinks": ["Cape Spear Parks Canada", "Witless Bay Ecological Reserve", "O'Brien's Boat Tours", "Gatherall's Puffin Tours"],
+      "mapPoint": { "label": "Cape Spear", "lat": 47.5235, "lon": -52.6236 }
+    },
+    {
+      "day": 4,
+      "slug": "day-04",
+      "date": "Thu Sep 3",
+      "title": "Drive to Port Rexton via Terra Nova",
+      "heroImage": "/app/assets/newfoundland-days/day-04-drive-to-port-rexton-via-terra-nova.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Terra_Nova_National_Park_-_Newfoundland_2019-08-21_(04).jpg",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-days/day-04-drive-to-port-rexton-via-terra-nova.jpg",
+          "alt": "Terra Nova National Park coastline.",
+          "caption": "Terra Nova break in the drive",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terra_Nova_National_Park_-_Newfoundland_2019-08-21_(04).jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-gallery/trinity-harbour.jpg",
+          "alt": "Trinity harbor.",
+          "caption": "The village base ahead",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trinity_harbour.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-gallery/skerwink-sea-stack-01.jpg",
+          "alt": "Sea stack near Port Rexton.",
+          "caption": "First glimpse of the Port Rexton coast",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sea_Stack_in_Robinhood_Bay_-_Port_Rexton,_Newfoundland_2019-08-14_(01).jpg"
+        }
+      ],
+      "overnight": "Fisher's Loft Inn / Port Rexton",
+      "lodgingCost": 300,
+      "transport": "St. John's to Port Rexton is about 3.5 hours direct; break it with Terra Nova viewpoints or a short boardwalk.",
+      "transportCost": 110,
+      "primaryActivity": "Transfer day with a Terra Nova National Park leg-stretch, then check into Port Rexton/Trinity country.",
+      "activityCost": 25,
+      "backupActivity": "If the baby hates the car, skip Terra Nova and go straight to the inn.",
+      "foodPlan": "Breakfast in St. John's, picnic/grocery lunch en route, dinner at Fisher's Loft or Port Rexton Brewing food-truck style if operating.",
+      "foodCost": 165,
+      "babyPlan": "Two driving blocks around nap; use Terra Nova only as a flexible reset.",
+      "bookingPriority": "Reserve Fisher's Loft or a cottage early; Port Rexton options are limited.",
+      "pitchTitle": "Into village-coast Newfoundland",
+      "why": "This moves from city Newfoundland to the quieter coves, trails, and food villages that make the island feel special.",
+      "moments": [
+        "A national-park stop without making the day a hike day.",
+        "Arrive before dinner instead of after dark.",
+        "Settle into a three-night base."
+      ],
+      "costNote": "Transport includes rental-car allocation and fuel for the first longer drive.",
+      "dayTotal": 600,
+      "sourceLinks": ["Terra Nova Parks Canada", "Fisher's Loft Inn", "Port Rexton Brewing"],
+      "mapPoint": { "label": "Port Rexton", "lat": 48.3907, "lon": -53.3245 }
+    },
+    {
+      "day": 5,
+      "slug": "day-05",
+      "date": "Fri Sep 4",
+      "title": "Skerwink Trail and Trinity",
+      "heroImage": "/app/assets/newfoundland-gallery/skerwink-sea-stacks-01.jpg",
+      "thumbnailImage": "/app/assets/newfoundland-gallery/trinity-harbour.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Sea_Stacks_in_Robinhood_Bay_-_Port_Rexton,_Newfoundland_2019-08-14_(01).jpg",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-gallery/skerwink-sea-stacks-01.jpg",
+          "alt": "Sea stacks on the Port Rexton coast.",
+          "caption": "The Skerwink-style payoff",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sea_Stacks_in_Robinhood_Bay_-_Port_Rexton,_Newfoundland_2019-08-14_(01).jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-gallery/skerwink-sea-stack-01.jpg",
+          "alt": "A sea stack in Robinhood Bay near Port Rexton.",
+          "caption": "Carrier-friendly viewpoint energy",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sea_Stack_in_Robinhood_Bay_-_Port_Rexton,_Newfoundland_2019-08-14_(01).jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-gallery/trinity-harbour.jpg",
+          "alt": "Trinity harbor in Newfoundland.",
+          "caption": "Trinity after the cliffs",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trinity_harbour.jpg"
+        }
+      ],
+      "overnight": "Fisher's Loft Inn / Port Rexton",
+      "lodgingCost": 300,
+      "transport": "Local drives around Port Rexton and Trinity, usually under 15 minutes per hop.",
+      "transportCost": 30,
+      "primaryActivity": "Do the baby-adjusted version of Skerwink Trail: viewpoints and a short carrier walk instead of committing to the full loop, then Trinity village.",
+      "activityCost": 0,
+      "backupActivity": "If wet or windy, make it a Trinity heritage buildings, cafe, and inn-rest day.",
+      "foodPlan": "Inn breakfast, lunch in Trinity or Port Rexton, Fisher's Loft dinner if available.",
+      "foodCost": 175,
+      "babyPlan": "Carrier day; cliff paths are not stroller terrain and require conservative turnaround points.",
+      "bookingPriority": "Ask the inn for current trail conditions and reserve dinner.",
+      "pitchTitle": "Best cliff-walk sampler",
+      "why": "Skerwink is one of the strongest short-coast experiences in Newfoundland, but the plan uses it as a flexible viewpoint walk with a one-year-old.",
+      "moments": [
+        "Sea stacks and cliff views without forcing the full loop.",
+        "Trinity's painted houses and harbor.",
+        "A calm inn dinner after an outdoor morning."
+      ],
+      "costNote": "No paid activity needed; the value is in the trail and village.",
+      "dayTotal": 505,
+      "sourceLinks": ["Skerwink Trail", "Trinity Historical Society", "Fisher's Loft Inn"],
+      "mapPoint": { "label": "Skerwink Trail", "lat": 48.383, "lon": -53.333 }
+    },
+    {
+      "day": 6,
+      "slug": "day-06",
+      "date": "Sat Sep 5",
+      "title": "Bonavista, Elliston puffins, and lighthouse coast",
+      "heroImage": "/app/assets/newfoundland-gallery/bonavista-lighthouse.jpg",
+      "thumbnailImage": "/app/assets/newfoundland-gallery/witless-bay-puffins.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Cape_Bonavista_Lighthouse.JPG",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-gallery/bonavista-lighthouse.jpg",
+          "alt": "Cape Bonavista Lighthouse.",
+          "caption": "Cape Bonavista Lighthouse",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Bonavista_Lighthouse.JPG"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-06-bonavista-and-elliston-puffins.jpg",
+          "alt": "Cape Bonavista Lighthouse in Newfoundland.",
+          "caption": "Classic lighthouse stop",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Bonavista_Lighthouse_01.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-gallery/witless-bay-puffins.jpg",
+          "alt": "Atlantic puffins on a grassy island.",
+          "caption": "The birdlife layer",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atlantic_puffins_Gull_Island.jpg"
+        }
+      ],
+      "overnight": "Fisher's Loft Inn / Port Rexton",
+      "lodgingCost": 300,
+      "transport": "Port Rexton to Bonavista/Elliston loop, about 1.5-2 hours total driving.",
+      "transportCost": 45,
+      "primaryActivity": "Cape Bonavista Lighthouse, Dungeon Provincial Park viewpoints, and Elliston puffin viewing from a respectful distance.",
+      "activityCost": 30,
+      "backupActivity": "If fogged in, shorten to Bonavista town, cafes, and Ryan Premises/indoor heritage stops.",
+      "foodPlan": "Breakfast at base, lunch in Bonavista, relaxed Port Rexton/Trinity dinner.",
+      "foodCost": 170,
+      "babyPlan": "Carrier for puffin/cliff viewpoints; stay well back from edges and nesting areas.",
+      "bookingPriority": "Check puffin season realities before building the day around sightings; early September may be late.",
+      "pitchTitle": "Wildlife and lighthouse day",
+      "why": "Bonavista adds the iconic lighthouse-and-puffin layer that makes this route more than pretty driving.",
+      "moments": [
+        "Cape Bonavista lighthouse in coastal wind.",
+        "Elliston puffin viewpoint if birds are still around.",
+        "Dungeon sea arch stop if the weather is clear."
+      ],
+      "costNote": "Small museum/heritage fees only; puffin viewing itself is low-cost.",
+      "dayTotal": 545,
+      "sourceLinks": ["Cape Bonavista Lighthouse", "Elliston Puffin Site", "Ryan Premises Parks Canada", "Newfoundland Labrador Tourism"],
+      "mapPoint": { "label": "Cape Bonavista", "lat": 48.6972, "lon": -53.0861 }
+    },
+    {
+      "day": 7,
+      "slug": "day-07",
+      "date": "Sun Sep 6",
+      "title": "To Twillingate and Iceberg Alley",
+      "heroImage": "/app/assets/newfoundland-days/day-07-to-twillingate-iceberg-alley.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Twillingate.jpg",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-days/day-07-to-twillingate-iceberg-alley.jpg",
+          "alt": "Twillingate coastal village.",
+          "caption": "Arrive in Twillingate",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Twillingate.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-08-twillingate-lighthouse-and-boat-option.jpg",
+          "alt": "Twillingate coastline.",
+          "caption": "Tomorrow's lighthouse coast",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Twillingate,_Newfoundland_(105321651).jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-09-fogo-island-ferry-and-tilting.jpg",
+          "alt": "Tilting on Fogo Island.",
+          "caption": "The northern island mood begins",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiling,_Fogo_Island,_Newfoundland.jpg"
+        }
+      ],
+      "overnight": "Anchor Inn Hotel / Twillingate",
+      "lodgingCost": 240,
+      "transport": "Port Rexton to Twillingate is about 3.5-4 hours with a Gander or Boyd's Cove break.",
+      "transportCost": 115,
+      "primaryActivity": "Transfer to Twillingate, then an easy harbor walk or Long Point sunset if everyone has energy.",
+      "activityCost": 0,
+      "backupActivity": "Go straight to the hotel and save Long Point for tomorrow.",
+      "foodPlan": "Picnic/grocery lunch en route, early dinner at the inn or a Twillingate seafood/pub option.",
+      "foodCost": 165,
+      "babyPlan": "Longer car day; plan one real stop and do not add sightseeing until after check-in.",
+      "bookingPriority": "Book Twillingate lodging with cancellation flexibility because weather can affect boat plans.",
+      "pitchTitle": "North-coast reset",
+      "why": "Twillingate gives a distinct northern coastal mood and a practical staging point before the Fogo ferry.",
+      "moments": [
+        "Break the drive before the baby melts down.",
+        "Arrive with time for a harbor stroll.",
+        "Keep dinner simple."
+      ],
+      "costNote": "Transport reflects fuel and rental allocation for the cross-island leg.",
+      "dayTotal": 520,
+      "sourceLinks": ["Anchor Inn Hotel", "Twillingate Tourism", "Boyd's Cove Beothuk Site"],
+      "mapPoint": { "label": "Twillingate", "lat": 49.65, "lon": -54.7667 }
+    },
+    {
+      "day": 8,
+      "slug": "day-08",
+      "date": "Mon Sep 7",
+      "title": "Twillingate lighthouse and boat option",
+      "heroImage": "/app/assets/newfoundland-days/day-08-twillingate-lighthouse-and-boat-option.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Twillingate,_Newfoundland_(105321651).jpg",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-days/day-08-twillingate-lighthouse-and-boat-option.jpg",
+          "alt": "Twillingate ocean and lighthouse scenery.",
+          "caption": "Long Point style views",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Twillingate,_Newfoundland_(105321651).jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-07-to-twillingate-iceberg-alley.jpg",
+          "alt": "Twillingate village coast.",
+          "caption": "Harbor reset option",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Twillingate.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-gallery/quidi-vidi-harbour.jpg",
+          "alt": "Fishing village harbor.",
+          "caption": "Small-cove rhythm, repeated farther north",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quidi_Vidi.jpg"
+        }
+      ],
+      "overnight": "Anchor Inn Hotel / Twillingate",
+      "lodgingCost": 240,
+      "transport": "Local Twillingate driving only.",
+      "transportCost": 35,
+      "primaryActivity": "Long Point Lighthouse, coastal viewpoints, and an optional short boat tour if sea state and infant policy are favorable.",
+      "activityCost": 110,
+      "backupActivity": "Durrell Museum, cafes, Split Rock viewpoint, or a hotel-nap day if the weather turns.",
+      "foodPlan": "Breakfast at lodging, seafood lunch or picnic, dinner in Twillingate.",
+      "foodCost": 170,
+      "babyPlan": "Carrier for viewpoints; boat is a weather-dependent bonus, not the spine of the day.",
+      "bookingPriority": "Call the boat operator about infants and same-day conditions before reserving.",
+      "pitchTitle": "Iceberg Alley without overcommitting",
+      "why": "This day gives Twillingate its due while keeping the family plan nimble around wind, rain, and nap timing.",
+      "moments": [
+        "Long Point Lighthouse views.",
+        "Boat only if conditions look kind.",
+        "A low-transit afternoon before ferry logistics."
+      ],
+      "costNote": "Activity cost assumes two adult boat tickets; land-only version is much cheaper.",
+      "dayTotal": 555,
+      "sourceLinks": ["Twillingate Tourism", "Iceberg Quest Twillingate", "Anchor Inn Hotel"],
+      "mapPoint": { "label": "Long Point Lighthouse", "lat": 49.6845, "lon": -54.8014 }
+    },
+    {
+      "day": 9,
+      "slug": "day-09",
+      "date": "Tue Sep 8",
+      "title": "Fogo Island ferry and Tilting",
+      "heroImage": "/app/assets/newfoundland-days/day-09-fogo-island-ferry-and-tilting.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Tiling,_Fogo_Island,_Newfoundland.jpg",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-days/day-09-fogo-island-ferry-and-tilting.jpg",
+          "alt": "Tilting on Fogo Island.",
+          "caption": "Tilting village texture",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiling,_Fogo_Island,_Newfoundland.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-10-fogo-slow-day-and-studios.jpg",
+          "alt": "Fogo Island Inn.",
+          "caption": "The splurge silhouette",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fogo_Island_Inn.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-07-to-twillingate-iceberg-alley.jpg",
+          "alt": "Northern Newfoundland coastal town.",
+          "caption": "Ferry day starts from the north coast",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Twillingate.jpg"
+        }
+      ],
+      "overnight": "Fogo Island cottage / inn upgrade",
+      "lodgingCost": 450,
+      "transport": "Drive to Farewell, take the ferry to Fogo Island, then continue to Tilting/Joe Batt's Arm area.",
+      "transportCost": 145,
+      "primaryActivity": "Make the ferry the adventure, then explore Tilting, Joe Batt's Arm, and simple coastal boardwalks after check-in.",
+      "activityCost": 20,
+      "backupActivity": "If ferry/weather timing slips, keep the day to transfer, groceries, and a short harbor walk.",
+      "foodPlan": "Breakfast in Twillingate, ferry snacks/picnic lunch, cottage dinner or inn restaurant if booked.",
+      "foodCost": 180,
+      "babyPlan": "Treat ferry waits as part of the schedule; pack layers, snacks, and a car-seat-friendly nap plan.",
+      "bookingPriority": "Confirm ferry schedule, lodging check-in, crib, and dining before leaving Twillingate.",
+      "pitchTitle": "The special detour",
+      "why": "Fogo is the route's artful, remote-feeling splurge: ferry rhythm, stark coast, fishing outports, and architecture that feels unlike the mainland island.",
+      "moments": [
+        "Ferry crossing to Fogo.",
+        "Tilting's lanes and fishing-stage scenery.",
+        "A quiet cottage or inn evening."
+      ],
+      "costNote": "Default assumes a cottage or modest inn. Fogo Island Inn can add several thousand dollars and should be a deliberate one- or two-night upgrade.",
+      "dayTotal": 795,
+      "sourceLinks": ["Fogo Island Ferry", "Fogo Island Inn", "Fogo Island Tourism"],
+      "mapPoint": { "label": "Fogo Island", "lat": 49.7167, "lon": -54.2833 }
+    },
+    {
+      "day": 10,
+      "slug": "day-10",
+      "date": "Wed Sep 9",
+      "title": "Fogo slow day, studios, and barrens",
+      "heroImage": "/app/assets/newfoundland-days/day-10-fogo-slow-day-and-studios.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Fogo_Island_Inn.jpg",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-days/day-10-fogo-slow-day-and-studios.jpg",
+          "alt": "Fogo Island Inn on rocky coast.",
+          "caption": "Fogo Island Inn",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fogo_Island_Inn.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-09-fogo-island-ferry-and-tilting.jpg",
+          "alt": "Tilting harbor on Fogo Island.",
+          "caption": "Fishing village counterpoint",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiling,_Fogo_Island,_Newfoundland.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-gallery/st-johns-painted-houses.jpeg",
+          "alt": "Painted houses in Newfoundland.",
+          "caption": "Color and craft continue",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Newfoundland_Painted_Houses_(189131715).jpeg"
+        }
+      ],
+      "overnight": "Fogo Island cottage / inn upgrade",
+      "lodgingCost": 450,
+      "transport": "Local island loops only.",
+      "transportCost": 40,
+      "primaryActivity": "Fogo Head or Brimstone Head viewpoints in a baby-short version, artist-studio architecture viewing, and a slow village lunch.",
+      "activityCost": 40,
+      "backupActivity": "If it is windy or wet, make it a driving loop, cafes, craft shops, and nap-heavy indoor day.",
+      "foodPlan": "Cottage breakfast, lunch near Joe Batt's Arm/Fogo, special dinner if staying at or near the inn.",
+      "foodCost": 210,
+      "babyPlan": "Carrier for boardwalks and viewpoints; skip exposed climbs if wind is high.",
+      "bookingPriority": "Prebook any Fogo Island Inn dining or community-hosted experience well ahead.",
+      "pitchTitle": "Why Fogo earns the mileage",
+      "why": "This is the quietest, strangest, most design-forward day of the trip: not many scheduled activities, just a place with a strong point of view.",
+      "moments": [
+        "Fogo Island Inn exterior and coast views.",
+        "Short, safe viewpoint walk.",
+        "Unhurried village time."
+      ],
+      "costNote": "Food is higher here because island dining and supply logistics can be expensive.",
+      "dayTotal": 740,
+      "sourceLinks": ["Fogo Island Inn", "Fogo Island Tourism", "Shorefast"],
+      "mapPoint": { "label": "Joe Batt's Arm", "lat": 49.732, "lon": -54.18 }
+    },
+    {
+      "day": 11,
+      "slug": "day-11",
+      "date": "Thu Sep 10",
+      "title": "Drive to Gros Morne",
+      "heroImage": "/app/assets/newfoundland-days/day-11-drive-to-gros-morne.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-days/day-11-drive-to-gros-morne.jpg",
+          "alt": "Western Brook Pond in Gros Morne.",
+          "caption": "The west-coast reward ahead",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-10-fogo-slow-day-and-studios.jpg",
+          "alt": "Fogo Island Inn before departure.",
+          "caption": "Leave Fogo after breakfast",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fogo_Island_Inn.jpg"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-04-drive-to-port-rexton-via-terra-nova.jpg",
+          "alt": "Forested Newfoundland coast.",
+          "caption": "Road-trip scenery between bases",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terra_Nova_National_Park_-_Newfoundland_2019-08-21_(04).jpg"
+        }
+      ],
+      "overnight": "Neddies Harbour Inn / Norris Point",
+      "lodgingCost": 410,
+      "transport": "Fogo ferry back to Farewell, then drive west toward Gros Morne; about 5-6 hours of movement plus ferry timing.",
+      "transportCost": 185,
+      "primaryActivity": "A pure transfer day with a Gander or Grand Falls-Windsor break, ending in Norris Point/Rocky Harbour.",
+      "activityCost": 0,
+      "backupActivity": "If ferry timing makes the day too long, overnight around Gander and shorten Gros Morne by one night.",
+      "foodPlan": "Simple ferry-day breakfast, road lunch, early dinner near Norris Point or Rocky Harbour.",
+      "foodCost": 180,
+      "babyPlan": "Hardest logistics day: two nap windows, no attraction goals, and plenty of snack/diaper margin.",
+      "bookingPriority": "Check ferry status in the morning and call Gros Morne lodging if arrival will be late.",
+      "pitchTitle": "Earn the mountain finale",
+      "why": "This is the price of including both Fogo and Gros Morne; the reward is ending with Newfoundland's most dramatic mountain-and-fjord landscape.",
+      "moments": [
+        "Use ferry time as reset time.",
+        "Break the drive before the afternoon gets brittle.",
+        "Arrive and stay put for three nights."
+      ],
+      "costNote": "Transport includes fuel, ferry, and rental allocation for the longest travel day.",
+      "dayTotal": 775,
+      "sourceLinks": ["Fogo Island Ferry", "Gros Morne Parks Canada", "Neddies Harbour Inn"],
+      "mapPoint": { "label": "Norris Point", "lat": 49.525, "lon": -57.879 }
+    },
+    {
+      "day": 12,
+      "slug": "day-12",
+      "date": "Fri Sep 11",
+      "title": "Tablelands and Woody Point",
+      "heroImage": "/app/assets/newfoundland-days/day-12-tablelands-and-woody-point.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-days/day-12-tablelands-and-woody-point.jpg",
+          "alt": "Gros Morne mountain and water scenery.",
+          "caption": "Gros Morne base day",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-13-western-brook-pond.jpg",
+          "alt": "Western Brook Pond cliffs.",
+          "caption": "Fjord-like finale preview",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-14-fly-deer-lake-to-atl.jpg",
+          "alt": "Gros Morne lake and mountain scenery.",
+          "caption": "Bonne Bay and west-coast feel",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG"
+        }
+      ],
+      "overnight": "Neddies Harbour Inn / Norris Point",
+      "lodgingCost": 410,
+      "transport": "Norris Point/Rocky Harbour to Tablelands and Woody Point, roughly 45-60 minutes each way depending base.",
+      "transportCost": 70,
+      "primaryActivity": "Tablelands short trail or viewpoint, Discovery Centre, Woody Point harbor, and a relaxed dinner.",
+      "activityCost": 30,
+      "backupActivity": "If weather is poor, use the Discovery Centre, cafes, and local drives around Bonne Bay.",
+      "foodPlan": "Inn breakfast, Woody Point lunch, dinner at the inn or Rocky Harbour.",
+      "foodCost": 180,
+      "babyPlan": "Carrier for Tablelands; stroller may work only on limited hard-packed sections.",
+      "bookingPriority": "Check Parks Canada programming and road conditions; reserve dinner if needed.",
+      "pitchTitle": "Geology day",
+      "why": "The Tablelands are the most otherworldly inland landscape in Newfoundland and the best non-boat Gros Morne anchor for a family.",
+      "moments": [
+        "Orange mantle rock below green mountains.",
+        "Woody Point village and Bonne Bay views.",
+        "Indoor Discovery Centre backup."
+      ],
+      "costNote": "Small park/museum costs; no high-cost activity required.",
+      "dayTotal": 690,
+      "sourceLinks": ["Gros Morne Parks Canada", "Tablelands Parks Canada", "Woody Point Tourism"],
+      "mapPoint": { "label": "Tablelands", "lat": 49.472, "lon": -57.944 }
+    },
+    {
+      "day": 13,
+      "slug": "day-13",
+      "date": "Sat Sep 12",
+      "title": "Western Brook Pond or Green Gardens decision",
+      "heroImage": "/app/assets/newfoundland-days/day-13-western-brook-pond.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-days/day-13-western-brook-pond.jpg",
+          "alt": "Western Brook Pond cliffs.",
+          "caption": "Signature postcard day",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-11-drive-to-gros-morne.jpg",
+          "alt": "Western Brook Pond mountain scenery.",
+          "caption": "Boat or viewpoint payoff",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-12-tablelands-and-woody-point.jpg",
+          "alt": "Gros Morne scenic water and hills.",
+          "caption": "Land-based backup still looks like this",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG"
+        }
+      ],
+      "overnight": "Neddies Harbour Inn / Norris Point",
+      "lodgingCost": 410,
+      "transport": "Western Brook Pond parking is about 45-60 minutes from Rocky Harbour/Norris Point; boat access requires a flat approach walk.",
+      "transportCost": 80,
+      "primaryActivity": "Western Brook Pond boat tour if baby and weather align; otherwise do Green Point, Lobster Cove Head, or the first safe stretch of Green Gardens.",
+      "activityCost": 170,
+      "backupActivity": "Skip the boat and keep the day to lighthouse, beach, and short viewpoints.",
+      "foodPlan": "Early breakfast, packed lunch or boat-day snacks, final Gros Morne dinner.",
+      "foodCost": 185,
+      "babyPlan": "Boat requires a carrier and tolerance for the approach walk; choose the land-only backup if wind, rain, or nap timing is off.",
+      "bookingPriority": "Reserve BonTours/Western Brook only after checking infant policy, approach walk, and cancellation rules.",
+      "pitchTitle": "Big fjord finale",
+      "why": "Western Brook Pond is the signature postcard day, but the plan keeps a strong land-based alternative so the final full day does not depend on a boat.",
+      "moments": [
+        "Fjord-like cliffs if the boat works.",
+        "Lighthouse and beach backup if it does not.",
+        "Pack slowly before departure day."
+      ],
+      "costNote": "Activity assumes two adult boat tickets. Land-only version saves most of this cost.",
+      "dayTotal": 845,
+      "sourceLinks": ["Western Brook Pond BonTours", "Gros Morne Parks Canada", "Lobster Cove Head Parks Canada"],
+      "mapPoint": { "label": "Western Brook Pond", "lat": 49.788, "lon": -57.83 }
+    },
+    {
+      "day": 14,
+      "slug": "day-14",
+      "date": "Sun Sep 13",
+      "title": "Fly Deer Lake to ATL",
+      "heroImage": "/app/assets/newfoundland-days/day-14-fly-deer-lake-to-atl.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG",
+      "gallery": [
+        {
+          "url": "/app/assets/newfoundland-days/day-14-fly-deer-lake-to-atl.jpg",
+          "alt": "Western Brook Pond and Gros Morne scenery.",
+          "caption": "Last look at Gros Morne",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG"
+        },
+        {
+          "url": "/app/assets/newfoundland-days/day-13-western-brook-pond.jpg",
+          "alt": "Western Brook Pond cliffs.",
+          "caption": "The trip ends after the big view",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG"
+        },
+        {
+          "url": "/app/assets/newfoundland-gallery/st-johns-jellybean-row.jpg",
+          "alt": "St. John's Jellybean Row houses.",
+          "caption": "A colorful bookend to the route",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jellybean_Row_Houses_of_St._John%27s,_Newfoundland.jpg"
+        }
+      ],
+      "overnight": "Home",
+      "lodgingCost": 0,
+      "transport": "Drive about 1-1.25 hours to Deer Lake Airport, return car, and fly YDF to ATL via Toronto or best available connection.",
+      "transportCost": 120,
+      "primaryActivity": "Departure day only; no sightseeing target unless flight time is late and everyone is rested.",
+      "activityCost": 0,
+      "backupActivity": "If Deer Lake pricing or timing fails, add a final night near Deer Lake or rework to return from St. John's.",
+      "foodPlan": "Breakfast at lodging, airport/connection food, home dinner if timing works.",
+      "foodCost": 110,
+      "babyPlan": "Leave a large airport buffer; rural-road delays and car-seat logistics are the enemy.",
+      "bookingPriority": "Choose a departure that does not require a pre-dawn drive from Gros Morne.",
+      "pitchTitle": "Clean exit",
+      "why": "Flying from Deer Lake preserves the Gros Morne finale and avoids wasting the last full day on a cross-island reposition.",
+      "moments": [
+        "Short final drive compared with returning to St. John's.",
+        "One-car rental return at YDF if priced reasonably.",
+        "Return flights already counted in Day 1."
+      ],
+      "costNote": "Return flight is included in Day 1's flight budget; this day covers local departure costs only.",
+      "dayTotal": 230,
+      "sourceLinks": ["Deer Lake Airport", "Air Canada", "Google Flights"],
+      "mapPoint": { "label": "Deer Lake Airport", "lat": 49.2108, "lon": -57.3914 }
+    }
+  ],
+  "sourceLinks": [
+    { "label": "Google Flights", "url": "https://www.google.com/travel/flights" },
+    { "label": "Air Canada", "url": "https://www.aircanada.com/" },
+    { "label": "Air Canada infant policy", "url": "https://www.aircanada.com/us/en/aco/home/plan/special-assistance/travelling-with-children.html" },
+    { "label": "St. John's Airport", "url": "https://stjohnsairport.com/" },
+    { "label": "Deer Lake Airport", "url": "https://deerlakeairport.com/" },
+    { "label": "Blue on Water", "url": "https://blueonwater.com/" },
+    { "label": "Signal Hill Parks Canada", "url": "https://parks.canada.ca/lhn-nhs/nl/signalhill" },
+    { "label": "Quidi Vidi Village", "url": "https://destinationstjohns.com/places/quidi-vidi/" },
+    { "label": "Mallard Cottage", "url": "https://mallardcottage.ca/" },
+    { "label": "Terre Restaurant", "url": "https://terre-restaurant.com/" },
+    { "label": "Cape Spear Parks Canada", "url": "https://parks.canada.ca/lhn-nhs/nl/spear" },
+    { "label": "Witless Bay Ecological Reserve", "url": "https://www.gov.nl.ca/ecc/natural-areas/wer/r-wbe/" },
+    { "label": "O'Brien's Boat Tours", "url": "https://www.obriensboattours.com/" },
+    { "label": "Gatherall's Puffin Tours", "url": "https://www.gatheralls.com/" },
+    { "label": "Terra Nova Parks Canada", "url": "https://parks.canada.ca/pn-np/nl/terranova" },
+    { "label": "Fisher's Loft Inn", "url": "https://fishersloft.com/" },
+    { "label": "Port Rexton Brewing", "url": "https://portrextonbrewing.com/" },
+    { "label": "Skerwink Trail", "url": "https://www.hikediscovery.com/skerwink-trail/" },
+    { "label": "Trinity Historical Society", "url": "https://trinityhistoricalsociety.com/" },
+    { "label": "Cape Bonavista Lighthouse", "url": "https://www.seethesites.ca/bonavista-lighthouse-provincial-historic-site/" },
+    { "label": "Elliston Puffin Site", "url": "https://www.townofelliston.ca/puffin-viewing-site/" },
+    { "label": "Ryan Premises Parks Canada", "url": "https://parks.canada.ca/lhn-nhs/nl/ryan" },
+    { "label": "Newfoundland Labrador Tourism", "url": "https://www.newfoundlandlabrador.com/" },
+    { "label": "Anchor Inn Hotel", "url": "https://anchorinnhotel.ca/" },
+    { "label": "Twillingate Tourism", "url": "https://www.visittwillingate.com/" },
+    { "label": "Boyd's Cove Beothuk Site", "url": "https://www.seethesites.ca/boyds-cove-beothuk-site/" },
+    { "label": "Iceberg Quest Twillingate", "url": "https://icebergquest.com/" },
+    { "label": "Fogo Island Ferry", "url": "https://www.gov.nl.ca/ti/ferryservices/schedules/c-fogo-changeislands/" },
+    { "label": "Fogo Island Inn", "url": "https://fogoislandinn.ca/" },
+    { "label": "Fogo Island Tourism", "url": "https://www.townoffogoisland.ca/tourism/" },
+    { "label": "Shorefast", "url": "https://shorefast.org/" },
+    { "label": "Gros Morne Parks Canada", "url": "https://parks.canada.ca/pn-np/nl/grosmorne" },
+    { "label": "Neddies Harbour Inn", "url": "https://theinn.ca/" },
+    { "label": "Neddies direct rates", "url": "https://theinn.ca/rooms/" },
+    { "label": "Monastery Hotel + Spa", "url": "https://monasteryspa.com/" },
+    { "label": "Monastery Spa package rates", "url": "https://monasteryspa.com/spa-packages/" },
+    { "label": "Alt Hotel St. John's", "url": "https://www.germainhotels.com/en/alt-hotel/st-johns" },
+    { "label": "Alt Hotel public rate snapshot", "url": "https://www.expedia.com/St-Johns-Hotels-Alt-Hotel-St-Johns.h21550655.Hotel-Information" },
+    { "label": "Sugar Hill Inn", "url": "https://sugarhillinn.ca/" },
+    { "label": "Sugar Hill tourism rate reference", "url": "https://www.newfoundlandlabrador.com/plan-and-book/accommodations/32651914" },
+    { "label": "Fisher's Loft rate reference", "url": "https://www.travelweekly.com/Hotels/Port-Rexton-NF/Fishers-Loft-Inn-p5758150" },
+    { "label": "Fogo Island Inn rates", "url": "https://fogoislandinn.ca/your-stay/rates-and-inclusions/" },
+    { "label": "Fogo Island public rate estimate", "url": "https://luxuryescapes.com/us/partner/fogo-island-inn/9de6d01c-0e83-43f5-8e0d-f88f7f595bdf" },
+    { "label": "Tablelands Parks Canada", "url": "https://parks.canada.ca/pn-np/nl/grosmorne/activ/experiences/tablelands" },
+    { "label": "Woody Point Tourism", "url": "https://woodypoint.ca/" },
+    { "label": "Western Brook Pond BonTours", "url": "https://bontours.ca/tours/western-brook-pond/" },
+    { "label": "Lobster Cove Head Parks Canada", "url": "https://parks.canada.ca/pn-np/nl/grosmorne/activ/experiences/lobster-cove-head" }
+  ],
+  "routeMap": {
+    "type": "schematic-latlon",
+    "note": "Real OpenStreetMap route view using daily pins. Newfoundland ferry and road segments should be re-checked against current schedules before booking.",
+    "startLabel": "St. John's",
+    "endLabel": "Deer Lake Airport"
+  }
+}

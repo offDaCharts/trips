@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173a35" />
+    <meta
+      name="description"
+      content="A cinematic 14-day route from Zurich through Austria's alpine lakes and into Slovenia, with a Venice open-jaw finish."
+    />
+    <title>Alpine Thread — Zürich to Slovenia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./route.css?v=1" />
+  </head>
+  <body>
+    <a class="skip-link" href="#route">Skip to route</a>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="../../index.html">
+        <span class="brand-mark">AT</span>
+        <span>Alpine Thread</span>
+      </a>
+      <nav aria-label="Page navigation">
+        <a href="#route">Route</a>
+        <a href="#map">Map</a>
+        <a href="#fly-out">Fly out</a>
+        <a href="#inspiration">Inspiration</a>
+      </nav>
+      <a class="header-cta" href="#verdict">My pick <span aria-hidden="true">↘</span></a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker"><span></span> The Alps, threaded east</p>
+          <h1 id="hero-title">Start in Zürich.<br /><em>Keep going.</em></h1>
+          <p class="hero-lede">
+            A 14-day open-jaw route through high lakes, storybook villages, and two distinct
+            sides of the Alps—ending where the water turns impossibly blue.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#route">Explore the route <span aria-hidden="true">↓</span></a>
+            <a class="text-button" href="#fly-out">Why finish in Venice? <span aria-hidden="true">↗</span></a>
+          </div>
+          <dl class="hero-stats" aria-label="Route at a glance">
+            <div><dt>14</dt><dd>days</dd></div>
+            <div><dt>5</dt><dd>countries</dd></div>
+            <div><dt>5</dt><dd>scenic bases</dd></div>
+            <div><dt>1</dt><dd>one-way arc</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero-gallery" aria-label="Alpine route highlights">
+          <figure class="hero-photo hero-photo-main">
+            <img
+              src="../../assets/austria-days/day-07-gosausee-real.jpg"
+              alt="Gosausee reflecting the Dachstein mountains"
+            />
+            <figcaption><span>01</span> Gosausee, Austria</figcaption>
+          </figure>
+          <figure class="hero-photo hero-photo-top">
+            <img
+              src="../../assets/slovenia-julian-alps-venice-days/day-09-soca-river-kobarid-and-kozjak-waterfall.jpg"
+              alt="Turquoise Soča River flowing through a forested gorge"
+            />
+            <figcaption><span>02</span> Soča Valley, Slovenia</figcaption>
+          </figure>
+          <figure class="hero-photo hero-photo-bottom">
+            <img
+              src="../../assets/austria-days/day-08-hallstatt-real.jpg"
+              alt="Hallstatt village beside its alpine lake"
+            />
+            <figcaption><span>03</span> Hallstatt, Austria</figcaption>
+          </figure>
+          <div class="hero-seal" aria-hidden="true">
+            <span>47° N</span>
+            <strong>→</strong>
+            <span>13° E</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Route recommendation">
+        <p class="section-number">01 / THE IDEA</p>
+        <div>
+          <h2>The route gets better when you stop thinking in borders.</h2>
+          <p>
+            Zürich is the soft landing. Western Austria brings the first big alpine reveal.
+            Salzkammergut delivers the lakes. Slovenia gives the trip its wild, turquoise finale.
+          </p>
+        </div>
+        <aside>
+          <span class="verdict-pill">The short answer</span>
+          <strong>Yes—go into Slovenia.</strong>
+          <p>It adds contrast, not clutter, and sets up a smarter open-jaw flight home.</p>
+        </aside>
+      </section>
+
+      <section class="route-section" id="route" aria-labelledby="route-title">
+        <div class="section-head">
+          <div>
+            <p class="section-number">02 / THE ROUTE</p>
+            <h2 id="route-title">Choose your edge.</h2>
+          </div>
+          <div class="route-toggle" role="group" aria-label="Choose route version">
+            <button class="route-choice active" type="button" data-mode="full" aria-pressed="true">
+              <span>Recommended</span> Into Slovenia
+            </button>
+            <button class="route-choice" type="button" data-mode="austria" aria-pressed="false">
+              <span>Shorter</span> Austria only
+            </button>
+          </div>
+        </div>
+
+        <div class="route-summary" aria-live="polite">
+          <div>
+            <span>Fly into</span>
+            <strong id="start-airport">ZRH · Zürich</strong>
+          </div>
+          <div class="route-summary-line" aria-hidden="true"><span></span></div>
+          <div>
+            <span>Fly out of</span>
+            <strong id="end-airport">VCE · Venice</strong>
+          </div>
+          <p id="route-note">Best scenery-to-logistics ratio · one airport buffer night</p>
+        </div>
+
+        <div class="itinerary-shell">
+          <button class="scroll-arrow scroll-prev" type="button" aria-label="Scroll itinerary left">←</button>
+          <div class="itinerary-track" id="itinerary-track" tabindex="0" aria-label="Day-by-day route"></div>
+          <button class="scroll-arrow scroll-next" type="button" aria-label="Scroll itinerary right">→</button>
+        </div>
+        <p class="swipe-hint">Swipe the route <span aria-hidden="true">→</span></p>
+      </section>
+
+      <section class="map-section" id="map" aria-labelledby="map-title">
+        <div class="map-copy">
+          <p class="section-number">03 / ON THE MAP</p>
+          <h2 id="map-title">One clean line.<br />No big backtrack.</h2>
+          <p id="map-description">
+            The full route moves east and south: urban reset, western peaks, Austrian lake
+            country, then the Julian Alps. The only deliberate pause is the Venice airport
+            night before the flight home.
+          </p>
+          <div class="map-legend" aria-label="Map legend">
+            <span><i class="legend-road"></i> Scenic drive</span>
+            <span><i class="legend-base"></i> Overnight base</span>
+          </div>
+        </div>
+        <div class="map-frame">
+          <div id="route-map" aria-label="Interactive map of the route from Zürich through Austria and Slovenia"></div>
+          <div class="map-distance" id="map-distance"><strong>≈ 1,250 km</strong><span>across the full arc</span></div>
+        </div>
+      </section>
+
+      <section class="places-section" aria-labelledby="places-title">
+        <div class="section-head simple">
+          <div>
+            <p class="section-number">04 / DON'T MISS</p>
+            <h2 id="places-title">The moments that earn the miles.</h2>
+          </div>
+          <p>Six stops, each with a different kind of alpine payoff.</p>
+        </div>
+        <div class="place-grid">
+          <article class="place-card place-featured">
+            <img src="../../assets/austria-days/day-07-gosausee-real.jpg" alt="Gosausee and the Dachstein range" />
+            <div><span>Austria · essential</span><h3>Gosausee</h3><p>Walk the flat shoreline early, before the day-trippers and afternoon cloud.</p></div>
+          </article>
+          <article class="place-card">
+            <img src="../../assets/austria-days/day-08-hallstatt-real.jpg" alt="Hallstatt lakefront village" />
+            <div><span>Austria · dawn stop</span><h3>Hallstatt</h3><p>Treat it as a beautiful morning, not an all-day base.</p></div>
+          </article>
+          <article class="place-card">
+            <img src="../../assets/austria-days/day-13-salzburg-real.jpg" alt="Salzburg skyline and fortress" />
+            <div><span>Austria · culture</span><h3>Salzburg</h3><p>Old-town lanes, fortress views, and a civilized pause between lake days.</p></div>
+          </article>
+          <article class="place-card">
+            <img src="../../assets/slovenia-julian-alps-venice-days/day-07-kranjska-gora-and-lake-jasna-alpine-picnic.jpg" alt="Lake Jasna beneath the Julian Alps" />
+            <div><span>Slovenia · easy beauty</span><h3>Lake Jasna</h3><p>A low-effort picnic-and-paddle reset beneath serious peaks.</p></div>
+          </article>
+          <article class="place-card place-wide">
+            <img src="../../assets/slovenia-julian-alps-venice-days/day-09-soca-river-kobarid-and-kozjak-waterfall.jpg" alt="The clear turquoise Soča River" />
+            <div><span>Slovenia · the wild card</span><h3>Vršič → Soča</h3><p>Drive the pass one way, follow the river south, and let the color change the mood of the trip.</p></div>
+          </article>
+          <article class="place-card">
+            <img src="../../assets/slovenia-julian-alps-venice-days/day-03-lake-bled-island-castle-views-and-cream-cake.jpg" alt="Lake Bled with its island church" />
+            <div><span>Slovenia · finale</span><h3>Bled + Bohinj</h3><p>See the icon, then spend the slower day at the quieter lake.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="airport-section" id="fly-out" aria-labelledby="airport-title">
+        <div class="airport-intro">
+          <p class="section-number">05 / THE EXIT</p>
+          <h2 id="airport-title">Where should you fly out?</h2>
+          <p>The airport decision should follow the route—not bend the route back on itself.</p>
+        </div>
+        <div class="airport-grid">
+          <article class="airport-card airport-winner">
+            <div class="airport-topline"><span>Best overall</span><strong>01</strong></div>
+            <p class="airport-code">VCE</p>
+            <h3>Venice Marco Polo</h3>
+            <p>Best for the full Slovenia version. Sleep by the airport and keep the final morning calm.</p>
+            <ul>
+              <li>≈ 2h 45m from Bled</li>
+              <li>Delta’s summer network includes ATL–VCE service</li>
+              <li>True open-jaw: zero alpine backtracking</li>
+            </ul>
+            <a href="https://www.delta.com/us/en/flight-deals/europe-flights/flights-to-italy" target="_blank" rel="noreferrer">Check Delta <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="airport-card">
+            <div class="airport-topline"><span>Least driving</span><strong>02</strong></div>
+            <p class="airport-code">LJU</p>
+            <h3>Ljubljana</h3>
+            <p>The easy-ground option if a one-stop fare beats Venice enough to matter.</p>
+            <ul>
+              <li>≈ 35m from Bled</li>
+              <li>Usually one stop to Atlanta</li>
+              <li>No cross-border rental return</li>
+            </ul>
+            <a href="https://www.lju-airport.si/en/" target="_blank" rel="noreferrer">See airport <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="airport-card">
+            <div class="airport-topline"><span>Austria-only pivot</span><strong>03</strong></div>
+            <p class="airport-code">MUC</p>
+            <h3>Munich</h3>
+            <p>The practical finish if you stop in Salzburg and skip the Slovenia chapter.</p>
+            <ul>
+              <li>≈ 1h 45m from Salzburg</li>
+              <li>Strong nonstop Atlanta option</li>
+              <li>Easy one-country rental return</li>
+            </ul>
+            <a href="https://www.munich-airport.com/" target="_blank" rel="noreferrer">See airport <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <p class="flight-caveat">
+          Flight schedules and rental-car cross-border fees change. Re-check the exact Aug 31–Sep 13,
+          2026 pattern before booking; the route recommendation is about geography first.
+        </p>
+      </section>
+
+      <section class="inspiration-section" id="inspiration" aria-labelledby="inspiration-title">
+        <div class="inspiration-heading">
+          <p class="section-number">06 / RYAN SHIRLEY CUT</p>
+          <h2 id="inspiration-title">The videos behind the route.</h2>
+          <p>
+            These chapters supplied the visual short list; the actual sequence is rebuilt for a
+            comfortable eastbound road trip.
+          </p>
+        </div>
+        <div class="video-grid">
+          <a class="video-card" href="https://www.youtube.com/watch?v=pfdb6u4HDoQ&t=229s" target="_blank" rel="noreferrer">
+            <div class="video-thumb">
+              <img src="https://i.ytimg.com/vi/pfdb6u4HDoQ/maxresdefault.jpg" alt="Ryan Shirley Switzerland travel guide thumbnail" />
+              <span class="play">▶</span><span class="timestamp">03:49</span>
+            </div>
+            <div><span>Switzerland</span><h3>Top 25 Places to Visit</h3><p>Zürich, Appenzell, and the east-Swiss handoff.</p></div>
+          </a>
+          <a class="video-card" href="https://www.youtube.com/watch?v=tl223Zu09CE&t=91s" target="_blank" rel="noreferrer">
+            <div class="video-thumb">
+              <img src="https://i.ytimg.com/vi/tl223Zu09CE/maxresdefault.jpg" alt="Ryan Shirley Austria travel guide thumbnail" />
+              <span class="play">▶</span><span class="timestamp">01:31</span>
+            </div>
+            <div><span>Austria</span><h3>Top 25 Places to Visit</h3><p>Lünersee, Hallstatt, Gosausee, Salzburg, and the lake country.</p></div>
+          </a>
+          <a class="video-card" href="https://www.youtube.com/watch?v=cuhENXdPNOQ&t=79s" target="_blank" rel="noreferrer">
+            <div class="video-thumb">
+              <img src="https://i.ytimg.com/vi/cuhENXdPNOQ/maxresdefault.jpg" alt="Ryan Shirley Slovenia travel guide thumbnail" />
+              <span class="play">▶</span><span class="timestamp">01:19</span>
+            </div>
+            <div><span>Slovenia</span><h3>Top 25 Places to Visit</h3><p>Soča, Kranjska Gora, Bled, Bohinj, and the Julian Alps.</p></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="verdict-section" id="verdict" aria-labelledby="verdict-title">
+        <div class="verdict-image">
+          <img src="../../assets/slovenia-julian-alps-venice-days/day-05-transfer-to-bohinj-and-vogel-mountain-views.jpg" alt="Lake Bohinj and the Julian Alps" />
+        </div>
+        <div class="verdict-copy">
+          <p class="section-number light">07 / MY CALL</p>
+          <h2 id="verdict-title">Book the longer line.</h2>
+          <p class="verdict-lede">
+            Austria is the heart of the trip. Slovenia is what makes it memorable.
+          </p>
+          <div class="verdict-notes">
+            <div><span>01</span><p><strong>Keep Zürich short.</strong> One recovery night is enough before the landscapes take over.</p></div>
+            <div><span>02</span><p><strong>Give Salzkammergut four nights.</strong> It is the densest concentration of the trip’s best lake days.</p></div>
+            <div><span>03</span><p><strong>Protect the final night.</strong> Stay at Venice airport instead of gambling on a border-crossing flight morning.</p></div>
+          </div>
+          <a class="light-button" href="#route">Run the route again <span aria-hidden="true">↑</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#top"><span class="brand-mark">AT</span><span>Alpine Thread</span></a>
+      <p>Built as a route concept for 2 adults + 1 little traveler · Aug 31–Sep 13, 2026</p>
+      <a href="../../index.html">Back to Trip Planning HQ <span aria-hidden="true">↗</span></a>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="./route.js?v=1"></script>
+  </body>
+</html>

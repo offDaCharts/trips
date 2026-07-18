@@ -1,0 +1,578 @@
+{
+  "lastUpdated": "2026-06-22",
+  "planningWindow": "Target around September 3-16, 2026, flexible by 1-2 days",
+  "notes": [
+    "Flight pricing and exact hotel availability still need a departure airport and live booking pass.",
+    "Budget ranges are planning placeholders for two adults and one lap/seat-flexible one-year-old, excluding unusually expensive business-class flights.",
+    "For baby-friendly planning, prefer two- or three-base itineraries, short hikes, kitchens/laundry where possible, and one or two memorable splurge nights rather than luxury every night."
+  ],
+  "trips": [
+    {
+      "id": "austria-switzerland-germany",
+      "name": "Austria + Alpine Borders",
+      "vibe": "Closest to the Switzerland magic",
+      "fitScore": 9,
+      "route": "Munich or Zurich · Tyrol · Lech/Arlberg · Bavaria or Appenzell",
+      "budget": "$9.5k-$12.5k",
+      "september": "Excellent hiking shoulder season",
+      "babyPacing": "Best with 3 bases and trains/short drives",
+      "summary": "The strongest match for alpine farms, cowbells, polished wellness, mountain lifts, and cozy food culture without repeating Zermatt/Interlaken.",
+      "editorialNote": "Best version: focus Austria/Tyrol + Bavaria or eastern Switzerland. True western Switzerland adds distance and may dilute the relaxed family pace.",
+      "ratings": {
+        "babyEase": "High",
+        "farmFood": "Excellent",
+        "wellness": "Excellent",
+        "flightEffort": "Moderate"
+      },
+      "bestFor": [
+        "Farm animals, alpine meadow walks, cable cars, and stroller/carrier-friendly mountain towns.",
+        "A one-night or two-night splurge at a true farm-and-spa resort.",
+        "Recreating the emotional tone of Switzerland while seeing new terrain."
+      ],
+      "watchouts": [
+        "Can become too many countries unless the route is kept disciplined.",
+        "High-end family rooms at the best resorts can push the full trip above $10k.",
+        "Car seats, luggage, and train transfers need careful choreography."
+      ],
+      "stays": [
+        {
+          "name": "Bio-Hotel Stanglwirt",
+          "url": "https://www.stanglwirt.com/en/",
+          "note": "organic farm, children's farm, spa, pools, mountain setting; ideal splurge candidate"
+        },
+        {
+          "name": "Rote Wand Gourmet Hotel",
+          "url": "https://www.rotewand.com/en/",
+          "note": "Lech/Arlberg food-forward alpine base with spa and hiking"
+        },
+        {
+          "name": "Hotel Krallerhof",
+          "url": "https://www.krallerhof.com/en/",
+          "note": "major wellness resort in Leogang; more spa-forward than farm-forward"
+        }
+      ],
+      "activities": [
+        {
+          "name": "Farm Holidays Austria",
+          "url": "https://www.farmholidays.com/en",
+          "note": "use for authentic farm nights if luxury resort nights are too expensive"
+        },
+        {
+          "name": "Wilder Kaiser / Tyrol hiking",
+          "url": "https://www.tyrol.com/",
+          "note": "gentle lift-assisted walks, villages, alpine huts"
+        },
+        {
+          "name": "Lech summer hiking",
+          "url": "https://www.lechzuers.com/en/summer",
+          "note": "high-end alpine village with food and trail access"
+        }
+      ],
+      "links": [
+        {
+          "label": "Stanglwirt resort",
+          "url": "https://www.stanglwirt.com/en/hotel/hotel.html"
+        },
+        {
+          "label": "Stanglwirt 2026 prices PDF",
+          "url": "https://www.stanglwirt.com/media/blaetterkataloge/Stangl-Preisinfo-2026-EN-Einzelseiten.pdf"
+        },
+        {
+          "label": "Austria hotel collection",
+          "url": "https://www.austria.info/en-us/recommendations/austria-hotel-collection/rote-wand/"
+        }
+      ],
+      "image": {
+        "url": "./assets/austria-wilder-kaiser.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ellmau_Wilder_Kaiser.jpg",
+        "alt": "The Wilder Kaiser mountain range above green alpine meadows."
+      }
+    },
+    {
+      "id": "banff-canadian-rockies",
+      "name": "Banff + Lake Louise",
+      "vibe": "Big turquoise-lake drama",
+      "fitScore": 8,
+      "route": "Calgary · Canmore/Banff · Lake Louise · Icefields Parkway",
+      "budget": "$8.5k-$12k",
+      "september": "Great weather window; popular but easing",
+      "babyPacing": "High if based in Canmore/Banff plus 2-3 Lake Louise nights",
+      "summary": "A visually spectacular, relatively straightforward mountain trip with excellent stroller-friendly walks, lakefront splurge options, and easy road-trip logistics.",
+      "editorialNote": "This is probably the easiest North American version of the Switzerland feeling, but it is less farmstead-forward than Austria or Iceland.",
+      "ratings": {
+        "babyEase": "High",
+        "farmFood": "Medium",
+        "wellness": "High",
+        "flightEffort": "Easy-Moderate"
+      },
+      "bestFor": [
+        "Lake Louise Lakeshore, Bow River Pathway, Johnston Canyon, gondolas, and scenic drives.",
+        "A lower-friction international trip with a baby.",
+        "One polished spa/lakefront stay surrounded by simpler condo nights."
+      ],
+      "watchouts": [
+        "Lake Louise and Moraine Lake lodging can be extremely expensive.",
+        "Moraine Lake access requires shuttle planning; private cars are restricted.",
+        "Farm-to-table exists, but the trip is more national-park lodge than farmstay."
+      ],
+      "stays": [
+        {
+          "name": "Fairmont Chateau Lake Louise",
+          "url": "https://www.chateau-lake-louise.com/",
+          "note": "iconic lakefront resort; spa/wellness splurge candidate"
+        },
+        {
+          "name": "Post Hotel & Spa",
+          "url": "https://posthotel.com/",
+          "note": "Lake Louise village, spa, refined food, less directly on the lake"
+        },
+        {
+          "name": "Moraine Lake Lodge",
+          "url": "https://morainelake.com/",
+          "note": "unmatched setting, likely above target for more than 1-2 nights"
+        }
+      ],
+      "activities": [
+        {
+          "name": "Lake Louise Lakeshore",
+          "url": "https://posthotel.com/blog/staying-in-lake-louise-with-kids-the-ultimate-all-season-guide",
+          "note": "stroller-friendly classic"
+        },
+        {
+          "name": "Banff kid-friendly summer activities",
+          "url": "https://www.banfflakelouise.com/blog/kid-friendly-activities-Banff-Lake-Louise-Summer",
+          "note": "official tourism ideas for easy walks, canoeing, cruises, museums"
+        },
+        {
+          "name": "Fairmont Spa",
+          "url": "https://www.chateau-lake-louise.com/wellness/spa/",
+          "note": "post-hike wellness option"
+        }
+      ],
+      "links": [
+        {
+          "label": "Banff accommodations",
+          "url": "https://www.banfflakelouise.com/accommodation"
+        },
+        {
+          "label": "Family hikes",
+          "url": "https://www.banfflakelouise.com/blog/Hiking-with-kids-Banff-National-Park"
+        },
+        {
+          "label": "Lake Louise with kids",
+          "url": "https://posthotel.com/blog/staying-in-lake-louise-with-kids-the-ultimate-all-season-guide"
+        }
+      ],
+      "image": {
+        "url": "./assets/banff-moraine-lake.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moraine_Lake-Banff_NP.JPG",
+        "alt": "Turquoise Moraine Lake surrounded by Canadian Rocky Mountain peaks."
+      }
+    },
+    {
+      "id": "iceland-golden-circle-south-coast",
+      "name": "Iceland Farm + South Coast",
+      "vibe": "Otherworldly and farmy",
+      "fitScore": 8,
+      "route": "Reykjavik · Golden Circle farm stay · South Coast · Snæfellsnes optional",
+      "budget": "$8k-$11.5k",
+      "september": "Good shoulder season, variable wind/rain",
+      "babyPacing": "High if self-drive route stays compact",
+      "summary": "The best farmstay candidate outside the Alps: cows, horses, geothermal pools, waterfalls, short walks, and huge landscapes without needing long hikes.",
+      "editorialNote": "Blue Lagoon is not suitable for a one-year-old in the water because the minimum age is two; Secret Lagoon and local pools are better planning targets.",
+      "ratings": {
+        "babyEase": "High",
+        "farmFood": "Excellent",
+        "wellness": "Medium-High",
+        "flightEffort": "Moderate"
+      },
+      "bestFor": [
+        "Farm-to-table meals with animals directly integrated into the stay.",
+        "Short scenic stops that work around naps: waterfalls, black beaches, horses, geothermal areas.",
+        "A trip that feels different from Switzerland while still nature-first."
+      ],
+      "watchouts": [
+        "Weather can be windy and wet; every day needs a backup plan.",
+        "The Ring Road is too much with a one-year-old in 12-14 days unless you want lots of driving.",
+        "Some famous spas have child age limits."
+      ],
+      "stays": [
+        {
+          "name": "Efstidalur Farm Hotel",
+          "url": "https://efstidalur.is/farm-hotel/",
+          "note": "Golden Circle farm hotel with cows, farm-to-table restaurant, ice cream"
+        },
+        {
+          "name": "Hotel Ranga",
+          "url": "https://hotelranga.is/",
+          "note": "South Coast comfort base; good splurge alternative"
+        },
+        {
+          "name": "Reykjavik apartment hotel",
+          "url": "https://www.visitreykjavik.is/",
+          "note": "practical first/last base with kitchen and walkability"
+        }
+      ],
+      "activities": [
+        {
+          "name": "Efstidalur farm-to-table restaurant",
+          "url": "https://efstidalur.is/restaurant/",
+          "note": "eat while watching the cows"
+        },
+        {
+          "name": "Secret Lagoon",
+          "url": "https://secretlagoon.is/",
+          "note": "geothermal pool near Fludir; child policy is more family-friendly"
+        },
+        {
+          "name": "Golden Circle with kids",
+          "url": "https://goldencircle.is/blog/golden-circle-with-kids",
+          "note": "family pacing guidance"
+        }
+      ],
+      "links": [
+        {
+          "label": "Blue Lagoon age policy",
+          "url": "https://support.bluelagoon.com/hc/en-us"
+        },
+        {
+          "label": "Visit South Iceland farms",
+          "url": "https://www.south.is/en/food-accommodation/accommodation/farm-holidays"
+        },
+        {
+          "label": "Guide to Iceland farm stays",
+          "url": "https://guidetoiceland.is/accommodation/farm-accommodations"
+        }
+      ],
+      "image": {
+        "url": "./assets/iceland-horses.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Icelandic_Horses,_Borgarnes,_Iceland.jpg",
+        "alt": "Icelandic horses in a rural farm landscape."
+      }
+    },
+    {
+      "id": "scotland-highlands",
+      "name": "Scotland Highlands",
+      "vibe": "Castles, lochs, farms, cozy weather",
+      "fitScore": 7,
+      "route": "Edinburgh · Perthshire/Trossachs · Cairngorms · Skye or west coast",
+      "budget": "$8.5k-$12k",
+      "september": "Atmospheric, shoulder season, rain likely",
+      "babyPacing": "Medium-High with a slower route",
+      "summary": "A gentler cultural/nature blend: Highland animals, lochs, castles, farm hotels, dramatic drives, and excellent food if the itinerary avoids too much road time.",
+      "editorialNote": "This may be the best non-Alps emotional trip: less vertical hiking, more storybook villages, farm tours, estate activities, and cozy downtime.",
+      "ratings": {
+        "babyEase": "Medium-High",
+        "farmFood": "High",
+        "wellness": "High",
+        "flightEffort": "Moderate"
+      },
+      "bestFor": [
+        "Farm tours, Highland cows, lochside hotels, castles, gentle walks, and moody scenery.",
+        "A few nights at a grand resort or food-focused farm hotel.",
+        "Pairing outdoors with indoor backup plans."
+      ],
+      "watchouts": [
+        "Skye and west coast routes can involve long drives with a baby.",
+        "Weather is a real part of the trip; waterproof gear matters.",
+        "Some luxury hotels are more adult-artful than toddler-practical."
+      ],
+      "stays": [
+        {
+          "name": "Gleneagles",
+          "url": "https://gleneagles.com/",
+          "note": "850-acre luxury estate with family activities, spa, dining"
+        },
+        {
+          "name": "Monachyle Mhor",
+          "url": "https://monachylemhor.net/",
+          "note": "boutique lochside farm hotel and restaurant on a 2,000-acre estate"
+        },
+        {
+          "name": "The Fife Arms",
+          "url": "https://thefifearms.com/",
+          "note": "Braemar artful Highland splurge near Cairngorms"
+        }
+      ],
+      "activities": [
+        {
+          "name": "Gleneagles family activities",
+          "url": "https://gleneagles.com/pursuits/family-activities/",
+          "note": "horses, paddling, falconry, gundog experience"
+        },
+        {
+          "name": "Life at Mhor Farm Tour",
+          "url": "https://monachyle-mhor-hotel.live.baluu.co.uk/event/farm-tours-1759833788",
+          "note": "meet donkeys, goats, ponies, and Highland cow"
+        },
+        {
+          "name": "VisitScotland Highlands for kids",
+          "url": "https://www.visitscotland.com/things-to-do/family/highlands-for-kids",
+          "note": "official family itinerary ideas"
+        }
+      ],
+      "links": [
+        {
+          "label": "VisitScotland Highlands",
+          "url": "https://www.visitscotland.com/places-to-go/highlands"
+        },
+        {
+          "label": "Fife Arms wellness",
+          "url": "https://thefifearms.com/wellness/"
+        },
+        {
+          "label": "Monachyle Mhor farm",
+          "url": "https://monachylemhor.net/farm/"
+        }
+      ],
+      "image": {
+        "url": "./assets/scotland-skye.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Quiraing%20Isle%20of%20Skye",
+        "alt": "Green ridges and cliffs on the Isle of Skye in the Scottish Highlands."
+      }
+    },
+    {
+      "id": "grand-teton-jackson-hole",
+      "name": "Grand Teton + Jackson Hole",
+      "vibe": "Classic American mountain park",
+      "fitScore": 7,
+      "route": "Jackson · Grand Teton · optional Yellowstone edge",
+      "budget": "$7.5k-$11k",
+      "september": "Excellent wildlife and cooler hiking",
+      "babyPacing": "Medium-High if drives are short",
+      "summary": "A beautiful, simpler domestic mountain trip with iconic views, lakeside walks, cabins, wildlife, and easier logistics than Alaska.",
+      "editorialNote": "This is strong for scenery and ease, weaker for farm-to-table/farmstay unless paired with Jackson-area ranch stays or one big splurge.",
+      "ratings": {
+        "babyEase": "Medium-High",
+        "farmFood": "Medium",
+        "wellness": "Medium",
+        "flightEffort": "Moderate"
+      },
+      "bestFor": [
+        "Short hikes like Taggart Lake, lakeshore walks, Jenny Lake boat, wildlife drives.",
+        "A domestic trip with less passport and time-zone complexity.",
+        "Cabins and kitchenettes that make baby logistics easier."
+      ],
+      "watchouts": [
+        "Jackson Hole lodging can be expensive for what you get.",
+        "September can bring chilly mornings and early snow at elevation.",
+        "Yellowstone add-on increases drive time quickly."
+      ],
+      "stays": [
+        {
+          "name": "Jenny Lake Lodge",
+          "url": "https://www.gtlc.com/lodges/jenny-lake-lodge",
+          "note": "AAA Four-Diamond cabins inside Grand Teton; prime splurge"
+        },
+        {
+          "name": "Jackson Lake Lodge",
+          "url": "https://www.gtlc.com/lodges/jackson-lake-lodge",
+          "note": "central in-park base with pool and dining"
+        },
+        {
+          "name": "Spring Creek Ranch",
+          "url": "https://www.springcreekranch.com/",
+          "note": "wildlife sanctuary views, villas/condos, spa amenities"
+        }
+      ],
+      "activities": [
+        {
+          "name": "Grand Teton hiking",
+          "url": "https://www.nps.gov/grte/planyourvisit/hike.htm",
+          "note": "NPS trail guidance and condition checks"
+        },
+        {
+          "name": "Taggart Lake",
+          "url": "https://www.utahsadventurefamily.com/grand-teton-kid-hikes/",
+          "note": "popular family-friendly lake hike"
+        },
+        {
+          "name": "Grand Teton Lodge activities",
+          "url": "https://www.gtlc.com/",
+          "note": "float trips, horseback riding, marina activities"
+        }
+      ],
+      "links": [
+        {
+          "label": "NPS Grand Teton",
+          "url": "https://www.nps.gov/grte/"
+        },
+        {
+          "label": "NPS lodging",
+          "url": "https://www.nps.gov/grte/planyourvisit/lodging.htm"
+        },
+        {
+          "label": "Signal Mountain Lodge",
+          "url": "https://www.signalmountainlodge.com/"
+        }
+      ],
+      "image": {
+        "url": "./assets/grand-teton.jpg",
+        "sourceUrl": "https://www.nps.gov/grte/index.htm",
+        "alt": "The Teton Range rising behind a lake in Grand Teton National Park."
+      }
+    },
+    {
+      "id": "alaska-kenai-anchorage",
+      "name": "Alaska Kenai + Anchorage",
+      "vibe": "Wild, huge, and memorable",
+      "fitScore": 6,
+      "route": "Anchorage · Girdwood · Seward/Kenai Fjords · Palmer/Matanuska",
+      "budget": "$9k-$14k",
+      "september": "Early Sept can work; services start tapering",
+      "babyPacing": "Medium with careful boat/weather choices",
+      "summary": "The biggest adventure candidate: glaciers, wildlife, coastal scenery, and lodges. It can be unforgettable, but it needs the most caution with weather, drive times, and baby comfort.",
+      "editorialNote": "Best as an Anchorage/Seward/Girdwood trip rather than trying to do Denali, Kenai, and remote lodges all at once.",
+      "ratings": {
+        "babyEase": "Medium",
+        "farmFood": "Medium",
+        "wellness": "Medium",
+        "flightEffort": "Moderate-Hard"
+      },
+      "bestFor": [
+        "Glaciers, wildlife centers, easy coastal walks, scenic train segments, and dramatic landscapes.",
+        "A once-in-a-while adventure if you are comfortable with weather variability.",
+        "One remote or semi-remote lodge splurge if budget allows."
+      ],
+      "watchouts": [
+        "Boat tours may be rough or too long with a one-year-old.",
+        "Luxury lodges can blow the budget quickly.",
+        "Some seasonal operations close around mid-September."
+      ],
+      "stays": [
+        {
+          "name": "Alaska Glacier Lodge",
+          "url": "https://www.akglacierlodge.com/",
+          "note": "Knik Glacier access, cabins, open May 15-Sep 15 per site"
+        },
+        {
+          "name": "Kenai Fjords Glacier Lodge",
+          "url": "https://www.alaskawildland.com/lodges/kenai-fjords-glacier-lodge/",
+          "note": "remote wilderness lodge; likely splurge and logistics-heavy"
+        },
+        {
+          "name": "Stillpoint Lodge",
+          "url": "https://stillpointlodge.com/",
+          "note": "wellness and farm-to-table luxury near Halibut Cove/Homer"
+        }
+      ],
+      "activities": [
+        {
+          "name": "Alaska itineraries for kids under 5",
+          "url": "https://www.alaska.org/trip-ideas/itineraries-for-families-with-kids-under-5",
+          "note": "excellent fit for baby-specific planning"
+        },
+        {
+          "name": "Alaska Wildlife Conservation Center",
+          "url": "https://alaskawildlife.org/",
+          "note": "easy wildlife day near Girdwood/Portage"
+        },
+        {
+          "name": "Travel Alaska family national parks",
+          "url": "https://www.travelalaska.com/explore-alaska/articles/family-vacation-alaskas-national-parks",
+          "note": "glacier and wildlife ideas"
+        }
+      ],
+      "links": [
+        {
+          "label": "Travel Alaska resorts",
+          "url": "https://www.travelalaska.com/explore-alaska/articles/alaska-wilderness-resorts-luxury-adventure"
+        },
+        {
+          "label": "Alaska family vacations",
+          "url": "https://www.alaskatravel.com/vacations/family/"
+        },
+        {
+          "label": "Within the Wild",
+          "url": "https://withinthewild.com/"
+        }
+      ],
+      "image": {
+        "url": "./assets/alaska-aialik-glacier.jpg",
+        "sourceUrl": "https://www.nps.gov/kefj/index.htm",
+        "alt": "A tidewater glacier in Kenai Fjords National Park, Alaska."
+      }
+    },
+    {
+      "id": "newfoundland-labrador-coast",
+      "name": "Newfoundland Coast + Gros Morne",
+      "vibe": "Atlantic villages and wild fjord coast",
+      "fitScore": 7,
+      "route": "St. John's · Trinity/Bonavista · Twillingate · Fogo Island · Gros Morne",
+      "budget": "$9.8k-$11.5k",
+      "september": "Strong shoulder-season fit, with weather and boat flexibility needed",
+      "babyPacing": "Medium-High if drives are broken and boat days stay optional",
+      "summary": "A distinctive Atlantic Canada trip with colorful St. John's, puffins/lighthouses, fishing villages, Fogo Island design-and-coast splurge potential, and a Gros Morne mountain-and-fjord finale.",
+      "editorialNote": "Best version flies open-jaw into St. John's and home from Deer Lake. Fogo Island Inn is a special upgrade, not the baseline stay, because it can overwhelm the budget.",
+      "ratings": {
+        "babyEase": "Medium-High",
+        "farmFood": "Medium",
+        "wellness": "Medium",
+        "flightEffort": "Moderate"
+      },
+      "bestFor": [
+        "A place that feels culturally and visually different from the Alps/Rockies while staying nature-first.",
+        "Short coastal walks, lighthouses, village food, puffin/whale options, and dramatic Gros Morne scenery.",
+        "A controlled Fogo Island splurge without making the whole trip luxury-priced."
+      ],
+      "watchouts": [
+        "Boat tours and ferries need weather-flexible planning with a one-year-old.",
+        "Distances across Newfoundland are real; Fogo plus Gros Morne creates one long transfer day.",
+        "Puffin sightings are seasonal and may be late by early September."
+      ],
+      "stays": [
+        {
+          "name": "Blue on Water",
+          "url": "https://blueonwater.com/",
+          "note": "walkable St. John's arrival base"
+        },
+        {
+          "name": "Fisher's Loft Inn",
+          "url": "https://fishersloft.com/",
+          "note": "Port Rexton/Trinity base for Skerwink, Bonavista, and village food"
+        },
+        {
+          "name": "Neddies Harbour Inn",
+          "url": "https://www.neddiesharbourinn.com/",
+          "note": "Norris Point base for Gros Morne finale"
+        }
+      ],
+      "activities": [
+        {
+          "name": "Gros Morne National Park",
+          "url": "https://parks.canada.ca/pn-np/nl/grosmorne",
+          "note": "Tablelands, Western Brook Pond, Bonne Bay, and easy scenic stops"
+        },
+        {
+          "name": "Skerwink Trail",
+          "url": "https://www.hikediscovery.com/skerwink-trail/",
+          "note": "baby-adjusted carrier viewpoint version, not a mandatory full loop"
+        },
+        {
+          "name": "Fogo Island Ferry",
+          "url": "https://www.gov.nl.ca/ti/ferryservices/schedules/c-fogo-changeislands/",
+          "note": "critical schedule check for the Fogo Island detour"
+        }
+      ],
+      "links": [
+        {
+          "label": "Newfoundland and Labrador Tourism",
+          "url": "https://www.newfoundlandlabrador.com/"
+        },
+        {
+          "label": "Cape Spear Parks Canada",
+          "url": "https://parks.canada.ca/lhn-nhs/nl/spear"
+        },
+        {
+          "label": "Western Brook Pond BonTours",
+          "url": "https://bontours.ca/tours/western-brook-pond/"
+        }
+      ],
+      "image": {
+        "url": "./assets/newfoundland-days/day-13-western-brook-pond.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Brook_Pond.JPG",
+        "alt": "Western Brook Pond in Gros Morne National Park."
+      }
+    }
+  ]
+}

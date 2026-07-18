@@ -1,0 +1,809 @@
+{
+  "id": "austria-switzerland-germany",
+  "name": "Austria Alpine Farm + Lakes Loop",
+  "lastUpdated": "2026-06-22",
+  "priceSnapshotDate": "2026-06-22",
+  "dates": {
+    "depart": "2026-08-31",
+    "return": "2026-09-13",
+    "nights": 13,
+    "why": "Departing Monday, August 31 lands in Munich Tuesday, September 1, uses the full Aug 31-Sep 13 window, keeps the same low-backtracking alpine loop, and returns from Munich on Sunday, September 13."
+  },
+  "travelers": "2 adults + 1 infant-in-lap",
+  "currency": "USD",
+  "exchangeRateNote": "EUR items converted at 1 EUR = 1.10 USD for planning. Re-price before booking.",
+  "positioning": "Premium Austria/Bavaria alpine farm-and-lakes route with Bio-Hotel Stanglwirt as the default Wilder Kaiser farm/spa base, then Wolfgangsee, Hallstatt, Berchtesgaden, and Konigssee.",
+  "routeRationale": [
+    "Fly ATL-MUC nonstop on Delta, sleep at the airport, then rent the car after the overnight-flight recovery night.",
+    "Start in Wilder Kaiser because it is the closest alpine/farm/spa base to Munich and minimizes the first real drive.",
+    "Continue east to Salzkammergut/Wolfgangsee for the Ryan Shirley-style Austria highlights: Hallstatt, Gosausee, Dachstein, Schafberg, and lake villages.",
+    "Finish in Berchtesgaden/Salzburg because it adds the Germany-border mountain-lake piece and keeps the final drive back to Munich manageable.",
+    "Skip western Switzerland on this version because it adds a long westward detour and weakens the baby-friendly pacing."
+  ],
+  "budget": {
+    "flightTotal": 2366,
+    "lodgingTotal": 5120,
+    "carTransportTotal": 1540,
+    "activitiesTotal": 644,
+    "foodTotal": 2260,
+    "estimatedTripTotal": 11930,
+    "note": "Stanglwirt is now the default for four Wilder Kaiser nights because it best matches the farm resort, animals, mountains, and wellness brief. Cheaper option: swap those nights to a nearby Wilder Kaiser family farm/inn around $290/night to save roughly $1,756."
+  },
+  "flights": {
+    "recommended": {
+      "label": "Recommended Delta nonstop",
+      "fareSnapshot": 1053,
+      "fareSnapshotPerAdultRoundTrip": 1053,
+      "adultTickets": 2,
+      "adultFareTotal": 2106,
+      "infantInLapEstimate": 260,
+      "totalFlightBudget": 2366,
+      "cabin": "Main Cabin planning snapshot",
+      "outbound": {
+        "date": "2026-08-31",
+        "flight": "DL130",
+        "airline": "Delta",
+        "from": "ATL",
+        "to": "MUC",
+        "depart": "5:20 PM EDT",
+        "arrive": "8:25 AM CEST +1",
+        "duration": "about 9h 5m",
+        "aircraft": "Boeing 767-400"
+      },
+      "return": {
+        "date": "2026-09-13",
+        "flight": "DL131",
+        "airline": "Delta",
+        "from": "MUC",
+        "to": "ATL",
+        "depart": "10:25 AM CEST",
+        "arrive": "2:37 PM EDT",
+        "duration": "about 10h 12m",
+        "aircraft": "Boeing 767-400"
+      },
+      "infantNote": "Delta says infants under 2 may travel on an adult lap internationally at a reduced fare, generally 10% of adult fare plus international taxes/fees. Add infant-in-arms during booking or through Delta Reservations.",
+      "sourceLinks": [
+        "Delta flights to Germany",
+        "DL130 schedule source",
+        "DL131 schedule source",
+        "Delta infant travel policy",
+        "ATL-MUC fare snapshot"
+      ],
+      "priceSnapshotDate": "2026-06-22",
+      "budgetNote": "Planning snapshot kept from the Delta ATL-MUC nonstop; re-price DL130/DL131 for Aug 31-Sep 13 before booking."
+    },
+    "alternates": [
+      {
+        "label": "Lower fare search baseline",
+        "summary": "ATL-MUC round trips showed public OTA fares from about $752, but not necessarily Delta-operated nonstop. Use only if cash savings beat the value of Delta points/status.",
+        "estimatedTotalForTwoAdults": 1504
+      },
+      {
+        "label": "Same Delta nonstop, fixed Aug 31-Sep 13",
+        "summary": "Use DL130/DL131 on the Aug 31 outbound and Sep 13 return as the preferred Delta nonstop pattern; re-price because fares change by date.",
+        "estimatedTotalForTwoAdults": 2106
+      }
+    ]
+  },
+  "bases": [
+    {
+      "name": "Munich arrival reset",
+      "dates": "Sep 1-2",
+      "nights": 1,
+      "hotel": "Hilton Munich Airport",
+      "room": "Family-friendly airport room, crib requested",
+      "nightlyRate": 194,
+      "total": 194,
+      "why": "Removes pressure after the overnight flight before starting mountain driving.",
+      "bookingUrl": "https://www.hilton.com/en/hotels/mucahit-hilton-munich-airport/"
+    },
+    {
+      "name": "Wilder Kaiser farm/spa splurge base",
+      "dates": "Sep 2-6",
+      "nights": 4,
+      "hotel": "Bio-Hotel Stanglwirt",
+      "room": "Family-friendly room; crib, kettle, and early dinner seating requested",
+      "nightlyRate": 729,
+      "total": 2916,
+      "why": "This is the special farm-and-wellness anchor: children’s farm, Lipizzaner horses, mountain grounds, pools, spa, and the strongest match to the Switzerland trip vibe.",
+      "bookingUrl": "https://www.stanglwirt.com/en/"
+    },
+    {
+      "name": "Wolfgangsee lakes base",
+      "dates": "Sep 6-10",
+      "nights": 4,
+      "hotel": "Wolfgangsee family guesthouse or Seevilla shoulder-season rate",
+      "room": "Lake-area double/family room with crib request",
+      "nightlyRate": 285,
+      "total": 1140,
+      "why": "Central for Gosausee, Hallstatt, Dachstein, Schafberg, and easy lake recovery days.",
+      "bookingUrl": "https://wolfgangsee.salzkammergut.at/en/accommodation.html"
+    },
+    {
+      "name": "Berchtesgaden practical mountain base",
+      "dates": "Sep 10-13",
+      "nights": 3,
+      "hotel": "Hotel AlpinaRos / Berchtesgaden family guesthouse",
+      "room": "Family room near town with breakfast",
+      "nightlyRate": 290,
+      "total": 870,
+      "why": "Mountain access and Konigssee scenery without defaulting to Kempinski rates.",
+      "bookingUrl": "https://www.berchtesgaden.de/en/accommodation"
+    }
+  ],
+  "dailyItinerary": [
+    {
+      "day": 1,
+      "slug": "day-01",
+      "date": "Mon Aug 31",
+      "title": "Delta nonstop ATL to Munich",
+      "heroImage": "/app/assets/austria-days/day-01-delta-atl-muc.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Flughafen_M%C3%BCnchen_Franz_Josef_Strau%C3%9F_-_Vorfeld_1_(Delta_Air_Lines_Boeing_767-400ER).JPG",
+      "overnight": "In flight",
+      "lodgingCost": 0,
+      "transport": "Depart ATL on Delta DL130 at 5:20 PM; arrive MUC at 8:25 AM on Sep 1.",
+      "transportCost": 2366,
+      "primaryActivity": "Overnight flight logistics: book two Main Cabin adult tickets, add infant-in-lap, request bassinet/bulkhead if available, and pack stroller/carrier strategy.",
+      "activityCost": 0,
+      "backupActivity": "If DL130 pricing spikes, hold the same nonstop schedule as preferred and compare KLM/Air France Delta-partner one-stop routings via AMS/CDG.",
+      "foodPlan": "Airport dinner/snacks before boarding; bring baby-safe pouch/snacks and bottles for takeoff/landing.",
+      "foodCost": 90,
+      "babyPlan": "Infant-in-lap. Delta international infant charge budgeted at $260, based on 10% adult fare plus taxes/fees guidance.",
+      "bookingPriority": "Book flights first; all hotel dates depend on this outbound. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 2456,
+      "sourceLinks": [
+        "Delta flights to Germany",
+        "DL130 schedule source",
+        "Delta infant travel policy"
+      ],
+      "why": "This is the logistics day that makes the whole trip sane: a single Delta nonstop from Atlanta to Munich means no European connection with a one-year-old, fewer bag transfers, and a predictable morning arrival.",
+      "moments": [
+        "Book DL130 as the anchor reservation, then add the infant-in-lap directly with Delta.",
+        "Use the evening departure to preserve a normal afternoon at home before the overnight flight.",
+        "Pack the cabin bag around sleep: carrier, stroller gate-check, bottles/snacks, pajamas, and one change for everyone."
+      ],
+      "costNote": "The transport line is the full round-trip flight budget for two adult tickets plus infant-in-lap estimate where applicable. Planning snapshot kept from the Delta ATL-MUC nonstop; re-price DL130/DL131 for Aug 31-Sep 13 before booking.",
+      "pitchTitle": "Why this setup matters",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Munich Airport arrival",
+        "lat": 48.3538,
+        "lon": 11.7861
+      }
+    },
+    {
+      "day": 2,
+      "slug": "day-02",
+      "date": "Tue Sep 1",
+      "title": "Arrive Munich and sleep reset",
+      "heroImage": "/app/assets/austria-days/day-02-munich-airport.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Entrance_to_Terminal_2_Munich_Airport_-_geograph.org.uk_-_7739.jpg",
+      "overnight": "Hilton Munich Airport",
+      "lodgingCost": 194,
+      "transport": "Walk from arrivals to Hilton Munich Airport; no rental car today.",
+      "transportCost": 45,
+      "primaryActivity": "Check in, nap, use the airport plaza for stroller movement, and do a light grocery/pharmacy run inside the airport if needed.",
+      "activityCost": 0,
+      "backupActivity": "If early check-in is unavailable, pay for day-use/early access or use luggage storage and the hotel lobby.",
+      "foodPlan": "Mountain Hub Social Dining or airport casual food; budget $145 for breakfast/snacks/early dinner.",
+      "foodCost": 150,
+      "babyPlan": "Protect sleep. This day intentionally has no sightseeing.",
+      "bookingPriority": "Book refundable Hilton night and request crib. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 389,
+      "sourceLinks": [
+        "Hilton Munich Airport",
+        "Hilton Expedia snapshot"
+      ],
+      "why": "This intentionally boring day buys back the trip. Instead of landing, renting a car, and immediately driving into the Alps while tired, we sleep at the airport and start the mountains rested.",
+      "moments": [
+        "Walk straight to the Hilton between the terminals after bags.",
+        "Use the airport plaza for stroller movement and easy food.",
+        "Do a pharmacy/grocery reset before leaving Munich the next morning."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "pitchTitle": "Why this setup matters",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Munich Airport reset",
+        "lat": 48.3538,
+        "lon": 11.7861
+      }
+    },
+    {
+      "day": 3,
+      "slug": "day-03",
+      "date": "Wed Sep 2",
+      "title": "Pick up car and arrive at Stanglwirt",
+      "heroImage": "/app/assets/austria-days/day-03-stanglwirt-aerial.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Ellmau_Wilder_Kaiser.jpg",
+      "overnight": "Bio-Hotel Stanglwirt",
+      "lodgingCost": 729,
+      "transport": "Pick up rental car at MUC. Drive Munich Airport → Going am Wilden Kaiser, about 1h45m before stops.",
+      "transportCost": 980,
+      "primaryActivity": "Arrive at Stanglwirt, explore the children's farm, Lipizzaner horses, pools, and mountain grounds.",
+      "activityCost": 0,
+      "backupActivity": "If the drive runs late, skip all outings and make this a pure resort/farm day.",
+      "foodPlan": "Stanglwirt casual dinner/Gasthof Stangl; budget $185.",
+      "foodCost": 170,
+      "babyPlan": "First proper crawl/play reset after two travel days; request crib, kettle, and early dinner seating.",
+      "bookingPriority": "Confirm room type and infant charges directly with Stanglwirt. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 1879,
+      "sourceLinks": [
+        "Stanglwirt official",
+        "Stanglwirt 2026 price PDF",
+        "Stanglwirt Beyond Green gallery"
+      ],
+      "why": "This is the reveal day: after the overnight flight and reset night, the trip becomes the alpine farm-and-spa vacation. Stanglwirt is the reason the route starts in Tyrol rather than chasing farther-flung sights first.",
+      "moments": [
+        "Arrive at the working organic resort with the Wilder Kaiser behind it.",
+        "Walk the children’s farm and horse areas so the baby has animals, grass, and space immediately.",
+        "Use the pool/spa complex as the parent reward after the first real drive."
+      ],
+      "costNote": "Stanglwirt is now the default because it is the clearest match for the farm resort + animals + wellness brief. Cheaper option: swap these four nights to Familienhotel Christoph or another Wilder Kaiser family farm/inn around $290/night, saving roughly $1,756 total.",
+      "pitchTitle": "Why this day is worth it",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Bio-Hotel Stanglwirt / Going",
+        "lat": 47.513,
+        "lon": 12.333
+      }
+    },
+    {
+      "day": 4,
+      "slug": "day-04",
+      "date": "Thu Sep 3",
+      "title": "Stanglwirt farm, horses, and Ellmau",
+      "heroImage": "/app/assets/austria-days/day-04-stanglwirt-horses.jpg",
+      "imageSource": "https://www.stanglwirt.com/en/",
+      "overnight": "Bio-Hotel Stanglwirt",
+      "lodgingCost": 729,
+      "transport": "Local drives under 20 minutes total.",
+      "transportCost": 25,
+      "primaryActivity": "Slow farm morning at Stanglwirt, then Ellmau village walk with Wilder Kaiser views.",
+      "activityCost": 35,
+      "backupActivity": "Use Stanglwirt pools/spa and indoor farm/resort spaces if weather is poor.",
+      "foodPlan": "Hotel breakfast included if rate allows; Ellmau cafe lunch; Stanglwirt dinner. Budget $180.",
+      "foodCost": 175,
+      "babyPlan": "This is the easiest baby day: animals, grass, pool, nap in same base.",
+      "bookingPriority": "Prebook one parent spa treatment during nap. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 964,
+      "sourceLinks": [
+        "Stanglwirt official",
+        "Stanglwirt Beyond Green gallery"
+      ],
+      "why": "This is the day that most directly sells the resort choice: animals and grass for the baby, mountain scenery for everyone, and spa/pool recovery without another long drive.",
+      "moments": [
+        "Start with the children’s farm and Lipizzaner horse areas before crowds or nap pressure build.",
+        "Use Ellmau/Going for a short village outing instead of a big hike.",
+        "Return early enough for pool/spa parent turns and a predictable dinner."
+      ],
+      "costNote": "Stanglwirt is the default for this block so the farm, horses, pools, and mountain grounds are part of the actual plan, not just an upgrade idea. Cheaper option: nearby Wilder Kaiser farm/inn lodging could save about $439 this night.",
+      "pitchTitle": "Why this day is worth it",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Ellmau / Wilder Kaiser",
+        "lat": 47.513,
+        "lon": 12.301
+      }
+    },
+    {
+      "day": 5,
+      "slug": "day-05",
+      "date": "Fri Sep 4",
+      "title": "Hexenwasser mountain play day",
+      "heroImage": "/app/assets/austria-days/day-05-hexenwasser-real.jpg",
+      "imageSource": "https://www.wilderkaiser.info/en/operating-and-seasonal-times.html",
+      "overnight": "Bio-Hotel Stanglwirt",
+      "lodgingCost": 729,
+      "transport": "Stanglwirt → Söll gondola base, about 20 minutes each way.",
+      "transportCost": 35,
+      "primaryActivity": "Hexenwasser Söll: lift-assisted sensory mountain paths, water play, alpine huts, and short carrier walks.",
+      "activityCost": 90,
+      "backupActivity": "Astberg/Going shorter lift outing or Stanglwirt pool day.",
+      "foodPlan": "Mountain hut lunch + hotel dinner; budget $170.",
+      "foodCost": 175,
+      "babyPlan": "Carrier recommended; stroller only for paved/lower sections. Keep total mountain time to 3-4 hours.",
+      "bookingPriority": "Check SkiWelt/Wilder Kaiser lift status the night before. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 1029,
+      "sourceLinks": [
+        "Wilder Kaiser lift operating times",
+        "Hexenwasser image/source"
+      ],
+      "why": "Hexenwasser is here because it turns a mountain-lift day into something a one-year-old can actually experience: water, textures, barefoot paths, alpine air, and short carrier walks.",
+      "moments": [
+        "Ride up from Söll into the mountain play area instead of doing a long hike.",
+        "Let the day revolve around sensory stations, water channels, huts, and views.",
+        "Leave early enough for a real nap back at Stanglwirt."
+      ],
+      "costNote": "Stanglwirt remains the default overnight after Hexenwasser so the day can end with pool/spa/farm downtime. Cheaper option: nearby Wilder Kaiser family inns likely save about $439 for the night.",
+      "pitchTitle": "Why this day is worth it",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Hexenwasser Soll",
+        "lat": 47.503,
+        "lon": 12.193
+      }
+    },
+    {
+      "day": 6,
+      "slug": "day-06",
+      "date": "Sat Sep 5",
+      "title": "Kufstein Fortress and wellness afternoon",
+      "heroImage": "/app/assets/austria-days/day-06-kufstein-real.jpg",
+      "imageSource": "https://houseofcastle.com/kufstein/",
+      "overnight": "Bio-Hotel Stanglwirt",
+      "lodgingCost": 729,
+      "transport": "Stanglwirt → Kufstein, about 35 minutes each way.",
+      "transportCost": 40,
+      "primaryActivity": "Kufstein Fortress for a culture break: panoramic fortress, old town lanes, and lunch before returning to the resort.",
+      "activityCost": 75,
+      "backupActivity": "Kitzbühel old town and cafe stroll if fortress timing is bad.",
+      "foodPlan": "Kufstein lunch + hotel dinner; budget $175.",
+      "foodCost": 170,
+      "babyPlan": "Use carrier for fortress grades/steps; stroller for old town only.",
+      "bookingPriority": "No advance booking required; verify opening hours that week. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 1014,
+      "sourceLinks": [
+        "Kufstein family price reference",
+        "Kufstein family price reference"
+      ],
+      "why": "Kufstein adds one castle/old-town day without breaking the alpine resort rhythm. It gives the trip a cultural beat before moving east to the lakes.",
+      "moments": [
+        "Take the fortress lift/funicular up for views over the Inn valley.",
+        "Walk Kufstein’s compact old town for lunch and a non-hiking change of pace.",
+        "Return to Stanglwirt for pool/spa instead of staying out all day."
+      ],
+      "costNote": "Stanglwirt remains the default for the final Tyrol night, giving one more wellness/farm reset before the Wolfgangsee transfer. Cheaper option: a practical Wilder Kaiser farm/inn would reduce the night by roughly $439.",
+      "pitchTitle": "Why this day is worth it",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Kufstein",
+        "lat": 47.583,
+        "lon": 12.17
+      }
+    },
+    {
+      "day": 7,
+      "slug": "day-07",
+      "date": "Sun Sep 6",
+      "title": "Transfer to Wolfgangsee via Gosausee",
+      "heroImage": "/app/assets/austria-days/day-07-gosausee-real.jpg",
+      "imageSource": "https://www.gasthof-gosausee.at/gasthof-gosausee/",
+      "overnight": "Wolfgangsee family guesthouse",
+      "lodgingCost": 285,
+      "transport": "Going → Gosausee → St. Wolfgang, about 3h15m total driving plus lake stop.",
+      "transportCost": 65,
+      "primaryActivity": "Gosausee lakeshore walk with Dachstein views; keep it as a scenic stop, not a full hike.",
+      "activityCost": 25,
+      "backupActivity": "If weather is poor, drive directly to St. Wolfgang and use the hotel/lakefront.",
+      "foodPlan": "Gosausee lunch stop + Seevilla/St. Wolfgang dinner; budget $165.",
+      "foodCost": 170,
+      "babyPlan": "Break transfer around nap; Gosausee is a simple carrier/stroller-view stop.",
+      "bookingPriority": "Book Seevilla 4 nights and request crib/parking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 545,
+      "sourceLinks": [
+        "Seevilla Wolfgangsee",
+        "Ryan-video-derived Austria place summary",
+        "Ryan Shirley inspiration - Hallstatt/Salzkammergut"
+      ],
+      "why": "This transfer day is routed through Gosausee because it gives a huge Dachstein-lake payoff without adding a full hiking day. It is one of the most photogenic “Austria guide video” style stops in the plan.",
+      "moments": [
+        "Drive east in two nap-friendly legs from Tyrol to Salzkammergut.",
+        "Use Gosausee as the scenic lunch/stretch stop: lake, Dachstein backdrop, stroller/carrier shoreline time.",
+        "Arrive at Wolfgangsee for four nights, which becomes the base for Hallstatt, Dachstein, and Schafberg."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "pitchTitle": "Why this day is worth it",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Gosausee transfer",
+        "lat": 47.533,
+        "lon": 13.5
+      }
+    },
+    {
+      "day": 8,
+      "slug": "day-08",
+      "date": "Mon Sep 7",
+      "title": "Hallstatt ferry, village, and lake views",
+      "heroImage": "/app/assets/austria-days/day-08-hallstatt-real.jpg",
+      "imageSource": "https://hallstattschifffahrt.at/en",
+      "overnight": "Wolfgangsee family guesthouse",
+      "lodgingCost": 285,
+      "transport": "St. Wolfgang → Obertraun/Hallstatt area, about 1h15m each way.",
+      "transportCost": 35,
+      "primaryActivity": "Park outside the tight village core, take the Hallstatt/Obertraun boat approach, walk the village, lakeside viewpoints, and cafe stop.",
+      "activityCost": 45,
+      "backupActivity": "If Hallstatt crowds are too much, use Bad Ischl + Wolfgangsee lake day instead.",
+      "foodPlan": "Hallstatt cafe lunch + St. Wolfgang dinner; budget $175.",
+      "foodCost": 170,
+      "babyPlan": "Stroller can work in parts but carrier is better for crowds/cobbles. Avoid the salt mine with a one-year-old.",
+      "bookingPriority": "Bring cash for some Hallstatt boat tickets; check parking before departure. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 535,
+      "sourceLinks": [
+        "Hallstatt boat prices",
+        "Salzwelten Hallstatt closure/price note",
+        "Ryan Shirley inspiration - Hallstatt/Salzkammergut",
+        "Hallstatt ferry image/source"
+      ],
+      "why": "Hallstatt is included because it is iconic for a reason, but the plan approaches it in the least stressful way: outside parking/boat approach, short village walk, then out before it becomes a long crowded day.",
+      "moments": [
+        "Use the ferry/boat approach for the cinematic lake arrival.",
+        "Walk the waterfront, church viewpoint, and cafe stops rather than forcing the salt mine.",
+        "Keep Obertraun or Bad Ischl as the escape hatch if crowds are too much."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "pitchTitle": "Why this day is worth it",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Hallstatt",
+        "lat": 47.562,
+        "lon": 13.649
+      }
+    },
+    {
+      "day": 9,
+      "slug": "day-09",
+      "date": "Tue Sep 8",
+      "title": "Dachstein glacier world",
+      "heroImage": "/app/assets/austria-days/day-09-dachstein.jpg",
+      "imageSource": "https://www.derdachstein.at/en/dachstein-news/opening-times",
+      "overnight": "Wolfgangsee family guesthouse",
+      "lodgingCost": 285,
+      "transport": "St. Wolfgang → Dachstein valley station, about 1h20m each way.",
+      "transportCost": 55,
+      "primaryActivity": "Dachstein cable car, suspension bridge / Stairway to Nothingness area, and glacier views if weather is clear.",
+      "activityCost": 95,
+      "backupActivity": "Rain/low cloud backup: Bad Ischl, lakefront cafes, and hotel wellness.",
+      "foodPlan": "Mountain/simple lunch + St. Wolfgang dinner; budget $180.",
+      "foodCost": 180,
+      "babyPlan": "Carrier day; check altitude/weather and keep exposure time short.",
+      "bookingPriority": "Reserve Dachstein gondola seat/time in advance only after weather window looks promising. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 615,
+      "sourceLinks": [
+        "Dachstein tickets",
+        "Ryan Shirley inspiration - Hallstatt/Salzkammergut"
+      ],
+      "why": "Dachstein is the “big alpine drama” day of the Salzkammergut base: cable car, glacier air, suspension bridge/Skywalk, and a view that feels different from the lower lake villages.",
+      "moments": [
+        "Only do this on a clear-weather window; otherwise swap with the lake day.",
+        "Ride the Dachstein gondola and keep the top-of-mountain time short.",
+        "Use carrier, layers, and a conservative turnaround because altitude/weather matter with a baby."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "pitchTitle": "Why this day is worth it",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Dachstein area",
+        "lat": 47.475,
+        "lon": 13.605
+      }
+    },
+    {
+      "day": 10,
+      "slug": "day-10",
+      "date": "Wed Sep 9",
+      "title": "SchafbergBahn and Wolfgangsee",
+      "heroImage": "/app/assets/austria-days/day-10-schafberg.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Schafberg_summit_station.jpg",
+      "overnight": "Wolfgangsee family guesthouse",
+      "lodgingCost": 285,
+      "transport": "Walk/short drive to SchafbergBahn in St. Wolfgang.",
+      "transportCost": 35,
+      "primaryActivity": "SchafbergBahn cog railway to Schafbergspitze for 360-degree Salzkammergut views, then lakefront downtime.",
+      "activityCost": 70,
+      "backupActivity": "Wolfgangsee boat ride or St. Wolfgang village/lake day if mountain weather is poor.",
+      "foodPlan": "Schafberg/lake lunch + Seevilla/St. Wolfgang dinner; budget $175.",
+      "foodCost": 170,
+      "babyPlan": "Train is baby-friendly if timed around nap; bring layers and carrier.",
+      "bookingPriority": "Reserve SchafbergBahn tickets/time if forecast is clear. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 560,
+      "sourceLinks": [
+        "SchafbergBahn prices",
+        "Ryan Shirley inspiration - Hallstatt/Salzkammergut"
+      ],
+      "why": "SchafbergBahn gives a mountain summit day without hiking: historic cog railway, Wolfgangsee views, and a memorable “we went up there” moment that still works with a baby.",
+      "moments": [
+        "Board the cog railway from St. Wolfgang instead of driving to another region.",
+        "Use the summit for views/photos, not a long walk.",
+        "Return to the lake for an easy afternoon and final Wolfgangsee dinner."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "pitchTitle": "Why this day is worth it",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Wolfgangsee / Schafberg",
+        "lat": 47.777,
+        "lon": 13.433
+      }
+    },
+    {
+      "day": 11,
+      "slug": "day-11",
+      "date": "Thu Sep 10",
+      "title": "Transfer to Berchtesgaden via Salzburg",
+      "heroImage": "/app/assets/austria-days/day-11-berchtesgaden-real.jpg",
+      "imageSource": "https://www.hogamagazin.de/das-kempinski-hotel-berchtesgaden-feiert-jubilaeum/",
+      "overnight": "Berchtesgaden family guesthouse",
+      "lodgingCost": 290,
+      "transport": "St. Wolfgang → Salzburg → Berchtesgaden, about 2h15m driving plus Salzburg stop.",
+      "transportCost": 75,
+      "primaryActivity": "Salzburg old town stroller walk and Mirabell Gardens lunch stop, then check into the Berchtesgaden family guesthouse base.",
+      "activityCost": 45,
+      "backupActivity": "Skip Salzburg and go direct to Kempinski for pool/spa if baby needs a quiet transfer.",
+      "foodPlan": "Salzburg lunch + Kempinski dinner; budget $190.",
+      "foodCost": 175,
+      "babyPlan": "Short transfer day; Salzburg is optional, not mandatory.",
+      "bookingPriority": "Book Kempinski 3 nights and request crib/early dining. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 585,
+      "sourceLinks": [
+        "Kempinski Berchtesgaden",
+        "Kempinski Expedia amenities",
+        "Ryan Shirley inspiration - Salzburg",
+        "Kempinski Berchtesgaden image/source"
+      ],
+      "why": "This transfer keeps the route efficient: Salzburg breaks up the drive, then Berchtesgaden becomes the lower-cost mountain base for Konigssee and the Bavaria finale.",
+      "moments": [
+        "Use Salzburg as a half-day stroller city, not a full itinerary burden.",
+        "See Mirabell Gardens, river/old town lanes, and lunch before the baby gets tired.",
+        "Arrive at Kempinski Berchtesgaden with time for pool/spa and mountain views."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted. Option for nicer/more expensive option here: use Kempinski Hotel Berchtesgaden for the three Berchtesgaden nights at roughly $624/night, adding about $1,000 total for the mountain-spa version.",
+      "pitchTitle": "Why this day is worth it",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Salzburg to Berchtesgaden",
+        "lat": 47.809,
+        "lon": 13.055
+      }
+    },
+    {
+      "day": 12,
+      "slug": "day-12",
+      "date": "Fri Sep 11",
+      "title": "Königssee boat and alpine lake day",
+      "heroImage": "/app/assets/austria-days/day-12-konigssee-real.jpg",
+      "imageSource": "https://www.seenschifffahrt.de/en/koenigssee/tickets-prices/prices",
+      "overnight": "Berchtesgaden family guesthouse",
+      "lodgingCost": 290,
+      "transport": "Kempinski → Schönau am Königssee, about 20 minutes each way.",
+      "transportCost": 40,
+      "primaryActivity": "Königssee electric boat to St. Bartholomä and back, with lakefront wandering and no long hike.",
+      "activityCost": 78,
+      "backupActivity": "Berchtesgaden village and hotel pool/spa if lake weather is poor.",
+      "foodPlan": "St. Bartholomä/lake lunch + Berchtesgaden dinner; budget $180.",
+      "foodCost": 175,
+      "babyPlan": "Boat is short enough to be realistic; keep return flexible.",
+      "bookingPriority": "Buy/hold boat tickets based on weather; infant is free by child policy. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 583,
+      "sourceLinks": [
+        "Königssee boat prices",
+        "Königssee image/source"
+      ],
+      "why": "Königssee is the Germany-border mountain-lake payoff: emerald water, quiet electric boats, Watzmann cliffs, and St. Bartholomä. It is scenic without requiring a hike.",
+      "moments": [
+        "Take the electric boat from Schönau to St. Bartholomä.",
+        "Walk the lakeshore and church area, then eat near the water.",
+        "Return before the day becomes too long; hotel pool/spa is the afternoon plan."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "pitchTitle": "Why this day is worth it",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Konigssee",
+        "lat": 47.591,
+        "lon": 12.988
+      }
+    },
+    {
+      "day": 13,
+      "slug": "day-13",
+      "date": "Sat Sep 12",
+      "title": "Salzburg Fortress or Berchtesgaden salt backup",
+      "heroImage": "/app/assets/austria-days/day-13-salzburg-real.jpg",
+      "imageSource": "https://www.festung-hohensalzburg.at/en/your-visit/tickets",
+      "overnight": "Berchtesgaden family guesthouse",
+      "lodgingCost": 290,
+      "transport": "Berchtesgaden → Salzburg, about 35 minutes each way.",
+      "transportCost": 35,
+      "primaryActivity": "Hohensalzburg Fortress with funicular, old town lunch, and Mirabell/river walk.",
+      "activityCost": 86,
+      "backupActivity": "Berchtesgaden Salt Mine/Celtic mountain area if Salzburg feels too urban; verify infant suitability first.",
+      "foodPlan": "Salzburg lunch + final Kempinski/Berchtesgaden dinner; budget $190.",
+      "foodCost": 180,
+      "babyPlan": "Carrier for fortress/cobbles; stroller for Mirabell and river sections.",
+      "bookingPriority": "Buy fortress tickets online to avoid waiting. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 591,
+      "sourceLinks": [
+        "Hohensalzburg tickets",
+        "Ryan Shirley inspiration - Salzburg",
+        "Hohensalzburg image/source"
+      ],
+      "why": "This is the polished cultural finale: Salzburg’s fortress gives history, views, and a satisfying city moment before the trip intentionally winds down.",
+      "moments": [
+        "Ride the funicular up to Hohensalzburg instead of walking the steep climb.",
+        "Use the fortress terraces and state-room/museum areas for views and history.",
+        "Pair with Mirabell/old town cafe time, then return to Berchtesgaden for the last mountain dinner."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "pitchTitle": "Why this day is worth it",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Berchtesgaden / Ramsau",
+        "lat": 47.632,
+        "lon": 13.003
+      }
+    },
+    {
+      "day": 14,
+      "slug": "day-14",
+      "date": "Sun Sep 13",
+      "title": "Return to Munich airport buffer night",
+      "heroImage": "/app/assets/austria-days/day-14-munich-airport-return.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Entrance_to_Terminal_2_Munich_Airport_-_geograph.org.uk_-_7739.jpg",
+      "overnight": "Home",
+      "lodgingCost": 0,
+      "transport": "Return MUC to ATL on Delta DL131, departing 10:25 AM and arriving 2:37 PM on Sep 13.",
+      "transportCost": 75,
+      "primaryActivity": "Pack, breakfast, final mountain view, drive to Munich Airport, return car, check in at Hilton.",
+      "activityCost": 0,
+      "backupActivity": "If everyone is doing well, stop briefly at Chiemsee; otherwise drive direct.",
+      "foodPlan": "Road lunch + airport hotel dinner; budget $160.",
+      "foodCost": 110,
+      "babyPlan": "Final logistics day intentionally boring so the Sep 16 flight is easy.",
+      "bookingPriority": "Keep the airport night. Do not replace it with a predawn drive. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "dayTotal": 185,
+      "sourceLinks": [
+        "Hilton Munich Airport",
+        "Hilton Munich Airport"
+      ],
+      "why": "This day is deliberately unglamorous because it protects the return flight. With a baby, a calm airport night is worth more than squeezing in one more sight.",
+      "moments": [
+        "Pack slowly after breakfast instead of rushing.",
+        "Drive Berchtesgaden to Munich Airport in daylight.",
+        "Return the rental car, sleep at the terminal hotel, and make the morning Delta flight easy."
+      ],
+      "costNote": "Departure-day baseline: return drive/airport food only; the return flight is already included in Day 1's flight budget. Planning snapshot kept from the Delta ATL-MUC nonstop; re-price DL130/DL131 for Aug 31-Sep 13 before booking.",
+      "pitchTitle": "Why this slow ending matters",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Munich Airport departure",
+        "lat": 48.3538,
+        "lon": 11.7861
+      }
+    }
+  ],
+  "sourceLinks": [
+    {
+      "label": "Delta flights to Germany",
+      "url": "https://www.delta.com/us/en/flight-deals/europe-flights/flights-to-germany"
+    },
+    {
+      "label": "DL130 schedule source",
+      "url": "https://www.flightstats.com/v2/flight-tracker/DL/130"
+    },
+    {
+      "label": "DL131 schedule source",
+      "url": "https://www.flightstats.com/v2/flight-tracker/route/MUC/ATL"
+    },
+    {
+      "label": "Delta infant travel policy",
+      "url": "https://www.delta.com/us/en/children-infant-travel/infant-travel"
+    },
+    {
+      "label": "ATL-MUC fare snapshot",
+      "url": "https://www.travelocity.com/lp/flight-routes/delta-from-hartsfield-jackson-atlanta-intl-to-franz-josef-strauss-intl/dl/atl/muc"
+    },
+    {
+      "label": "Stanglwirt 2026 price PDF",
+      "url": "https://www.stanglwirt.com/media/blaetterkataloge/Stangl-Preisinfo-2026-EN-Einzelseiten.pdf"
+    },
+    {
+      "label": "Stanglwirt official",
+      "url": "https://www.stanglwirt.com/en/"
+    },
+    {
+      "label": "Hilton Munich Airport",
+      "url": "https://www.hilton.com/en/hotels/muctmhi-hilton-munich-airport/"
+    },
+    {
+      "label": "Hilton Expedia snapshot",
+      "url": "https://www.expedia.com/Munich-Hotels-Hilton-Munich-Airport.h9715.Hotel-Information"
+    },
+    {
+      "label": "Seevilla Wolfgangsee",
+      "url": "https://www.seevilla-wolfgangsee.at/en/online-buchen/"
+    },
+    {
+      "label": "Wilder Kaiser lift operating times",
+      "url": "https://www.wilderkaiser.info/en/operating-and-seasonal-times.html"
+    },
+    {
+      "label": "Hallstatt boat prices",
+      "url": "https://hallstattschifffahrt.at/en"
+    },
+    {
+      "label": "Dachstein tickets",
+      "url": "https://www.derdachstein.at/en/tickets-infos"
+    },
+    {
+      "label": "SchafbergBahn prices",
+      "url": "https://www.5schaetze.at/en/schafbergbahn/prices-and-timetables.html"
+    },
+    {
+      "label": "Königssee boat prices",
+      "url": "https://www.seenschifffahrt.de/en/koenigssee/tickets-prices/prices"
+    },
+    {
+      "label": "Hohensalzburg tickets",
+      "url": "https://www.festung-hohensalzburg.at/en/your-visit/tickets"
+    },
+    {
+      "label": "Ryan Shirley Austria video",
+      "url": "https://www.youtube.com/watch?v=tl223Zu09CE&t=6s"
+    },
+    {
+      "label": "Ryan-video-derived Austria place summary",
+      "url": "https://traveltalk24.com/blog/austria-top-places-travel-guide"
+    },
+    {
+      "label": "Kufstein family price reference",
+      "url": "https://kidvoyage.com/things-to-do/austria/wilder-kaiser-briksental-ski-welt/kufstein-fortress"
+    },
+    {
+      "label": "Salzwelten Hallstatt closure/price note",
+      "url": "https://www.salzwelten.at/en/hallstatt/prices-opening-hours"
+    },
+    {
+      "label": "Kempinski Berchtesgaden",
+      "url": "https://www.kempinski.com/en/hotel-berchtesgaden"
+    },
+    {
+      "label": "Kempinski Expedia amenities",
+      "url": "https://www.expedia.com/Berchtesgaden-Hotels-Kempinski-Hotel-Berchtesgaden.h9631205.Hotel-Information"
+    },
+    {
+      "label": "Ryan Shirley Austria video - full guide",
+      "url": "https://www.youtube.com/watch?v=tl223Zu09CE&t=6s"
+    },
+    {
+      "label": "Ryan Shirley inspiration - Hallstatt/Salzkammergut",
+      "url": "https://www.youtube.com/watch?v=tl223Zu09CE&t=420s"
+    },
+    {
+      "label": "Ryan Shirley inspiration - Salzburg",
+      "url": "https://www.youtube.com/watch?v=tl223Zu09CE&t=760s"
+    },
+    {
+      "label": "Stanglwirt Beyond Green gallery",
+      "url": "https://staybeyondgreen.com/hotels/austria/bio-and-wellnessresort-stanglwirt"
+    },
+    {
+      "label": "Hexenwasser image/source",
+      "url": "https://www.sommer-bergbahnen.at/sommerbergbahnen/bergbahnen-soell-hexenwasser"
+    },
+    {
+      "label": "Hallstatt ferry image/source",
+      "url": "https://travelshelper.com/austria/hallstatt/how-to-get-around-in-hallstatt/"
+    },
+    {
+      "label": "Königssee image/source",
+      "url": "https://www.groedig.net/en/lake-koenigsee.htm"
+    },
+    {
+      "label": "Hohensalzburg image/source",
+      "url": "https://www.historyhit.com/locations/hohensalzburg-fortress/"
+    },
+    {
+      "label": "Kempinski Berchtesgaden image/source",
+      "url": "https://www.hogamagazin.de/das-kempinski-hotel-berchtesgaden-feiert-jubilaeum/"
+    }
+  ],
+  "routeLabel": "Munich → Tyrol → Wolfgangsee → Berchtesgaden",
+  "routeMap": {
+    "type": "schematic-latlon",
+    "note": "Real OpenStreetMap route view. Solid blue route lines use cached OSRM driving geometry to follow the roads we would actually drive; dashed clay lines are direct reference legs for non-road or unavailable segments. Numbered day pins may fan out slightly when several days share the same base.",
+    "startLabel": "Munich Airport arrival",
+    "endLabel": "Munich Airport departure"
+  }
+}

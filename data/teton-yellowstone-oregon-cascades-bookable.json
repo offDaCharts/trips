@@ -1,0 +1,786 @@
+{
+  "id": "teton-yellowstone-oregon-cascades",
+  "name": "Teton + Yellowstone + Oregon Cascades Multi-City Loop",
+  "lastUpdated": "2026-06-27",
+  "priceSnapshotDate": "2026-06-27",
+  "dates": {
+    "depart": "2026-08-31",
+    "return": "2026-09-13",
+    "nights": 13,
+    "why": "Aug 31-Sep 13 keeps the established late-summer/early-September planning window, gives Yellowstone and Crater Lake better weather odds, and leaves Oregon as the softer final act before flying home from Portland."
+  },
+  "travelers": "2 adults + 1 infant-in-lap",
+  "currency": "USD",
+  "exchangeRateNote": "Domestic trip; all planning numbers are USD and should be re-priced before booking.",
+  "positioning": "The expanded Teton alternate: three nights in Jackson/Tetons, four nights across Yellowstone, then a flight hop to Oregon for Bend, Crater Lake, Mount Hood, and the Columbia Gorge.",
+  "routeLabel": "ATL -> JAC -> Tetons -> Yellowstone -> PDX/RDM -> Bend -> Crater Lake -> Hood River -> PDX -> ATL",
+  "routeRationale": [
+    "Start in Jackson so the highest-friction lodging and national-park pacing happen while energy is highest.",
+    "Use two Yellowstone bases, Old Faithful and Canyon, so geysers, Yellowstone Lake, Hayden Valley, and the canyon are not all forced from one hotel.",
+    "Fly from the northern Rockies to Oregon instead of driving the full intermountain distance with a one-year-old.",
+    "Use Bend/Sunriver as the practical Oregon laundry base, then add one Crater Lake lodge night and two Columbia Gorge/Mount Hood nights.",
+    "Keep the Oregon ending flexible: if Crater Lake weather or smoke is bad, pivot to Bend, Newberry, High Desert Museum, or Mount Hood without breaking the trip."
+  ],
+  "budget": {
+    "flightTotal": 2600,
+    "lodgingTotal": 4730,
+    "carTransportTotal": 1920,
+    "activitiesTotal": 760,
+    "foodTotal": 2400,
+    "estimatedTripTotal": 12410,
+    "note": "Planning estimate for a complex domestic open-jaw trip. The biggest swing factors are Yellowstone lodging, the intra-west flight, Oregon car one-way/drop fees, and whether Crater Lake Lodge or Mazama cabins are available."
+  },
+  "flights": {
+    "recommended": {
+      "label": "Recommended multi-city flight pattern",
+      "fareSnapshotPerAdultRoundTrip": 1300,
+      "adultTickets": 2,
+      "adultFareTotal": 2600,
+      "infantInLapEstimate": 0,
+      "totalFlightBudget": 2600,
+      "cabin": "Main Cabin planning placeholder",
+      "outbound": {
+        "date": "2026-08-31",
+        "flight": "ATL-JAC multi-city leg",
+        "airline": "Delta preferred, compare American/United",
+        "from": "ATL",
+        "to": "JAC",
+        "depart": "Target morning or early afternoon",
+        "arrive": "Target before dinner",
+        "duration": "about 4-7 hours depending nonstop/connection",
+        "aircraft": "Varies by schedule"
+      },
+      "return": {
+        "date": "2026-09-13",
+        "flight": "PDX-ATL return leg",
+        "airline": "Delta preferred if nonstop is available",
+        "from": "PDX",
+        "to": "ATL",
+        "depart": "Target late morning or afternoon",
+        "arrive": "Evening arrival",
+        "duration": "about 4.5-5 hours nonstop, longer with connection",
+        "aircraft": "Varies by schedule"
+      },
+      "infantNote": "Domestic infant-in-lap should not require a separate fare, but add the infant to every ticketed segment, including the JAC/BOI/RDM/PDX positioning hop.",
+      "sourceLinks": [
+        "Delta Jackson Hole flights",
+        "Delta Portland flights",
+        "Google Flights multi-city",
+        "Delta infant travel policy"
+      ],
+      "fareSnapshot": 1300,
+      "priceSnapshotDate": "2026-06-27",
+      "budgetNote": "Use Google Flights multi-city search for ATL-JAC, JAC/BOI/RDM/PDX positioning, and PDX-ATL. If the JAC to Oregon hop is ugly, drive Yellowstone to Boise and fly BOI-PDX/RDM."
+    },
+    "alternates": [
+      {
+        "label": "Reverse-route alternative",
+        "summary": "ATL to PDX first, Oregon loop, fly PDX/RDM to JAC, finish with Tetons and return JAC to ATL. This can work if Yellowstone lodging is better later in the window.",
+        "estimatedTotalForTwoAdults": 2500
+      },
+      {
+        "label": "Boise bridge alternative",
+        "summary": "After Yellowstone, drive to Boise, overnight near BOI, and fly BOI to Portland or Redmond. More driving, but often simpler and cheaper than small-airport hops.",
+        "estimatedTotalForTwoAdults": 2300
+      }
+    ]
+  },
+  "bases": [
+    {
+      "name": "Jackson / Teton arrival",
+      "dates": "Aug 31-Sep 3",
+      "nights": 3,
+      "hotel": "Mountain Modern Jackson Hole",
+      "room": "Family-friendly motel room or suite",
+      "nightlyRate": 290,
+      "total": 870,
+      "why": "Walkable Jackson base for arrival, groceries, National Elk Refuge/Wildlife Art, and the first Grand Teton days.",
+      "bookingUrl": "https://www.mountainmodernmotel.com/"
+    },
+    {
+      "name": "Old Faithful / West Thumb base",
+      "dates": "Sep 3-5",
+      "nights": 2,
+      "hotel": "Old Faithful Snow Lodge cabins",
+      "room": "Cabin or lodge room",
+      "nightlyRate": 365,
+      "total": 730,
+      "why": "Lets Yellowstone's geyser country be walkable in short boardwalk chunks instead of a day-trip slog.",
+      "bookingUrl": "https://www.yellowstonenationalparklodges.com/lodgings/cabin/old-faithful-snow-lodge-cabins/"
+    },
+    {
+      "name": "Canyon / Hayden Valley base",
+      "dates": "Sep 5-7",
+      "nights": 2,
+      "hotel": "Canyon Lodge & Cabins",
+      "room": "Western cabin or lodge room",
+      "nightlyRate": 360,
+      "total": 720,
+      "why": "Best practical center for Grand Canyon of the Yellowstone, Hayden Valley wildlife, Norris, and lake/canyon backups.",
+      "bookingUrl": "https://www.yellowstonenationalparklodges.com/lodgings/cabin/canyon-lodge-cabins/"
+    },
+    {
+      "name": "Oregon arrival / Bend practical base",
+      "dates": "Sep 7-10",
+      "nights": 3,
+      "hotel": "Sunriver Resort or SCP Redmond Hotel",
+      "room": "Condo-style room or family room",
+      "nightlyRate": 360,
+      "total": 1080,
+      "why": "Laundry, kitchen, pool, and easy access to Bend, Smith Rock, Newberry, and the High Desert Museum.",
+      "bookingUrl": "https://www.sunriverresort.com/"
+    },
+    {
+      "name": "Crater Lake rim or Mazama",
+      "dates": "Sep 10-11",
+      "nights": 1,
+      "hotel": "Crater Lake Lodge or Mazama Village Cabin",
+      "room": "Lodge room or cabin",
+      "nightlyRate": 390,
+      "total": 390,
+      "why": "A one-night national-park lodge moment keeps the rim sunset/sunrise possible without making the baby sleep in a new place too often.",
+      "bookingUrl": "https://www.travelcraterlake.com/lodging-camping/"
+    },
+    {
+      "name": "Columbia Gorge / Mount Hood finale",
+      "dates": "Sep 11-13",
+      "nights": 2,
+      "hotel": "Skamania Lodge or Hood River Hotel",
+      "room": "View room or practical downtown room",
+      "nightlyRate": 470,
+      "total": 940,
+      "why": "Waterfalls, Mount Hood, river views, and a manageable drive to PDX for the flight home.",
+      "bookingUrl": "https://www.skamania.com/"
+    }
+  ],
+  "dailyItinerary": [
+    {
+      "day": 1,
+      "slug": "day-01",
+      "date": "Mon Aug 31",
+      "title": "Fly ATL to Jackson and reset",
+      "heroImage": "/app/assets/grand-teton-jackson-hole-days/day-01-fly-atl-to-jackson.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Grand_Teton_Range1.jpg",
+      "overnight": "Mountain Modern Jackson Hole",
+      "lodgingCost": 290,
+      "transport": "Fly ATL to JAC on the best multi-city fare; pick up rental SUV only if arrival is not too late, otherwise shuttle/taxi and collect the car Day 2.",
+      "transportCost": 2600,
+      "primaryActivity": "Arrival only: check in, grab groceries/snacks, and do a very short Town Square stroller loop if everyone is awake.",
+      "activityCost": 0,
+      "backupActivity": "If the flight arrives late, skip town and go straight to the room.",
+      "foodPlan": "Airport breakfast/lunch, grocery snacks, simple Jackson dinner or takeout.",
+      "foodCost": 120,
+      "babyPlan": "Protect bedtime after the westbound travel day; this trip is ambitious enough without a first-night outing.",
+      "bookingPriority": "Price ATL-JAC as part of a multi-city ticket with the Oregon hop and PDX-ATL return.",
+      "pitchTitle": "Why Start Here",
+      "why": "Jackson gives the trip an immediate mountain arrival and puts the hardest-to-book park section first, when everyone has the most patience.",
+      "moments": [
+        "Land with the Tetons visible from the airport if the weather cooperates.",
+        "Set up groceries, diapers, and sleep gear before the park days.",
+        "Keep the first night deliberately boring."
+      ],
+      "costNote": "Day 1 carries the full multi-city flight placeholder for two adults; re-price before booking.",
+      "dayTotal": 3010,
+      "sourceLinks": [
+        "Delta Jackson Hole flights",
+        "Google Flights multi-city",
+        "Delta infant travel policy"
+      ],
+      "mapPoint": {
+        "label": "Jackson Hole Airport",
+        "lat": 43.607,
+        "lon": -110.737
+      }
+    },
+    {
+      "day": 2,
+      "slug": "day-02",
+      "date": "Tue Sep 1",
+      "title": "Jackson wildlife art and town warm-up",
+      "heroImage": "/app/assets/grand-teton-jackson-hole-days/day-02-jackson-town-and-wildlife-art-warm-up.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Elk_antler_arch_at_Jackson_Square,_Jackson,_WY_2022-07-11.jpg",
+      "overnight": "Mountain Modern Jackson Hole",
+      "lodgingCost": 290,
+      "transport": "Local Jackson driving/walking; pick up rental SUV if not collected on arrival.",
+      "transportCost": 760,
+      "primaryActivity": "National Museum of Wildlife Art, Elk Refuge road/pullouts, Town Square, and a slow lunch.",
+      "activityCost": 55,
+      "backupActivity": "If everyone needs recovery, keep it to groceries, town stroller loop, and hotel downtime.",
+      "foodPlan": "Hotel/grocery breakfast, Persephone-style cafe lunch, early casual dinner in Jackson.",
+      "foodCost": 175,
+      "babyPlan": "Stroller works well today; this is the decompression day before park roads.",
+      "bookingPriority": "Reserve rental car with confirmed car seat or bring your own.",
+      "pitchTitle": "Soft Landing",
+      "why": "This day keeps the baby near services while still starting the wildlife and mountain mood.",
+      "moments": [
+        "See wildlife art before chasing real wildlife from the car.",
+        "Use Jackson as a supply base.",
+        "Avoid a full national-park day immediately after flying."
+      ],
+      "costNote": "Transport includes the main Wyoming rental-car block estimate.",
+      "dayTotal": 1280,
+      "sourceLinks": [
+        "National Museum of Wildlife Art",
+        "Grand Teton NPS"
+      ],
+      "mapPoint": {
+        "label": "Jackson",
+        "lat": 43.48,
+        "lon": -110.762
+      }
+    },
+    {
+      "day": 3,
+      "slug": "day-03",
+      "date": "Wed Sep 2",
+      "title": "Jenny Lake boat, Hidden Falls, and String Lake picnic",
+      "heroImage": "/app/assets/grand-teton-jackson-hole-days/day-05-jenny-lake-boat-and-hidden-falls-light-version.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Jenny_Lake_(215840701).jpeg",
+      "overnight": "Mountain Modern Jackson Hole",
+      "lodgingCost": 290,
+      "transport": "Jackson to Jenny Lake and String Lake, about 35-45 minutes each way plus park stops.",
+      "transportCost": 45,
+      "primaryActivity": "Take the Jenny Lake shuttle boat if conditions are good, do the light Hidden Falls version with a carrier, then picnic or wade at String Lake.",
+      "activityCost": 80,
+      "backupActivity": "If boats/crowds/weather are off, do Taggart Lake trailhead area viewpoints, Mormon Row, and Moose-Wilson Road.",
+      "foodPlan": "Groceries breakfast, packed picnic lunch, early Jackson dinner.",
+      "foodCost": 165,
+      "babyPlan": "Carrier for Hidden Falls; stroller only for paved/flat areas. Treat the boat as optional.",
+      "bookingPriority": "Check Jenny Lake shuttle season/times and parking pressure before committing.",
+      "pitchTitle": "Teton Classic",
+      "why": "This is the original Teton trip's signature day, kept in the expanded version because it is high-payoff without needing a long hike.",
+      "moments": [
+        "Cross Jenny Lake by boat under the peaks.",
+        "See Hidden Falls in the lightest realistic version.",
+        "Let String Lake be the nap-friendly reset."
+      ],
+      "costNote": "Activity estimate covers boat tickets and park/parking-related incidentals.",
+      "dayTotal": 580,
+      "sourceLinks": [
+        "Grand Teton NPS",
+        "Jenny Lake Boating"
+      ],
+      "mapPoint": {
+        "label": "Jenny Lake",
+        "lat": 43.76,
+        "lon": -110.727
+      }
+    },
+    {
+      "day": 4,
+      "slug": "day-04",
+      "date": "Thu Sep 3",
+      "title": "Grand Teton to Old Faithful via West Thumb",
+      "heroImage": "/app/assets/grand-teton-jackson-hole-days/day-09-west-thumb-yellowstone-sampler.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:West_Thumb_Geyser_Basin_Yellowstone.jpg",
+      "overnight": "Old Faithful Snow Lodge cabins",
+      "lodgingCost": 365,
+      "transport": "Drive Jackson to Old Faithful through Grand Teton and Yellowstone South Entrance, about 2.5-3.5 hours before stops.",
+      "transportCost": 70,
+      "primaryActivity": "Stop at Oxbow Bend or Jackson Lake early, enter Yellowstone, walk West Thumb boardwalk, then settle near Old Faithful.",
+      "activityCost": 40,
+      "backupActivity": "If the drive stretches long, skip West Thumb and use the Old Faithful boardwalk at golden hour.",
+      "foodPlan": "Jackson groceries breakfast, packed lunch, Old Faithful area cafeteria/lodge dinner.",
+      "foodCost": 175,
+      "babyPlan": "Break the drive into two nap-friendly legs and avoid late geyser-basin wandering after check-in.",
+      "bookingPriority": "Book Yellowstone lodging early and confirm South Entrance/road status before travel.",
+      "pitchTitle": "The Expansion Begins",
+      "why": "This is where the alt version stops being a Teton loop and becomes a true Yellowstone/Teton paired park trip.",
+      "moments": [
+        "Say goodbye to the Teton skyline at Oxbow Bend.",
+        "Walk Yellowstone's lake-edge thermal basin without a long hike.",
+        "Sleep inside geyser country for the next morning."
+      ],
+      "costNote": "Park pass costs are treated as shared activity incidentals across the park days.",
+      "dayTotal": 650,
+      "sourceLinks": [
+        "Yellowstone NPS",
+        "Old Faithful Snow Lodge",
+        "Grand Teton NPS"
+      ],
+      "mapPoint": {
+        "label": "Old Faithful",
+        "lat": 44.46,
+        "lon": -110.828
+      }
+    },
+    {
+      "day": 5,
+      "slug": "day-05",
+      "date": "Fri Sep 4",
+      "title": "Old Faithful and Upper Geyser Basin boardwalks",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Faithful_Geyser_Yellowstone_National_Park.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Old_Faithful_Geyser_Yellowstone_National_Park.jpg",
+      "overnight": "Old Faithful Snow Lodge cabins",
+      "lodgingCost": 365,
+      "transport": "Mostly walk/shuttle within Old Faithful village.",
+      "transportCost": 20,
+      "primaryActivity": "Old Faithful eruption viewing, Upper Geyser Basin boardwalk in short sections, lodge breaks, and optional Biscuit Basin if parking and baby mood align.",
+      "activityCost": 30,
+      "backupActivity": "If weather is cold or smoky, use the visitor center, lodge lobby, and only the closest geyser viewing.",
+      "foodPlan": "Lodge breakfast, picnic/snacks from the room, early lodge dinner.",
+      "foodCost": 175,
+      "babyPlan": "Boardwalks are stroller-friendly in pieces, but bring the carrier for crowds and stairs.",
+      "bookingPriority": "Check current boardwalk closures and Old Faithful prediction windows.",
+      "pitchTitle": "Yellowstone Without Overdoing It",
+      "why": "Sleeping near Old Faithful lets the day be made of short thermal walks rather than hours in the car.",
+      "moments": [
+        "Watch an Old Faithful eruption without rushing from another base.",
+        "Dip into the Upper Geyser Basin until the baby is done.",
+        "Retreat to the lodge whenever the weather turns."
+      ],
+      "costNote": "Most value comes from location; activity cost is low once lodging is secured.",
+      "dayTotal": 590,
+      "sourceLinks": [
+        "Yellowstone NPS",
+        "Old Faithful Snow Lodge"
+      ],
+      "mapPoint": {
+        "label": "Upper Geyser Basin",
+        "lat": 44.461,
+        "lon": -110.832
+      }
+    },
+    {
+      "day": 6,
+      "slug": "day-06",
+      "date": "Sat Sep 5",
+      "title": "Grand Prismatic, Norris choice, and transfer to Canyon",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Prismatic_Spring_and_Midway_Geyser_Basin_from_above.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Grand_Prismatic_Spring_and_Midway_Geyser_Basin_from_above.jpg",
+      "overnight": "Canyon Lodge & Cabins",
+      "lodgingCost": 360,
+      "transport": "Old Faithful to Canyon via Midway/Norris, about 1.5-2.5 hours before stops.",
+      "transportCost": 65,
+      "primaryActivity": "Grand Prismatic overlook if the baby can do the carrier walk; otherwise Midway boardwalk, then Norris Geyser Basin or direct transfer to Canyon.",
+      "activityCost": 40,
+      "backupActivity": "Skip Grand Prismatic overlook and use Firehole Lake Drive or lodge downtime if parking is rough.",
+      "foodPlan": "Old Faithful breakfast, picnic lunch, Canyon cafeteria/lodge dinner.",
+      "foodCost": 180,
+      "babyPlan": "Carrier day. The overlook is optional and should not become a forced march.",
+      "bookingPriority": "Confirm road construction and parking/closure status around Midway and Norris.",
+      "pitchTitle": "Thermal Greatest Hits",
+      "why": "This transfer day gives Yellowstone's most surreal colors a chance without turning it into a marathon.",
+      "moments": [
+        "See Grand Prismatic from the best realistic angle if conditions allow.",
+        "Use Norris only if everyone still has bandwidth.",
+        "Arrive at Canyon before dinner, not after dark."
+      ],
+      "costNote": "Costs are mostly lodging/food because Yellowstone sightseeing is low-ticket once inside the park.",
+      "dayTotal": 645,
+      "sourceLinks": [
+        "Yellowstone NPS",
+        "Canyon Lodge",
+        "Yellowstone road conditions"
+      ],
+      "mapPoint": {
+        "label": "Grand Prismatic Spring",
+        "lat": 44.525,
+        "lon": -110.838
+      }
+    },
+    {
+      "day": 7,
+      "slug": "day-07",
+      "date": "Sun Sep 6",
+      "title": "Grand Canyon of the Yellowstone and Hayden Valley",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Lower_Falls_of_the_Yellowstone.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Lower_Falls_of_the_Yellowstone.jpg",
+      "overnight": "Canyon Lodge & Cabins",
+      "lodgingCost": 360,
+      "transport": "Short Canyon-area drives plus Hayden Valley wildlife loop.",
+      "transportCost": 50,
+      "primaryActivity": "Upper/Lower Falls viewpoints, Artist Point, Canyon visitor area, then Hayden Valley from car pullouts around the best wildlife window.",
+      "activityCost": 30,
+      "backupActivity": "If roads/weather are rough, do Canyon visitor center, Lake Yellowstone lunch, and one close waterfall viewpoint.",
+      "foodPlan": "Canyon breakfast, picnic/visitor center lunch, Canyon or Lake dinner.",
+      "foodCost": 180,
+      "babyPlan": "Wildlife stays from the car or safe pullouts. No bison-distance heroics.",
+      "bookingPriority": "Check official wildlife safety rules and current road status the night before.",
+      "pitchTitle": "Big Yellowstone Day",
+      "why": "Canyon plus Hayden Valley is the reason to add the second Yellowstone base rather than only sampling Old Faithful from the Tetons.",
+      "moments": [
+        "Stand at Artist Point for the classic canyon view.",
+        "Let wildlife viewing happen from the safety of the car.",
+        "Keep the afternoon flexible if the morning is already enough."
+      ],
+      "costNote": "Low direct activity cost; the value is lodging location and park access.",
+      "dayTotal": 620,
+      "sourceLinks": [
+        "Yellowstone NPS",
+        "Canyon Lodge",
+        "Yellowstone wildlife safety"
+      ],
+      "mapPoint": {
+        "label": "Grand Canyon of the Yellowstone",
+        "lat": 44.72,
+        "lon": -110.496
+      }
+    },
+    {
+      "day": 8,
+      "slug": "day-08",
+      "date": "Mon Sep 7",
+      "title": "Fly Yellowstone region to Oregon and settle near Bend",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Bend_Oregon.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Skyline_of_Bend_Oregon.jpg",
+      "overnight": "Sunriver Resort or SCP Redmond Hotel",
+      "lodgingCost": 360,
+      "transport": "Exit Yellowstone to JAC, BZN, or BOI depending fare; fly to PDX or RDM; pick up Oregon rental car. Boise bridge is the practical fallback.",
+      "transportCost": 930,
+      "primaryActivity": "This is a logistics day: airport transfer, flight hop, Oregon car pickup, groceries, and pool/room reset.",
+      "activityCost": 0,
+      "backupActivity": "If same-day Bend is too much, overnight near PDX or RDM and start Oregon driving Day 9.",
+      "foodPlan": "Park/airport breakfast, airport lunch, groceries and simple Bend/Sunriver dinner.",
+      "foodCost": 190,
+      "babyPlan": "Treat the Oregon hop as a second arrival day. No sightseeing requirement.",
+      "bookingPriority": "Compare JAC-PDX/RDM, BZN-PDX/RDM, and BOI-PDX/RDM before locking the car route.",
+      "pitchTitle": "The Hop",
+      "why": "The flight hop is what makes the expanded version plausible with a one-year-old; driving Yellowstone to Oregon would consume the heart of the trip.",
+      "moments": [
+        "Close the national-park chapter cleanly.",
+        "Reset laundry and groceries in Oregon.",
+        "Accept that today is about logistics, not scenery."
+      ],
+      "costNote": "Transport includes the flight-positioning placeholder and Oregon rental-car pickup/drop estimate.",
+      "dayTotal": 1480,
+      "sourceLinks": [
+        "Google Flights multi-city",
+        "Redmond Airport",
+        "Portland International Airport"
+      ],
+      "mapPoint": {
+        "label": "Bend / Sunriver",
+        "lat": 44.058,
+        "lon": -121.315
+      }
+    },
+    {
+      "day": 9,
+      "slug": "day-09",
+      "date": "Tue Sep 8",
+      "title": "Smith Rock and High Desert Museum",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Smith_Rock_State_Park_Oregon.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Smith_Rock_State_Park_Oregon.jpg",
+      "overnight": "Sunriver Resort or SCP Redmond Hotel",
+      "lodgingCost": 360,
+      "transport": "Bend/Sunriver to Smith Rock and High Desert Museum, about 1.5-2.5 hours total depending base.",
+      "transportCost": 70,
+      "primaryActivity": "Morning Smith Rock viewpoint/Rim Rock Trail style stroll, then High Desert Museum after nap or as the heat/weather backup.",
+      "activityCost": 90,
+      "backupActivity": "Skip Smith Rock if hot/smoky and do High Desert Museum, Drake Park, and resort pool.",
+      "foodPlan": "Resort/condo breakfast, Redmond/Terrebonne lunch, Bend dinner.",
+      "foodCost": 185,
+      "babyPlan": "Smith Rock is a viewpoint and short-walk day, not a canyon hike day.",
+      "bookingPriority": "Check smoke/air quality and High Desert Museum hours.",
+      "pitchTitle": "Oregon Changes the Texture",
+      "why": "After Yellowstone's geysers, Smith Rock gives the trip a high-desert volcanic contrast without a giant hike.",
+      "moments": [
+        "See the Crooked River cliffs from an easy viewpoint.",
+        "Use the museum for animals, shade, and structure.",
+        "Return to the same Oregon base for naps and laundry."
+      ],
+      "costNote": "Activity estimate covers park pass/parking and museum admissions.",
+      "dayTotal": 705,
+      "sourceLinks": [
+        "Visit Bend Smith Rock",
+        "High Desert Museum"
+      ],
+      "mapPoint": {
+        "label": "Smith Rock State Park",
+        "lat": 44.369,
+        "lon": -121.139
+      }
+    },
+    {
+      "day": 10,
+      "slug": "day-10",
+      "date": "Wed Sep 9",
+      "title": "Newberry volcano, lava lands, and Bend slow afternoon",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Newberry_National_Volcanic_Monument_-_Big_Obsidian_Flow.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Newberry_National_Volcanic_Monument_-_Big_Obsidian_Flow.jpg",
+      "overnight": "Sunriver Resort or SCP Redmond Hotel",
+      "lodgingCost": 360,
+      "transport": "Local Bend/Sunriver driving to Newberry and Lava Lands.",
+      "transportCost": 65,
+      "primaryActivity": "Lava Lands Visitor Center, Newberry viewpoints, and a short stroller/carrier-friendly volcanic stop, then resort pool or Bend river path.",
+      "activityCost": 75,
+      "backupActivity": "If air quality or weather is poor, swap to High Desert Museum, Bend cafes, and indoor downtime.",
+      "foodPlan": "Groceries breakfast, Sunriver/Bend lunch, easy dinner near base.",
+      "foodCost": 180,
+      "babyPlan": "Avoid long exposed lava walks; pick one or two short stops and protect the afternoon nap.",
+      "bookingPriority": "Confirm seasonal visitor center and road hours before going.",
+      "pitchTitle": "Volcanic Oregon",
+      "why": "Newberry makes the Oregon chapter feel connected to Crater Lake: volcanoes, lava, lakes, and short interpretive stops.",
+      "moments": [
+        "Introduce the Cascades geology before Crater Lake.",
+        "Keep the terrain baby-safe and short.",
+        "Give the afternoon back to the pool or river."
+      ],
+      "costNote": "Includes recreation pass/parking and small activity buffer.",
+      "dayTotal": 680,
+      "sourceLinks": [
+        "Newberry National Volcanic Monument",
+        "Visit Bend"
+      ],
+      "mapPoint": {
+        "label": "Newberry National Volcanic Monument",
+        "lat": 43.69,
+        "lon": -121.254
+      }
+    },
+    {
+      "day": 11,
+      "slug": "day-11",
+      "date": "Thu Sep 10",
+      "title": "Drive to Crater Lake for rim sunset",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Crater_Lake_winter_pano2.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Crater_Lake_winter_pano2.jpg",
+      "overnight": "Crater Lake Lodge or Mazama Village Cabin",
+      "lodgingCost": 390,
+      "transport": "Bend/Sunriver to Crater Lake, about 2.5-3 hours before stops.",
+      "transportCost": 95,
+      "primaryActivity": "Drive to Crater Lake, check in, do Rim Village, Sinnott overlook area, and sunset if visibility is good.",
+      "activityCost": 60,
+      "backupActivity": "If the rim is foggy/smoky, use Mazama/Cleetwood area only if safe, or make it a quiet cabin/lodge evening.",
+      "foodPlan": "Bend/Sunriver breakfast, packed lunch, lodge/Mazama dinner.",
+      "foodCost": 190,
+      "babyPlan": "One-night lodge logistics are worth it only if check-in and bedtime stay simple.",
+      "bookingPriority": "Book Crater Lake Lodge/Mazama the moment availability opens; confirm seasonal dining and road status.",
+      "pitchTitle": "The Oregon Anchor",
+      "why": "Crater Lake is the Oregon equivalent of a signature national-park reveal and earns the cross-state detour.",
+      "moments": [
+        "Get the first blue-water reveal at Rim Village.",
+        "Keep the rim walking short and weather-led.",
+        "Sleep close enough for a possible morning second look."
+      ],
+      "costNote": "One-night park lodging estimate; Mazama cabins may lower this if lodge rooms are expensive or unavailable.",
+      "dayTotal": 735,
+      "sourceLinks": [
+        "Crater Lake NPS",
+        "Crater Lake lodging"
+      ],
+      "mapPoint": {
+        "label": "Crater Lake Rim Village",
+        "lat": 42.91,
+        "lon": -122.14
+      }
+    },
+    {
+      "day": 12,
+      "slug": "day-12",
+      "date": "Fri Sep 11",
+      "title": "Crater Lake morning, waterfalls, and Columbia Gorge base",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Toketee_Falls_Oregon.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Toketee_Falls_Oregon.jpg",
+      "overnight": "Skamania Lodge or Hood River Hotel",
+      "lodgingCost": 470,
+      "transport": "Crater Lake to Columbia Gorge/Mount Hood area, about 4.5-5.5 hours plus stops.",
+      "transportCost": 115,
+      "primaryActivity": "Second Crater Lake viewpoint if clear, then drive north with Toketee Falls or Umpqua stop only if the day is flowing well.",
+      "activityCost": 45,
+      "backupActivity": "Skip waterfalls and drive directly to the Gorge if the baby needs an easier transfer.",
+      "foodPlan": "Lodge breakfast, packed or roadside lunch, Hood River/Skamania dinner.",
+      "foodCost": 195,
+      "babyPlan": "Longest Oregon drive; split with one real stop and let the rest be nap miles.",
+      "bookingPriority": "Confirm the chosen northbound route and road conditions before leaving Crater Lake.",
+      "pitchTitle": "Scenic Transfer",
+      "why": "This is the connective tissue from volcanic lake country to the final river-and-mountain base.",
+      "moments": [
+        "Take a second look at Crater Lake if the morning is clear.",
+        "Add one waterfall only if logistics are friendly.",
+        "End near the Gorge so the final full day is easy."
+      ],
+      "costNote": "Transfer-day cost is mainly lodging, car, and food.",
+      "dayTotal": 825,
+      "sourceLinks": [
+        "Crater Lake NPS",
+        "Travel Oregon"
+      ],
+      "mapPoint": {
+        "label": "Columbia River Gorge base",
+        "lat": 45.683,
+        "lon": -121.88
+      }
+    },
+    {
+      "day": 13,
+      "slug": "day-13",
+      "date": "Sat Sep 12",
+      "title": "Mount Hood, Trillium Lake, and Columbia Gorge waterfalls",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Hood_reflected_in_Trillium_Lake.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Mount_Hood_reflected_in_Trillium_Lake.jpg",
+      "overnight": "Skamania Lodge or Hood River Hotel",
+      "lodgingCost": 470,
+      "transport": "Gorge/Mount Hood loop driving, usually 2-3 hours total if kept disciplined.",
+      "transportCost": 85,
+      "primaryActivity": "Choose the weather-best side: Mount Hood and Trillium Lake for mountain reflections, or Multnomah Falls/Waterfall Corridor and Hood River riverfront.",
+      "activityCost": 70,
+      "backupActivity": "If the day is smoky or rainy, do Hood River cafes, Bonneville Fish Hatchery, lodge pool/spa, and one quick waterfall viewpoint.",
+      "foodPlan": "Hotel breakfast, Hood River lunch, final Oregon dinner near the lodge or waterfront.",
+      "foodCost": 210,
+      "babyPlan": "Short stroller/carrier stops only; do not stack every waterfall.",
+      "bookingPriority": "Check timed-use/parking rules for Waterfall Corridor and Mount Hood road/weather conditions.",
+      "pitchTitle": "Final Full Day",
+      "why": "Mount Hood and the Gorge give the trip a polished Oregon finale that is scenic but close enough to PDX for a sane departure.",
+      "moments": [
+        "See Mount Hood reflected at Trillium Lake if skies are clear.",
+        "Pick one or two waterfall stops instead of collecting them all.",
+        "End with an early final dinner and packed bags."
+      ],
+      "costNote": "Includes parking/pass/timed-use buffer and final-dinner bump.",
+      "dayTotal": 835,
+      "sourceLinks": [
+        "Travel Oregon Mount Hood",
+        "Columbia River Gorge",
+        "Multnomah Falls permits"
+      ],
+      "mapPoint": {
+        "label": "Mount Hood / Trillium Lake",
+        "lat": 45.268,
+        "lon": -121.739
+      }
+    },
+    {
+      "day": 14,
+      "slug": "day-14",
+      "date": "Sun Sep 13",
+      "title": "Drive to PDX and fly home",
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Portland_International_Airport_terminal.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Portland_International_Airport_terminal.jpg",
+      "overnight": "Home",
+      "lodgingCost": 0,
+      "transport": "Drive Gorge/Mount Hood base to PDX, return car, fly PDX to ATL.",
+      "transportCost": 80,
+      "primaryActivity": "Departure only; leave a large airport buffer and avoid trying to sightsee in Portland before the flight.",
+      "activityCost": 0,
+      "backupActivity": "If flight is late, use a simple riverfront or airport-area lunch, but keep bags/car-seat logistics easy.",
+      "foodPlan": "Hotel breakfast, airport lunch/dinner depending flight time.",
+      "foodCost": 100,
+      "babyPlan": "Book a late-morning or afternoon flight so the drive and car return are not painful.",
+      "bookingPriority": "Choose PDX departure after 11 am if possible; confirm rental car return location.",
+      "pitchTitle": "Clean Exit",
+      "why": "Ending near Portland keeps the final travel day simple after a big multi-destination route.",
+      "moments": [
+        "Keep the last morning practical.",
+        "Return the car with time to manage bags and stroller.",
+        "Fly home from a larger airport with better schedule options."
+      ],
+      "costNote": "Return flight is included in the Day 1 flight placeholder; this day includes airport transport/food only.",
+      "dayTotal": 180,
+      "sourceLinks": [
+        "Portland International Airport",
+        "Delta Portland flights"
+      ],
+      "mapPoint": {
+        "label": "Portland International Airport",
+        "lat": 45.589,
+        "lon": -122.597
+      }
+    }
+  ],
+  "sourceLinks": [
+    {
+      "label": "Delta Jackson Hole flights",
+      "url": "https://www.delta.com/us/en/flight-deals/united-states-flights/flights-to-jackson-hole"
+    },
+    {
+      "label": "Delta Portland flights",
+      "url": "https://www.delta.com/us/en/flight-deals/united-states-flights/flights-to-portland"
+    },
+    {
+      "label": "Google Flights multi-city",
+      "url": "https://www.google.com/travel/flights"
+    },
+    {
+      "label": "Delta infant travel policy",
+      "url": "https://www.delta.com/us/en/children-infant-travel/infant-travel"
+    },
+    {
+      "label": "National Museum of Wildlife Art",
+      "url": "https://www.wildlifeart.org/"
+    },
+    {
+      "label": "Grand Teton NPS",
+      "url": "https://www.nps.gov/grte/"
+    },
+    {
+      "label": "Jenny Lake Boating",
+      "url": "https://jennylakeboating.com/"
+    },
+    {
+      "label": "Yellowstone NPS",
+      "url": "https://www.nps.gov/yell/"
+    },
+    {
+      "label": "Old Faithful Snow Lodge",
+      "url": "https://www.yellowstonenationalparklodges.com/lodgings/cabin/old-faithful-snow-lodge-cabins/"
+    },
+    {
+      "label": "Canyon Lodge",
+      "url": "https://www.yellowstonenationalparklodges.com/lodgings/cabin/canyon-lodge-cabins/"
+    },
+    {
+      "label": "Yellowstone road conditions",
+      "url": "https://www.nps.gov/yell/planyourvisit/parkroads.htm"
+    },
+    {
+      "label": "Yellowstone wildlife safety",
+      "url": "https://www.nps.gov/yell/planyourvisit/safety.htm"
+    },
+    {
+      "label": "Redmond Airport",
+      "url": "https://flyrdm.com/"
+    },
+    {
+      "label": "Portland International Airport",
+      "url": "https://www.flypdx.com/"
+    },
+    {
+      "label": "Visit Bend",
+      "url": "https://www.visitbend.com/"
+    },
+    {
+      "label": "Visit Bend Smith Rock",
+      "url": "https://www.visitbend.com/things-to-do/activities/hiking/smith-rock-state-park/"
+    },
+    {
+      "label": "High Desert Museum",
+      "url": "https://highdesertmuseum.org/"
+    },
+    {
+      "label": "Newberry National Volcanic Monument",
+      "url": "https://www.fs.usda.gov/recarea/deschutes/recarea/?recid=66159"
+    },
+    {
+      "label": "Crater Lake NPS",
+      "url": "https://www.nps.gov/crla/"
+    },
+    {
+      "label": "Crater Lake lodging",
+      "url": "https://www.travelcraterlake.com/lodging-camping/"
+    },
+    {
+      "label": "Travel Oregon",
+      "url": "https://traveloregon.com/"
+    },
+    {
+      "label": "Travel Oregon Mount Hood",
+      "url": "https://traveloregon.com/places-to-go/regions/mt-hood-columbia-river-gorge/"
+    },
+    {
+      "label": "Columbia River Gorge",
+      "url": "https://www.fs.usda.gov/crgnsa"
+    },
+    {
+      "label": "Multnomah Falls permits",
+      "url": "https://www.recreation.gov/timed-entry/10089144"
+    }
+  ],
+  "routeMap": {
+    "type": "schematic-latlon",
+    "note": "Hybrid route view. Solid/dashed lines are schematic reference legs for the multi-city route; flight hops are intentionally shown as direct reference lines. Numbered day pins may fan out when days share a base.",
+    "startLabel": "Jackson Hole Airport",
+    "endLabel": "Portland International Airport"
+  }
+}

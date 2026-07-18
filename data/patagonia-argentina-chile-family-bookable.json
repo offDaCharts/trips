@@ -1,0 +1,712 @@
+{
+  "id": "patagonia-argentina-chile-family",
+  "name": "Patagonia Glacier + Torres Family Adventure",
+  "lastUpdated": "2026-06-27",
+  "priceSnapshotDate": "2026-06-27 planning snapshot",
+  "dates": {
+    "depart": "2026-08-31",
+    "return": "2026-09-13",
+    "nights": 13,
+    "why": "Built to match the current comparison window: depart Monday, August 31 and return Sunday, September 13."
+  },
+  "travelers": "2 adults + one infant-in-lap",
+  "currency": "USD planning snapshot",
+  "exchangeRateNote": "International lodging/activity costs are USD planning estimates; live booking should re-price in local currency before purchase.",
+  "positioning": "A higher-effort, higher-cost adventure option built around Buenos Aires, El Calafate, Perito Moreno Glacier, El Chalten, Puerto Natales, and Torres del Paine, scaled down for two adults and a one-year-old.",
+  "routeRationale": [
+    "Use Buenos Aires as the necessary buffer before and after Patagonia flights.",
+    "Start Argentine Patagonia at El Calafate because Perito Moreno has the best infrastructure for a baby.",
+    "Add El Chalten for Fitz Roy scenery but keep hikes short and optional.",
+    "Use Puerto Natales as the practical Torres del Paine base instead of pricey in-park lodges.",
+    "Return to Buenos Aires the day before the ATL flight to avoid same-day Patagonia-to-USA risk."
+  ],
+  "budget": {
+    "flightTotal": 4200,
+    "lodgingTotal": 3395,
+    "carTransportTotal": 1845,
+    "activitiesTotal": 880,
+    "foodTotal": 2970,
+    "estimatedTripTotal": 13290
+  },
+  "flights": {
+    "recommended": {
+      "label": "Delta-first Buenos Aires + domestic Patagonia legs",
+      "fareSnapshotPerAdultRoundTrip": 1650,
+      "totalFlightBudget": 4200,
+      "infantNote": "Budget includes two adult ATL-EZE round trips, domestic Patagonia legs, and infant-in-lap estimate. Re-price exact AR/LATAM domestic times before booking.",
+      "outbound": {
+        "date": "Mon Aug 31",
+        "flight": "DL101-style ATL-EZE overnight planning snapshot",
+        "from": "ATL",
+        "to": "EZE",
+        "depart": "Evening",
+        "arrive": "Morning Sep 1"
+      },
+      "return": {
+        "date": "Sun Sep 13",
+        "flight": "DL110-style EZE-ATL planning snapshot",
+        "from": "EZE",
+        "to": "ATL",
+        "depart": "Evening/night",
+        "arrive": "Next morning ATL"
+      },
+      "sourceLinks": [
+        "Delta Argentina flights",
+        "ATL-EZE Delta flight reference",
+        "Delta infant travel policy"
+      ]
+    }
+  },
+  "bases": [
+    {
+      "name": "Buenos Aires buffer",
+      "dates": "Sep 1-2",
+      "nights": 1,
+      "hotel": "Loi Suites/Recolta apartment-style hotel",
+      "room": "Crib-request city room",
+      "nightlyRate": 260,
+      "total": 260,
+      "why": "Protects the domestic Patagonia connection after the overnight flight.",
+      "bookingUrl": "https://www.loisuites.com.ar/"
+    },
+    {
+      "name": "El Calafate glacier base",
+      "dates": "Sep 2-5",
+      "nights": 3,
+      "hotel": "Esplendor El Calafate",
+      "room": "Lake/mountain-view room if available",
+      "nightlyRate": 265,
+      "total": 795,
+      "why": "Best base for Perito Moreno with services, food, and weather backups.",
+      "bookingUrl": "https://www.wyndhamhotels.com/en-uk/esplendor/el-calafate-argentina/esplendor-el-calafate/overview",
+      "sourceKey": "esplendor"
+    },
+    {
+      "name": "El Chalten mountain village base",
+      "dates": "Sep 5-8",
+      "nights": 3,
+      "hotel": "Chalten Suites / family inn",
+      "room": "Family-friendly room with crib request",
+      "nightlyRate": 285,
+      "total": 855,
+      "why": "Fitz Roy scenery with short trails from town.",
+      "bookingUrl": "https://www.chaltensuites.com/",
+      "sourceKey": "chaltenSuites"
+    },
+    {
+      "name": "Puerto Natales / Torres base",
+      "dates": "Sep 8-12",
+      "nights": 4,
+      "hotel": "Weskar Lodge / Puerto Natales family room",
+      "room": "Water-view room if possible",
+      "nightlyRate": 255,
+      "total": 1020,
+      "why": "More practical and cheaper than in-park lodges while still reaching Torres del Paine.",
+      "bookingUrl": "https://www.weskar.cl/",
+      "sourceKey": "weskar"
+    },
+    {
+      "name": "Buenos Aires airport buffer",
+      "dates": "Sep 12-13",
+      "nights": 1,
+      "hotel": "EZE airport hotel / city buffer",
+      "room": "Simple airport-access room",
+      "nightlyRate": 230,
+      "total": 230,
+      "why": "Prevents same-day Patagonia-to-international-flight risk.",
+      "bookingUrl": "https://www.argentina.travel/en"
+    }
+  ],
+  "dailyItinerary": [
+    {
+      "day": 1,
+      "slug": "day-01",
+      "date": "Mon Aug 31",
+      "title": "Delta overnight ATL to Buenos Aires",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-01-delta-overnight-atl-to-buenos-aires.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Ezeiza_International_Airport",
+      "overnight": "In flight",
+      "lodgingCost": 0,
+      "transport": "Depart ATL on Delta ATL-EZE planning snapshot, overnight to Buenos Aires; book two adult tickets and add infant-in-lap.",
+      "transportCost": 4200,
+      "primaryActivity": "Long-haul logistics day: choose the simplest Delta-first Buenos Aires routing before adding Patagonia domestic legs.",
+      "activityCost": 0,
+      "backupActivity": "If Delta nonstop pricing is poor, compare Delta/LATAM partner-style routings while preserving a Buenos Aires overnight buffer.",
+      "foodPlan": "Airport dinner and baby flight snacks; budget $100.",
+      "foodCost": 100,
+      "babyPlan": "Infant-in-lap, bassinet/bulkhead request, and a conservative connection plan for domestic Patagonia flights.",
+      "bookingPriority": "Book international flights first, then domestic flights to El Calafate.",
+      "dayTotal": 4300,
+      "sourceLinks": [
+        "Delta Argentina flights",
+        "ATL-EZE Delta flight reference",
+        "Delta infant travel policy"
+      ],
+      "why": "Patagonia is worth considering, but only if the logistics are honest: this day anchors the long international hop and preserves a buffer before flying south.",
+      "moments": [
+        "Choose the least complicated ATL-EZE routing.",
+        "Add the infant directly with Delta.",
+        "Do not connect straight through to Patagonia after the overnight flight."
+      ],
+      "costNote": "Transport includes international + Patagonia domestic flight budget for two adults plus infant estimate.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Buenos Aires arrival",
+        "lat": -34.8222,
+        "lon": -58.5358
+      }
+    },
+    {
+      "day": 2,
+      "slug": "day-02",
+      "date": "Tue Sep 1",
+      "title": "Buenos Aires recovery day",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-02-buenos-aires-recovery-day.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Recoleta%2C_Buenos_Aires",
+      "overnight": "Loi Suites / Recoleta apartment-style hotel",
+      "lodgingCost": 260,
+      "transport": "Airport transfer to Recoleta/Palermo hotel; no car.",
+      "transportCost": 85,
+      "primaryActivity": "Sleep reset, stroller walk in Recoleta parks, grocery/snack setup, and early dinner.",
+      "activityCost": 20,
+      "backupActivity": "If arrival is smooth, add a short Palermo botanical garden stroll.",
+      "foodPlan": "Cafe lunch, grocery run, early parrilla/Italian dinner; budget $210.",
+      "foodCost": 210,
+      "babyPlan": "This day exists for sleep, food, and body-clock adjustment before Patagonia.",
+      "bookingPriority": "Book hotel with crib, elevator, and easy taxi access.",
+      "dayTotal": 575,
+      "sourceLinks": [
+        "Argentina official tourism"
+      ],
+      "why": "A Buenos Aires buffer dramatically lowers risk: no same-day domestic flight scramble, no missed bags drama, and a kinder start for a one-year-old.",
+      "moments": [
+        "Hotel check-in and nap matter more than sightseeing.",
+        "Use parks/cafes for gentle city texture.",
+        "Prep snacks/diapers for the flight south."
+      ],
+      "costNote": "Local transfer and city food only.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Buenos Aires / Recoleta",
+        "lat": -34.5875,
+        "lon": -58.3934
+      }
+    },
+    {
+      "day": 3,
+      "slug": "day-03",
+      "date": "Wed Sep 2",
+      "title": "Fly to El Calafate and settle by Lago Argentino",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-03-fly-to-el-calafate-and-settle-by-lago-argentino.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/El_Calafate",
+      "overnight": "Esplendor El Calafate",
+      "lodgingCost": 265,
+      "transport": "Fly Buenos Aires to El Calafate on Aerolineas Argentinas/LATAM planning snapshot; taxi to hotel.",
+      "transportCost": 160,
+      "primaryActivity": "Domestic flight south, check into El Calafate, lakefront walk, and early dinner.",
+      "activityCost": 0,
+      "backupActivity": "If flight times shift late, make this a pure arrival/hotel day.",
+      "foodPlan": "Airport snacks, El Calafate dinner; budget $195.",
+      "foodCost": 195,
+      "babyPlan": "Keep the Patagonia arrival low-pressure; request crib and kettle.",
+      "bookingPriority": "Book domestic flight with enough checked-bag/car-seat padding.",
+      "dayTotal": 620,
+      "sourceLinks": [
+        "El Calafate tourism",
+        "Esplendor El Calafate"
+      ],
+      "why": "El Calafate is the practical glacier gateway and the easiest Patagonia landing spot before deeper park travel.",
+      "moments": [
+        "Let Lago Argentino be the first Patagonia view.",
+        "Do not add a glacier excursion after flying.",
+        "Use town services for supplies before the park days."
+      ],
+      "costNote": "Domestic flight budget is allocated in Day 1; this covers local arrival transfer.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "El Calafate",
+        "lat": -50.3378,
+        "lon": -72.2648
+      }
+    },
+    {
+      "day": 4,
+      "slug": "day-04",
+      "date": "Thu Sep 3",
+      "title": "Perito Moreno Glacier boardwalks",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-04-perito-moreno-glacier-boardwalks.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Perito_Moreno_Glacier",
+      "overnight": "Esplendor El Calafate",
+      "lodgingCost": 265,
+      "transport": "Private transfer or rental car to Perito Moreno Glacier, about 80 minutes each way.",
+      "transportCost": 220,
+      "primaryActivity": "Perito Moreno Glacier boardwalk circuit with flexible viewpoints, lunch, and no boat unless the baby is thriving.",
+      "activityCost": 160,
+      "backupActivity": "If weather is terrible, do Glaciarium museum and lakeside cafes, then move the glacier to Day 5.",
+      "foodPlan": "Packed lunch/cafe, El Calafate dinner; budget $210.",
+      "foodCost": 210,
+      "babyPlan": "Carrier preferred for boardwalks; stroller may work in limited areas but not as the only plan.",
+      "bookingPriority": "Confirm park entry, transfer pickup, and weather before booking extras.",
+      "dayTotal": 855,
+      "sourceLinks": [
+        "Los Glaciares National Park",
+        "El Calafate tourism"
+      ],
+      "why": "This is Patagonia’s highest-confidence “wow” day: world-class glacier scenery with boardwalk infrastructure that can work for a family.",
+      "moments": [
+        "Arrive early and choose the easiest boardwalk sections.",
+        "Listen for glacier calving from safe viewpoints.",
+        "Skip add-ons if the baby needs a shorter day."
+      ],
+      "costNote": "Activities cover park entry and transfer/tour buffer for two adults.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Perito Moreno Glacier",
+        "lat": -50.4967,
+        "lon": -73.1377
+      }
+    },
+    {
+      "day": 5,
+      "slug": "day-05",
+      "date": "Fri Sep 4",
+      "title": "Estancia or Glaciarium flexible day",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-05-estancia-or-glaciarium-flexible-day.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Argentino_Lake",
+      "overnight": "Esplendor El Calafate",
+      "lodgingCost": 265,
+      "transport": "Short local transfer or estancia pickup depending on chosen plan.",
+      "transportCost": 90,
+      "primaryActivity": "Choose a gentle estancia-style day near El Calafate for animals/open space, or Glaciarium museum plus lakefront recovery if weather is poor.",
+      "activityCost": 180,
+      "backupActivity": "Pure town day: playground, cafes, laundry, and nap recovery before El Chalten.",
+      "foodPlan": "Estancia lunch if booked or town lunch/dinner; budget $220.",
+      "foodCost": 220,
+      "babyPlan": "This is the baby-friendly counterweight to the glacier day: animals/space or indoor museum.",
+      "bookingPriority": "Pick estancia only if transfer times are reasonable with naps.",
+      "dayTotal": 755,
+      "sourceLinks": [
+        "El Calafate tourism",
+        "Los Glaciares National Park"
+      ],
+      "why": "Patagonia can become a string of long drives; this day keeps El Calafate useful and family-scaled.",
+      "moments": [
+        "Let animals/open space be the activity if the estancia timing works.",
+        "Keep Glaciarium as a strong weather backup.",
+        "Use the afternoon for laundry and packing."
+      ],
+      "costNote": "Estancia option may push this day higher; Glaciarium version is cheaper.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Lago Argentino / El Calafate",
+        "lat": -50.3167,
+        "lon": -72.2667
+      }
+    },
+    {
+      "day": 6,
+      "slug": "day-06",
+      "date": "Sat Sep 5",
+      "title": "Transfer to El Chalten mountain village",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-06-transfer-to-el-chalten-mountain-village.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/El_Chalt%C3%A9n",
+      "overnight": "Chalten Suites / family-friendly inn",
+      "lodgingCost": 285,
+      "transport": "El Calafate to El Chalten by rental car or private transfer, about 3 hours plus stops.",
+      "transportCost": 190,
+      "primaryActivity": "Scenic transfer along Ruta 40/23, arrival in El Chalten, and short village/river walk under Fitz Roy if clear.",
+      "activityCost": 0,
+      "backupActivity": "If wind/weather is rough, make this a straight transfer and hotel dinner.",
+      "foodPlan": "Road lunch/snacks, El Chalten dinner; budget $205.",
+      "foodCost": 205,
+      "babyPlan": "Nap-drive day; keep arrival walk optional.",
+      "bookingPriority": "Reserve transfer/rental car and lodging early; El Chalten inventory is limited.",
+      "dayTotal": 680,
+      "sourceLinks": [
+        "El Chalten tourism",
+        "Chalten Suites Hotel"
+      ],
+      "why": "El Chalten is the mountain-hike heart of Argentine Patagonia, but the plan keeps hikes short and carrier-friendly.",
+      "moments": [
+        "Use the drive as the nap.",
+        "Stop for the first Fitz Roy view if weather opens.",
+        "Settle into town before attempting trails."
+      ],
+      "costNote": "Transfer cost assumes private/rental logistics, not the cheapest bus-only option.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "El Chalten",
+        "lat": -49.3315,
+        "lon": -72.8863
+      }
+    },
+    {
+      "day": 7,
+      "slug": "day-07",
+      "date": "Sun Sep 6",
+      "title": "Mirador Los Condores and Fitz Roy views",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-07-mirador-los-condores-and-fitz-roy-views.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Cerro_Torre",
+      "overnight": "Chalten Suites / family-friendly inn",
+      "lodgingCost": 285,
+      "transport": "Walk from town trailheads or short taxi positioning.",
+      "transportCost": 25,
+      "primaryActivity": "Mirador Los Condores / Las Aguilas short carrier hike for Fitz Roy valley views, then town lunch and nap.",
+      "activityCost": 0,
+      "backupActivity": "If wind is too strong, do visitor center, cafes, and a low river walk.",
+      "foodPlan": "Bakery breakfast, town lunch/dinner; budget $205.",
+      "foodCost": 205,
+      "babyPlan": "Carrier hike only; choose turnaround based on wind and baby tolerance.",
+      "bookingPriority": "No booking; choose weather window.",
+      "dayTotal": 515,
+      "sourceLinks": [
+        "El Chalten tourism",
+        "Los Glaciares National Park"
+      ],
+      "why": "This gives the Chalten mountain payoff without committing to Laguna de los Tres mileage.",
+      "moments": [
+        "Start early for calmer wind.",
+        "Keep the hike short and celebratory.",
+        "Spend the afternoon in town instead of stacking trails."
+      ],
+      "costNote": "Low activity cost by design.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Mirador Los Condores",
+        "lat": -49.3429,
+        "lon": -72.8841
+      }
+    },
+    {
+      "day": 8,
+      "slug": "day-08",
+      "date": "Mon Sep 7",
+      "title": "Laguna Capri light version or Rio de las Vueltas",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-08-laguna-capri-light-version-or-rio-de-las-vueltas.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Fitz_Roy",
+      "overnight": "Chalten Suites / family-friendly inn",
+      "lodgingCost": 285,
+      "transport": "Local trailhead/town day.",
+      "transportCost": 25,
+      "primaryActivity": "Attempt a conservative Laguna Capri partial hike if conditions are excellent; otherwise Rio de las Vueltas viewpoints and town recovery.",
+      "activityCost": 0,
+      "backupActivity": "Do Chorrillo del Salto waterfall instead for a shorter, easier outing.",
+      "foodPlan": "Packed lunch or town cafe, early dinner; budget $205.",
+      "foodCost": 205,
+      "babyPlan": "This is the most hike-like day; carrier, layers, and a strict turnaround are required.",
+      "bookingPriority": "Do not force this day in bad wind/weather.",
+      "dayTotal": 515,
+      "sourceLinks": [
+        "El Chalten tourism",
+        "Los Glaciares National Park"
+      ],
+      "why": "It preserves the possibility of a classic Fitz Roy hiking moment while being honest about traveling with a one-year-old.",
+      "moments": [
+        "Set a turnaround time before starting.",
+        "Choose Chorrillo del Salto if the baby or wind says no.",
+        "Keep dinner easy after trail time."
+      ],
+      "costNote": "No paid activity; budget sits in food/logistics.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Laguna Capri / Fitz Roy trail",
+        "lat": -49.2867,
+        "lon": -72.9514
+      }
+    },
+    {
+      "day": 9,
+      "slug": "day-09",
+      "date": "Tue Sep 8",
+      "title": "Long transfer to Puerto Natales",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-09-long-transfer-to-puerto-natales.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Puerto_Natales",
+      "overnight": "Weskar Lodge / Puerto Natales family room",
+      "lodgingCost": 255,
+      "transport": "El Chalten to Puerto Natales by private transfer/rental combo, staged border day, about 6-7 hours before stops.",
+      "transportCost": 360,
+      "primaryActivity": "Big logistics day across the border into Chilean Patagonia; check into Puerto Natales and walk the waterfront if energy allows.",
+      "activityCost": 0,
+      "backupActivity": "If the border/drive feels too much, break the route with an extra El Calafate night and shorten Chile.",
+      "foodPlan": "Road snacks, simple Puerto Natales dinner; budget $215.",
+      "foodCost": 215,
+      "babyPlan": "This is the hardest baby logistics day. Build stops, snacks, and no evening plans.",
+      "bookingPriority": "Confirm border requirements, transfer provider, and car-seat availability.",
+      "dayTotal": 830,
+      "sourceLinks": [
+        "Chile official tourism",
+        "Puerto Natales tourism",
+        "Weskar Lodge Puerto Natales"
+      ],
+      "why": "Puerto Natales unlocks Torres del Paine without forcing everyone to sleep inside the park at peak prices.",
+      "moments": [
+        "Treat the transfer as the only objective.",
+        "Use the waterfront as a gentle arrival reset.",
+        "Keep backup lodging flexibility if border timing changes."
+      ],
+      "costNote": "Transport is high because this cross-border leg likely needs private transfer/rental logistics.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Puerto Natales",
+        "lat": -51.7309,
+        "lon": -72.4977
+      }
+    },
+    {
+      "day": 10,
+      "slug": "day-10",
+      "date": "Wed Sep 9",
+      "title": "Torres del Paine first viewpoints",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-10-torres-del-paine-first-viewpoints.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Torres_del_Paine_National_Park",
+      "overnight": "Weskar Lodge / Puerto Natales family room",
+      "lodgingCost": 255,
+      "transport": "Puerto Natales to Torres del Paine viewpoints and back, long day with flexible stops.",
+      "transportCost": 170,
+      "primaryActivity": "Torres del Paine scenic drive: Lago Sarmiento/Laguna Amarga approach, Salto Grande area if conditions allow, and viewpoint picnic.",
+      "activityCost": 130,
+      "backupActivity": "If wind/weather is too much, do Milodon Cave and Puerto Natales waterfront instead.",
+      "foodPlan": "Packed picnic, lodge dinner; budget $220.",
+      "foodCost": 220,
+      "babyPlan": "Mostly car/viewpoint day; carrier for short paths, avoid exposed wind if severe.",
+      "bookingPriority": "Buy/confirm park entry and check road/weather reports.",
+      "dayTotal": 775,
+      "sourceLinks": [
+        "Torres del Paine official park",
+        "Puerto Natales tourism"
+      ],
+      "why": "This is the Chilean Patagonia money view day, designed as viewpoints and short walks rather than a famous trek.",
+      "moments": [
+        "Enter the park with no major hike agenda.",
+        "Use Salto Grande only if wind is manageable.",
+        "Let the baby reset in the car between viewpoints."
+      ],
+      "costNote": "Includes park entry and fuel/transfer buffer.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Torres del Paine / Salto Grande",
+        "lat": -51.0677,
+        "lon": -72.9856
+      }
+    },
+    {
+      "day": 11,
+      "slug": "day-11",
+      "date": "Thu Sep 10",
+      "title": "Lago Grey or estancia-style Patagonia day",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-11-lago-grey-or-estancia-style-patagonia-day.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Grey_Glacier",
+      "overnight": "Weskar Lodge / Puerto Natales family room",
+      "lodgingCost": 255,
+      "transport": "Puerto Natales to Lago Grey/park sector or local estancia alternative.",
+      "transportCost": 160,
+      "primaryActivity": "Choose Lago Grey beach/viewpoint day if weather is clear, or a lower-key estancia/wildlife-style outing closer to Puerto Natales.",
+      "activityCost": 160,
+      "backupActivity": "Use Puerto Natales town, cafes, playground, and hotel views as the recovery option.",
+      "foodPlan": "Picnic or estancia lunch, Puerto Natales dinner; budget $225.",
+      "foodCost": 225,
+      "babyPlan": "Keep boat/glacier extras optional; wind can make baby comfort the deciding factor.",
+      "bookingPriority": "Book any Lago Grey boat/estancia only after weather check.",
+      "dayTotal": 800,
+      "sourceLinks": [
+        "Torres del Paine official park",
+        "Chile official tourism"
+      ],
+      "why": "This adds a second Torres del Paine texture without making the trip depend on one perfect park day.",
+      "moments": [
+        "Decide morning-of based on wind.",
+        "Choose views and animals over mileage.",
+        "Keep afternoon recovery sacred."
+      ],
+      "costNote": "Activity budget covers either park/boat-adjacent costs or estancia-style outing.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Lago Grey / Torres del Paine",
+        "lat": -51.0491,
+        "lon": -73.1642
+      }
+    },
+    {
+      "day": 12,
+      "slug": "day-12",
+      "date": "Fri Sep 11",
+      "title": "Puerto Natales slow day and final Patagonia views",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-12-puerto-natales-slow-day-and-final-patagonia-views.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Puerto_Natales",
+      "overnight": "Weskar Lodge / Puerto Natales family room",
+      "lodgingCost": 255,
+      "transport": "Local Puerto Natales day.",
+      "transportCost": 35,
+      "primaryActivity": "Waterfront walk, town cafes, gear/laundry reset, optional Milodon Cave if skipped earlier, and final mountain-view dinner.",
+      "activityCost": 70,
+      "backupActivity": "Pure hotel/lounge day if weather is ugly or everyone is tired.",
+      "foodPlan": "Cafe lunch, nicer final Patagonia dinner; budget $240.",
+      "foodCost": 240,
+      "babyPlan": "This is intentionally a decompression day before flights home.",
+      "bookingPriority": "Confirm next-day transfer/flight timing.",
+      "dayTotal": 600,
+      "sourceLinks": [
+        "Puerto Natales tourism"
+      ],
+      "why": "After the big park days, a slow Puerto Natales day makes the Patagonia plan more humane and bookable.",
+      "moments": [
+        "Walk the waterfront sculptures/views.",
+        "Use town services before travel day.",
+        "Make dinner the celebration, not another excursion."
+      ],
+      "costNote": "Optional Milodon Cave/local attraction buffer.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Puerto Natales waterfront",
+        "lat": -51.7263,
+        "lon": -72.5147
+      }
+    },
+    {
+      "day": 13,
+      "slug": "day-13",
+      "date": "Sat Sep 12",
+      "title": "Return to Buenos Aires airport buffer",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-13-return-to-buenos-aires-airport-buffer.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Buenos_Aires",
+      "overnight": "EZE airport hotel / Buenos Aires buffer",
+      "lodgingCost": 230,
+      "transport": "Fly or transfer back toward Buenos Aires via El Calafate/Puerto Natales routing; keep an overnight buffer before ATL return.",
+      "transportCost": 260,
+      "primaryActivity": "Travel day back north, airport-area hotel, luggage reset, and early night.",
+      "activityCost": 0,
+      "backupActivity": "If flight schedules require, overnight in Buenos Aires city instead of EZE airport area.",
+      "foodPlan": "Airport meals and simple hotel dinner; budget $210.",
+      "foodCost": 210,
+      "babyPlan": "Protect the international flight with a buffer night; do not same-day connect Patagonia to ATL.",
+      "bookingPriority": "Book domestic return with generous padding and confirm baggage allowances.",
+      "dayTotal": 700,
+      "sourceLinks": [
+        "Argentina official tourism",
+        "Chile official tourism"
+      ],
+      "why": "The buffer night is what makes this ambitious trip plausible with a baby.",
+      "moments": [
+        "Accept that this is not a sightseeing day.",
+        "Choose reliability over romance.",
+        "Reset bags and sleep before the long flight home."
+      ],
+      "costNote": "Return domestic flight budget is mostly included in Day 1; this covers local transfers and buffer hotel.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Buenos Aires / EZE buffer",
+        "lat": -34.8222,
+        "lon": -58.5358
+      }
+    },
+    {
+      "day": 14,
+      "slug": "day-14",
+      "date": "Sun Sep 13",
+      "title": "Fly Buenos Aires to Atlanta",
+      "heroImage": "/app/assets/patagonia-argentina-chile-family-days/day-14-fly-buenos-aires-to-atlanta.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Delta_Air_Lines",
+      "overnight": "Home",
+      "lodgingCost": 0,
+      "transport": "Return EZE to ATL on Delta planning snapshot.",
+      "transportCost": 90,
+      "primaryActivity": "Airport morning, stroller gate-check, and flight home.",
+      "activityCost": 0,
+      "backupActivity": "If flight is late, use hotel late checkout/day room strategy.",
+      "foodPlan": "Airport food and baby snacks; budget $110.",
+      "foodCost": 110,
+      "babyPlan": "Keep the morning simple; infant-in-lap already included in Day 1 flight budget.",
+      "bookingPriority": "Confirm flight times and infant-in-lap documentation requirements.",
+      "dayTotal": 200,
+      "sourceLinks": [
+        "Delta Argentina flights",
+        "Delta infant travel policy"
+      ],
+      "why": "A quiet airport day closes a complicated trip without a final logistics scramble.",
+      "moments": [
+        "Use the buffer hotel to make check-in calmer.",
+        "Keep snacks/layers accessible.",
+        "Plan for a long recovery day at home after arrival."
+      ],
+      "costNote": "Local departure costs only; round-trip airfare is allocated on Day 1.",
+      "pitchTitle": "Why this day earns its spot",
+      "restaurantOptions": [],
+      "mapPoint": {
+        "label": "Buenos Aires departure",
+        "lat": -34.8222,
+        "lon": -58.5358
+      }
+    }
+  ],
+  "sourceLinks": [
+    {
+      "label": "Delta infant travel policy",
+      "url": "https://www.delta.com/us/en/children-infant-travel/infant-travel"
+    },
+    {
+      "label": "Delta Argentina flights",
+      "url": "https://www.delta.com/us/en/flight-deals/latin-america-flights/flights-to-argentina"
+    },
+    {
+      "label": "ATL-EZE Delta flight reference",
+      "url": "https://www.flightconnections.com/flights-from-atl-to-eze"
+    },
+    {
+      "label": "Argentina official tourism",
+      "url": "https://www.argentina.travel/en"
+    },
+    {
+      "label": "Chile official tourism",
+      "url": "https://www.chile.travel/en/"
+    },
+    {
+      "label": "Los Glaciares National Park",
+      "url": "https://www.argentina.gob.ar/parquesnacionales/losglaciares"
+    },
+    {
+      "label": "Torres del Paine official park",
+      "url": "https://www.parquetorresdelpaine.cl/en/"
+    },
+    {
+      "label": "El Chalten tourism",
+      "url": "https://elchalten.com/"
+    },
+    {
+      "label": "El Calafate tourism",
+      "url": "https://www.elcalafate.tur.ar/"
+    },
+    {
+      "label": "Puerto Natales tourism",
+      "url": "https://www.chile.travel/en/where-to-go/patagonia/puerto-natales/"
+    },
+    {
+      "label": "Esplendor El Calafate",
+      "url": "https://www.wyndhamhotels.com/en-uk/esplendor/el-calafate-argentina/esplendor-el-calafate/overview"
+    },
+    {
+      "label": "Chalten Suites Hotel",
+      "url": "https://www.chaltensuites.com/"
+    },
+    {
+      "label": "Weskar Lodge Puerto Natales",
+      "url": "https://www.weskar.cl/"
+    }
+  ],
+  "routeLabel": "Buenos Aires → El Calafate → El Chalten → Puerto Natales → Torres del Paine → Buenos Aires",
+  "routeMap": {
+    "note": "Real OpenStreetMap route view. Solid blue route lines use cached OSRM driving geometry to follow the roads we would actually drive; dashed clay lines are direct reference legs for non-road or unavailable segments. Numbered day pins may fan out slightly when several days share the same base."
+  }
+}

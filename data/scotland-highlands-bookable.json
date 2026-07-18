@@ -1,0 +1,727 @@
+{
+  "id": "scotland-highlands",
+  "name": "Scotland Highlands Farm + Estate Loop",
+  "lastUpdated": "2026-06-22",
+  "priceSnapshotDate": "2026-06-22",
+  "dates": {
+    "depart": "2026-08-31",
+    "return": "2026-09-13",
+    "nights": 13,
+    "why": "Aug 31-Sep 13 keeps the Edinburgh nonstop pattern, lands Sep 1, and shortens the expensive estate-hotel exposure by using practical inns/cottages as the default."
+  },
+  "travelers": "2 adults + 1 infant-in-lap",
+  "currency": "USD",
+  "exchangeRateNote": "Foreign-currency items use planning conversions and must be re-priced before booking.",
+  "positioning": "Budget-rebalanced Scotland Highlands loop: Edinburgh apartments, Perthshire/Trossachs inns, and Braemar cottages by default, with Gleneagles and Fife Arms as named splurge options.",
+  "routeLabel": "Edinburgh → Gleneagles → Trossachs farm → Braemar → Edinburgh",
+  "routeRationale": [
+    "The route is ordered as Edinburgh → Gleneagles → Trossachs farm → Braemar → Edinburgh to reduce backtracking and keep the biggest transfers between lodging bases.",
+    "Each base lasts 2-4 nights so the baby has repeated sleep environments instead of daily hotel churn.",
+    "High-impact sights are paired with nearby backup options so weather does not break the trip.",
+    "The Ryan Shirley/video inspiration is used for idea generation, then validated with official tourism, park, hotel, airline, and activity sources."
+  ],
+  "budget": {
+    "flightTotal": 2236,
+    "lodgingTotal": 3770,
+    "carTransportTotal": 1475,
+    "activitiesTotal": 690,
+    "foodTotal": 2280,
+    "estimatedTripTotal": 10451,
+    "note": "Reworked close to target by moving Gleneagles/Fife Arms from default lodging into optional splurge swaps."
+  },
+  "flights": {
+    "recommended": {
+      "label": "Recommended Delta nonstop ATL-EDI",
+      "fareSnapshotPerAdultRoundTrip": 998,
+      "adultTickets": 2,
+      "adultFareTotal": 1996,
+      "infantInLapEstimate": 240,
+      "totalFlightBudget": 2236,
+      "cabin": "Main Cabin planning snapshot",
+      "outbound": {
+        "date": "2026-08-31",
+        "flight": "DL34",
+        "airline": "Delta",
+        "from": "ATL",
+        "to": "EDI",
+        "depart": "10:50 PM EDT",
+        "arrive": "11:14 AM BST +1",
+        "duration": "about 7h20m",
+        "aircraft": "B767"
+      },
+      "return": {
+        "date": "2026-09-13",
+        "flight": "DL35",
+        "airline": "Delta",
+        "from": "EDI",
+        "to": "ATL",
+        "depart": "1:00 PM BST",
+        "arrive": "5:20 PM EDT",
+        "duration": "about 8h20m",
+        "aircraft": "B767"
+      },
+      "infantNote": "International infant-in-lap fare/taxes apply; add infant through Delta.",
+      "sourceLinks": [
+        "Delta Edinburgh flights",
+        "DL34 schedule",
+        "ATL-EDI fare snapshot",
+        "Delta infant travel policy"
+      ],
+      "fareSnapshot": 998,
+      "priceSnapshotDate": "2026-06-22",
+      "budgetNote": "Planning snapshot uses Delta ATL-EDI nonstop schedule and a lower Expedia/Delta fare reference; re-price Aug 31-Sep 13 live before booking."
+    },
+    "alternates": [
+      {
+        "label": "Cash/points alternative",
+        "summary": "Re-price on Delta with flexible dates and compare points value before booking.",
+        "estimatedTotalForTwoAdults": 1920
+      }
+    ]
+  },
+  "bases": [
+    {
+      "name": "Edinburgh apartment base",
+      "dates": "Sep 1-3",
+      "nights": 2,
+      "hotel": "Cheval Old Town Chambers / aparthotel alternative",
+      "room": "Apartment-style family room",
+      "nightlyRate": 300,
+      "total": 600,
+      "why": "Walkable first base with kitchen/laundry potential after the overnight flight.",
+      "bookingUrl": "https://www.chevalcollection.com/cheval-old-town-chambers/"
+    },
+    {
+      "name": "Perthshire practical estate base",
+      "dates": "Sep 3-6",
+      "nights": 3,
+      "hotel": "Crieff Hydro / Perthshire family hotel",
+      "room": "Family room near countryside activities",
+      "nightlyRate": 360,
+      "total": 1080,
+      "why": "Keeps horses, gardens, and soft estate energy without default Gleneagles pricing.",
+      "bookingUrl": "https://www.crieffhydro.com/"
+    },
+    {
+      "name": "Trossachs farm/loch base",
+      "dates": "Sep 6-9",
+      "nights": 3,
+      "hotel": "Monachyle Mhor / Trossachs inn alternative",
+      "room": "Farm/loch family room",
+      "nightlyRate": 310,
+      "total": 930,
+      "why": "Closest match to the farm-and-animals brief in Scotland.",
+      "bookingUrl": "https://www.monachylemhor.net/"
+    },
+    {
+      "name": "Braemar cottage/inn base",
+      "dates": "Sep 9-12",
+      "nights": 3,
+      "hotel": "Braemar Lodge / Highland cottage base",
+      "room": "Practical room or self-catering cottage",
+      "nightlyRate": 330,
+      "total": 990,
+      "why": "Cairngorm scenery and castle access without Fife Arms as the default.",
+      "bookingUrl": "https://www.visitcairngorms.com/"
+    },
+    {
+      "name": "Airport buffer",
+      "dates": "Sep 12-13",
+      "nights": 1,
+      "hotel": "Moxy Edinburgh Airport",
+      "room": "Airport family room",
+      "nightlyRate": 170,
+      "total": 170,
+      "why": "Protects the Sep 13 flight home.",
+      "bookingUrl": "https://www.marriott.com/en-us/hotels/ediox-moxy-edinburgh-airport/overview/"
+    }
+  ],
+  "dailyItinerary": [
+    {
+      "day": 1,
+      "slug": "day-01",
+      "date": "Mon Aug 31",
+      "title": "Fly ATL to Edinburgh",
+      "heroImage": "/app/assets/scotland-highlands-days/day-01-fly-atl-to-edinburgh.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Edinburgh_Airport",
+      "overnight": "In flight",
+      "lodgingCost": 0,
+      "transport": "Fly ATL to Edinburgh on Delta DL34, 10:50 PM Aug 31 to late morning Sep 1.",
+      "transportCost": 2236,
+      "primaryActivity": "The main experience is Fly ATL to Edinburgh: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 90,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this setup matters",
+      "why": "Fly ATL to Edinburgh is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Fly ATL to Edinburgh.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "The transport line is the full round-trip flight budget for two adult tickets plus infant-in-lap estimate where applicable. Planning snapshot uses Delta ATL-EDI nonstop schedule and a lower Expedia/Delta fare reference; re-price Aug 31-Sep 13 live before booking.",
+      "dayTotal": 2326,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Edinburgh Airport",
+        "lat": 55.95,
+        "lon": -3.36
+      }
+    },
+    {
+      "day": 2,
+      "slug": "day-02",
+      "date": "Tue Sep 1",
+      "title": "Old Town soft landing",
+      "heroImage": "/app/assets/scotland-highlands-days/day-02-old-town-soft-landing.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Royal_Mile",
+      "overnight": "Edinburgh apartment hotel",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Old Town soft landing. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 55,
+      "primaryActivity": "The main experience is Old Town soft landing: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 160,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this setup matters",
+      "why": "Old Town soft landing is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Old Town soft landing.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 515,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Edinburgh Old Town",
+        "lat": 55.953,
+        "lon": -3.188
+      }
+    },
+    {
+      "day": 3,
+      "slug": "day-03",
+      "date": "Wed Sep 2",
+      "title": "Edinburgh Castle and gardens",
+      "heroImage": "/app/assets/scotland-highlands-days/day-03-edinburgh-castle-and-gardens.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Edinburgh_Castle",
+      "overnight": "Edinburgh apartment hotel",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Edinburgh Castle and gardens. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 45,
+      "primaryActivity": "The main experience is Edinburgh Castle and gardens: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 70,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 170,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Edinburgh Castle and gardens is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Edinburgh Castle and gardens.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 585,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Edinburgh Castle",
+        "lat": 55.948,
+        "lon": -3.2
+      }
+    },
+    {
+      "day": 4,
+      "slug": "day-04",
+      "date": "Thu Sep 3",
+      "title": "Drive to Perthshire family countryside base",
+      "heroImage": "/app/assets/scotland-highlands-days/day-04-drive-to-perthshire-family-countryside-base.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Crieff",
+      "overnight": "Perthshire family hotel",
+      "lodgingCost": 360,
+      "transport": "Route leg planned for Drive to Gleneagles estate. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 780,
+      "primaryActivity": "Pick up the car and drive to the Perthshire countryside base, using an easy garden/village stop rather than making Gleneagles the default.",
+      "activityCost": 60,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 175,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "This gives the estate-country feeling with a family-friendly price point, while keeping Gleneagles available as the special upgrade.",
+      "moments": [
+        "See the signature view or place tied to Drive to Perthshire family countryside base.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted. Option for nicer/more expensive option here: Gleneagles at about $780/night for the Perthshire block adds roughly $1,260 total and makes this the estate-spa version.",
+      "dayTotal": 1375,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Perthshire / Crieff",
+        "lat": 56.373,
+        "lon": -3.84
+      }
+    },
+    {
+      "day": 5,
+      "slug": "day-05",
+      "date": "Fri Sep 4",
+      "title": "Perthshire horses, gardens, and spa-style day",
+      "heroImage": "/app/assets/scotland-highlands-days/day-05-perthshire-horses-gardens-and-spa-style-day.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Drummond_Castle",
+      "overnight": "Perthshire family hotel",
+      "lodgingCost": 360,
+      "transport": "Route leg planned for Gleneagles horses, family pursuits and spa. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "Use the Perthshire base for horse/animal viewing, gardens, a gentle countryside outing, and parent spa or pool turns if the hotel has facilities.",
+      "activityCost": 130,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "This is the Scotland version of a soft farm-and-wellness day: countryside texture, animals/gardens, and enough downtime for a one-year-old.",
+      "moments": [
+        "See the signature view or place tied to Perthshire horses, gardens, and spa-style day.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 705,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Drummond Castle Gardens",
+        "lat": 56.336,
+        "lon": -3.88
+      }
+    },
+    {
+      "day": 6,
+      "slug": "day-06",
+      "date": "Sat Sep 5",
+      "title": "Drummond Gardens / Perthshire loch day",
+      "heroImage": "/app/assets/scotland-highlands-days/day-06-drummond-gardens-perthshire-loch-day.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Loch_Earn",
+      "overnight": "Perthshire family hotel",
+      "lodgingCost": 360,
+      "transport": "Route leg planned for Drummond Gardens / Perthshire loch day. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 60,
+      "primaryActivity": "The main experience is Drummond Gardens / Perthshire loch day: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 70,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 175,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Drummond Gardens / Perthshire loch day is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Drummond Gardens / Perthshire loch day.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 665,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Perthshire loch day",
+        "lat": 56.39,
+        "lon": -3.9
+      }
+    },
+    {
+      "day": 7,
+      "slug": "day-07",
+      "date": "Sun Sep 6",
+      "title": "Transfer to Monachyle Mhor farm hotel",
+      "heroImage": "/app/assets/scotland-highlands-days/day-07-transfer-to-monachyle-mhor-farm-hotel.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Loch_Voil",
+      "overnight": "Trossachs farm/loch inn",
+      "lodgingCost": 310,
+      "transport": "Route leg planned for Transfer to Monachyle Mhor farm hotel. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 65,
+      "primaryActivity": "The main experience is Transfer to Monachyle Mhor farm hotel: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 40,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Transfer to Monachyle Mhor farm hotel is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Transfer to Monachyle Mhor farm hotel.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 595,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Loch Voil / Trossachs",
+        "lat": 56.36,
+        "lon": -4.36
+      }
+    },
+    {
+      "day": 8,
+      "slug": "day-08",
+      "date": "Mon Sep 7",
+      "title": "Mhor Farm animals and Loch Voil",
+      "heroImage": "/app/assets/scotland-highlands-days/day-08-mhor-farm-animals-and-loch-voil.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Loch_Katrine",
+      "overnight": "Trossachs farm/loch inn",
+      "lodgingCost": 310,
+      "transport": "Route leg planned for Mhor Farm animals and Loch Voil. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 45,
+      "primaryActivity": "The main experience is Mhor Farm animals and Loch Voil: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 55,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 175,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Mhor Farm animals and Loch Voil is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Mhor Farm animals and Loch Voil.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 585,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Loch Katrine",
+        "lat": 56.25,
+        "lon": -4.58
+      }
+    },
+    {
+      "day": 9,
+      "slug": "day-09",
+      "date": "Tue Sep 8",
+      "title": "Trossachs loch and village loop",
+      "heroImage": "/app/assets/scotland-highlands-days/day-09-trossachs-loch-and-village-loop.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Callander",
+      "overnight": "Trossachs farm/loch inn",
+      "lodgingCost": 310,
+      "transport": "Route leg planned for Trossachs loch and village loop. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 45,
+      "primaryActivity": "The main experience is Trossachs loch and village loop: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 80,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 175,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Trossachs loch and village loop is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Trossachs loch and village loop.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 610,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Trossachs villages",
+        "lat": 56.25,
+        "lon": -4.4
+      }
+    },
+    {
+      "day": 10,
+      "slug": "day-10",
+      "date": "Wed Sep 9",
+      "title": "Drive to Braemar Highland cottage base",
+      "heroImage": "/app/assets/scotland-highlands-days/day-10-drive-to-braemar-highland-cottage-base.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Braemar_Castle",
+      "overnight": "Braemar cottage/inn base",
+      "lodgingCost": 330,
+      "transport": "Route leg planned for Drive to Braemar and Fife Arms. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 90,
+      "primaryActivity": "Drive into the Cairngorms/Braemar area, settle into the cottage or inn base, and do a short village walk with mountain scenery.",
+      "activityCost": 40,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "This keeps the Highlands finale but uses a practical Braemar base; The Fife Arms remains the high-design upgrade if you want that version.",
+      "moments": [
+        "See the signature view or place tied to Drive to Braemar Highland cottage base.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted. Option for nicer/more expensive option here: The Fife Arms at about $690/night for Braemar adds roughly $1,080 total for the high-design Highlands finale.",
+      "dayTotal": 640,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Braemar",
+        "lat": 57.006,
+        "lon": -3.397
+      }
+    },
+    {
+      "day": 11,
+      "slug": "day-11",
+      "date": "Thu Sep 10",
+      "title": "Braemar village and Balmoral area",
+      "heroImage": "/app/assets/scotland-highlands-days/day-11-braemar-village-and-balmoral-area.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Balmoral_Castle",
+      "overnight": "Braemar cottage/inn base",
+      "lodgingCost": 330,
+      "transport": "Route leg planned for Braemar village and Balmoral area. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 45,
+      "primaryActivity": "The main experience is Braemar village and Balmoral area: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 70,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Braemar village and Balmoral area is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Braemar village and Balmoral area.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 625,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Balmoral area",
+        "lat": 57.039,
+        "lon": -3.231
+      }
+    },
+    {
+      "day": 12,
+      "slug": "day-12",
+      "date": "Fri Sep 11",
+      "title": "Cairngorms easy carrier walk",
+      "heroImage": "/app/assets/scotland-highlands-days/day-12-cairngorms-easy-carrier-walk.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Loch_Muick",
+      "overnight": "Braemar cottage/inn base",
+      "lodgingCost": 330,
+      "transport": "Route leg planned for Cairngorms easy carrier walk. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 55,
+      "primaryActivity": "The main experience is Cairngorms easy carrier walk: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 75,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Cairngorms easy carrier walk is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Cairngorms easy carrier walk.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 640,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Loch Muick",
+        "lat": 56.95,
+        "lon": -3.15
+      }
+    },
+    {
+      "day": 13,
+      "slug": "day-13",
+      "date": "Sat Sep 12",
+      "title": "Return to Edinburgh airport buffer",
+      "heroImage": "/app/assets/scotland-highlands-days/day-13-return-to-edinburgh-airport-buffer.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Dean_Village",
+      "overnight": "Moxy Edinburgh Airport",
+      "lodgingCost": 170,
+      "transport": "Route leg planned for Return to Edinburgh airport buffer. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 85,
+      "primaryActivity": "The main experience is Return to Edinburgh airport buffer: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 150,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Return to Edinburgh airport buffer is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Return to Edinburgh airport buffer.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 405,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Edinburgh airport buffer",
+        "lat": 55.95,
+        "lon": -3.36
+      }
+    },
+    {
+      "day": 14,
+      "slug": "day-14",
+      "date": "Sun Sep 13",
+      "title": "Fly EDI to ATL",
+      "heroImage": "/app/assets/scotland-highlands-days/day-14-fly-edi-to-atl.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Calton_Hill",
+      "overnight": "Home",
+      "lodgingCost": 0,
+      "transport": "Return Edinburgh to ATL on Delta DL35 on Sep 13.",
+      "transportCost": 70,
+      "primaryActivity": "The main experience is Fly EDI to ATL: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 110,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Fly EDI to ATL is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Fly EDI to ATL.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Departure-day baseline: return drive/airport food only; the return flight is already included in Day 1's flight budget. Planning snapshot uses Delta ATL-EDI nonstop schedule and a lower Expedia/Delta fare reference; re-price Aug 31-Sep 13 live before booking.",
+      "dayTotal": 180,
+      "sourceLinks": [
+        "Ryan Shirley Scotland video",
+        "Gleneagles family activities",
+        "Monachyle Mhor farm",
+        "VisitScotland Highlands with kids"
+      ],
+      "mapPoint": {
+        "label": "Edinburgh Airport departure",
+        "lat": 55.95,
+        "lon": -3.36
+      }
+    }
+  ],
+  "sourceLinks": [
+    {
+      "label": "Delta Edinburgh flights",
+      "url": "https://www.delta.com/us/en/flight-deals/europe-flights/flights-to-edinburgh"
+    },
+    {
+      "label": "DL34 schedule",
+      "url": "https://www.trip.com/flights/status-dl034/"
+    },
+    {
+      "label": "ATL-EDI fare snapshot",
+      "url": "https://www.travelocity.com/lp/flight-routes/delta-from-hartsfield-jackson-atlanta-intl-to-edinburgh/dl/atl/edi"
+    },
+    {
+      "label": "Delta infant travel policy",
+      "url": "https://www.delta.com/us/en/children-infant-travel/infant-travel"
+    },
+    {
+      "label": "Ryan Shirley Scotland video",
+      "url": "https://www.youtube.com/watch?v=52tkGQQoFMQ&t=0s"
+    },
+    {
+      "label": "Gleneagles family activities",
+      "url": "https://gleneagles.com/pursuits/family-activities/"
+    },
+    {
+      "label": "Monachyle Mhor farm",
+      "url": "https://monachylemhor.net/farm/"
+    },
+    {
+      "label": "VisitScotland Highlands with kids",
+      "url": "https://www.visitscotland.com/things-to-do/family/highlands-for-kids"
+    }
+  ],
+  "routeMap": {
+    "type": "schematic-latlon",
+    "note": "Real OpenStreetMap route view. Solid blue route lines use cached OSRM driving geometry to follow the roads we would actually drive; dashed clay lines are direct reference legs for non-road or unavailable segments. Numbered day pins may fan out slightly when several days share the same base.",
+    "startLabel": "Edinburgh Airport",
+    "endLabel": "Edinburgh Airport departure"
+  }
+}

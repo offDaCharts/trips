@@ -1,0 +1,727 @@
+{
+  "id": "alaska-kenai-anchorage",
+  "name": "Alaska Kenai + Anchorage Bookable Loop",
+  "lastUpdated": "2026-06-22",
+  "priceSnapshotDate": "2026-06-22",
+  "dates": {
+    "depart": "2026-08-31",
+    "return": "2026-09-13",
+    "nights": 13,
+    "why": "Aug 31-Sep 13 keeps Anchorage, Girdwood, Seward, Homer/Kachemak Bay, and Knik/Palmer in order without the prior over-budget remote-lodge default."
+  },
+  "travelers": "2 adults + 1 infant-in-lap",
+  "currency": "USD",
+  "exchangeRateNote": "Foreign-currency items use planning conversions and must be re-priced before booking.",
+  "positioning": "Budget-rebalanced Alaska route: standard lodges and hotels by default, with Stillpoint and glacier flightseeing left as explicit upgrade options.",
+  "routeLabel": "Anchorage → Girdwood → Seward → Homer/Halibut Cove → Knik",
+  "routeRationale": [
+    "The route is ordered as Anchorage → Girdwood → Seward → Homer/Halibut Cove → Knik to reduce backtracking and keep the biggest transfers between lodging bases.",
+    "Each base lasts 2-4 nights so the baby has repeated sleep environments instead of daily hotel churn.",
+    "High-impact sights are paired with nearby backup options so weather does not break the trip.",
+    "The Ryan Shirley/video inspiration is used for idea generation, then validated with official tourism, park, hotel, airline, and activity sources."
+  ],
+  "budget": {
+    "flightTotal": 1390,
+    "lodgingTotal": 4040,
+    "carTransportTotal": 1645,
+    "activitiesTotal": 848,
+    "foodTotal": 2270,
+    "estimatedTripTotal": 10193,
+    "note": "Reworked near target by replacing the remote lodge default with Homer/Knik practical stays. Stillpoint and flightseeing stay visible as upgrade choices."
+  },
+  "flights": {
+    "recommended": {
+      "label": "Recommended Delta nonstop ATL-ANC",
+      "fareSnapshotPerAdultRoundTrip": 695,
+      "adultTickets": 2,
+      "adultFareTotal": 1390,
+      "infantInLapEstimate": 0,
+      "totalFlightBudget": 1390,
+      "cabin": "Main Cabin planning snapshot",
+      "outbound": {
+        "date": "2026-08-31",
+        "flight": "DL416",
+        "airline": "Delta",
+        "from": "ATL",
+        "to": "ANC",
+        "depart": "3:20 PM EDT",
+        "arrive": "6:45 PM AKDT",
+        "duration": "about 7h25m",
+        "aircraft": "B757/B767 seasonal"
+      },
+      "return": {
+        "date": "2026-09-13",
+        "flight": "DL415",
+        "airline": "Delta",
+        "from": "ANC",
+        "to": "ATL",
+        "depart": "8:00 PM AKDT",
+        "arrive": "7:30 AM EDT +1",
+        "duration": "about 7h30m",
+        "aircraft": "B757/B767 seasonal"
+      },
+      "infantNote": "Domestic infant-in-lap should be free, but add infant to the Delta reservation.",
+      "sourceLinks": [
+        "Delta Alaska flights",
+        "ATL-ANC DL416 schedule",
+        "ATL-ANC fare snapshot",
+        "Delta infant travel policy"
+      ],
+      "fareSnapshot": 695,
+      "priceSnapshotDate": "2026-06-22",
+      "budgetNote": "Planning snapshot keeps the Delta ATL-ANC nonstop pattern; re-price Aug 31-Sep 13 before booking."
+    },
+    "alternates": [
+      {
+        "label": "Cash/points alternative",
+        "summary": "Re-price on Delta with flexible dates and compare points value before booking.",
+        "estimatedTotalForTwoAdults": 1140
+      }
+    ]
+  },
+  "bases": [
+    {
+      "name": "Anchorage practical arrival base",
+      "dates": "Aug 31-Sep 2",
+      "nights": 2,
+      "hotel": "The Wildbirch / Hyatt Place Anchorage alternative",
+      "room": "Family room",
+      "nightlyRate": 260,
+      "total": 520,
+      "why": "Urban reset, groceries, and weather backup before road-trip days.",
+      "bookingUrl": "https://www.thewildbirchhotel.com/"
+    },
+    {
+      "name": "Girdwood mountain base",
+      "dates": "Sep 2-5",
+      "nights": 3,
+      "hotel": "Alyeska Resort / Girdwood cabin alternative",
+      "room": "Family room or cabin",
+      "nightlyRate": 420,
+      "total": 1260,
+      "why": "Turnagain Arm, wildlife center, tram, and wellness options.",
+      "bookingUrl": "https://alyeskaresort.com/"
+    },
+    {
+      "name": "Seward harbor base",
+      "dates": "Sep 5-8",
+      "nights": 3,
+      "hotel": "Harbor 360 Hotel / Seward Windsong alternative",
+      "room": "Harbor-area family room",
+      "nightlyRate": 280,
+      "total": 840,
+      "why": "SeaLife Center, Exit Glacier, and flexible Kenai Fjords choices.",
+      "bookingUrl": "https://www.harbor360hotel.com/"
+    },
+    {
+      "name": "Homer practical coastal base",
+      "dates": "Sep 8-11",
+      "nights": 3,
+      "hotel": "Land’s End Resort / Homer Spit hotel",
+      "room": "Coastal family room",
+      "nightlyRate": 300,
+      "total": 900,
+      "why": "Kachemak Bay feel without remote-lodge transfer complexity as the default.",
+      "bookingUrl": "https://www.lands-end-resort.com/"
+    },
+    {
+      "name": "Knik/Palmer glacier base",
+      "dates": "Sep 11-13",
+      "nights": 2,
+      "hotel": "Alaska Glacier Lodge / Palmer cabin",
+      "room": "Cabin or family lodge room",
+      "nightlyRate": 260,
+      "total": 520,
+      "why": "Glacier-view finale close enough to Anchorage for departure day.",
+      "bookingUrl": "https://www.akglacierlodge.com/"
+    }
+  ],
+  "dailyItinerary": [
+    {
+      "day": 1,
+      "slug": "day-01",
+      "date": "Mon Aug 31",
+      "title": "Fly ATL to Anchorage",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-01-fly-atl-to-anchorage.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AB-16407_(46143796881).jpg",
+      "overnight": "The Wildbirch / Anchorage hotel",
+      "lodgingCost": 260,
+      "transport": "Fly ATL to ANC on Delta DL416, 3:20 PM to 6:45 PM on Aug 31.",
+      "transportCost": 1390,
+      "primaryActivity": "The main experience is Fly ATL to Anchorage: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 90,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this setup matters",
+      "why": "Fly ATL to Anchorage is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Fly ATL to Anchorage.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "The transport line is the full round-trip flight budget for two adult tickets plus infant-in-lap estimate where applicable. Planning snapshot keeps the Delta ATL-ANC nonstop pattern; re-price Aug 31-Sep 13 before booking.",
+      "dayTotal": 1740,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Anchorage Airport",
+        "lat": 61.174,
+        "lon": -149.998
+      }
+    },
+    {
+      "day": 2,
+      "slug": "day-02",
+      "date": "Tue Sep 1",
+      "title": "Anchorage recovery and wildlife intro",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-02-anchorage-recovery-and-wildlife-intro.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AAnchorage%2C_Alaska%2C_USA.jpg",
+      "overnight": "The Wildbirch / Anchorage hotel",
+      "lodgingCost": 260,
+      "transport": "Route leg planned for Anchorage recovery and wildlife intro. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 850,
+      "primaryActivity": "The main experience is Anchorage recovery and wildlife intro: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 155,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this setup matters",
+      "why": "Anchorage recovery and wildlife intro is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Anchorage recovery and wildlife intro.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 1265,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Anchorage",
+        "lat": 61.218,
+        "lon": -149.9
+      }
+    },
+    {
+      "day": 3,
+      "slug": "day-03",
+      "date": "Wed Sep 2",
+      "title": "Turnagain Arm drive to Girdwood",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-03-turnagain-arm-drive-to-girdwood.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ATurnagainArm_from_GirdwoodAK.jpg",
+      "overnight": "Alyeska Resort / Girdwood cabin",
+      "lodgingCost": 420,
+      "transport": "Route leg planned for Turnagain Arm drive to Girdwood. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "The main experience is Turnagain Arm drive to Girdwood: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 165,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Turnagain Arm drive to Girdwood is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Turnagain Arm drive to Girdwood.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 620,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Turnagain Arm / Girdwood",
+        "lat": 60.96,
+        "lon": -149.11
+      }
+    },
+    {
+      "day": 4,
+      "slug": "day-04",
+      "date": "Thu Sep 3",
+      "title": "Alaska Wildlife Conservation Center",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-04-alaska-wildlife-conservation-center.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AAlaska_Wildlife_Conservation_Center_ENBLA21.jpg",
+      "overnight": "Alyeska Resort / Girdwood cabin",
+      "lodgingCost": 420,
+      "transport": "Route leg planned for Alaska Wildlife Conservation Center. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 45,
+      "primaryActivity": "The main experience is Alaska Wildlife Conservation Center: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 78,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 170,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Alaska Wildlife Conservation Center is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Alaska Wildlife Conservation Center.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 713,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Alaska Wildlife Conservation Center",
+        "lat": 60.825,
+        "lon": -148.99
+      }
+    },
+    {
+      "day": 5,
+      "slug": "day-05",
+      "date": "Fri Sep 4",
+      "title": "Alyeska tram and wellness day",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-05-alyeska-tram-and-wellness-day.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AHotel_Alyeska_(15626683891).jpg",
+      "overnight": "Alyeska Resort / Girdwood cabin",
+      "lodgingCost": 420,
+      "transport": "Route leg planned for Alyeska tram and wellness day. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "The main experience is Alyeska tram and wellness day: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 130,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 175,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Alyeska tram and wellness day is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Alyeska tram and wellness day.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 760,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Alyeska / Girdwood",
+        "lat": 60.96,
+        "lon": -149.11
+      }
+    },
+    {
+      "day": 6,
+      "slug": "day-06",
+      "date": "Sat Sep 5",
+      "title": "Drive to Seward harbor",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-06-drive-to-seward-harbor.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AHarbor_and_buildings%2C_Seward%2C_Alaska.jpg",
+      "overnight": "Harbor 360 / Seward hotel",
+      "lodgingCost": 280,
+      "transport": "Route leg planned for Drive to Seward harbor. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 75,
+      "primaryActivity": "The main experience is Drive to Seward harbor: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 165,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Drive to Seward harbor is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Drive to Seward harbor.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 520,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Seward Harbor",
+        "lat": 60.104,
+        "lon": -149.442
+      }
+    },
+    {
+      "day": 7,
+      "slug": "day-07",
+      "date": "Sun Sep 6",
+      "title": "SeaLife Center and Exit Glacier",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-07-sealife-center-and-exit-glacier.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ARissa_brevirostris_Seward.jpg",
+      "overnight": "Harbor 360 / Seward hotel",
+      "lodgingCost": 280,
+      "transport": "Route leg planned for SeaLife Center and Exit Glacier. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 30,
+      "primaryActivity": "The main experience is SeaLife Center and Exit Glacier: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 90,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 175,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "SeaLife Center and Exit Glacier is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to SeaLife Center and Exit Glacier.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 575,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "SeaLife Center / Exit Glacier",
+        "lat": 60.188,
+        "lon": -149.632
+      }
+    },
+    {
+      "day": 8,
+      "slug": "day-08",
+      "date": "Mon Sep 7",
+      "title": "Kenai Fjords gentle cruise decision",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-08-kenai-fjords-gentle-cruise-decision.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3APederson_and_Aialik_Glaciers_(9027082360).jpg",
+      "overnight": "Harbor 360 / Seward hotel",
+      "lodgingCost": 280,
+      "transport": "Route leg planned for Kenai Fjords gentle cruise decision. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 55,
+      "primaryActivity": "The main experience is Kenai Fjords gentle cruise decision: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 150,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Kenai Fjords gentle cruise decision is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Kenai Fjords gentle cruise decision.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 665,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Kenai Fjords / Seward",
+        "lat": 59.95,
+        "lon": -149.7
+      }
+    },
+    {
+      "day": 9,
+      "slug": "day-09",
+      "date": "Tue Sep 8",
+      "title": "Drive to Homer / lodge transfer",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-09-drive-to-homer-lodge-transfer.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ALast_downhill_before_Homer_Spit.jpg",
+      "overnight": "Land’s End Resort / Homer hotel",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Drive to Homer / lodge transfer. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 120,
+      "primaryActivity": "The main experience is Drive to Homer / lodge transfer: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 80,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Drive to Homer / lodge transfer is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Drive to Homer / lodge transfer.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted. Option for nicer/more expensive option here: Stillpoint Lodge for the Homer/Kachemak block can add several thousand dollars once transfers and meal structure are included; keep it as a deliberate splurge, not the baseline.",
+      "dayTotal": 680,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Homer Spit",
+        "lat": 59.642,
+        "lon": -151.548
+      }
+    },
+    {
+      "day": 10,
+      "slug": "day-10",
+      "date": "Wed Sep 9",
+      "title": "Homer farm-to-table and wellness-style coast day",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-10-homer-farm-to-table-and-wellness-style-coast-day.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AKachemak_Bay_Shorebird_Festival_(49358259527).jpg",
+      "overnight": "Land’s End Resort / Homer hotel",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Stillpoint farm-to-table wellness day. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "Use Homer as the practical version of the farm-to-table/wellness idea: slow breakfast, Homer Spit or Kachemak Bay views, local seafood, nap, and optional parent spa/massage time if available.",
+      "activityCost": 70,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "This keeps the spirit of a special Alaska lodge day while avoiding Stillpoint-level transfer and lodging costs as the default.",
+      "moments": [
+        "See the signature view or place tied to Homer farm-to-table and wellness-style coast day.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 585,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Kachemak Bay",
+        "lat": 59.6,
+        "lon": -151.4
+      }
+    },
+    {
+      "day": 11,
+      "slug": "day-11",
+      "date": "Thu Sep 10",
+      "title": "Kachemak Bay slow exploration",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-11-kachemak-bay-slow-exploration.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AAlaska_State_Salmander_Halibut_Cove_252.jpg",
+      "overnight": "Land’s End Resort / Homer hotel",
+      "lodgingCost": 300,
+      "transport": "Route leg planned for Kachemak Bay slow exploration. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 45,
+      "primaryActivity": "The main experience is Kachemak Bay slow exploration: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 80,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Kachemak Bay slow exploration is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Kachemak Bay slow exploration.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 605,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Halibut Cove",
+        "lat": 59.598,
+        "lon": -151.23
+      }
+    },
+    {
+      "day": 12,
+      "slug": "day-12",
+      "date": "Fri Sep 11",
+      "title": "Transfer to Knik Glacier",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-12-transfer-to-knik-glacier.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AGlacial_Crevasses_-_Knik_Glacier_in_Alaska.jpg",
+      "overnight": "Alaska Glacier Lodge / Palmer cabin",
+      "lodgingCost": 260,
+      "transport": "Route leg planned for Transfer to Knik Glacier. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 135,
+      "primaryActivity": "The main experience is Transfer to Knik Glacier: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 80,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 175,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Transfer to Knik Glacier is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Transfer to Knik Glacier.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 650,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Knik / Palmer",
+        "lat": 61.49,
+        "lon": -148.75
+      }
+    },
+    {
+      "day": 13,
+      "slug": "day-13",
+      "date": "Sat Sep 12",
+      "title": "Knik or Matanuska glacier finale",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-13-knik-or-matanuska-glacier-finale.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AGlaciar_Matanuska%2C_Alaska%2C_Estados_Unidos%2C_2017-08-22%2C_DD_68.jpg",
+      "overnight": "Alaska Glacier Lodge / Palmer cabin",
+      "lodgingCost": 260,
+      "transport": "Route leg planned for Knik or Matanuska glacier finale. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "The main experience is Knik or Matanuska glacier finale: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 90,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 170,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Knik or Matanuska glacier finale is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Knik or Matanuska glacier finale.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted. Option for nicer/more expensive option here: glacier flightseeing or helicopter landing can be magical but may add $700-$1,200+ and needs infant policy/weather confirmation.",
+      "dayTotal": 555,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Matanuska Glacier",
+        "lat": 61.817,
+        "lon": -147.55
+      }
+    },
+    {
+      "day": 14,
+      "slug": "day-14",
+      "date": "Sun Sep 13",
+      "title": "Return ANC and fly home",
+      "heroImage": "/app/assets/alaska-kenai-anchorage-days/day-14-return-anc-and-fly-home.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ACathay_Pacific_Cargo_747_clearing_the_Chugach_Mountains_in_Anchorage_(6193707491).jpg",
+      "overnight": "In flight / home",
+      "lodgingCost": 0,
+      "transport": "Return ANC to ATL on Delta DL415 on Sep 13.",
+      "transportCost": 150,
+      "primaryActivity": "The main experience is Return ANC and fly home: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 110,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Return ANC and fly home is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Return ANC and fly home.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Departure-day baseline: return drive/airport food only; the return flight is already included in Day 1's flight budget. Planning snapshot keeps the Delta ATL-ANC nonstop pattern; re-price Aug 31-Sep 13 before booking.",
+      "dayTotal": 260,
+      "sourceLinks": [
+        "Alaska kids under 5 itinerary",
+        "Kenai Fjords NPS",
+        "Travel Alaska family parks",
+        "Ryan Shirley USA/Alaska inspiration"
+      ],
+      "mapPoint": {
+        "label": "Anchorage Airport departure",
+        "lat": 61.174,
+        "lon": -149.998
+      }
+    }
+  ],
+  "sourceLinks": [
+    {
+      "label": "Delta Alaska flights",
+      "url": "https://www.delta.com/us/en/flight-deals/united-states-flights/flights-to-alaska"
+    },
+    {
+      "label": "ATL-ANC DL416 schedule",
+      "url": "https://www.flightsfrom.com/ATL-ANC"
+    },
+    {
+      "label": "ATL-ANC fare snapshot",
+      "url": "https://www.travelocity.com/lp/flight-routes/delta-from-hartsfield-jackson-atlanta-intl-to-ted-stevens-anchorage-intl/dl/atl/anc"
+    },
+    {
+      "label": "Delta infant travel policy",
+      "url": "https://www.delta.com/us/en/children-infant-travel/infant-travel"
+    },
+    {
+      "label": "Alaska kids under 5 itinerary",
+      "url": "https://www.alaska.org/trip-ideas/itineraries-for-families-with-kids-under-5"
+    },
+    {
+      "label": "Kenai Fjords NPS",
+      "url": "https://www.nps.gov/kefj/"
+    },
+    {
+      "label": "Travel Alaska family parks",
+      "url": "https://www.travelalaska.com/explore-alaska/articles/family-vacation-alaskas-national-parks"
+    },
+    {
+      "label": "Ryan Shirley USA/Alaska inspiration",
+      "url": "https://www.youtube.com/watch?v=C2EtUGphL04&t=0s"
+    }
+  ],
+  "routeMap": {
+    "type": "schematic-latlon",
+    "note": "Real OpenStreetMap route view. Solid blue route lines use cached OSRM driving geometry to follow the roads we would actually drive; dashed clay lines are direct reference legs for non-road or unavailable segments. Numbered day pins may fan out slightly when several days share the same base.",
+    "startLabel": "Anchorage Airport",
+    "endLabel": "Anchorage Airport departure"
+  }
+}

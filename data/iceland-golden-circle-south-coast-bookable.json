@@ -1,0 +1,716 @@
+{
+  "id": "iceland-golden-circle-south-coast",
+  "name": "Iceland Farm + South Coast Bookable Loop",
+  "lastUpdated": "2026-06-22",
+  "priceSnapshotDate": "2026-06-22",
+  "dates": {
+    "depart": "2026-08-31",
+    "return": "2026-09-13",
+    "nights": 13,
+    "why": "Aug 31-Sep 13 gives a full South Iceland trip without forcing the Ring Road. Overnight flight lands Sep 1, then the route runs Reykjavik → Golden Circle farm → South Coast → Snaefellsnes → KEF."
+  },
+  "travelers": "2 adults + 1 infant-in-lap",
+  "currency": "USD",
+  "exchangeRateNote": "Foreign-currency items use planning conversions and must be re-priced before booking.",
+  "positioning": "Budget-rebalanced Iceland route with farm stays and guesthouses as the default, while keeping Hotel Ranga and Hotel Budir as optional nicer swaps.",
+  "routeLabel": "KEF → Reykjavik → Golden Circle farm → South Coast → Snæfellsnes",
+  "routeRationale": [
+    "The route is ordered as KEF → Reykjavik → Golden Circle farm → South Coast → Snæfellsnes to reduce backtracking and keep the biggest transfers between lodging bases.",
+    "Each base lasts 2-4 nights so the baby has repeated sleep environments instead of daily hotel churn.",
+    "High-impact sights are paired with nearby backup options so weather does not break the trip.",
+    "The Ryan Shirley/video inspiration is used for idea generation, then validated with official tourism, park, hotel, airline, and activity sources."
+  ],
+  "budget": {
+    "flightTotal": 1722,
+    "lodgingTotal": 3470,
+    "carTransportTotal": 1640,
+    "activitiesTotal": 455,
+    "foodTotal": 2330,
+    "estimatedTripTotal": 9617,
+    "note": "Reworked to sit near target by using farm/guesthouse lodging as the base plan. Hotel Ranga and Hotel Budir are now marked as upgrades."
+  },
+  "flights": {
+    "recommended": {
+      "label": "Recommended Delta via JFK",
+      "fareSnapshotPerAdultRoundTrip": 771,
+      "adultTickets": 2,
+      "adultFareTotal": 1542,
+      "infantInLapEstimate": 180,
+      "totalFlightBudget": 1722,
+      "cabin": "Main Cabin planning snapshot",
+      "outbound": {
+        "date": "2026-08-31",
+        "flight": "DL2386 + DL246",
+        "airline": "Delta",
+        "from": "ATL/JFK",
+        "to": "KEF",
+        "depart": "5:00 PM EDT ATL",
+        "arrive": "8:53 AM GMT +1 KEF",
+        "duration": "about 10h with JFK connection",
+        "aircraft": "A321/B767"
+      },
+      "return": {
+        "date": "2026-09-13",
+        "flight": "DL247 + DL2293",
+        "airline": "Delta",
+        "from": "KEF/JFK",
+        "to": "ATL",
+        "depart": "11:15 AM GMT",
+        "arrive": "8:30 PM EDT",
+        "duration": "about 13h with JFK connection",
+        "aircraft": "B767/A321"
+      },
+      "infantNote": "International infant-in-lap fee/taxes apply; verify during Delta checkout.",
+      "sourceLinks": [
+        "Delta Reykjavik flights",
+        "DL246 schedule",
+        "ATL-KEF fare snapshot",
+        "Delta infant travel policy"
+      ],
+      "fareSnapshot": 771,
+      "priceSnapshotDate": "2026-06-22",
+      "budgetNote": "Planning snapshot keeps the Delta via-JFK KEF routing and fare reference; re-price Aug 31-Sep 13 before booking."
+    },
+    "alternates": [
+      {
+        "label": "Cash/points alternative",
+        "summary": "Re-price on Delta with flexible dates and compare points value before booking.",
+        "estimatedTotalForTwoAdults": 1292
+      }
+    ]
+  },
+  "bases": [
+    {
+      "name": "Reykjavik soft landing",
+      "dates": "Sep 1-2",
+      "nights": 1,
+      "hotel": "Reykjavik Residence / apartment-hotel alternative",
+      "room": "Apartment-style room with kitchenette",
+      "nightlyRate": 280,
+      "total": 280,
+      "why": "Lets everyone reset with groceries, stroller walks, and services nearby.",
+      "bookingUrl": "https://www.reykjavikresidence.is/"
+    },
+    {
+      "name": "Golden Circle farm base",
+      "dates": "Sep 2-6",
+      "nights": 4,
+      "hotel": "Efstidalur Farm Hotel / nearby farm guesthouse",
+      "room": "Farm room with crib request",
+      "nightlyRate": 240,
+      "total": 960,
+      "why": "Cows, horses, ice cream, and easy Golden Circle drives are the baby-friendly heart of this route.",
+      "bookingUrl": "https://efstidalur.is/farm-hotel/"
+    },
+    {
+      "name": "South Coast practical base",
+      "dates": "Sep 6-10",
+      "nights": 4,
+      "hotel": "Hella/Hvolsvollur guesthouse base",
+      "room": "Family room near waterfalls",
+      "nightlyRate": 340,
+      "total": 1360,
+      "why": "Keeps Skogafoss, Seljalandsfoss, Vik, and weather backups within reach.",
+      "bookingUrl": "https://www.south.is/en/accommodation"
+    },
+    {
+      "name": "Snaefellsnes coastal base",
+      "dates": "Sep 10-13",
+      "nights": 3,
+      "hotel": "Arnarstapi Hotel / Snaefellsnes guesthouse",
+      "room": "Coastal room or cottage",
+      "nightlyRate": 290,
+      "total": 870,
+      "why": "Gives the dramatic finale without defaulting to Hotel Budir rates.",
+      "bookingUrl": "https://arnarstapicottages.is/"
+    }
+  ],
+  "dailyItinerary": [
+    {
+      "day": 1,
+      "slug": "day-01",
+      "date": "Mon Aug 31",
+      "title": "Fly ATL to Keflavik via JFK",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-01-fly-atl-to-keflavik-via-jfk.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3A20190621_CPH-KEF_7360_(48453787177).jpg",
+      "overnight": "In flight / morning KEF arrival",
+      "lodgingCost": 0,
+      "transport": "Fly ATL to KEF via JFK on Delta DL2386 + DL246; ATL evening departure Aug 31, KEF morning arrival Sep 1.",
+      "transportCost": 1722,
+      "primaryActivity": "The main experience is Fly ATL to Keflavik via JFK: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 90,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this setup matters",
+      "why": "Fly ATL to Keflavik via JFK is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Fly ATL to Keflavik via JFK.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "The transport line is the full round-trip flight budget for two adult tickets plus infant-in-lap estimate where applicable. Planning snapshot keeps the Delta via-JFK KEF routing and fare reference; re-price Aug 31-Sep 13 before booking.",
+      "dayTotal": 1812,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Keflavik Airport",
+        "lat": 63.985,
+        "lon": -22.605
+      }
+    },
+    {
+      "day": 2,
+      "slug": "day-02",
+      "date": "Tue Sep 1",
+      "title": "Reykjavik soft landing",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-02-reykjavik-soft-landing.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ANorthwest_view_from_Hallgrimskirkja_Reykjavik_Iceland_2026-02-07_14-44-22_1.jpg",
+      "overnight": "Reykjavik Residence / apartment hotel",
+      "lodgingCost": 280,
+      "transport": "Route leg planned for Reykjavik soft landing. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 60,
+      "primaryActivity": "The main experience is Reykjavik soft landing: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 160,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this setup matters",
+      "why": "Reykjavik soft landing is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Reykjavik soft landing.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 500,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Reykjavik",
+        "lat": 64.146,
+        "lon": -21.942
+      }
+    },
+    {
+      "day": 3,
+      "slug": "day-03",
+      "date": "Wed Sep 2",
+      "title": "Thingvellir to Efstidalur farm hotel",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-03-thingvellir-to-efstidalur-farm-hotel.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ATrail_to_visitors_center_Thingvellir_Iceland_2026-02-06_06-23-39.jpg",
+      "overnight": "Efstidalur Farm Hotel / farm guesthouse",
+      "lodgingCost": 240,
+      "transport": "Route leg planned for Thingvellir to Efstidalur farm hotel. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 880,
+      "primaryActivity": "The main experience is Thingvellir to Efstidalur farm hotel: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 170,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Thingvellir to Efstidalur farm hotel is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Thingvellir to Efstidalur farm hotel.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 1290,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Thingvellir to Efstidalur",
+        "lat": 64.22,
+        "lon": -20.52
+      }
+    },
+    {
+      "day": 4,
+      "slug": "day-04",
+      "date": "Thu Sep 3",
+      "title": "Geysir, Gullfoss, cows and ice cream",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-04-geysir-gullfoss-cows-and-ice-cream.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AGeysir%2C_Iceland_(Unsplash_-UO7_Di3I9o).jpg",
+      "overnight": "Efstidalur Farm Hotel / farm guesthouse",
+      "lodgingCost": 240,
+      "transport": "Route leg planned for Geysir, Gullfoss, cows and ice cream. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "The main experience is Geysir, Gullfoss, cows and ice cream: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 40,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 170,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Geysir, Gullfoss, cows and ice cream is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Geysir, Gullfoss, cows and ice cream.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 485,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Geysir / Gullfoss",
+        "lat": 64.327,
+        "lon": -20.121
+      }
+    },
+    {
+      "day": 5,
+      "slug": "day-05",
+      "date": "Fri Sep 4",
+      "title": "Secret Lagoon and Fridheimar greenhouse",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-05-secret-lagoon-and-fridheimar-greenhouse.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Fl%C3%BA%C3%B0ir",
+      "overnight": "Efstidalur Farm Hotel / farm guesthouse",
+      "lodgingCost": 240,
+      "transport": "Route leg planned for Secret Lagoon and Fridheimar greenhouse. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "The main experience is Secret Lagoon and Fridheimar greenhouse: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 130,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 185,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Secret Lagoon and Fridheimar greenhouse is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Secret Lagoon and Fridheimar greenhouse.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 590,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Fludir / Secret Lagoon",
+        "lat": 64.137,
+        "lon": -20.309
+      }
+    },
+    {
+      "day": 6,
+      "slug": "day-06",
+      "date": "Sat Sep 5",
+      "title": "Horse/farm buffer day",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-06-horse-farm-buffer-day.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Icelandic_horse",
+      "overnight": "Efstidalur Farm Hotel / farm guesthouse",
+      "lodgingCost": 240,
+      "transport": "Route leg planned for Horse/farm buffer day. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 30,
+      "primaryActivity": "The main experience is Horse/farm buffer day: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 35,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 170,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Horse/farm buffer day is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Horse/farm buffer day.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 475,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Efstidalur farm base",
+        "lat": 64.22,
+        "lon": -20.52
+      }
+    },
+    {
+      "day": 7,
+      "slug": "day-07",
+      "date": "Sun Sep 6",
+      "title": "Transfer south via Seljalandsfoss",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-07-transfer-south-via-seljalandsfoss.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Seljalandsfoss",
+      "overnight": "South Coast guesthouse base",
+      "lodgingCost": 340,
+      "transport": "Route leg planned for Transfer south via Seljalandsfoss. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 75,
+      "primaryActivity": "The main experience is Transfer south via Seljalandsfoss: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 20,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Transfer south via Seljalandsfoss is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Transfer south via Seljalandsfoss.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted. Option for nicer/more expensive option here: Hotel Ranga at about $520/night for the South Coast block adds roughly $720 total over the practical guesthouse base.",
+      "dayTotal": 615,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Seljalandsfoss",
+        "lat": 63.616,
+        "lon": -19.989
+      }
+    },
+    {
+      "day": 8,
+      "slug": "day-08",
+      "date": "Mon Sep 7",
+      "title": "Skogafoss and Reynisfjara viewing day",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-08-skogafoss-and-reynisfjara-viewing-day.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Sk%C3%B3gafoss",
+      "overnight": "South Coast guesthouse base",
+      "lodgingCost": 340,
+      "transport": "Route leg planned for Skogafoss and Reynisfjara viewing day. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 55,
+      "primaryActivity": "The main experience is Skogafoss and Reynisfjara viewing day: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 35,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Skogafoss and Reynisfjara viewing day is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Skogafoss and Reynisfjara viewing day.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 610,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Skogafoss / Vik",
+        "lat": 63.532,
+        "lon": -19.511
+      }
+    },
+    {
+      "day": 9,
+      "slug": "day-09",
+      "date": "Tue Sep 8",
+      "title": "Jokulsarlon decision or Vik slow day",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-09-jokulsarlon-decision-or-vik-slow-day.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Reynisfjara",
+      "overnight": "South Coast guesthouse base",
+      "lodgingCost": 340,
+      "transport": "Route leg planned for Jokulsarlon decision or Vik slow day. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 95,
+      "primaryActivity": "The main experience is Jokulsarlon decision or Vik slow day: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 80,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 190,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Jokulsarlon decision or Vik slow day is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Jokulsarlon decision or Vik slow day.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 705,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Reynisfjara / Vik",
+        "lat": 63.405,
+        "lon": -19.071
+      }
+    },
+    {
+      "day": 10,
+      "slug": "day-10",
+      "date": "Wed Sep 9",
+      "title": "South Coast weather buffer",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-10-south-coast-weather-buffer.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/J%C3%B6kuls%C3%A1rl%C3%B3n",
+      "overnight": "South Coast guesthouse base",
+      "lodgingCost": 340,
+      "transport": "Route leg planned for South Coast weather buffer. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "The main experience is South Coast weather buffer: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 45,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "South Coast weather buffer is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to South Coast weather buffer.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 600,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Jokulsarlon option",
+        "lat": 64.048,
+        "lon": -16.179
+      }
+    },
+    {
+      "day": 11,
+      "slug": "day-11",
+      "date": "Thu Sep 10",
+      "title": "Drive to Snæfellsnes via Reykjavik",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-11-drive-to-sn-fellsnes-via-reykjavik.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Kirkjufell",
+      "overnight": "Snaefellsnes coastal guesthouse",
+      "lodgingCost": 290,
+      "transport": "Route leg planned for Drive to Snæfellsnes via Reykjavik. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 140,
+      "primaryActivity": "The main experience is Drive to Snæfellsnes via Reykjavik: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 185,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Drive to Snæfellsnes via Reykjavik is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Drive to Snæfellsnes via Reykjavik.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted. Option for nicer/more expensive option here: Hotel Budir at about $430/night for the three Snaefellsnes nights adds roughly $420 total for the iconic black-church/coastal lodge feel.",
+      "dayTotal": 615,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Snaefellsnes / Budir",
+        "lat": 64.82,
+        "lon": -23.38
+      }
+    },
+    {
+      "day": 12,
+      "slug": "day-12",
+      "date": "Fri Sep 11",
+      "title": "Arnarstapi and Kirkjufell coast day",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-12-arnarstapi-and-kirkjufell-coast-day.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Arnarstapi",
+      "overnight": "Snaefellsnes coastal guesthouse",
+      "lodgingCost": 290,
+      "transport": "Route leg planned for Arnarstapi and Kirkjufell coast day. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 55,
+      "primaryActivity": "The main experience is Arnarstapi and Kirkjufell coast day: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 40,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Arnarstapi and Kirkjufell coast day is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Arnarstapi and Kirkjufell coast day.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 565,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Arnarstapi coast",
+        "lat": 64.77,
+        "lon": -23.62
+      }
+    },
+    {
+      "day": 13,
+      "slug": "day-13",
+      "date": "Sat Sep 12",
+      "title": "Budir black church and slow coast day",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-13-budir-black-church-and-slow-coast-day.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/B%C3%BA%C3%B0ir",
+      "overnight": "Snaefellsnes coastal guesthouse",
+      "lodgingCost": 290,
+      "transport": "Route leg planned for Budir black church and slow coast day. Drive times are staged around morning/afternoon nap windows; car rental or transfer costs are allocated to the pickup/major-transfer days rather than evenly smeared across the trip.",
+      "transportCost": 35,
+      "primaryActivity": "The main experience is Budir black church and slow coast day: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 30,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 180,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Budir black church and slow coast day is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Budir black church and slow coast day.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Budget baseline for the Aug 31-Sep 13 version: lodging is the practical default for this base, food is a two-adult family estimate, and activity costs are two-adult ticket estimates unless noted.",
+      "dayTotal": 535,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Budir black church",
+        "lat": 64.82,
+        "lon": -23.38
+      }
+    },
+    {
+      "day": 14,
+      "slug": "day-14",
+      "date": "Sun Sep 13",
+      "title": "Drive to KEF and fly home",
+      "heroImage": "/app/assets/iceland-golden-circle-south-coast-days/day-14-drive-to-kef-and-fly-home.jpg",
+      "imageSource": "https://en.wikipedia.org/wiki/Keflav%C3%ADk_International_Airport",
+      "overnight": "Home",
+      "lodgingCost": 0,
+      "transport": "Return KEF to ATL via JFK on DL247 + DL2293 on Sep 13.",
+      "transportCost": 110,
+      "primaryActivity": "The main experience is Drive to KEF and fly home: a specific scenic or family-friendly anchor chosen so the day has a reason to exist, not just another night in a hotel.",
+      "activityCost": 0,
+      "backupActivity": "Weather/nap backup: shorten the outing, use the nearest town/lodge/pool/museum option, and protect dinner/bedtime rather than forcing the full plan.",
+      "foodPlan": "Food plan: breakfast at hotel or groceries, one named cafe/restaurant-style lunch near the activity, and an early dinner near the overnight base.",
+      "foodCost": 110,
+      "babyPlan": "Carrier plus stroller where paved; plan one true nap block and avoid long late-day drives.",
+      "bookingPriority": "Verify lodging rate, cancellation, activity hours, and infant/child policy before booking. Re-check Aug 31-Sep 13 availability/rates before purchase.",
+      "pitchTitle": "Why this day is worth it",
+      "why": "Drive to KEF and fly home is included because it gives this trip a clear “sell it” moment: scenery, animals, water, wildlife, culture, or wellness that fits a one-year-old instead of asking the baby to merely tolerate adult sightseeing.",
+      "moments": [
+        "See the signature view or place tied to Drive to KEF and fly home.",
+        "Keep the outing short enough to preserve nap and dinner rhythm.",
+        "Use the backup option if weather, crowds, or baby energy are off."
+      ],
+      "costNote": "Departure-day baseline: return drive/airport food only; the return flight is already included in Day 1's flight budget. Planning snapshot keeps the Delta via-JFK KEF routing and fare reference; re-price Aug 31-Sep 13 before booking.",
+      "dayTotal": 220,
+      "sourceLinks": [
+        "Ryan Shirley Iceland video",
+        "Ryan/Iceland picks summary",
+        "Efstidalur Farm Hotel",
+        "Secret Lagoon"
+      ],
+      "mapPoint": {
+        "label": "Keflavik Airport departure",
+        "lat": 63.985,
+        "lon": -22.605
+      }
+    }
+  ],
+  "sourceLinks": [
+    {
+      "label": "Delta Reykjavik flights",
+      "url": "https://www.delta.com/us/en/flight-deals/europe-flights/flights-to-reykjavik"
+    },
+    {
+      "label": "DL246 schedule",
+      "url": "https://www.trip.com/flights/status-dl246/"
+    },
+    {
+      "label": "ATL-KEF fare snapshot",
+      "url": "https://www.expedia.com/lp/flight-routes/delta-from-hartsfield-jackson-atlanta-intl-to-rek-all-airports/dl/atl/rek"
+    },
+    {
+      "label": "Delta infant travel policy",
+      "url": "https://www.delta.com/us/en/children-infant-travel/infant-travel"
+    },
+    {
+      "label": "Ryan Shirley Iceland video",
+      "url": "https://www.youtube.com/watch?v=iBSbD_7bvE8&t=0s"
+    },
+    {
+      "label": "Ryan/Iceland picks summary",
+      "url": "https://unofficialnetworks.com/2023/09/15/best-places-iceland/"
+    },
+    {
+      "label": "Efstidalur Farm Hotel",
+      "url": "https://efstidalur.is/farm-hotel/"
+    },
+    {
+      "label": "Secret Lagoon",
+      "url": "https://secretlagoon.is/"
+    }
+  ],
+  "routeMap": {
+    "type": "schematic-latlon",
+    "note": "Real OpenStreetMap route view. Solid blue route lines use cached OSRM driving geometry to follow the roads we would actually drive; dashed clay lines are direct reference legs for non-road or unavailable segments. Numbered day pins may fan out slightly when several days share the same base.",
+    "startLabel": "Keflavik Airport",
+    "endLabel": "Keflavik Airport departure"
+  }
+}
