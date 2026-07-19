@@ -313,6 +313,8 @@ button { font: inherit; }
 .stay-links a { color: var(--forest); font-size: 12px; font-weight: 700; text-underline-offset: 5px; }
 .stay-links span { color: #8a918d; font-size: 10px; }
 .stay-card.featured { border-color: #9eaa98; box-shadow: 0 16px 46px rgba(38, 50, 42, .08); }
+.stay-card.resort-card { border-color: #b89978; }
+.stay-card.resort-card .fit-tag { background: rgba(24, 53, 44, .94); color: white; }
 .filter-empty { margin: 40px 0 0; color: var(--muted); text-align: center; }
 
 .incorporate { padding: 110px max(40px, calc((100% - min(1380px, calc(100% - 80px))) / 2)); background: var(--forest); color: white; }
@@ -339,6 +341,7 @@ button { font: inherit; }
 .verdict-grid .verdict-pick p { color: white; }
 .verdict-bottom { margin: 22px 0 0; padding: 23px 27px; background: #e7e4d7; color: #536059; font-family: var(--serif); font-size: 21px; line-height: 1.4; }
 .verdict-bottom strong { color: var(--forest); font-weight: 500; }
+.resort-verdict { margin-top: 10px; border-left: 5px solid var(--sun); }
 
 .sources { border-top: 1px solid var(--line); }
 .source-grid { margin-top: 58px; display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
