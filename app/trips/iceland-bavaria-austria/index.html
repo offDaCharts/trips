@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#112b2a" />
+    <meta
+      name="description"
+      content="A September 2026 open-jaw trip from Atlanta to Reykjavik, then through Bavaria and Austria, with live flight research and a Munich nonstop return."
+    />
+    <title>Fire to Fjord — Iceland, Bavaria &amp; Austria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./route.css?v=1" />
+  </head>
+  <body>
+    <a class="skip-link" href="#route">Skip to itinerary</a>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="../../index.html"><span>FA</span> Fire / Alps</a>
+      <nav aria-label="Page navigation">
+        <a href="#verdict">The route</a>
+        <a href="#flights">Flights</a>
+        <a href="#map-section">Map</a>
+        <a href="#route">Days</a>
+      </nav>
+      <a class="header-cta" href="#booking-plan">Booking plan <span aria-hidden="true">↘</span></a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> September 5–18, 2026 · 13 nights</p>
+          <h1 id="hero-title">Fire first.<br /><em>Alps after.</em></h1>
+          <p class="hero-lede">
+            Four nights based in Reykjavík, then one clean flight to Munich and a slow scenic loop
+            through Bavaria and Austria—ending on Delta’s nonstop home.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#route">See the route <span aria-hidden="true">↓</span></a>
+            <a class="button ghost" href="#flights">Compare flights <span aria-hidden="true">↗</span></a>
+          </div>
+          <dl class="hero-facts">
+            <div><dt>4</dt><dd>Iceland nights</dd></div>
+            <div><dt>8</dt><dd>Alpine nights</dd></div>
+            <div><dt>4</dt><dd>home bases</dd></div>
+            <div><dt>MUC</dt><dd>best exit</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero-collage" aria-label="Trip highlights">
+          <figure class="hero-main">
+            <img src="../../assets/iceland-golden-circle-south-coast-days/day-07-transfer-south-via-seljalandsfoss.jpg" alt="Seljalandsfoss waterfall on Iceland's south coast" />
+            <figcaption><span>01 · Iceland</span><strong>South Coast light</strong></figcaption>
+          </figure>
+          <figure class="hero-small hero-small-top">
+            <img src="../../assets/austria-days/day-12-konigssee-real.jpg" alt="Boat crossing Königssee beneath the Bavarian Alps" />
+            <figcaption><span>02 · Bavaria</span><strong>Königssee</strong></figcaption>
+          </figure>
+          <figure class="hero-small hero-small-bottom">
+            <img src="../../assets/austria-days/day-07-gosausee-real.jpg" alt="Historic photograph of Gosausee and Dachstein" />
+            <figcaption><span>03 · Austria</span><strong>Gosausee</strong></figcaption>
+          </figure>
+          <div class="hero-route-stamp" aria-hidden="true"><span>KEF</span><b>→</b><span>MUC</span></div>
+        </div>
+      </section>
+
+      <section class="reality-strip" aria-label="Important flight finding">
+        <div class="reality-icon">!</div>
+        <div>
+          <span>Important flight reality</span>
+          <strong>There is no ATL → KEF nonstop in Delta’s September 2026 schedule.</strong>
+          <p>Delta means one stop through JFK or Detroit. The genuinely nonstop Delta leg is the return: Munich → Atlanta.</p>
+        </div>
+        <a href="#flights">See the evidence <span aria-hidden="true">→</span></a>
+      </section>
+
+      <section class="verdict section-shell" id="verdict" aria-labelledby="verdict-title">
+        <div class="section-intro">
+          <p class="section-number">01 / THE RECOMMENDATION</p>
+          <h2 id="verdict-title">A loop wins.<br /><em>Munich is the hinge.</em></h2>
+        </div>
+        <div class="verdict-copy">
+          <p class="large-copy">
+            Fly <strong>ATL → KEF</strong> on September 5, spend four nights in Reykjavík, then take
+            Icelandair’s nonstop to <strong>Munich on September 10</strong>. Pick up the car once,
+            loop through Bavaria and Salzkammergut, and fly <strong>MUC → ATL nonstop</strong> on the 18th.
+          </p>
+          <div class="route-ribbon" aria-label="Recommended route summary">
+            <span>ATL</span><i>air</i><span>KEF</span><i>air</i><span>MUC</span><i>road loop</i><span>MUC</span>
+          </div>
+          <div class="why-grid">
+            <article><span>01</span><h3>No rental penalty</h3><p>Germany pickup and return keeps the car simple and avoids a Switzerland–Germany one-way fee.</p></article>
+            <article><span>02</span><h3>Best scenery density</h3><p>Königssee and Gosausee deliver two completely different headline lake days within one compact loop.</p></article>
+            <article><span>03</span><h3>Protected way home</h3><p>The final night is back in Munich, so the Delta nonstop is not held hostage by a long departure-day drive.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="flight-section" id="flights" aria-labelledby="flight-title">
+        <div class="flight-heading section-shell">
+          <div>
+            <p class="section-number light">02 / LIVE FLIGHT DESK</p>
+            <h2 id="flight-title">What the dated searches actually showed.</h2>
+          </div>
+          <aside>
+            <span>Checked July 20, 2026</span>
+            <p>Prices are per adult in economy and can move. Exact dated results are separated from schedule-only evidence.</p>
+          </aside>
+        </div>
+
+        <div class="flight-verdict section-shell">
+          <div class="winner-label">Route winner</div>
+          <div><span>Outbound</span><strong>ATL → KEF · Sep 5</strong><p>One stop; compare Delta against Icelandair partners.</p></div>
+          <div><span>Bridge flight</span><strong>KEF → MUC · Sep 10</strong><p>Icelandair nonstop; book separately.</p></div>
+          <div><span>Return</span><strong>MUC → ATL · Sep 18</strong><p>Daily Delta nonstop; best route fit.</p></div>
+        </div>
+
+        <div class="fare-table-wrap section-shell">
+          <table class="fare-table">
+            <caption>Live fares and schedule evidence for the September 2026 route</caption>
+            <thead><tr><th>Date / leg</th><th>Option seen</th><th>Price seen</th><th>What it means</th><th>Source</th></tr></thead>
+            <tbody>
+              <tr class="target-row">
+                <td><span>Sat · Sep 5</span><strong>ATL → KEF</strong></td>
+                <td>Icelandair · 1 stop<br /><small>12:05 → 06:05 · 14h</small></td>
+                <td><strong>$707</strong><small>round-trip Sep 5–11 benchmark</small></td>
+                <td>An exact dated price, but not the open-jaw ticket. Useful as a market check.</td>
+                <td><a href="https://www.trip.com/flights/atlanta-to-reykjavik/airfares-atl-rek/" target="_blank" rel="noreferrer">Trip.com ↗</a></td>
+              </tr>
+              <tr>
+                <td><span>Sun · Sep 6</span><strong>ATL → KEF</strong></td>
+                <td>Delta · 1 stop</td>
+                <td><strong>$465</strong><small>one-way fare displayed</small></td>
+                <td>The best Delta cash benchmark surfaced, one day later than target.</td>
+                <td><a href="https://www.expedia.com/lp/flight-routes/delta-from-hartsfield-jackson-atlanta-intl-to-keflavik-intl/dl/atl/kef" target="_blank" rel="noreferrer">Expedia ↗</a></td>
+              </tr>
+              <tr class="target-row">
+                <td><span>Thu · Sep 10</span><strong>KEF → MUC</strong></td>
+                <td>SAS · 1 stop</td>
+                <td><strong>CAD 195</strong><small>one-way dated market floor</small></td>
+                <td>Cheapest exact result found; use it as leverage against the faster nonstop.</td>
+                <td><a href="https://us.trip.com/flights/airport-kef-muc/" target="_blank" rel="noreferrer">Trip.com ↗</a></td>
+              </tr>
+              <tr>
+                <td><span>Sep schedule</span><strong>KEF → MUC</strong></td>
+                <td>Icelandair · nonstop<br /><small>about 3h 45m</small></td>
+                <td><strong>46,301 ISK</strong><small>current round-trip floor</small></td>
+                <td>The time-saving choice. Icelandair publishes Munich year-round, up to 10× weekly.</td>
+                <td><a href="https://www.icelandair.com/is-is/flug/flug-fra-reykjavik-til-munchen" target="_blank" rel="noreferrer">Icelandair ↗</a></td>
+              </tr>
+              <tr class="best-row">
+                <td><span>Fri · Sep 18</span><strong>MUC → ATL</strong></td>
+                <td>Nonstop SkyTeam fare<br /><small>Delta is the route operator · about 10h 20m</small></td>
+                <td><strong>$832</strong><small>one-way displayed fare</small></td>
+                <td>The best logistical finish and the cheapest date flagged for this route.</td>
+                <td><a href="https://www.skyscanner.com/us/es-mx/usd/rutas/muc/atla/munich-a-atlanta.html" target="_blank" rel="noreferrer">Skyscanner ↗</a></td>
+              </tr>
+              <tr>
+                <td><span>Sat · Sep 19</span><strong>MUC → ATL</strong></td>
+                <td>Nonstop · 10:25 → 14:45<br /><small>KLM-marketed codeshare result</small></td>
+                <td><strong>$718</strong><small>round-trip comparator</small></td>
+                <td>The nonstop operates, but the accessible result did not expose a reliable one-way fare.</td>
+                <td><a href="https://www.kayak.com/flight-routes/Munich-Franz-Josef-Strauss-MUC/Atlanta-Hartsfield-Jackson-ATL" target="_blank" rel="noreferrer">KAYAK ↗</a></td>
+              </tr>
+              <tr>
+                <td><span>Fri · Sep 18</span><strong>ZRH → ATL</strong></td>
+                <td>Delta nonstop<br /><small>10:10 → 14:54 · 10h 44m</small></td>
+                <td><strong>MYR 7,405</strong><small>one-way displayed fare</small></td>
+                <td>Beautiful alternate, but the one-way price is much worse and the rental gets harder.</td>
+                <td><a href="https://www.trip.com/flights/zurich-to-atlanta/airfares-zrh-atl/" target="_blank" rel="noreferrer">Trip.com ↗</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="fare-note">
+            <strong>Do not price this as two transatlantic one-ways.</strong> Search Delta as one multi-city ticket:
+            ATL → KEF on Sep 5, then MUC → ATL on Sep 18 or 19. Transatlantic one-way pricing is visibly distorted in the results above.
+          </p>
+        </div>
+
+        <div class="airport-grid section-shell" aria-label="Airport comparison">
+          <article class="airport-card recommended">
+            <div class="airport-code">MUC</div><span>Recommended · Munich</span><h3>The route winner</h3>
+            <ul><li>Nonstop from KEF</li><li>Daily Delta nonstop to ATL</li><li>Same-country car return</li><li>Easy finish after Salzburg</li></ul>
+          </article>
+          <article class="airport-card">
+            <div class="airport-code">ZRH</div><span>Scenic alternate · Zürich</span><h3>Use only for the Swiss arc</h3>
+            <ul><li>Nonstop KEF service</li><li>Daily Delta nonstop to ATL</li><li>Higher one-way fare seen</li><li>Cross-border rental complexity</li></ul>
+          </article>
+          <article class="airport-card">
+            <div class="airport-code">FRA</div><span>Fare fallback · Frankfurt</span><h3>Good flight, poor route</h3>
+            <ul><li>Nonstop KEF service</li><li>Delta nonstop to ATL</li><li>Largest schedule safety net</li><li>Adds a long northbound drive</li></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="map-section" id="map-section" aria-labelledby="map-title">
+        <div class="section-shell map-head">
+          <div><p class="section-number">03 / THE MAP</p><h2 id="map-title">Two landscapes.<br />One clean line.</h2></div>
+          <div class="map-controls" role="group" aria-label="Change map view">
+            <button class="map-control active" type="button" data-view="all" aria-pressed="true">Whole trip</button>
+            <button class="map-control" type="button" data-view="iceland" aria-pressed="false">Iceland</button>
+            <button class="map-control" type="button" data-view="alps" aria-pressed="false">Alps</button>
+          </div>
+        </div>
+        <div class="map-frame section-shell">
+          <div id="route-map" aria-label="Interactive map of Reykjavik, Bavaria, and Austria"></div>
+          <aside class="map-note"><span>How to use it</span><p>Tap any numbered pin for a photo, why it matters, and a link to its day plan. Popups stay open so every link is reachable.</p></aside>
+        </div>
+      </section>
+
+      <section class="iceland-section" id="iceland" aria-labelledby="iceland-title">
+        <div class="section-shell iceland-heading">
+          <div><p class="section-number light">04 / ICELAND · FOUR NIGHTS</p><h2 id="iceland-title">Base in Reykjavík.<br /><em>Let weather choose the order.</em></h2></div>
+          <p>One hotel, no Ring Road ambition. The Golden Circle and South Coast are the two non-negotiables; the fourth day stays flexible.</p>
+        </div>
+        <div class="iceland-grid section-shell">
+          <article id="day-reykjavik" class="feature-card feature-wide">
+            <img src="../../assets/iceland-golden-circle-south-coast-days/day-02-reykjavik-soft-landing.jpg" alt="Reykjavik waterfront and city" />
+            <div><span>Sep 6 · arrival day</span><h3>Reykjavík, softly</h3><p>Land, transfer, walk the harbor and Hallgrímskirkja, eat early, and resist turning arrival day into a tour.</p><ul><li>Sleep: Reykjavík · night 1 of 4</li><li>Energy: very low</li><li>Best extra: Sky Lagoon only if everyone feels good</li></ul></div>
+          </article>
+          <article id="day-golden-circle" class="feature-card">
+            <img src="../../assets/iceland-golden-circle-south-coast-days/day-04-geysir-gullfoss-cows-and-ice-cream.jpg" alt="Gullfoss waterfall on Iceland's Golden Circle" />
+            <div><span>Sep 7 · headline day</span><h3>Golden Circle</h3><p>Þingvellir → Geysir → Gullfoss, with Friðheimar or Efstidalur as the warm, food-first middle.</p><ul><li>Drive: about 4h total</li><li>Walking: short, exposed paths</li><li>Weather swap: move to Sep 9</li></ul></div>
+          </article>
+          <article id="day-south-coast" class="feature-card">
+            <img src="../../assets/iceland-golden-circle-south-coast-days/day-07-transfer-south-via-seljalandsfoss.jpg" alt="Seljalandsfoss and Icelandic countryside" />
+            <div><span>Sep 8 · biggest day</span><h3>South Coast</h3><p>Seljalandsfoss, Skógafoss, and Vík. Stop at Reynisfjara only in safe conditions and never turn your back on the sea.</p><ul><li>Drive: 5–6h total</li><li>Best payoff: waterfalls at both ends of day</li><li>Shortcut: turn around at Skógafoss</li></ul></div>
+          </article>
+          <article id="day-iceland-flex" class="feature-card feature-dark">
+            <img src="../../assets/iceland-golden-circle-south-coast-days/day-06-horse-farm-buffer-day.jpg" alt="Icelandic horses in a green field" />
+            <div><span>Sep 9 · flex day</span><h3>Horses, lagoon, or Snæfellsnes</h3><p>Keep this day intentionally uncommitted. A horse farm and geothermal soak fit the trip better than another 10-hour drive.</p><ul><li>Slow pick: horse visit + lagoon</li><li>Clear-sky ambition: Snæfellsnes</li><li>Rain pick: Reykjavík culture day</li></ul></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="route-section" id="route" aria-labelledby="route-title">
+        <div class="section-shell route-heading">
+          <div><p class="section-number">05 / THE 13-NIGHT EDIT</p><h2 id="route-title">The full day-by-day.</h2></div>
+          <p>Every row opens into a practical mini-brief. September 19 is included as an optional buffer rather than forcing another hotel move.</p>
+        </div>
+        <div class="timeline section-shell">
+          <details class="day-row" open>
+            <summary><span>01</span><time>Sat · Sep 5</time><div><strong>Fly Atlanta → Reykjavík</strong><small>One-stop overnight · in flight</small></div><b>Travel</b></summary>
+            <div class="day-detail"><p>Book the outbound and the Munich return together as Delta multi-city first. If Delta’s one-stop fare is weak, compare a separate Icelandair-partner itinerary.</p><ul><li>No nonstop operates ATL–KEF.</li><li>Target a single connection, ideally JFK or DTW on Delta.</li><li>Do not attach the KEF–MUC bridge flight to this ticket unless the fare is clearly better.</li></ul></div>
+          </details>
+          <details class="day-row">
+            <summary><span>02</span><time>Sun · Sep 6</time><div><strong>Reykjavík soft landing</strong><small>Harbor, Hallgrímskirkja, early dinner · Reykjavík 1/4</small></div><b>Reset</b></summary>
+            <div class="day-detail"><p>Stay central enough to walk to dinner, but prioritize parking if self-driving. Keep this day deliberately short.</p><a href="#day-reykjavik">Open the Iceland card ↑</a></div>
+          </details>
+          <details class="day-row">
+            <summary><span>03</span><time>Mon · Sep 7</time><div><strong>Golden Circle</strong><small>Þingvellir, Geysir, Gullfoss · Reykjavík 2/4</small></div><b>Icon day</b></summary>
+            <div class="day-detail"><p>Leave by 8:00, make Þingvellir the walking stop, then use Geysir and Gullfoss as short high-impact visits. Reserve Friðheimar lunch if it fits.</p><a href="#day-golden-circle">Open the Iceland card ↑</a></div>
+          </details>
+          <details class="day-row">
+            <summary><span>04</span><time>Tue · Sep 8</time><div><strong>South Coast waterfalls</strong><small>Seljalandsfoss, Skógafoss, Vík · Reykjavík 3/4</small></div><b>Big day</b></summary>
+            <div class="day-detail"><p>This is the longest Iceland day. Skip Vík if wind or energy turns; the two waterfall stops alone justify the drive.</p><a href="#day-south-coast">Open the Iceland card ↑</a></div>
+          </details>
+          <details class="day-row">
+            <summary><span>05</span><time>Wed · Sep 9</time><div><strong>Weather-flex Iceland</strong><small>Horses + lagoon, or Snæfellsnes · Reykjavík 4/4</small></div><b>Flex</b></summary>
+            <div class="day-detail"><p>Use this to recover anything weather displaced. Otherwise pick a horse farm and soak rather than collecting another full-day route.</p><a href="#day-iceland-flex">Open the Iceland card ↑</a></div>
+          </details>
+          <details class="day-row" id="day-kef-muc">
+            <summary><span>06</span><time>Thu · Sep 10</time><div><strong>Fly KEF → Munich</strong><small>Nonstop bridge flight · Munich 1/2</small></div><b>Air day</b></summary>
+            <div class="day-detail"><p>Choose Icelandair nonstop if its premium over the CAD 195 connecting floor is reasonable. Collect the rental only after landing; sleep central or east of Munich.</p><ul><li>Flight time: about 3h 45m.</li><li>Do not keep the Iceland rental across the flight.</li><li>Easy evening: Viktualienmarkt and an early beer-garden dinner.</li></ul></div>
+          </details>
+          <details class="day-row" id="day-munich">
+            <summary><span>07</span><time>Fri · Sep 11</time><div><strong>Munich without rushing</strong><small>Old town, English Garden, food market · Munich 2/2</small></div><b>City</b></summary>
+            <div class="day-detail"><p>Keep the car parked. Walk Marienplatz to Viktualienmarkt, then choose the Residenz or English Garden—not both.</p></div>
+          </details>
+          <details class="day-row" id="day-berchtesgaden">
+            <summary><span>08</span><time>Sat · Sep 12</time><div><strong>Munich → Berchtesgaden</strong><small>Alpine Road arrival · Berchtesgaden 1/2</small></div><b>2h drive</b></summary>
+            <div class="day-detail"><p>Drive after breakfast, settle into the valley, and use the afternoon for Ramsau church, Hintersee, or simply the lodge.</p></div>
+          </details>
+          <details class="day-row highlight" id="day-konigssee">
+            <summary><span>09</span><time>Sun · Sep 13</time><div><strong>Königssee by first boat</strong><small>St. Bartholomä + lake shore · Berchtesgaden 2/2</small></div><b>Highlight</b></summary>
+            <div class="day-detail"><p>Take an early electric boat to St. Bartholomä. The lake carries the day; no summit hike is required. If boats are disrupted, pivot to Jennerbahn or Hintersee.</p></div>
+          </details>
+          <details class="day-row" id="day-gosau-transfer">
+            <summary><span>10</span><time>Mon · Sep 14</time><div><strong>Berchtesgaden → Gosau</strong><small>Salzburg lunch en route · Gosau 1/3</small></div><b>2h drive</b></summary>
+            <div class="day-detail"><p>Cross into Austria, stop for lunch and a short old-town walk in Salzburg, then arrive in Gosau before dinner.</p></div>
+          </details>
+          <details class="day-row" id="day-hallstatt">
+            <summary><span>11</span><time>Tue · Sep 15</time><div><strong>Hallstatt before breakfast</strong><small>Waterfront + slow lake afternoon · Gosau 2/3</small></div><b>Dawn pick</b></summary>
+            <div class="day-detail"><p>Arrive early, see the waterfront before tour traffic, then leave by late morning. The afternoon belongs to the Gosau valley—not another attraction list.</p></div>
+          </details>
+          <details class="day-row highlight" id="day-gosausee">
+            <summary><span>12</span><time>Wed · Sep 16</time><div><strong>Gosausee, unhurried</strong><small>Lake walk beneath Dachstein · Gosau 3/3</small></div><b>Highlight</b></summary>
+            <div class="day-detail"><p>This is the easiest huge-payoff day of the trip. Walk as much of the shore as weather and energy allow, picnic, and leave the afternoon open.</p></div>
+          </details>
+          <details class="day-row" id="day-schafberg">
+            <summary><span>13</span><time>Thu · Sep 17</time><div><strong>Schafberg or Salzburg → Munich</strong><small>Clear-sky summit, then airport-side buffer · Munich 1/1</small></div><b>Flex</b></summary>
+            <div class="day-detail"><p>If the summit forecast is clear, book the first useful Schafbergbahn slot. Under cloud, substitute Bad Ischl or a fuller Salzburg stop and continue to Munich.</p></div>
+          </details>
+          <details class="day-row" id="day-fly-home">
+            <summary><span>14</span><time>Fri · Sep 18</time><div><strong>Delta nonstop MUC → ATL</strong><small>Return car, fly direct · home</small></div><b>Best exit</b></summary>
+            <div class="day-detail"><p>The protected Munich night makes the 10:25-ish nonstop realistic without a stressful dawn drive. Return the car before check-in.</p></div>
+          </details>
+        </div>
+
+        <div class="buffer-card section-shell">
+          <div><span>Optional day 15 · Saturday, September 19</span><h3>Add one night only if you want a true buffer.</h3></div>
+          <p>Use September 18 for a final Munich day and fly September 19. Do not spend the extra night creating another base—the value is lower stress, not another pin.</p>
+        </div>
+      </section>
+
+      <section class="swiss-section" id="swiss" aria-labelledby="swiss-title">
+        <div class="section-shell swiss-layout">
+          <div>
+            <p class="section-number light">06 / THE SWISS VERSION</p>
+            <h2 id="swiss-title">Switzerland fits.<br /><em>It just costs the loop.</em></h2>
+            <p>Fly KEF → Zürich on Sep 10, spend two nights around Lucerne, then move through Innsbruck and end in Munich on Sep 19. It is prettier on paper and busier in practice.</p>
+          </div>
+          <ol>
+            <li><span>Sep 10–12</span><strong>Zürich + Lucerne</strong><p>Lakefront arrival, Rigi or Pilatus weather day.</p></li>
+            <li><span>Sep 12–14</span><strong>Innsbruck / Tyrol</strong><p>Cross east with one proper mountain base.</p></li>
+            <li><span>Sep 14–17</span><strong>Salzkammergut</strong><p>Keep Gosau, Hallstatt, and the lake day.</p></li>
+            <li><span>Sep 17–19</span><strong>Munich</strong><p>Return the car and protect the flight home.</p></li>
+          </ol>
+          <aside><span>My call</span><strong>Save Switzerland for a trip that starts there.</strong><p>With only eight or nine European nights, Bavaria + Austria gives more holiday and less transit.</p></aside>
+        </div>
+      </section>
+
+      <section class="booking-section" id="booking-plan" aria-labelledby="booking-title">
+        <div class="section-shell booking-layout">
+          <div><p class="section-number">07 / BOOKING ORDER</p><h2 id="booking-title">Lock the skeleton.<br />Then the scenery.</h2></div>
+          <ol class="booking-steps">
+            <li><span>01</span><div><strong>Price the open jaw on Delta</strong><p>Multi-city: ATL → KEF Sep 5, then MUC → ATL Sep 18 and Sep 19. Run cash and miles separately.</p><a href="https://www.delta.com/flightsearch/book-a-flight?tripType=multiCity" target="_blank" rel="noreferrer">Open Delta multi-city ↗</a></div></li>
+            <li><span>02</span><div><strong>Buy the KEF → MUC bridge</strong><p>Compare Icelandair nonstop with the CAD 195 connecting floor. Time is worth paying for here.</p><a href="https://www.icelandair.com/is-is/flug/flug-fra-reykjavik-til-munchen" target="_blank" rel="noreferrer">Open Icelandair ↗</a></div></li>
+            <li><span>03</span><div><strong>Hold the three bases</strong><p>Reykjavík 4 nights, Munich 2 + 1, Berchtesgaden 2, Gosau 3. Favor flexible cancellation first.</p></div></li>
+            <li><span>04</span><div><strong>Book the car and weather-sensitive tickets</strong><p>Munich pickup/return. Leave boats, railways, and lagoons changeable where possible.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="sources section-shell" aria-labelledby="sources-title">
+        <p class="section-number">08 / SOURCES & CAVEATS</p>
+        <h2 id="sources-title">Built from current schedules, not wishful routing.</h2>
+        <div class="source-grid">
+          <article><strong>Delta route evidence</strong><p>Official destination pages and Summer 2026 partner schedule show KEF via JFK/Detroit/Minneapolis and nonstop ATL service from Munich, Frankfurt, and Zürich.</p><a href="https://www.delta.com/us/en/flight-deals/europe-flights/flights-to-reykjavik" target="_blank" rel="noreferrer">Reykjavík routes ↗</a><a href="https://www.delta.com/us/en/flight-deals/europe-flights/flights-to-germany" target="_blank" rel="noreferrer">Germany routes ↗</a></article>
+          <article><strong>Icelandair route evidence</strong><p>Icelandair’s 2026 destination schedule lists Munich year-round, with up to ten weekly flights; Zürich and Frankfurt are also practical gateways.</p><a href="https://www.icelandair.com/en-ca/flights/campaign/destinations-schedule//" target="_blank" rel="noreferrer">2026 schedule ↗</a></article>
+          <article><strong>Fare evidence</strong><p>Dated fare snapshots came from Trip.com, Expedia, Skyscanner, and KAYAK on July 20, 2026. They are snapshots, not holds.</p><a href="#flights">Return to fare grid ↑</a></article>
+          <article><strong>Planning caveat</strong><p>Schedules, volcanic conditions, weather, and attraction operations can change. Re-run every booking link before purchase.</p><a href="https://safetravel.is/" target="_blank" rel="noreferrer">SafeTravel Iceland ↗</a></article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div><span>Fire / Alps</span><strong>Reykjavík → Bavaria → Austria</strong></div>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="./route.js?v=1"></script>
+  </body>
+</html>
