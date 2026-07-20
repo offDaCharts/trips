@@ -71,6 +71,100 @@ const routeModes = {
   }
 };
 
+const routeAsset = path => `../../assets/${path}`;
+const mapStopDetails = {
+  "Zürich": {
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/A_Portrait_of_Zurich_%2849760690567%29.jpg/1920px-A_Portrait_of_Zurich_%2849760690567%29.jpg",
+    label: "Arrival reset",
+    summary: "A lakefront and old-town soft landing after the overnight flight—beautiful at very low effort.",
+    meta: "1 night · walk + tram"
+  },
+  "Appenzell": {
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Appenzell_houses_20210528.jpg/1920px-Appenzell_houses_20210528.jpg",
+    label: "Painted-village morning",
+    summary: "Pastures, ornate houses, and an easy village wander before the road bends into the Alps.",
+    meta: "Morning stop · scenic drive"
+  },
+  "Vaduz": {
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Liechtenstein_asv2022-10_img01_Vaduz_Schloss.jpg/1920px-Liechtenstein_asv2022-10_img01_Vaduz_Schloss.jpg",
+    label: "Tiny-country interlude",
+    summary: "A compact lunch and castle-view stop that breaks the drive without consuming the afternoon.",
+    meta: "1–2 hours · transfer stop"
+  },
+  "Brand / Lünersee": {
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/L%C3%BCnersee_vom_Saulakopf_1.JPG/1920px-L%C3%BCnersee_vom_Saulakopf_1.JPG",
+    label: "First alpine reveal",
+    summary: "Ride the cable car into a turquoise high basin, then choose as much—or as little—shoreline as feels good.",
+    meta: "2-night base · big-view day"
+  },
+  "Innsbruck": {
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Innsbruck_Panorama_Nordkette_3.jpg/1920px-Innsbruck_Panorama_Nordkette_3.jpg",
+    label: "Tyrol transfer break",
+    summary: "Old-town lanes and Nordkette views turn the longest Austrian drive into a worthwhile stop.",
+    meta: "2–4 hours · lunch + walk"
+  },
+  "Gosau": {
+    image: routeAsset("austria-days/day-07-gosausee-real.jpg"),
+    label: "Lake-country anchor",
+    summary: "The quiet four-night base for Hallstatt, Gosausee, Dachstein, Wolfgangsee, and weather pivots.",
+    meta: "4 nights · trip anchor"
+  },
+  "Salzburg": {
+    image: routeAsset("austria-days/day-13-salzburg-real.jpg"),
+    label: "Culture + weather pivot",
+    summary: "Fortress views, gardens, river walks, and a compact old town that works in sun or cloud.",
+    meta: "Full day or transfer stop"
+  },
+  "Kranjska Gora": {
+    image: routeAsset("slovenia-julian-alps-venice-days/day-07-kranjska-gora-and-lake-jasna-alpine-picnic.jpg"),
+    label: "Julian Alps base",
+    summary: "A gentle two-night reset for Lake Jasna, Zelenci, easy walks, and the approach to Vršič.",
+    meta: "2 nights · lakes + easy walks"
+  },
+  "Vršič Pass": {
+    image: routeAsset("slovenia-julian-alps-venice-days/day-08-vrsic-pass-to-soca-valley-and-bovec.jpg"),
+    label: "The wild crossing",
+    summary: "A high, switchback road through limestone peaks that turns a transfer into one of the trip’s defining days.",
+    meta: "Scenic crossing · weather dependent"
+  },
+  "Soča / Bovec": {
+    image: routeAsset("slovenia-julian-alps-venice-days/day-09-soca-river-kobarid-and-kozjak-waterfall.jpg"),
+    label: "Emerald-river chapter",
+    summary: "Choose two river stops and one good meal; the valley rewards restraint more than checklist driving.",
+    meta: "Half day · selective pullouts"
+  },
+  "Lake Bled": {
+    image: routeAsset("slovenia-julian-alps-venice-days/day-03-lake-bled-island-castle-views-and-cream-cake.jpg"),
+    label: "Slovenia icon",
+    summary: "Island boat, castle viewpoints, cream cake, and an easy lakeside loop from a practical two-night base.",
+    meta: "2 nights · icon day"
+  },
+  "Lake Bohinj": {
+    image: routeAsset("slovenia-julian-alps-venice-days/day-05-transfer-to-bohinj-and-vogel-mountain-views.jpg"),
+    label: "Quiet finale",
+    summary: "A calmer, wilder lake for one last shoreline morning before the route turns toward the airport.",
+    meta: "Half day · slow shore"
+  },
+  "Venice Airport": {
+    image: routeAsset("slovenia-julian-alps-venice-days/day-13-trieste-coast-or-venice-airport-buffer.jpg"),
+    label: "Protected departure",
+    summary: "The airport-buffer night separates a beautiful final day from rental return and transatlantic check-in.",
+    meta: "1 night · logistics buffer"
+  },
+  "Wilder Kaiser": {
+    image: routeAsset("austria-days/day-03-wilder-kaiser.jpg"),
+    label: "Slow Tyrol base",
+    summary: "Horses, meadow paths, mountain views, and pool time create the shortest route’s deliberate pause.",
+    meta: "2 nights · farm + spa reset"
+  },
+  "Munich Airport": {
+    image: routeAsset("austria-days/day-02-munich-airport.jpg"),
+    label: "Simpler Austrian exit",
+    summary: "A straightforward rental return and nonstop-flight option after the Austria-only version.",
+    meta: "Optional airport night · flight buffer"
+  }
+};
+
 const track = document.querySelector("#itinerary-track");
 const endAirport = document.querySelector("#end-airport");
 const routeNote = document.querySelector("#route-note");
@@ -109,6 +203,25 @@ function initMap() {
   drawMap(currentMode);
 }
 
+function popupContent(point, index) {
+  const detail = mapStopDetails[point.name];
+  const detailUrl = `./details/?id=${point.id}`;
+  return `
+    <article class="route-popup">
+      <a class="route-popup-image" href="${detailUrl}" aria-label="Open full details for ${point.name}">
+        <img src="${detail.image}" alt="${point.name}" loading="lazy" />
+      </a>
+      <div class="route-popup-body">
+        <span class="route-popup-kicker">Stop ${String(index + 1).padStart(2, "0")} · ${point.country}</span>
+        <strong>${point.name}</strong>
+        <em>${detail.label}</em>
+        <p>${detail.summary}</p>
+        <div class="route-popup-meta">${detail.meta}</div>
+        <a class="route-popup-link" href="${detailUrl}">Open full details <span aria-hidden="true">→</span></a>
+      </div>
+    </article>`;
+}
+
 async function drawMap(mode) {
   if (!map) return;
   const token = ++requestToken;
@@ -123,9 +236,19 @@ async function drawMap(mode) {
       html: String(index + 1),
       iconSize: [29, 29]
     });
-    L.marker([point.lat, point.lon], { icon })
-      .bindTooltip(`<div class="route-tooltip"><strong>${point.name}</strong>${point.country}<a href="./details/?id=${point.id}">Open details →</a></div>`, { direction: "top", offset: [0, -12], interactive: true })
+    const marker = L.marker([point.lat, point.lon], { icon, keyboard: true })
+      .bindPopup(popupContent(point, index), {
+        className: "route-popup-shell",
+        minWidth: 270,
+        maxWidth: 300,
+        offset: [0, -10],
+        autoPanPadding: [28, 28],
+        closeButton: true
+      })
       .addTo(markerLayer);
+
+    // Desktop hover reveals the card, but it remains open so its links are reachable.
+    marker.on("mouseover", () => marker.openPopup());
   });
 
   const fallback = config.points.map(point => [point.lat, point.lon]);
