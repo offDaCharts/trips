@@ -75,8 +75,8 @@ const routeAsset = path => `../../assets/${path}`;
 const mapStopDetails = {
   "Zürich": {
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/A_Portrait_of_Zurich_%2849760690567%29.jpg/1920px-A_Portrait_of_Zurich_%2849760690567%29.jpg",
-    label: "Arrival reset",
-    summary: "A lakefront and old-town soft landing after the overnight flight—beautiful at very low effort.",
+    label: "Arrival city day",
+    summary: "Use the arrival day for Zürich’s lakefront, old town, and Limmat River instead of holding it aside for recovery.",
     meta: "1 night · walk + tram"
   },
   "Appenzell": {

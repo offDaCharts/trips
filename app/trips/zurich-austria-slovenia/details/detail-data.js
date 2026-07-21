@@ -75,7 +75,7 @@ window.detailData = {
   },
   "zurich-reset": {
     eyebrow: "Day 02 · Switzerland", title: "Zürich, softly", dek: "A lake-and-old-town reset that begins the trip without pretending an overnight flight is a normal morning.",
-    tags: ["Stroller-friendly", "Lakefront", "Recovery day"], hero: photo(images.zurich,"Zürich lakefront and old town","Panorama of Zürich beside the lake","Wikimedia Commons"),
+    tags: ["Stroller-friendly", "Lakefront", "Arrival city day"], hero: photo(images.zurich,"Zürich lakefront and old town","Panorama of Zürich beside the lake","Wikimedia Commons"),
     facts: facts("Half day", "Easy", "Walk + tram", "Zürich · 1 night"),
     whyTitle: "A city day designed around recovery.",
     why: ["Zürich earns its place because it is beautiful at very low effort. The Limmat, lake promenade, shaded squares, and reliable transit create a real sense of arrival without demanding a major attraction.", "Keep the radius small: old town, lake, early dinner, hotel. Tomorrow is the first scenic transfer, so today should restore rather than impress."],
@@ -130,7 +130,7 @@ window.detailData = {
     eyebrow: "Austria-only route · Tyrol", title: "Wilder Kaiser reset", dek: "Meadow paths, horses, pool time, and a deliberately slow day beneath the limestone crown.",
     tags: ["Farm stay", "Wellness", "Easy pacing"], hero: photo(images.kaiser,"Wilder Kaiser range","The Wilder Kaiser mountains above green meadows"),
     facts: facts("Full slow day", "Easy", "Walk + hotel time", "Wilder Kaiser · night 2"),
-    whyTitle: "A recovery day that still looks spectacular.", why: ["This is the best reason to choose the Austria-only variation: it creates space for a farm-and-spa pause instead of another geographic move.","The scenery comes to the hotel and village paths, so nobody has to earn the view with a big excursion."],
+    whyTitle: "A slower farm day with real payoff.", why: ["This is the best reason to choose the Austria-only variation: it creates space for a farm-and-spa experience instead of another geographic move.","The scenery comes to the hotel and village paths, so nobody has to earn the view with a big excursion."],
     note: ["Who should choose it", "Families craving comfort over another border.", "Keep this day if the Slovenia chapter feels like one move too many."],
     gallery: [photo(images.kaiser,"Limestone skyline","Wilder Kaiser range"),photo(asset("austria-days/day-04-stanglwirt-horses.jpg"),"Horses and farm rhythm","Horses at the alpine farm resort"),photo(asset("austria-days/day-04-stanglwirt.jpg"),"Wellness base","Alpine farm and spa lodging")],
     planIntro: "Do one short outing in the morning and let the hotel or farm grounds carry the afternoon.",

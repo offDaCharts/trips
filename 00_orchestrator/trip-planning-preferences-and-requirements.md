@@ -68,11 +68,18 @@ Planning priorities:
 
 - reduce backtracking
 - avoid too many long travel days in a row
-- place slower/reset days after flights, long drives, or big excursions
+- treat arrival days as usable vacation days, with named sightseeing and activities scaled to the actual landing time
+- never reserve a full day as a "soft landing," recovery day, or reset day solely because it follows a flight
+- use slower days only when they contain a worthwhile experience of their own, not as empty recovery placeholders
 - use airport buffer nights when needed
 - cluster activities around each base
 - choose bases because they unlock specific experiences, not just because they are famous
 - explain why the trip goes in this order
+
+For flight-arrival days, build the most ambitious realistic plan that still fits immigration,
+baggage, transport, and the published arrival time. A morning or midday landing should produce a
+real city or nature day. A late-evening arrival can remain a logistics-only night, but it must be
+described as a timing constraint rather than a recovery preference.
 
 Each day needs enough substance to deserve its own page.
 
@@ -197,4 +204,3 @@ Current trip options in the app include:
 - Patagonia Argentina + Chile
 
 Patagonia should be treated as a premium adventure comparison option unless later research finds a materially cheaper routing.
-

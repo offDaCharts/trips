@@ -21,7 +21,7 @@ const stops = [
     lat: 64.1466,
     lon: -21.9426,
     image: asset("iceland-golden-circle-south-coast-days/day-02-reykjavik-soft-landing.jpg"),
-    summary: "Four-night base: restaurants, harbor walks, and one place to return after every weather-dependent day trip.",
+    summary: "A real first day: Hallgrímskirkja, harbor and Sun Voyager, Perlan, then Sky Lagoon before three weather-dependent excursions.",
     href: "#day-reykjavik"
   },
   {
@@ -55,7 +55,7 @@ const stops = [
     lon: 11.5755,
     airport: true,
     image: asset("austria-days/day-02-munich-airport.jpg"),
-    summary: "The hinge: nonstop from Keflavík, relaxed city reset, German rental pickup, and Delta nonstop back to Atlanta.",
+    summary: "The hinge: nonstop from Keflavík, a full Munich city day, German rental pickup, and Delta nonstop back to Atlanta.",
     href: "#day-munich"
   },
   {
