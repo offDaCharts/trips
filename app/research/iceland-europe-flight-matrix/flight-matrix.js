@@ -97,6 +97,40 @@ const quotes = [
   { type: "return", route: "CPH–ATL", gateway: "CPH", date: "Sep 19", price: 1275, carrier: "KLM + Delta", flight: "KL1266 + DL71", timing: "6:00 AM → 12:36 PM", duration: "12h 36m", stops: "1 stop · AMS 1h45", skyteam: true, source: gf("One-way flights from CPH to ATL on 2026-09-19") },
 ];
 
+// Additional lowest nonstop snapshots for Sep 12–15, researched after the original Sep 10–11 audit.
+const extendedNonstops = [
+  { gateway: "AMS", date: "Sep 12", price: 521, carrier: "Icelandair", timing: "7:40 AM → 1:00 PM", duration: "3h 20m", source: gf("One-way flights from KEF to AMS on 2026-09-12") },
+  { gateway: "BER", date: "Sep 12", price: 852, carrier: "Icelandair", timing: "7:35 AM → 1:10 PM", duration: "3h 35m", source: gf("One-way flights from KEF to BER on 2026-09-12") },
+  { gateway: "CPH", date: "Sep 12", price: 183, carrier: "Icelandair", timing: "1:10 AM → 6:20 AM", duration: "3h 10m", source: gf("One-way flights from KEF to CPH on 2026-09-12") },
+  { gateway: "FRA", date: "Sep 12", price: 487, carrier: "Lufthansa", timing: "12:25 AM → 5:55 AM", duration: "3h 30m", source: gf("One-way flights from KEF to FRA on 2026-09-12") },
+  { gateway: "MUC", date: "Sep 12", price: 539, carrier: "Icelandair", timing: "12:35 AM → 6:25 AM", duration: "3h 50m", source: gf("One-way flights from KEF to MUC on 2026-09-12") },
+  { gateway: "ZRH", date: "Sep 12", price: 569, carrier: "Icelandair", timing: "7:20 AM → 1:05 PM", duration: "3h 45m", source: gf("One-way flights from KEF to ZRH on 2026-09-12") },
+
+  { gateway: "AMS", date: "Sep 13", price: 131, carrier: "Transavia", timing: "7:15 PM → 12:20 AM +1", duration: "3h 05m", noBin: true, source: gf("One-way flights from KEF to AMS on 2026-09-13") },
+  { gateway: "BER", date: "Sep 13", price: 757, carrier: "Icelandair", timing: "7:35 AM → 1:10 PM", duration: "3h 35m", source: gf("One-way flights from KEF to BER on 2026-09-13") },
+  { gateway: "CPH", date: "Sep 13", price: 163, carrier: "SAS", timing: "5:35 PM → 10:40 PM", duration: "3h 05m", noBin: true, source: gf("One-way flights from KEF to CPH on 2026-09-13") },
+  { gateway: "FRA", date: "Sep 13", price: 458, carrier: "Lufthansa", timing: "12:20 AM → 5:50 AM", duration: "3h 30m", source: gf("One-way flights from KEF to FRA on 2026-09-13") },
+  { gateway: "MUC", date: "Sep 13", price: 408, carrier: "Discover Airlines", timing: "1:10 AM → 7:00 AM", duration: "3h 50m", source: gf("One-way flights from KEF to MUC on 2026-09-13") },
+  { gateway: "VCE", date: "Sep 13", price: 500, carrier: "Icelandair", timing: "8:20 AM → 2:45 PM", duration: "4h 25m", source: gf("One-way flights from KEF to VCE on 2026-09-13") },
+  { gateway: "ZRH", date: "Sep 13", price: 240, carrier: "Icelandair", timing: "1:05 AM → 7:00 AM", duration: "3h 55m", source: gf("One-way flights from KEF to ZRH on 2026-09-13") },
+
+  { gateway: "AMS", date: "Sep 14", price: 289, carrier: "Transavia", timing: "8:50 AM → 1:55 PM", duration: "3h 05m", noBin: true, source: gf("One-way flights from KEF to AMS on 2026-09-14") },
+  { gateway: "BER", date: "Sep 14", price: 536, carrier: "Icelandair", timing: "7:35 AM → 1:10 PM", duration: "3h 35m", source: gf("One-way flights from KEF to BER on 2026-09-14") },
+  { gateway: "CPH", date: "Sep 14", price: 212, carrier: "Icelandair", timing: "7:40 AM → 12:55 PM", duration: "3h 15m", source: gf("One-way flights from KEF to CPH on 2026-09-14") },
+  { gateway: "FRA", date: "Sep 14", price: 478, carrier: "Lufthansa", timing: "12:20 AM → 5:50 AM", duration: "3h 30m", source: gf("One-way flights from KEF to FRA on 2026-09-14") },
+  { gateway: "MUC", date: "Sep 14", price: 539, carrier: "Icelandair", timing: "7:20 AM → 1:05 PM", duration: "3h 45m", source: gf("One-way flights from KEF to MUC on 2026-09-14") },
+  { gateway: "PRG", date: "Sep 14", price: 500, carrier: "Icelandair", timing: "7:20 AM → 1:05 PM", duration: "3h 45m", source: gf("One-way flights from KEF to PRG on 2026-09-14") },
+  { gateway: "ZRH", date: "Sep 14", price: 351, carrier: "Icelandair", timing: "7:20 AM → 1:05 PM", duration: "3h 45m", source: gf("One-way flights from KEF to ZRH on 2026-09-14") },
+
+  { gateway: "AMS", date: "Sep 15", price: 303, carrier: "Icelandair", timing: "7:40 AM → 1:00 PM", duration: "3h 20m", source: gf("One-way flights from KEF to AMS on 2026-09-15") },
+  { gateway: "BER", date: "Sep 15", price: 757, carrier: "Icelandair", timing: "7:35 AM → 1:10 PM", duration: "3h 35m", source: gf("One-way flights from KEF to BER on 2026-09-15") },
+  { gateway: "CPH", date: "Sep 15", price: 194, carrier: "SAS", timing: "5:05 PM → 10:10 PM", duration: "3h 05m", noBin: true, source: gf("One-way flights from KEF to CPH on 2026-09-15") },
+  { gateway: "FRA", date: "Sep 15", price: 476, carrier: "Lufthansa", timing: "12:20 AM → 5:50 AM", duration: "3h 30m", source: gf("One-way flights from KEF to FRA on 2026-09-15") },
+  { gateway: "MUC", date: "Sep 15", price: 539, carrier: "Icelandair", timing: "7:20 AM → 1:05 PM", duration: "3h 45m", source: gf("One-way flights from KEF to MUC on 2026-09-15") },
+  { gateway: "VCE", date: "Sep 15", price: 247, carrier: "Icelandair", timing: "8:20 AM → 2:45 PM", duration: "4h 25m", source: gf("One-way flights from KEF to VCE on 2026-09-15") },
+  { gateway: "ZRH", date: "Sep 15", price: 351, carrier: "Icelandair", timing: "7:20 AM → 1:05 PM", duration: "3h 45m", source: gf("One-way flights from KEF to ZRH on 2026-09-15") },
+];
+
 const labels = {
   main: "ATL ↔ Iceland",
   bridge: "Iceland → Europe",
@@ -107,6 +141,22 @@ const labels = {
 const state = { type: "all", gateway: "all", stop: "all", sort: "price" };
 const rowsNode = document.querySelector("#fare-rows");
 const summaryNode = document.querySelector("#result-summary");
+const nonstopRowsNode = document.querySelector("#nonstop-rows");
+const nonstopSummaryNode = document.querySelector("#nonstop-summary");
+let nonstopDate = "all";
+
+const gatewayNames = {
+  AMS: "Amsterdam",
+  BER: "Berlin",
+  CDG: "Paris",
+  CPH: "Copenhagen",
+  FRA: "Frankfurt",
+  MUC: "Munich",
+  MXP: "Milan",
+  PRG: "Prague",
+  VCE: "Venice",
+  ZRH: "Zürich",
+};
 
 function efficientMiles(price) {
   const miles = Math.floor(price / 50) * 5000;
@@ -135,6 +185,39 @@ function rowMarkup(item) {
       <div class="price-cell" role="cell"><strong>$${item.price.toLocaleString()}</strong><span>${fareNote}</span></div>
       <div class="source-cell" role="cell"><a href="${item.source}" target="_blank" rel="noreferrer">Open ↗</a><small>Checked Aug 1</small></div>
     </article>`;
+}
+
+function nonstopMarkup(item) {
+  const bagNote = item.noBin ? '<span class="bag-note">Overhead bag extra</span>' : '<span class="bag-note included">Standard fare shown</span>';
+  let pickLabel = "";
+  if (item.gateway === "MUC" && item.date === "Sep 11") pickLabel = "Best route fit";
+  if (item.gateway === "ZRH" && item.date === "Sep 13") pickLabel = "Best extra-Iceland value";
+  if (item.gateway === "MUC" && item.date === "Sep 13") pickLabel = "Longer-stay route fit";
+  if (item.gateway === "VCE" && item.date === "Sep 15") pickLabel = "Best latest-date value";
+  const routePick = pickLabel ? `<span class="route-pick">${pickLabel}</span>` : "";
+  return `
+    <article class="nonstop-row" role="row">
+      <div class="nonstop-destination" role="cell"><span>${gatewayNames[item.gateway] || item.gateway}</span><strong>KEF → ${item.gateway}</strong>${routePick}</div>
+      <div class="nonstop-date" role="cell"><strong>${item.date}</strong><span>2026</span></div>
+      <div class="nonstop-time" role="cell"><strong>${item.timing}</strong><span>Local time</span></div>
+      <div class="nonstop-flight" role="cell"><strong>${item.carrier}</strong><span>${item.flight || "Nonstop fare snapshot"}</span></div>
+      <div class="nonstop-duration" role="cell"><strong>${item.duration}</strong><span>Nonstop</span></div>
+      <div class="nonstop-price" role="cell">
+        <a href="${item.source}" target="_blank" rel="noreferrer" aria-label="Reopen ${item.route} on ${item.date} for $${item.price}">$${item.price.toLocaleString()} <span>↗</span></a>
+        ${bagNote}
+        <i style="--fare-width: ${Math.round((item.price / 852) * 100)}%" aria-hidden="true"></i>
+      </div>
+    </article>`;
+}
+
+function renderNonstops() {
+  let nonstops = quotes
+    .filter((item) => item.type === "bridge" && item.direct)
+    .concat(extendedNonstops)
+    .sort((a, b) => a.gateway.localeCompare(b.gateway) || dateKey(a.date) - dateKey(b.date));
+  if (nonstopDate !== "all") nonstops = nonstops.filter((item) => item.date === nonstopDate);
+  nonstopRowsNode.innerHTML = nonstops.map(nonstopMarkup).join("");
+  nonstopSummaryNode.textContent = `${nonstops.length} nonstop ${nonstops.length === 1 ? "flight" : "flights"}`;
 }
 
 function render() {
@@ -172,4 +255,17 @@ document.querySelector("#gateway-filter").addEventListener("change", (event) => 
 document.querySelector("#stop-filter").addEventListener("change", (event) => { state.stop = event.target.value; render(); });
 document.querySelector("#sort-filter").addEventListener("change", (event) => { state.sort = event.target.value; render(); });
 
+document.querySelectorAll(".nonstop-filter").forEach((button) => {
+  button.addEventListener("click", () => {
+    nonstopDate = button.dataset.nonstopDate;
+    document.querySelectorAll(".nonstop-filter").forEach((item) => {
+      const active = item === button;
+      item.classList.toggle("active", active);
+      item.setAttribute("aria-pressed", String(active));
+    });
+    renderNonstops();
+  });
+});
+
+renderNonstops();
 render();

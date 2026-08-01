@@ -26,6 +26,7 @@
       <nav aria-label="Page navigation">
         <a href="#verdict">Verdict</a>
         <a href="#structures">Ticket structures</a>
+        <a href="#nonstop-chart">Nonstop chart</a>
         <a href="#matrix">Fare matrix</a>
         <a href="#miles">Miles</a>
       </nav>
@@ -42,7 +43,7 @@
             Austria, Slovenia, or eastern Switzerland—priced in USD and tied to a dated flight.
           </p>
           <div class="hero-actions">
-            <a class="primary-button" href="#matrix">Open the price sheet ↓</a>
+            <a class="primary-button" href="#nonstop-chart">Compare nonstop flights ↓</a>
             <a class="secondary-button" href="#method">Read the audit rules</a>
           </div>
         </div>
@@ -162,10 +163,51 @@
         </div>
       </section>
 
+      <section class="nonstop-chart" id="nonstop-chart" aria-labelledby="nonstop-title">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">04 / ICELAND → EUROPE NONSTOPS</p>
+            <h2 id="nonstop-title">One chart. Every direct option.</h2>
+          </div>
+          <p>Exact one-way fare snapshots from Keflavík from September 10 through 15, so the cost of adding Iceland days is visible. Times are local; prices are USD per adult.</p>
+        </div>
+
+        <div class="nonstop-notes" aria-label="Nonstop chart summary">
+          <div><span>Cheapest</span><strong>$120 · Amsterdam</strong></div>
+          <div><span>Extra Iceland sweet spot</span><strong>$240 · Zürich · Sep 13</strong></div>
+          <div><span>Later Munich option</span><strong>$408 · Sep 13</strong></div>
+          <div><span>Flights compared</span><strong>45 dated quotes</strong></div>
+        </div>
+
+        <div class="nonstop-filters" role="group" aria-label="Filter nonstop flights by departure date">
+          <button class="nonstop-filter active" type="button" data-nonstop-date="all" aria-pressed="true">All dates</button>
+          <button class="nonstop-filter" type="button" data-nonstop-date="Sep 10" aria-pressed="false">Thu · Sep 10</button>
+          <button class="nonstop-filter" type="button" data-nonstop-date="Sep 11" aria-pressed="false">Fri · Sep 11</button>
+          <button class="nonstop-filter" type="button" data-nonstop-date="Sep 12" aria-pressed="false">Sat · Sep 12</button>
+          <button class="nonstop-filter" type="button" data-nonstop-date="Sep 13" aria-pressed="false">Sun · Sep 13</button>
+          <button class="nonstop-filter" type="button" data-nonstop-date="Sep 14" aria-pressed="false">Mon · Sep 14</button>
+          <button class="nonstop-filter" type="button" data-nonstop-date="Sep 15" aria-pressed="false">Tue · Sep 15</button>
+          <span id="nonstop-summary" aria-live="polite"></span>
+        </div>
+
+        <div class="nonstop-table" role="table" aria-label="Nonstop flights from Iceland to mainland Europe">
+          <div class="nonstop-head" role="row">
+            <span role="columnheader">Destination</span>
+            <span role="columnheader">Date</span>
+            <span role="columnheader">Local time</span>
+            <span role="columnheader">Airline / flight</span>
+            <span role="columnheader">Duration</span>
+            <span role="columnheader">USD / adult</span>
+          </div>
+          <div id="nonstop-rows"></div>
+        </div>
+        <p class="chart-footnote">Each row is the lowest displayed nonstop one-way option retained for that airport/date combination, checked August 1, 2026. A baggage note appears where the displayed base fare excluded an overhead-bin bag. Click any price to reopen its dated search. No nonstop to Vienna or Geneva appeared during this window.</p>
+      </section>
+
       <section class="matrix" id="matrix" aria-labelledby="matrix-title">
         <div class="matrix-heading">
           <div>
-            <p class="section-kicker">04 / LIVE PRICE SHEET</p>
+            <p class="section-kicker">05 / FULL LIVE PRICE SHEET</p>
             <h2 id="matrix-title">Dated fares, not averages.</h2>
           </div>
           <p id="result-summary" aria-live="polite"></p>
@@ -221,7 +263,7 @@
       <section class="miles" id="miles" aria-labelledby="miles-title">
         <div class="section-head">
           <div>
-            <p class="section-kicker">05 / MILES AUDIT</p>
+            <p class="section-kicker">06 / MILES AUDIT</p>
             <h2 id="miles-title">Two different meanings of “pay with miles.”</h2>
           </div>
           <p>Delta’s dynamic Award Travel price and its fixed-value Pay with Miles card benefit are not interchangeable. The page only labels a number exact when the math is reproducible.</p>
@@ -261,7 +303,7 @@
 
       <section class="method" id="method" aria-labelledby="method-title">
         <div>
-          <p class="section-kicker">06 / METHOD & SOURCES</p>
+          <p class="section-kicker">07 / METHOD & SOURCES</p>
           <h2 id="method-title">What “verified” means here.</h2>
         </div>
         <div class="method-copy">
