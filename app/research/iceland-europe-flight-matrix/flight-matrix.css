@@ -135,6 +135,20 @@ button, select { font: inherit; }
 .road-review { border-top: 1px solid var(--line); }
 .review-heading { display: grid; grid-template-columns: 1.25fr .75fr; gap: 60px; align-items: end; }
 .review-heading > p, .review-subhead > p { margin: 0 0 8px; color: var(--muted); font-size: 15px; line-height: 1.65; }
+.road-opening-image { height: clamp(440px,58vw,720px); margin: 55px 0 0; position: relative; overflow: hidden; background: var(--ink); }
+.road-opening-image::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg,transparent 40%,rgba(8,20,25,.82)); }
+.road-opening-image img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center 52%; }
+.road-opening-image figcaption { z-index: 1; position: absolute; left: clamp(22px,4vw,55px); right: clamp(22px,4vw,55px); bottom: clamp(24px,4vw,52px); color: white; }
+.road-opening-image figcaption span, .road-opening-image figcaption small { display: block; font-family: var(--mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
+.road-opening-image figcaption span { color: var(--orange); }
+.road-opening-image figcaption strong { max-width: 970px; margin: 10px 0; display: block; font-family: var(--serif); font-size: clamp(32px,5vw,66px); font-weight: 500; line-height: .96; }
+.road-opening-image figcaption small { color: #c8d3d7; }
+.route-ribbon { display: grid; grid-template-columns: repeat(6,1fr); background: var(--ink); color: white; }
+.route-ribbon div { min-height: 112px; padding: 17px; position: relative; border-right: 1px solid rgba(255,255,255,.15); }
+.route-ribbon div:last-child { border-right: 0; }
+.route-ribbon div:not(:last-child)::after { content: "→"; position: absolute; z-index: 1; right: -8px; top: 48px; color: var(--orange); }
+.route-ribbon span, .route-ribbon small { display: block; color: #91a8b2; font-family: var(--mono); font-size: 8px; letter-spacing: .06em; text-transform: uppercase; }
+.route-ribbon strong { margin: 16px 0 6px; display: block; font-family: var(--serif); font-size: 21px; font-weight: 500; }
 .review-summary { margin-top: 42px; display: grid; grid-template-columns: repeat(4,1fr); border: 1px solid var(--line); background: rgba(255,255,255,.25); }
 .review-summary div { min-height: 128px; padding: 18px; border-right: 1px solid var(--line); }
 .review-summary div:last-child { border-right: 0; }
@@ -143,6 +157,50 @@ button, select { font: inherit; }
 .review-callout, .price-integrity { margin-top: 18px; padding: 20px 22px; display: grid; grid-template-columns: 220px 1fr; gap: 25px; background: var(--ink); color: white; }
 .review-callout strong, .price-integrity strong { color: var(--ice); font-family: var(--mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
 .review-callout p, .price-integrity p { margin: 0; color: #c0ccd1; font-size: 13px; line-height: 1.65; }
+.scenic-itinerary { margin-top: 65px; }
+.scenic-day { min-height: 590px; display: grid; grid-template-columns: 1.15fr .85fr; background: var(--white); }
+.scenic-day + .scenic-day, .lake-pair + .scenic-day, .scenic-day + .lake-pair, .scenic-day + .route-finale { margin-top: 22px; }
+.scenic-day figure { min-height: 590px; margin: 0; overflow: hidden; }
+.scenic-day figure img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform 500ms ease; }
+.scenic-day:hover figure img, .lake-card:hover figure img, .route-finale:hover img { transform: scale(1.025); }
+.scenic-day-copy { padding: clamp(30px,4vw,58px); display: flex; flex-direction: column; justify-content: center; }
+.scenic-day-label { margin: 0 0 22px; color: var(--orange); font-family: var(--mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
+.scenic-day-copy h3, .route-finale h3 { margin: 0; font-family: var(--serif); font-size: clamp(42px,5vw,70px); font-weight: 500; line-height: .94; letter-spacing: -.025em; }
+.scenic-day-deck { margin: 25px 0; color: var(--muted); font-size: 14px; line-height: 1.7; }
+.scenic-day-copy dl { margin: 0; border-top: 1px solid var(--line); }
+.scenic-day-copy dl div { padding: 11px 0; display: grid; grid-template-columns: 90px 1fr; gap: 18px; border-bottom: 1px solid var(--line); }
+.scenic-day-copy dt { color: var(--blue); font-family: var(--mono); font-size: 8px; letter-spacing: .06em; text-transform: uppercase; }
+.scenic-day-copy dd { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.5; }
+.scenic-day-copy > a, .route-finale-copy > a { width: fit-content; margin-top: 25px; color: var(--ink); font-size: 11px; font-weight: 700; text-underline-offset: 5px; }
+.scenic-day-reverse { grid-template-columns: .85fr 1.15fr; }
+.scenic-day-reverse figure { grid-column: 2; grid-row: 1; }
+.scenic-day-reverse .scenic-day-copy { grid-column: 1; grid-row: 1; }
+.lake-pair { margin-top: 22px; display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.lake-card { min-width: 0; background: var(--white); }
+.lake-card figure { height: 500px; margin: 0; position: relative; overflow: hidden; }
+.lake-card figure::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg,transparent 44%,rgba(8,20,25,.82)); }
+.lake-card figure img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform 500ms ease; }
+.lake-card figure figcaption { z-index: 1; position: absolute; left: 28px; right: 28px; bottom: 28px; color: white; }
+.lake-card figure span { display: block; margin-bottom: 8px; color: var(--orange); font-family: var(--mono); font-size: 8px; letter-spacing: .1em; }
+.lake-card figure strong { font-family: var(--serif); font-size: clamp(32px,3.2vw,48px); font-weight: 500; line-height: .98; }
+.lake-card > div { min-height: 155px; padding: 23px 28px; }
+.lake-card p { margin: 0 0 14px; color: var(--muted); font-size: 12px; line-height: 1.6; }
+.lake-card small { color: var(--blue); font-family: var(--mono); font-size: 8px; line-height: 1.5; text-transform: uppercase; }
+.lake-card a { margin-left: 10px; color: var(--ink); font-size: 10px; font-weight: 700; }
+.scenic-day-dark { background: var(--ink); color: white; }
+.scenic-day-dark .scenic-day-deck, .scenic-day-dark dd { color: #b8c6cc; }
+.scenic-day-dark .scenic-day-copy dl, .scenic-day-dark .scenic-day-copy dl div { border-color: rgba(255,255,255,.17); }
+.scenic-day-dark .scenic-day-copy > a { color: white; }
+.route-finale { min-height: 540px; display: grid; grid-template-columns: .9fr 1.1fr; margin-top: 22px; background: #dfe9e6; }
+.route-finale-image { min-height: 540px; overflow: hidden; }
+.route-finale-image img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform 500ms ease; }
+.route-finale-copy { padding: clamp(30px,4vw,58px); display: flex; flex-direction: column; justify-content: center; }
+.route-finale-copy > p:not(.scenic-day-label) { margin: 23px 0; color: #4e615d; font-size: 14px; line-height: 1.7; }
+.route-finale-copy > div { display: flex; flex-wrap: wrap; gap: 8px; }
+.route-finale-copy > div span { padding: 8px 10px; border: 1px solid rgba(16,29,39,.25); font-family: var(--mono); font-size: 8px; text-transform: uppercase; }
+.flight-finale { padding: 24px 28px; display: grid; grid-template-columns: .5fr 1.5fr 1fr; gap: 20px; align-items: center; background: var(--orange); color: white; }
+.flight-finale span, .flight-finale small { font-family: var(--mono); font-size: 9px; line-height: 1.5; text-transform: uppercase; }
+.flight-finale strong { font-family: var(--serif); font-size: 25px; font-weight: 500; }
 .review-table { margin-top: 18px; border: 1px solid var(--line); }
 .review-table-head { min-height: auto !important; background: var(--ink) !important; color: white; }
 .review-table-head span { padding: 12px 14px; border-right: 1px solid rgba(255,255,255,.15); font-family: var(--mono); font-size: 8px; letter-spacing: .08em; text-transform: uppercase; }
@@ -275,6 +333,19 @@ footer a, footer p { color: var(--muted); font-family: var(--mono); font-size: 9
   .verdict-grid article:last-child { border-bottom: 0; }
   .section-head, .matrix-heading, .method { grid-template-columns: 1fr; gap: 18px; }
   .review-heading, .review-subhead { grid-template-columns: 1fr; gap: 18px; }
+  .road-opening-image { height: 500px; margin-top: 34px; }
+  .route-ribbon { grid-template-columns: repeat(3,1fr); }
+  .route-ribbon div { border-bottom: 1px solid rgba(255,255,255,.15); }
+  .route-ribbon div:nth-child(3n) { border-right: 0; }
+  .route-ribbon div:nth-child(n+4) { border-bottom: 0; }
+  .route-ribbon div:nth-child(3)::after { display: none; }
+  .scenic-itinerary { margin-top: 44px; }
+  .scenic-day, .scenic-day-reverse, .route-finale { min-height: 0; grid-template-columns: 1fr; }
+  .scenic-day figure, .scenic-day-reverse figure, .route-finale-image { min-height: 390px; grid-column: 1; grid-row: 1; }
+  .scenic-day-copy, .scenic-day-reverse .scenic-day-copy, .route-finale-copy { grid-column: 1; grid-row: 2; }
+  .lake-pair { grid-template-columns: 1fr; }
+  .lake-card figure { height: 430px; }
+  .flight-finale { grid-template-columns: 1fr; gap: 8px; }
   .section-head > p, .matrix-heading > p { font-size: 18px; }
   .structure-grid, .miles-grid { grid-template-columns: 1fr; }
   .structure-grid article, .miles-grid article { min-height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
@@ -332,6 +403,19 @@ footer a, footer p { color: var(--muted); font-family: var(--mono); font-size: 9
 }
 
 @media (max-width: 440px) {
+  .road-opening-image { height: 420px; }
+  .road-opening-image figcaption strong { font-size: 34px; }
+  .route-ribbon { grid-template-columns: 1fr 1fr; }
+  .route-ribbon div:nth-child(3n) { border-right: 1px solid rgba(255,255,255,.15); }
+  .route-ribbon div:nth-child(2n) { border-right: 0; }
+  .route-ribbon div:nth-child(n+4) { border-bottom: 1px solid rgba(255,255,255,.15); }
+  .route-ribbon div:nth-child(n+5) { border-bottom: 0; }
+  .route-ribbon div:nth-child(3)::after { display: block; }
+  .route-ribbon div:nth-child(2n)::after { display: none; }
+  .scenic-day figure, .route-finale-image { min-height: 310px; }
+  .scenic-day-copy dl div { grid-template-columns: 1fr; gap: 4px; }
+  .lake-card figure { height: 350px; }
+  .lake-card > div { min-height: 0; }
   .review-summary { grid-template-columns: 1fr; }
   .review-summary div, .review-summary div:nth-child(2n), .review-summary div:nth-child(n+3) { min-height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
   .review-summary div:last-child { border-bottom: 0; }
