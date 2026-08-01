@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101d27" />
+    <meta
+      name="description"
+      content="A dated fare and flight comparison for Atlanta, Iceland, and mainland Europe in September 2026."
+    />
+    <title>Iceland ↔ Europe Flight Price Sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./flight-matrix.css?v=1" />
+    <script src="./flight-matrix.js?v=1" defer></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#verdict">Skip to the verdict</a>
+
+    <header class="site-header">
+      <a class="brand" href="../../index.html"><span>FN</span> Field Notes</a>
+      <nav aria-label="Page navigation">
+        <a href="#verdict">Verdict</a>
+        <a href="#structures">Ticket structures</a>
+        <a href="#matrix">Fare matrix</a>
+        <a href="#miles">Miles</a>
+      </nav>
+      <a class="back-link" href="../../trips/iceland-bavaria-austria/">Iceland route ↗</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Live fare audit · checked August 1, 2026</p>
+          <h1>The Iceland<br /><em>air-bridge.</em></h1>
+          <p class="lede">
+            Exact September flight snapshots for three ways to combine Reykjavík with Germany,
+            Austria, Slovenia, or eastern Switzerland—priced in USD and tied to a dated flight.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#matrix">Open the price sheet ↓</a>
+            <a class="secondary-button" href="#method">Read the audit rules</a>
+          </div>
+        </div>
+        <aside class="search-card" aria-label="Search assumptions">
+          <p>SEARCH BRIEF / 26-0905</p>
+          <dl>
+            <div><dt>Outbound</dt><dd>ATL → KEF · Sat Sep 5</dd></div>
+            <div><dt>Iceland bridge</dt><dd>Thu Sep 10 or Fri Sep 11</dd></div>
+            <div><dt>Return home</dt><dd>Fri Sep 18 or Sat Sep 19</dd></div>
+            <div><dt>Cabin</dt><dd>Economy · 1-adult fare unit</dd></div>
+            <div><dt>Trip party</dt><dd>2 adults + infant in lap</dd></div>
+          </dl>
+          <p class="search-note">Multiply adult fares by two. Delta says an international lap infant is generally 10% of the applicable adult fare plus taxes; that charge is not included below because it is priced during ticketing.</p>
+        </aside>
+      </section>
+
+      <section class="verdict" id="verdict" aria-labelledby="verdict-title">
+        <div class="section-kicker">01 / BOTTOM LINE</div>
+        <div class="verdict-main">
+          <p class="overline">Best route decision</p>
+          <h2 id="verdict-title">Use Munich as the default hinge.</h2>
+          <p>
+            It is the cleanest combination of route geography, a nonstop Iceland bridge, and a
+            protected Delta nonstop home. Fly KEF → MUC on Friday, September 11, then return
+            MUC → ATL on Saturday, September 19. That Saturday Delta return is <strong>$280 less</strong>
+            than Friday in the one-way snapshot.
+          </p>
+        </div>
+        <div class="verdict-grid">
+          <article class="winner">
+            <span>Route winner</span>
+            <strong>MUC</strong>
+            <p>Discover nonstop from KEF; Delta DL131 nonstop to ATL; right side of the Alps.</p>
+          </article>
+          <article>
+            <span>Cheapest Iceland bridge</span>
+            <strong>$120</strong>
+            <p>KEF → AMS nonstop on Sep 10 or 11, but Amsterdam pulls the trip away from the target region.</p>
+          </article>
+          <article>
+            <span>Best regional value</span>
+            <strong>$168</strong>
+            <p>KEF → MXP nonstop Sep 10 on Wizz; useful for Dolomites/Slovenia, with bag fees to add.</p>
+          </article>
+          <article>
+            <span>Best Delta return date</span>
+            <strong>Sep 19</strong>
+            <p>MUC → ATL DL131 was $1,367 one-way, versus $1,647 on Sep 18.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="structures" id="structures" aria-labelledby="structures-title">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">02 / THREE TICKET SHAPES</p>
+            <h2 id="structures-title">The fare is only half the cost.</h2>
+          </div>
+          <p>Backtracking can win on ticket price. Open-jaw wins on useful vacation time. These are different products, so the comparison keeps them separate.</p>
+        </div>
+        <div class="structure-grid">
+          <article>
+            <span class="structure-index">A</span>
+            <p class="structure-tag">Lowest verified package</p>
+            <h3>ATL ↔ KEF + Europe round trip</h3>
+            <div class="big-price">$1,354<span>/adult</span></div>
+            <p>Delta ATL ↔ KEF Sep 5–18 ($1,075) + KEF ↔ MXP Sep 11–17 ($279). Exact displayed fare floors; return-flight selection can alter the final quote.</p>
+            <ul>
+              <li>Best raw price in the tested set</li>
+              <li>Forces a return to Iceland on Sep 17</li>
+              <li>Consumes a day and adds another airport cycle</li>
+            </ul>
+          </article>
+          <article class="recommended">
+            <span class="structure-index">B</span>
+            <p class="structure-tag">Recommended structure</p>
+            <h3>Delta open-jaw + one Europe hop</h3>
+            <div class="big-price">≤ $1,164<span>Delta ticket target</span></div>
+            <p>Add the $360 nonstop KEF → MUC bridge. If Delta prices ATL → KEF / MUC → ATL at $1,164 or less, it beats the $1,524 Munich backtrack package outright.</p>
+            <ul>
+              <li>No retracing to Iceland</li>
+              <li>Protects the nonstop home</li>
+              <li>Must be repriced as one multi-city ticket on Delta</li>
+            </ul>
+          </article>
+          <article>
+            <span class="structure-index">C</span>
+            <p class="structure-tag">Useful benchmark, poor purchase</p>
+            <h3>Three separate one-way tickets</h3>
+            <div class="big-price">$2,331<span>/adult</span></div>
+            <p>ATL → KEF Delta ($604) + KEF → MUC Discover ($360) + MUC → ATL Delta Sep 19 ($1,367). Exact components, but transatlantic one-ways price badly.</p>
+            <ul>
+              <li>Maximum flexibility</li>
+              <li>Clear benchmark for a Delta multi-city quote</li>
+              <li>Not the recommended way to ticket the long-haul legs</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="airport-read" aria-labelledby="airport-title">
+        <div class="section-head compact">
+          <div>
+            <p class="section-kicker">03 / AIRPORT READ</p>
+            <h2 id="airport-title">Where each gateway actually fits.</h2>
+          </div>
+        </div>
+        <div class="airport-grid">
+          <article class="top-pick"><span>01</span><h3>Munich / MUC</h3><p>Best overall. Ten weekly Icelandair frequencies in the published schedule, a Friday Discover nonstop in this fare search, and Delta DL131 nonstop home.</p></article>
+          <article><span>02</span><h3>Frankfurt / FRA</h3><p>Most schedule resilience near the route, but it starts too far north. Strong backup when MUC pricing fails—not the best trip shape.</p></article>
+          <article><span>03</span><h3>Zürich / ZRH</h3><p>Excellent for eastern Switzerland and Vorarlberg. Nonstop bridge available, daily Delta home, but one-way fares were higher and rental borders add friction.</p></article>
+          <article><span>04</span><h3>Milan / MXP</h3><p>Cheapest practical bridge and a Delta nonstop home. Best if the route shifts toward the Dolomites; less elegant for Salzkammergut and Bavaria.</p></article>
+          <article><span>05</span><h3>Venice / VCE</h3><p>Best for a Slovenia-heavy finish. Direct KEF service is only three times weekly and the Sep 11 nonstop priced at a steep $614 one-way.</p></article>
+          <article><span>06</span><h3>Vienna / VIE</h3><p>Good endpoint for an Austria-first route, weak air pairing: no nonstop KEF flight in the tested dates and no Delta nonstop to Atlanta.</p></article>
+          <article><span>07</span><h3>Amsterdam / AMS</h3><p>The fare escape hatch: $120 nonstop from KEF. Use only if savings justify repositioning far from the Alps or if the trip itself changes.</p></article>
+          <article><span>08</span><h3>Copenhagen / CPH</h3><p>High Iceland frequency and cheap bridge fares, but a poor geographic fit. Better as a backup hub than a starting point for this route.</p></article>
+        </div>
+      </section>
+
+      <section class="matrix" id="matrix" aria-labelledby="matrix-title">
+        <div class="matrix-heading">
+          <div>
+            <p class="section-kicker">04 / LIVE PRICE SHEET</p>
+            <h2 id="matrix-title">Dated fares, not averages.</h2>
+          </div>
+          <p id="result-summary" aria-live="polite"></p>
+        </div>
+
+        <div class="controls" aria-label="Fare filters">
+          <div class="filter-group" role="group" aria-label="Ticket structure">
+            <button class="filter active" type="button" data-filter="all" aria-pressed="true">All quotes</button>
+            <button class="filter" type="button" data-filter="main" aria-pressed="false">ATL ↔ Iceland</button>
+            <button class="filter" type="button" data-filter="bridge" aria-pressed="false">Iceland → Europe</button>
+            <button class="filter" type="button" data-filter="backtrack" aria-pressed="false">Iceland round trips</button>
+            <button class="filter" type="button" data-filter="return" aria-pressed="false">Europe → ATL</button>
+          </div>
+          <div class="control-row">
+            <label>Gateway
+              <select id="gateway-filter">
+                <option value="all">All airports</option>
+                <option value="MUC">Munich</option><option value="FRA">Frankfurt</option>
+                <option value="ZRH">Zürich</option><option value="VCE">Venice</option>
+                <option value="MXP">Milan</option><option value="VIE">Vienna</option>
+                <option value="BER">Berlin</option><option value="PRG">Prague</option>
+                <option value="AMS">Amsterdam</option><option value="CPH">Copenhagen</option>
+                <option value="CDG">Paris</option><option value="GVA">Geneva</option>
+              </select>
+            </label>
+            <label>Preference
+              <select id="stop-filter">
+                <option value="all">Any stops</option>
+                <option value="nonstop">Nonstop only</option>
+                <option value="delta">Delta / SkyTeam home</option>
+              </select>
+            </label>
+            <label>Sort
+              <select id="sort-filter">
+                <option value="price">Lowest price</option>
+                <option value="date">Travel date</option>
+                <option value="route">Route</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="fare-table" role="table" aria-label="Verified fare quotes">
+          <div class="fare-head" role="row">
+            <span role="columnheader">Structure / route</span><span role="columnheader">Date</span>
+            <span role="columnheader">Exact flight</span><span role="columnheader">Timing</span>
+            <span role="columnheader">USD / adult</span><span role="columnheader">Source</span>
+          </div>
+          <div id="fare-rows"></div>
+        </div>
+      </section>
+
+      <section class="miles" id="miles" aria-labelledby="miles-title">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">05 / MILES AUDIT</p>
+            <h2 id="miles-title">Two different meanings of “pay with miles.”</h2>
+          </div>
+          <p>Delta’s dynamic Award Travel price and its fixed-value Pay with Miles card benefit are not interchangeable. The page only labels a number exact when the math is reproducible.</p>
+        </div>
+        <div class="miles-grid">
+          <article>
+            <p class="miles-label">Dynamic Award Travel</p>
+            <h3>Live quote required</h3>
+            <p>Delta’s award search is session-dependent. The public award endpoint rejected the automated search, so no invented SkyMiles price appears here. Re-run the selected multi-city pair with “Shop with Miles” checked before booking.</p>
+            <span class="status warning">Not reproducibly quoted</span>
+          </article>
+          <article class="miles-exact">
+            <p class="miles-label">Pay with Miles · eligible Delta Amex</p>
+            <h3>5,000 miles = up to $50</h3>
+            <p>For the verified $1,075 Delta ATL ↔ KEF fare, the efficient split is <strong>105,000 miles + $25</strong> per adult. For the $1,132 Sep 19 version, it is <strong>110,000 miles + $32</strong>.</p>
+            <span class="status good">Exact fixed-rate comparison</span>
+          </article>
+          <article>
+            <p class="miles-label">Two-adult lens</p>
+            <h3>Double every adult unit</h3>
+            <p>The $1,075 Delta fare becomes $2,150 cash, or an efficient Pay with Miles split of 210,000 miles + $50. The infant-in-lap charge is separate and must be quoted by the ticketing carrier.</p>
+            <span class="status neutral">Infant not included</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="method" id="method" aria-labelledby="method-title">
+        <div>
+          <p class="section-kicker">06 / METHOD & SOURCES</p>
+          <h2 id="method-title">What “verified” means here.</h2>
+        </div>
+        <div class="method-copy">
+          <p>Every table row was pulled on August 1, 2026 in USD for the named 2026 date. It records the displayed fare, airline, flight number, time, stops, and duration. Google Flights links reopen the exact route/date query; airline schedule links validate that the route is planned for the season.</p>
+          <p><strong>Important:</strong> fares remain live inventory. A round-trip search result shows an exact fare floor associated with the displayed outbound; the final return-flight choice can raise it. Low-cost rows marked “no overhead bin” need baggage added before comparing.</p>
+          <div class="source-links">
+            <a href="https://www.delta.com/us/en/flight-deals/europe-flights/flights-to-reykjavik" target="_blank" rel="noreferrer">Delta Reykjavík route page ↗</a>
+            <a href="https://www.delta.com/us/en/skymiles/airline-credit-cards/pay-with-miles" target="_blank" rel="noreferrer">Delta Pay with Miles rules ↗</a>
+            <a href="https://www.delta.com/us/en/children-infant-travel/infant-travel" target="_blank" rel="noreferrer">Delta international infant rules ↗</a>
+            <a href="https://www.icelandair.com/en-ie/flights/campaign/destinations-schedule/" target="_blank" rel="noreferrer">Icelandair 2026 schedule ↗</a>
+            <a href="https://www.delta.com/us/en/flight-deals/europe-flights/flights-to-germany" target="_blank" rel="noreferrer">Delta Germany routes ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#top">Back to top ↑</a>
+      <p>Fare snapshot only · verify before purchase · all prices USD per adult</p>
+    </footer>
+  </body>
+</html>
