@@ -133,12 +133,24 @@ button, select { font: inherit; }
 .miles-grid article { min-height: 370px; padding: 30px; border-right: 1px solid var(--line); }
 .miles-grid article:last-child { border-right: 0; }
 .miles-grid .miles-exact { background: var(--ice); }
+.miles-grid .miles-award { background: var(--ink); color: white; }
+.miles-grid .miles-award h3 { color: var(--ice); }
+.miles-grid .miles-award > p:not(.miles-label) { color: #c1cdd2; }
+.miles-grid .miles-award .miles-label { color: var(--orange); }
+.miles-grid .miles-award .status.good { border-color: var(--ice); color: var(--ice); }
 .miles-label { color: var(--blue); font-family: var(--mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
 .miles-grid h3 { margin: 65px 0 18px; font-family: var(--serif); font-size: 35px; font-weight: 500; }
 .miles-grid article > p:not(.miles-label) { color: var(--muted); font-size: 13px; line-height: 1.7; }
 .status { margin-top: 26px; display: inline-block; padding: 8px 10px; border: 1px solid var(--line); font-family: var(--mono); font-size: 8px; letter-spacing: .08em; text-transform: uppercase; }
 .status.warning { border-color: var(--orange); color: #9b3e1e; }
 .status.good { border-color: var(--green); color: var(--green); }
+.award-audit { margin-top: 22px; display: grid; grid-template-columns: repeat(3,1fr); border: 1px solid var(--line); }
+.award-audit div { min-height: 110px; padding: 20px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.award-audit div:nth-child(3n) { border-right: 0; }
+.award-audit div:nth-child(n+4) { border-bottom: 0; }
+.award-audit span { display: block; margin-bottom: 18px; color: var(--muted); font-family: var(--mono); font-size: 8px; letter-spacing: .09em; text-transform: uppercase; }
+.award-audit strong { font-family: var(--serif); font-size: 22px; font-weight: 500; }
+.award-caveat { max-width: 980px; margin: 24px 0 0; color: var(--muted); font-size: 12px; line-height: 1.65; }
 
 .method { border-top: 1px solid var(--line); align-items: start; }
 .method-copy > p { margin: 0 0 20px; color: var(--muted); font-size: 14px; line-height: 1.75; }
@@ -201,6 +213,9 @@ footer a, footer p { color: var(--muted); font-family: var(--mono); font-size: 9
   .fare-row > div:nth-child(odd) { border-right: 1px solid var(--line); }
   .fare-row > div:nth-last-child(-n+2) { border-bottom: 0; }
   .source-links { grid-template-columns: 1fr; }
+  .award-audit { grid-template-columns: 1fr; }
+  .award-audit div, .award-audit div:nth-child(3n), .award-audit div:nth-child(n+4) { min-height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .award-audit div:last-child { border-bottom: 0; }
   .source-links a, .source-links a:nth-child(2n), .source-links a:nth-child(n+3) { border-right: 0; border-bottom: 1px solid var(--line); }
   .source-links a:last-child { border-bottom: 0; }
   footer { padding: 28px 0; align-items: flex-start; flex-direction: column; gap: 15px; }
