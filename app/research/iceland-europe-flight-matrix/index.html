@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./flight-matrix.css?v=1" />
+    <link rel="stylesheet" href="./flight-matrix.css?v=2" />
     <script src="./flight-matrix.js?v=1" defer></script>
   </head>
   <body id="top">
@@ -27,6 +27,7 @@
         <a href="#verdict">Verdict</a>
         <a href="#structures">Ticket structures</a>
         <a href="#nonstop-chart">Nonstop chart</a>
+        <a href="#munich-loop">Road loop</a>
         <a href="#matrix">Fare matrix</a>
         <a href="#miles">Miles</a>
       </nav>
@@ -204,10 +205,135 @@
         <p class="chart-footnote">Each row is the lowest displayed nonstop one-way option retained for that airport/date combination, checked August 1, 2026. A baggage note appears where the displayed base fare excluded an overhead-bin bag. Click any price to reopen its dated search. No nonstop to Vienna or Geneva appeared during this window.</p>
       </section>
 
+      <section class="road-review" id="munich-loop" aria-labelledby="road-loop-title">
+        <div class="review-heading">
+          <div>
+            <p class="section-kicker">05 / MUNICH ROAD-TRIP TEST</p>
+            <h2 id="road-loop-title">Seven nights. Three bases. No wasted day.</h2>
+          </div>
+          <p>This is the practical version of the route if the Friday, September 11 nonstop to Munich wins: Königssee first, four nights in the Salzkammergut, and a scenic return to MUC for Delta on September 18.</p>
+        </div>
+
+        <div class="review-summary" aria-label="Road trip summary">
+          <div><span>Sleeping bases</span><strong>3</strong><small>Berchtesgaden · Gosau · Freising/MUC</small></div>
+          <div><span>Road distance</span><strong>~650–700 km</strong><small>Including the local lake days</small></div>
+          <div><span>Longest transfer</span><strong>~2h 10m</strong><small>MUC → Berchtesgaden</small></div>
+          <div><span>Centerpiece</span><strong>4 nights</strong><small>Gosau / Salzkammergut</small></div>
+        </div>
+
+        <div class="review-callout">
+          <strong>Why this shape works</strong>
+          <p>The 7:00 AM Munich arrival becomes a real Königssee afternoon, not a “soft landing.” Gosau then keeps Hallstatt, Gosausee, Wolfgangsee and Schafberg within day-trip range without packing every morning. The airport-area final night protects the 10:25 AM Delta departure, but September 17 still includes Chiemsee and Freising.</p>
+        </div>
+
+        <div class="review-table itinerary-table" role="table" aria-label="September 11 to 18 Munich road trip itinerary">
+          <div class="review-table-head itinerary-row" role="row">
+            <span role="columnheader">Date / sleep</span><span role="columnheader">Drive</span><span role="columnheader">Plan</span><span role="columnheader">Practical notes</span>
+          </div>
+          <div class="itinerary-row" role="row">
+            <div data-label="Date / sleep"><strong>Fri · Sep 11</strong><small>Schönau am Königssee / Berchtesgaden · night 1 of 2</small></div>
+            <div data-label="Drive"><strong>MUC → Königssee</strong><small>~2h 10m · ~190 km</small><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Munich+Airport&amp;destination=Konigssee+Germany" target="_blank" rel="noreferrer">Map ↗</a></div>
+            <div data-label="Plan"><strong>Land 7:00 AM; reach the lake before lunch</strong><small>Collect the car, check bags, then take the Königssee boat or walk the lakeshore and finish in Berchtesgaden old town.</small></div>
+            <div data-label="Practical notes"><small>This is an active arrival day. Boat departures run every 30 minutes from 8:00 AM–4:45 PM in this date band.</small></div>
+          </div>
+          <div class="itinerary-row" role="row">
+            <div data-label="Date / sleep"><strong>Sat · Sep 12</strong><small>Schönau / Berchtesgaden · night 2 of 2</small></div>
+            <div data-label="Drive"><strong>Local only</strong><small>10–35 min hops</small></div>
+            <div data-label="Plan"><strong>Königssee properly</strong><small>Early boat to St. Bartholomä; continue toward Salet/Obersee if operating, then choose Jenner, Ramsau, Hintersee or the Zauberwald.</small></div>
+            <div data-label="Practical notes"><small>Use a baby carrier for uneven paths. Keep Jenner as the clear-weather choice and Ramsau/Hintersee as the flexible alternative.</small></div>
+          </div>
+          <div class="itinerary-row" role="row">
+            <div data-label="Date / sleep"><strong>Sun · Sep 13</strong><small>Gosau · night 1 of 4</small></div>
+            <div data-label="Drive"><strong>Berchtesgaden → Salzburg → Gosau</strong><small>~40m + ~1h 15m · ~105 km</small><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Berchtesgaden&amp;destination=Gosau&amp;waypoints=Salzburg" target="_blank" rel="noreferrer">Map ↗</a></div>
+            <div data-label="Plan"><strong>Salzburg city stop</strong><small>Mirabell Gardens, old town lanes, river views and the fortress, then drive into the Salzkammergut for a Gosau farm stay.</small></div>
+            <div data-label="Practical notes"><small>Park once in Salzburg. Grocery-stop before Gosau if the farm apartment has a kitchen.</small></div>
+          </div>
+          <div class="itinerary-row" role="row">
+            <div data-label="Date / sleep"><strong>Mon · Sep 14</strong><small>Gosau · night 2 of 4</small></div>
+            <div data-label="Drive"><strong>Gosau ↔ Hallstatt</strong><small>~20–25m each way · ~30 km round trip</small><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Gosau&amp;destination=Hallstatt" target="_blank" rel="noreferrer">Map ↗</a></div>
+            <div data-label="Plan"><strong>Hallstatt before the crowds</strong><small>Waterfront and village first, then the reopened funicular/Skywalk. Add the salt mine only if the adults are happy to split.</small></div>
+            <div data-label="Practical notes"><small>Salt mine entry starts at age 4, so an infant cannot enter. The Skywalk/funicular still make this a strong family day.</small></div>
+          </div>
+          <div class="itinerary-row" role="row">
+            <div data-label="Date / sleep"><strong>Tue · Sep 15</strong><small>Gosau · night 3 of 4</small></div>
+            <div data-label="Drive"><strong>Gosau ↔ Gosausee</strong><small>~10m each way</small></div>
+            <div data-label="Plan"><strong>Gosausee, unhurried</strong><small>Easy shoreline, Dachstein reflections and a picnic; ride the Gosaukamm cable car for Zwieselalm views if the peaks are clear.</small></div>
+            <div data-label="Practical notes"><small>After September 13, the cable car’s last descent is 5:00 PM. This is the low-logistics lake day.</small></div>
+          </div>
+          <div class="itinerary-row" role="row">
+            <div data-label="Date / sleep"><strong>Wed · Sep 16</strong><small>Gosau · night 4 of 4</small></div>
+            <div data-label="Drive"><strong>Gosau ↔ St. Wolfgang</strong><small>~45m each way · ~80 km round trip</small><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Gosau&amp;destination=St+Wolfgang+im+Salzkammergut" target="_blank" rel="noreferrer">Map ↗</a></div>
+            <div data-label="Plan"><strong>Schafberg + Wolfgangsee</strong><small>Reserve the cog railway for the panorama, then descend for a lake cruise, village walk or swim depending on weather.</small></div>
+            <div data-label="Practical notes"><small>Prams cannot board the SchafbergBahn; use a carrier. Children under 4 ride free without their own seat.</small></div>
+          </div>
+          <div class="itinerary-row" role="row">
+            <div data-label="Date / sleep"><strong>Thu · Sep 17</strong><small>Freising / MUC airport · 1 night</small></div>
+            <div data-label="Drive"><strong>Gosau → Chiemsee → MUC</strong><small>~1h 45m + ~1h · ~225 km</small><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Gosau&amp;destination=Munich+Airport&amp;waypoints=Prien+am+Chiemsee" target="_blank" rel="noreferrer">Map ↗</a></div>
+            <div data-label="Plan"><strong>Chiemsee en route; Freising at night</strong><small>Lakeside lunch and promenade, or Herrenchiemsee if timing is generous. Continue to Freising for dinner and an airport-area hotel.</small></div>
+            <div data-label="Practical notes"><small>Return the car tonight if the hotel shuttle works; otherwise book a 7:00 AM return on Friday.</small></div>
+          </div>
+          <div class="itinerary-row" role="row">
+            <div data-label="Date / sleep"><strong>Fri · Sep 18</strong><small>Fly home</small></div>
+            <div data-label="Drive"><strong>Hotel → MUC</strong><small>~10–20m</small></div>
+            <div data-label="Plan"><strong>Delta DL131 · 10:25 AM</strong><small>A short airport morning after a fully used final vacation day.</small></div>
+            <div data-label="Practical notes"><small>Aim to be inside the terminal around 7:25 AM for the international departure.</small></div>
+          </div>
+        </div>
+        <p class="review-footnote">Drive times are normal-condition planning estimates, rounded for decision-making. Add margin for Munich traffic, border-weekend traffic, parking and photo stops.</p>
+
+        <div class="review-subhead">
+          <div><p class="section-kicker">RENTAL CAR / QUICK BUDGET</p><h3>Munich loop: the cleanest car contract.</h3></div>
+          <p>Pick up and return at MUC from 9:00 AM September 11 to 7:00 AM September 18. A wagon or compact SUV is the useful comparison—not the absolute cheapest mini.</p>
+        </div>
+
+        <div class="price-integrity"><strong>Price integrity</strong><p>Rental sites did not expose a stable final September checkout total to the research crawler. The figures below are transparent planning ranges calculated from current KAYAK MUC category rates—not claimed exact quotes. Use the dated search buttons to refresh the live total before booking.</p></div>
+
+        <div class="review-table rental-table" role="table" aria-label="Munich Airport rental car planning ranges">
+          <div class="review-table-head rental-row" role="row"><span role="columnheader">Example class</span><span role="columnheader">Observed daily band</span><span role="columnheader">7-day base</span><span role="columnheader">Fit for this trip</span></div>
+          <div class="rental-row" role="row"><div data-label="Example class"><strong>Medium wagon</strong><small>Skoda Octavia Combi or similar</small></div><div data-label="Observed daily band"><strong>$43–$81/day</strong></div><div data-label="7-day base"><strong>$301–$567</strong><small>Before coverage, seat, fuel and border option</small></div><div data-label="Fit"><small>Best luggage-to-cost balance for two adults, infant gear and farm-stay groceries.</small></div></div>
+          <div class="rental-row" role="row"><div data-label="Example class"><strong>Compact SUV</strong><small>Automatic preferred</small></div><div data-label="Observed daily band"><strong>$55–$81/day</strong></div><div data-label="7-day base"><strong>$385–$567</strong><small>Before coverage, seat, fuel and border option</small></div><div data-label="Fit"><small>Easier loading and a little more space; unnecessary for road conditions.</small></div></div>
+        </div>
+
+        <div class="quote-actions">
+          <a href="https://www.kayak.com/cars/Munich,Germany-c14057/2026-09-11-09h/2026-09-18-07h" target="_blank" rel="noreferrer">Open exact-date MUC loop search ↗</a>
+          <a href="https://www.expedia.com/go/car/search/Airport/2026-09-11/2026-09-18?PickUpLoc=MUC&amp;DiffDropLoc=0&amp;PickUpTime=9AM&amp;DropTime=7AM&amp;Class=NoPreference" target="_blank" rel="noreferrer">Compare MUC loop on Expedia ↗</a>
+        </div>
+
+        <div class="review-subhead one-way-title">
+          <div><p class="section-kicker">IF THE ICELAND HOP LANDS ELSEWHERE</p><h3>One-way cars get expensive across borders.</h3></div>
+          <p>These bands answer the route-choice question: what the car can add if the trip starts outside Munich but still finishes at MUC for Delta.</p>
+        </div>
+
+        <div class="review-table one-way-table" role="table" aria-label="Point to point rental car comparison ending at Munich Airport">
+          <div class="review-table-head one-way-row" role="row"><span role="columnheader">Car route</span><span role="columnheader">7-day planning band</span><span role="columnheader">Extra vs MUC loop</span><span role="columnheader">What it means</span><span role="columnheader">Live search</span></div>
+          <div class="one-way-row best" role="row"><div data-label="Car route"><strong>MUC → MUC</strong><small>Germany / Austria loop</small></div><div data-label="7-day planning band"><strong>$301–$567</strong></div><div data-label="Extra vs MUC"><strong>Baseline</strong></div><div data-label="Meaning"><small>No one-way repositioning fee. Only the normal Austria cross-border/roaming option and vignette remain.</small></div><div data-label="Live search"><a href="https://www.expedia.com/go/car/search/Airport/2026-09-11/2026-09-18?PickUpLoc=MUC&amp;DiffDropLoc=0&amp;PickUpTime=9AM&amp;DropTime=7AM&amp;Class=NoPreference" target="_blank" rel="noreferrer">Quote ↗</a></div></div>
+          <div class="one-way-row" role="row"><div data-label="Car route"><strong>FRA → MUC</strong><small>Domestic German one-way</small></div><div data-label="7-day planning band"><strong>$350–$650</strong></div><div data-label="Extra vs MUC"><strong>+$50–$125</strong></div><div data-label="Meaning"><small>The sane alternate. Europcar publishes a domestic one-way fee up to €45; the longer north-to-south route is the bigger vacation cost.</small></div><div data-label="Live search"><a href="https://www.expedia.com/go/car/search/Airport/2026-09-11/2026-09-18?PickUpLoc=FRA&amp;DiffDropLoc=1&amp;DropLoc=MUC&amp;PickUpTime=9AM&amp;DropTime=7AM&amp;Class=NoPreference" target="_blank" rel="noreferrer">Quote ↗</a></div></div>
+          <div class="one-way-row" role="row"><div data-label="Car route"><strong>ZRH → MUC</strong><small>Switzerland → Germany</small></div><div data-label="7-day planning band"><strong>$800–$1,100</strong></div><div data-label="Extra vs MUC"><strong>+$350–$650</strong></div><div data-label="Meaning"><small>Zürich medium cars currently benchmark around $80–$99/day before an international one-way fee. Only worth it if the airfare or Swiss itinerary wins decisively.</small></div><div data-label="Live search"><a href="https://www.expedia.com/go/car/search/Airport/2026-09-11/2026-09-18?PickUpLoc=ZRH&amp;DiffDropLoc=1&amp;DropLoc=MUC&amp;PickUpTime=9AM&amp;DropTime=7AM&amp;Class=NoPreference" target="_blank" rel="noreferrer">Quote ↗</a></div></div>
+          <div class="one-way-row" role="row"><div data-label="Car route"><strong>VCE or MXP → MUC</strong><small>Italy → Germany</small></div><div data-label="7-day planning band"><strong>$900–$1,400</strong></div><div data-label="Extra vs MUC"><strong>+$500–$900</strong></div><div data-label="Meaning"><small>High-variance and fleet-dependent. It can work for a Dolomites-first trip, but the international repositioning fee can erase a cheaper Iceland flight.</small></div><div data-label="Live search"><a href="https://www.expedia.com/go/car/search/Airport/2026-09-11/2026-09-18?PickUpLoc=VCE&amp;DiffDropLoc=1&amp;DropLoc=MUC&amp;PickUpTime=9AM&amp;DropTime=7AM&amp;Class=NoPreference" target="_blank" rel="noreferrer">VCE ↗</a><a href="https://www.expedia.com/go/car/search/Airport/2026-09-11/2026-09-18?PickUpLoc=MXP&amp;DiffDropLoc=1&amp;DropLoc=MUC&amp;PickUpTime=9AM&amp;DropTime=7AM&amp;Class=NoPreference" target="_blank" rel="noreferrer">MXP ↗</a></div></div>
+        </div>
+        <p class="review-footnote"><strong>Planning bands, not held quotes:</strong> international one-way fees are vehicle- and station-specific and generally appear only during booking. Sixt explicitly says the fee depends on distance/country and requires the foreign-use option; its German terms list Austria in the permitted nearby-country zone and add a weekly cross-border charge. Compare the full checkout total, not the headline daily rate.</p>
+
+        <div class="rental-checklist" aria-label="Rental booking checklist">
+          <strong>Put these in every comparison</strong>
+          <ul><li>Automatic transmission</li><li>Infant seat</li><li>Unlimited kilometres</li><li>Austria cross-border permission</li><li>Austrian motorway vignette</li><li>Full-to-full fuel</li><li>After-hours or 7:00 AM MUC return</li><li>Cancellation until pickup</li></ul>
+        </div>
+
+        <div class="route-sources" aria-label="Road trip and rental sources">
+          <a href="https://www.berchtesgaden.de/pois/der-koenigssee" target="_blank" rel="noreferrer">Königssee boat schedule ↗</a>
+          <a href="https://www.salzwelten.at/en/hallstatt/prices-opening-hours" target="_blank" rel="noreferrer">Hallstatt salt mine rules ↗</a>
+          <a href="https://www.dachstein.at/en/summer/cable-cars/gosaukammbahn" target="_blank" rel="noreferrer">Gosaukamm cable car ↗</a>
+          <a href="https://www.5schaetze.at/en/schafbergbahn/prices-and-timetables.html" target="_blank" rel="noreferrer">SchafbergBahn schedule ↗</a>
+          <a href="https://www.kayak.com/Munich-Franz-Josef-Strauss-Airport-Car-Rentals.MUC.cap.ksp" target="_blank" rel="noreferrer">KAYAK MUC category rates ↗</a>
+          <a href="https://www.kayak.com/Zurich-Airport-Car-Rentals.ZRH.cap.ksp" target="_blank" rel="noreferrer">KAYAK ZRH category rates ↗</a>
+          <a href="https://www.sixt.de/help-center/articles/wie-funktioniert-eine-einwegmiete-bei-sixt-in-deutschland/" target="_blank" rel="noreferrer">Sixt one-way rules ↗</a>
+          <a href="https://faq.europcar.de/q/ich-benotige-hilfe/zu-meiner-reservierung/preise-fahrzeuge/r/welche-kosten-fallen-fur-eine-einwegmiete-an/" target="_blank" rel="noreferrer">Europcar one-way fees ↗</a>
+        </div>
+      </section>
+
       <section class="matrix" id="matrix" aria-labelledby="matrix-title">
         <div class="matrix-heading">
           <div>
-            <p class="section-kicker">05 / FULL LIVE PRICE SHEET</p>
+            <p class="section-kicker">06 / FULL LIVE PRICE SHEET</p>
             <h2 id="matrix-title">Dated fares, not averages.</h2>
           </div>
           <p id="result-summary" aria-live="polite"></p>
@@ -263,7 +389,7 @@
       <section class="miles" id="miles" aria-labelledby="miles-title">
         <div class="section-head">
           <div>
-            <p class="section-kicker">06 / MILES AUDIT</p>
+            <p class="section-kicker">07 / MILES AUDIT</p>
             <h2 id="miles-title">Two different meanings of “pay with miles.”</h2>
           </div>
           <p>Delta’s dynamic Award Travel price and its fixed-value Pay with Miles card benefit are not interchangeable. The page only labels a number exact when the math is reproducible.</p>
@@ -303,7 +429,7 @@
 
       <section class="method" id="method" aria-labelledby="method-title">
         <div>
-          <p class="section-kicker">07 / METHOD & SOURCES</p>
+          <p class="section-kicker">08 / METHOD & SOURCES</p>
           <h2 id="method-title">What “verified” means here.</h2>
         </div>
         <div class="method-copy">

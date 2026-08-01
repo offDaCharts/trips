@@ -49,11 +49,11 @@ button, select { font: inherit; }
 .search-card dd { margin: 0; font-family: var(--mono); font-size: 12px; line-height: 1.45; }
 .search-note { margin: 25px 0 0; color: #b8c5cb; font-size: 11px; line-height: 1.55; }
 
-.verdict, .structures, .airport-read, .nonstop-chart, .matrix, .miles, .method { width: var(--page); margin: auto; padding: 110px 0; }
+.verdict, .structures, .airport-read, .nonstop-chart, .road-review, .matrix, .miles, .method { width: var(--page); margin: auto; padding: 110px 0; }
 .verdict { display: grid; grid-template-columns: 150px minmax(390px,.85fr) 1.15fr; gap: clamp(36px,6vw,95px); border-top: 1px solid var(--line); }
 .section-kicker { color: var(--blue); line-height: 1.45; }
 .overline { color: var(--orange); }
-.verdict h2, .section-head h2, .matrix-heading h2, .method h2 { margin: 12px 0 24px; font-family: var(--serif); font-size: clamp(58px,7vw,100px); font-weight: 500; line-height: .88; letter-spacing: -.05em; }
+.verdict h2, .section-head h2, .matrix-heading h2, .method h2, .review-heading h2 { margin: 12px 0 24px; font-family: var(--serif); font-size: clamp(58px,7vw,100px); font-weight: 500; line-height: .88; letter-spacing: -.05em; }
 .verdict-main > p:last-child { margin: 0; color: #4c5a62; font-size: 17px; line-height: 1.7; }
 .verdict-grid { display: grid; grid-template-columns: repeat(2,1fr); border: 1px solid var(--line); }
 .verdict-grid article { min-height: 210px; padding: 25px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
@@ -131,6 +131,53 @@ button, select { font: inherit; }
 .nonstop-price .bag-note.included { color: var(--muted); }
 .nonstop-price i { position: absolute; left: 0; bottom: 0; width: var(--fare-width); height: 4px; background: var(--orange); opacity: .8; }
 .chart-footnote { max-width: 850px; margin: 18px 0 0; color: var(--muted); font-family: var(--mono); font-size: 9px; line-height: 1.65; }
+
+.road-review { border-top: 1px solid var(--line); }
+.review-heading { display: grid; grid-template-columns: 1.25fr .75fr; gap: 60px; align-items: end; }
+.review-heading > p, .review-subhead > p { margin: 0 0 8px; color: var(--muted); font-size: 15px; line-height: 1.65; }
+.review-summary { margin-top: 42px; display: grid; grid-template-columns: repeat(4,1fr); border: 1px solid var(--line); background: rgba(255,255,255,.25); }
+.review-summary div { min-height: 128px; padding: 18px; border-right: 1px solid var(--line); }
+.review-summary div:last-child { border-right: 0; }
+.review-summary span, .review-summary small { display: block; color: var(--muted); font-family: var(--mono); font-size: 8px; line-height: 1.5; text-transform: uppercase; }
+.review-summary strong { display: block; margin: 18px 0 6px; font-family: var(--serif); font-size: 28px; font-weight: 500; }
+.review-callout, .price-integrity { margin-top: 18px; padding: 20px 22px; display: grid; grid-template-columns: 220px 1fr; gap: 25px; background: var(--ink); color: white; }
+.review-callout strong, .price-integrity strong { color: var(--ice); font-family: var(--mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.review-callout p, .price-integrity p { margin: 0; color: #c0ccd1; font-size: 13px; line-height: 1.65; }
+.review-table { margin-top: 18px; border: 1px solid var(--line); }
+.review-table-head { min-height: auto !important; background: var(--ink) !important; color: white; }
+.review-table-head span { padding: 12px 14px; border-right: 1px solid rgba(255,255,255,.15); font-family: var(--mono); font-size: 8px; letter-spacing: .08em; text-transform: uppercase; }
+.review-table-head span:last-child { border-right: 0; }
+.itinerary-row { min-height: 128px; display: grid; grid-template-columns: .9fr .75fr 1.55fr 1fr; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.24); }
+.itinerary-row:last-child, .rental-row:last-child, .one-way-row:last-child { border-bottom: 0; }
+.itinerary-row > div, .rental-row > div, .one-way-row > div { min-width: 0; padding: 16px 14px; border-right: 1px solid var(--line); }
+.itinerary-row > div:last-child, .rental-row > div:last-child, .one-way-row > div:last-child { border-right: 0; }
+.review-table strong { display: block; margin-bottom: 6px; font-size: 13px; font-weight: 600; line-height: 1.35; }
+.review-table small { display: block; color: var(--muted); font-size: 11px; line-height: 1.55; }
+.review-table a { display: inline-block; margin-top: 9px; color: var(--blue); font-size: 10px; font-weight: 700; text-underline-offset: 3px; }
+.review-footnote { max-width: 980px; margin: 14px 0 0; color: var(--muted); font-family: var(--mono); font-size: 9px; line-height: 1.65; }
+.review-subhead { margin-top: 70px; display: grid; grid-template-columns: 1.1fr .9fr; gap: 50px; align-items: end; }
+.review-subhead h3 { margin: 8px 0 0; font-family: var(--serif); font-size: clamp(36px,4.5vw,58px); font-weight: 500; line-height: 1; }
+.price-integrity { background: #e4dfd1; color: var(--ink); border-left: 4px solid var(--orange); }
+.price-integrity strong { color: #9b3e1e; }
+.price-integrity p { color: #4f5e66; }
+.rental-row { min-height: 98px; display: grid; grid-template-columns: 1.05fr .65fr .85fr 1.45fr; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.24); }
+.rental-row > div:nth-child(2) strong, .rental-row > div:nth-child(3) strong, .one-way-row > div:nth-child(2) strong, .one-way-row > div:nth-child(3) strong { color: var(--green); font-family: var(--serif); font-size: 21px; font-weight: 500; }
+.quote-actions { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 10px; }
+.quote-actions a { padding: 12px 14px; border: 1px solid var(--ink); background: var(--ink); color: white; font-size: 11px; font-weight: 600; text-decoration: none; }
+.one-way-title { margin-top: 78px; }
+.one-way-row { min-height: 110px; display: grid; grid-template-columns: .8fr .75fr .7fr 1.7fr .5fr; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.24); }
+.one-way-row.best { background: rgba(184,216,223,.45); }
+.one-way-row > div:last-child a + a { margin-left: 8px; }
+.rental-checklist { margin-top: 26px; padding: 22px; display: grid; grid-template-columns: 240px 1fr; gap: 22px; border: 1px solid var(--line); background: rgba(255,255,255,.25); }
+.rental-checklist strong { font-family: var(--mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.rental-checklist ul { margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4,1fr); gap: 10px 18px; list-style: none; }
+.rental-checklist li { position: relative; padding-left: 13px; color: var(--muted); font-size: 11px; line-height: 1.45; }
+.rental-checklist li::before { content: "·"; position: absolute; left: 0; color: var(--orange); }
+.route-sources { margin-top: 26px; display: grid; grid-template-columns: repeat(4,1fr); border: 1px solid var(--line); }
+.route-sources a { padding: 14px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 10px; font-weight: 600; text-decoration: none; }
+.route-sources a:nth-child(4n) { border-right: 0; }
+.route-sources a:nth-child(n+5) { border-bottom: 0; }
+.route-sources a:hover { background: var(--white); }
 
 .matrix { border-top: 1px solid var(--line); }
 .matrix-heading { margin-bottom: 45px; }
@@ -221,12 +268,13 @@ footer a, footer p { color: var(--muted); font-family: var(--mono); font-size: 9
   .hero-actions { align-items: flex-start; flex-direction: column; }
   .search-card { padding: 24px; box-shadow: 10px 10px 0 var(--ice); }
   .search-card dl div { grid-template-columns: 1fr; gap: 5px; }
-  .verdict, .structures, .airport-read, .nonstop-chart, .matrix, .miles, .method { padding: 82px 0; }
+  .verdict, .structures, .airport-read, .nonstop-chart, .road-review, .matrix, .miles, .method { padding: 82px 0; }
   .verdict { grid-template-columns: 1fr; gap: 24px; }
   .verdict-grid { grid-column: 1; grid-template-columns: 1fr; }
   .verdict-grid article, .verdict-grid article:nth-child(2n) { border-right: 0; border-bottom: 1px solid var(--line); }
   .verdict-grid article:last-child { border-bottom: 0; }
   .section-head, .matrix-heading, .method { grid-template-columns: 1fr; gap: 18px; }
+  .review-heading, .review-subhead { grid-template-columns: 1fr; gap: 18px; }
   .section-head > p, .matrix-heading > p { font-size: 18px; }
   .structure-grid, .miles-grid { grid-template-columns: 1fr; }
   .structure-grid article, .miles-grid article { min-height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
@@ -247,6 +295,22 @@ footer a, footer p { color: var(--muted); font-family: var(--mono); font-size: 9
   .nonstop-row > div { border-right: 0; border-bottom: 1px solid var(--line); }
   .nonstop-row > div:nth-child(odd) { border-right: 1px solid var(--line); }
   .nonstop-row > div:nth-last-child(-n+2) { border-bottom: 0; }
+  .review-summary { grid-template-columns: 1fr 1fr; }
+  .review-summary div { border-bottom: 1px solid var(--line); }
+  .review-summary div:nth-child(2n) { border-right: 0; }
+  .review-summary div:nth-child(n+3) { border-bottom: 0; }
+  .review-callout, .price-integrity, .rental-checklist { grid-template-columns: 1fr; gap: 10px; }
+  .review-table-head { display: none !important; }
+  .itinerary-row, .rental-row, .one-way-row { display: block; min-height: 0; margin-bottom: 12px; border: 1px solid var(--line); }
+  .itinerary-row > div, .rental-row > div, .one-way-row > div { padding: 14px 14px 14px 112px; position: relative; border-right: 0; border-bottom: 1px solid var(--line); }
+  .itinerary-row > div:last-child, .rental-row > div:last-child, .one-way-row > div:last-child { border-bottom: 0; }
+  .itinerary-row > div::before, .rental-row > div::before, .one-way-row > div::before { content: attr(data-label); position: absolute; left: 13px; top: 16px; width: 82px; color: var(--blue); font-family: var(--mono); font-size: 7px; letter-spacing: .06em; text-transform: uppercase; }
+  .rental-checklist ul { grid-template-columns: 1fr 1fr; }
+  .route-sources { grid-template-columns: 1fr 1fr; }
+  .route-sources a:nth-child(4n) { border-right: 1px solid var(--line); }
+  .route-sources a:nth-child(2n) { border-right: 0; }
+  .route-sources a:nth-child(n+5) { border-bottom: 1px solid var(--line); }
+  .route-sources a:nth-last-child(-n+2) { border-bottom: 0; }
   #result-summary { text-align: left; }
   .controls { position: static; padding: 12px; }
   .filter-group { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 3px; }
@@ -268,6 +332,14 @@ footer a, footer p { color: var(--muted); font-family: var(--mono); font-size: 9
 }
 
 @media (max-width: 440px) {
+  .review-summary { grid-template-columns: 1fr; }
+  .review-summary div, .review-summary div:nth-child(2n), .review-summary div:nth-child(n+3) { min-height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .review-summary div:last-child { border-bottom: 0; }
+  .itinerary-row > div, .rental-row > div, .one-way-row > div { padding: 34px 13px 14px; }
+  .itinerary-row > div::before, .rental-row > div::before, .one-way-row > div::before { top: 12px; width: calc(100% - 26px); }
+  .rental-checklist ul, .route-sources { grid-template-columns: 1fr; }
+  .route-sources a, .route-sources a:nth-child(2n), .route-sources a:nth-child(4n), .route-sources a:nth-child(n+5), .route-sources a:nth-last-child(-n+2) { border-right: 0; border-bottom: 1px solid var(--line); }
+  .route-sources a:last-child { border-bottom: 0; }
   .nonstop-notes { grid-template-columns: 1fr; }
   .nonstop-notes div, .nonstop-notes div:nth-child(2n), .nonstop-notes div:nth-child(n+3) { min-height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
   .nonstop-notes div:last-child { border-bottom: 0; }
