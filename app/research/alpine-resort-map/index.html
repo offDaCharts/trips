@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A quick map overview of five Austrian alpine family resorts under consideration."
+    />
+    <title>Austrian Resort Shortlist · Map Overview</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css?v=1" />
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script defer src="./app.js?v=1"></script>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav>
+        <a href="../../">Trip Planning HQ</a>
+        <span>Quick research view · not a ranking</span>
+      </nav>
+
+      <div class="header-copy">
+        <p class="eyebrow">Austria · Resort shortlist</p>
+        <h1>Five stays.<br /><em>Four alpine pockets.</em></h1>
+        <p class="dek">
+          A fast geographic read before the detailed hotel comparison: where each property sits,
+          which ones are genuinely close, and how spread out the shortlist really is.
+        </p>
+      </div>
+
+      <div class="summary-strip" aria-label="Map summary">
+        <div><strong>5</strong><span>properties</span></div>
+        <div><strong>4</strong><span>resort areas</span></div>
+        <div><strong>1</strong><span>same-valley pair</span></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="map-intro">
+        <div>
+          <p class="eyebrow">The overview</p>
+          <h2>Only two are neighbors.</h2>
+        </div>
+        <p>
+          Moar Gut and DAS EDELWEISS sit about 3.3 km apart in Großarl. Forsthofgut,
+          Habachklause, and Stanglwirt each belong to a different valley or resort orbit,
+          so mountain-road drive times will be much longer than straight-line distances suggest.
+        </p>
+      </section>
+
+      <section class="explorer" aria-label="Interactive resort map and hotel list">
+        <aside class="hotel-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Shortlist</p>
+              <h2>Choose a pin</h2>
+            </div>
+            <button id="fit-all" type="button">Fit all</button>
+          </div>
+          <div id="hotel-list" class="hotel-list"></div>
+        </aside>
+
+        <div class="map-panel">
+          <div id="map" aria-label="Map showing five Austrian resorts"></div>
+          <div class="map-key">
+            <span><i class="dot"></i> Shortlisted hotel</span>
+            <span><i class="dash"></i> Großarl pair · 3.3 km direct</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="cluster-read" aria-labelledby="cluster-title">
+        <div class="cluster-heading">
+          <p class="eyebrow">Four location profiles</p>
+          <h2 id="cluster-title">How the map breaks down.</h2>
+        </div>
+        <article>
+          <span>01</span>
+          <h3>Leogang</h3>
+          <p>Forsthofgut stands alone in the Saalfelden–Leogang / Saalbach orbit, north of Zell am See.</p>
+        </article>
+        <article class="pair-card">
+          <span>02</span>
+          <h3>Großarl pair</h3>
+          <p>DAS EDELWEISS is in the main village area; Moar Gut is farther south in a more rural setting.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Oberpinzgau</h3>
+          <p>Habachklause sits by the Habach Valley near Bramberg, west of the main Zell am See area.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Wilder Kaiser</h3>
+          <p>Stanglwirt is the only Tyrol option, in Going near Kitzbühel and the Wilder Kaiser.</p>
+        </article>
+      </section>
+
+      <p class="method-note">
+        Coordinates and addresses were checked against the hotels’ official sites and OpenStreetMap.
+        This page intentionally leaves pricing, rooms, childcare, spa, and booking analysis to the detailed research pass.
+      </p>
+    </main>
+  </body>
+</html>
