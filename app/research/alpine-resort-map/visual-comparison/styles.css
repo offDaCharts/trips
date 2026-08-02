@@ -47,6 +47,8 @@ figure { position: relative; min-width: 0; margin: 0; background: var(--cream); 
 .photo-button img { height: clamp(420px, 60vw, 780px); object-fit: cover; transition: transform 500ms ease, filter 500ms ease; }
 .photo-button:hover img, .photo-button:focus-visible img { filter: saturate(1.07); transform: scale(1.015); }
 figcaption { position: absolute; right: 16px; bottom: 15px; padding: 7px 9px; background: rgba(19,43,35,.82); color: white; font-size: 8px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; backdrop-filter: blur(10px); pointer-events: none; }
+.official-link { position: absolute; left: 16px; bottom: 15px; padding: 7px 9px; background: rgba(251,248,239,.92); color: var(--forest); font-size: 8px; font-weight: 700; letter-spacing: .09em; text-decoration: none; text-transform: uppercase; backdrop-filter: blur(10px); }
+.official-link:hover, .official-link:focus-visible { background: var(--rust); color: white; }
 
 footer { display: flex; justify-content: space-between; gap: 20px; padding: 34px clamp(20px, 5vw, 78px); background: var(--forest); color: rgba(255,255,255,.6); font-size: 9px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
 footer a { color: white; text-decoration: none; }
@@ -54,7 +56,9 @@ footer a { color: white; text-decoration: none; }
 .lightbox { width: min(96vw, 1500px); max-width: none; padding: 0; overflow: visible; background: transparent; border: 0; color: white; }
 .lightbox::backdrop { background: rgba(6,18,14,.94); backdrop-filter: blur(8px); }
 .lightbox img { max-height: 84vh; object-fit: contain; }
-.lightbox p { margin: 13px 0 0; font-family: "Newsreader", Georgia, serif; font-size: 20px; text-align: center; }
+.lightbox-meta { display: flex; align-items: center; justify-content: center; gap: 18px; margin-top: 13px; text-align: center; }
+.lightbox p { margin: 0; font-family: "Newsreader", Georgia, serif; font-size: 20px; }
+.lightbox-meta a { padding-bottom: 3px; border-bottom: 1px solid #d5ad70; color: #d5ad70; font-size: 9px; font-weight: 700; letter-spacing: .09em; text-decoration: none; text-transform: uppercase; }
 .lightbox-close { position: fixed; z-index: 2; top: 17px; right: 18px; padding: 10px 13px; background: white; border: 0; color: var(--ink); font-size: 9px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; }
 
 @media (max-width: 700px) {
@@ -66,6 +70,9 @@ footer a { color: white; text-decoration: none; }
   .column-heads strong { font-size: 30px; }
   .category-label { padding: 40px 20px 16px; }
   .photo-button img { height: 540px; }
+  .official-link { left: 12px; bottom: 12px; }
+  figcaption { right: 12px; bottom: 12px; }
+  .lightbox-meta { flex-direction: column; gap: 10px; }
   footer { flex-direction: column; }
 }
 
