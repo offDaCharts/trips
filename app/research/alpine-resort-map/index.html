@@ -3,104 +3,211 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#143a31" />
     <meta
       name="description"
-      content="A quick map overview of five Austrian alpine family resorts under consideration."
+      content="A researched comparison of five high-end Austrian alpine family resorts, with September 2026 price checks, family features, galleries, and an interactive map."
     />
-    <title>Austrian Resort Shortlist · Map Overview</title>
+    <title>Austria’s Family Resort Five · Researched Comparison</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="./styles.css?v=1" />
+    <link rel="stylesheet" href="./styles.css?v=2" />
     <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script defer src="./app.js?v=1"></script>
+    <script defer src="./app.js?v=2"></script>
   </head>
   <body>
-    <header class="page-header">
-      <nav>
+    <a class="skip-link" href="#comparison">Skip to comparison</a>
+
+    <header class="hero">
+      <nav class="topbar" aria-label="Page navigation">
         <a href="../../">Trip Planning HQ</a>
-        <span>Quick research view · not a ranking</span>
+        <div>
+          <a href="#map-section">Map</a>
+          <a href="#comparison">Compare</a>
+          <a href="#price-notes">Price notes</a>
+        </div>
       </nav>
 
-      <div class="header-copy">
-        <p class="eyebrow">Austria · Resort shortlist</p>
-        <h1>Five stays.<br /><em>Four alpine pockets.</em></h1>
-        <p class="dek">
-          A fast geographic read before the detailed hotel comparison: where each property sits,
-          which ones are genuinely close, and how spread out the shortlist really is.
-        </p>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Austria · five elevated family stays</p>
+          <h1>The nicer<br /><em>four-night stint.</em></h1>
+          <p class="lede">
+            Five farm-rooted, spa-forward resorts—screened for a stay around September 11–15,
+            2026, for two adults and one one-year-old. Tap any hotel or map pin for the full read.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#comparison">Compare the five</a>
+            <a class="button button-ghost" href="#map-section">Open the map</a>
+          </div>
+        </div>
+
+        <div class="hero-collage" aria-label="A preview of the five resorts">
+          <figure class="hero-main">
+            <img src="../../assets/alpine-family-resorts/forsthofgut-farm.jpg" alt="Forsthofgut children’s farm in Leogang" />
+            <figcaption><span>Leogang</span> Forsthofgut</figcaption>
+          </figure>
+          <figure class="hero-small hero-small-one">
+            <img src="../../assets/alpine-family-resorts/habachklause-resort.jpg" alt="Habachklause resort and family grounds in Bramberg" />
+            <figcaption><span>Bramberg</span> Habachklause</figcaption>
+          </figure>
+          <figure class="hero-small hero-small-two">
+            <img src="../../assets/alpine-family-resorts/stanglwirt-resort.jpg" alt="Stanglwirt below the Wilder Kaiser" />
+            <figcaption><span>Wilder Kaiser</span> Stanglwirt</figcaption>
+          </figure>
+        </div>
       </div>
 
-      <div class="summary-strip" aria-label="Map summary">
-        <div><strong>5</strong><span>properties</span></div>
-        <div><strong>4</strong><span>resort areas</span></div>
-        <div><strong>1</strong><span>same-valley pair</span></div>
+      <div class="hero-facts" aria-label="Research summary">
+        <div><strong>5</strong><span>resorts visited online</span></div>
+        <div><strong>5</strong><span>nightly-rate benchmarks</span></div>
+        <div><strong>3</strong><span>exact family/package rates</span></div>
+        <div><strong>Aug 1</strong><span>2026 price check</span></div>
       </div>
     </header>
 
     <main>
-      <section class="map-intro">
+      <section class="verdict" aria-labelledby="verdict-title">
         <div>
-          <p class="eyebrow">The overview</p>
-          <h2>Only two are neighbors.</h2>
+          <p class="section-label">The fast read</p>
+          <h2 id="verdict-title">They are not five versions of the same thing.</h2>
         </div>
-        <p>
-          Moar Gut and DAS EDELWEISS sit about 3.3 km apart in Großarl. Forsthofgut,
-          Habachklause, and Stanglwirt each belong to a different valley or resort orbit,
-          so mountain-road drive times will be much longer than straight-line distances suggest.
+        <div class="verdict-grid">
+          <article>
+            <span>Best overall fit</span>
+            <h3>Forsthofgut</h3>
+            <p>The strongest balance of beautiful design, serious spa, a real children’s farm, and easy access to Leogang’s mountains.</p>
+          </article>
+          <article>
+            <span>Best with a one-year-old</span>
+            <h3>Moar Gut</h3>
+            <p>Baby care starts at 30 days, full board is built in, and the whole resort is designed around family logistics—not adapted to them.</p>
+          </article>
+          <article>
+            <span>Best value with a live quote</span>
+            <h3>Habachklause</h3>
+            <p>€667.60 per night, non-alcoholic all-inclusive, daily baby care, farm life, and a much smaller 40-room scale.</p>
+          </article>
+          <article>
+            <span>Best grand-resort splurge</span>
+            <h3>Stanglwirt</h3>
+            <p>The most complete adult resort—12,000 m² wellness, Lipizzaners, golf and tennis—while still treating families seriously.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="rate-board" aria-labelledby="rate-board-title">
+        <div class="rate-board-copy">
+          <p class="section-label">Normalized nightly rate</p>
+          <h2 id="rate-board-title">What one night costs,<br />on the best evidence available.</h2>
+          <p>Exact family totals are divided by four. Asterisks identify published floors that still need a family quote.</p>
+        </div>
+        <div class="rate-bars" id="rate-bars"></div>
+      </section>
+
+      <section class="map-section" id="map-section" aria-labelledby="map-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">Where they sit</p>
+            <h2 id="map-title">Four alpine pockets,<br />one useful Großarl pair.</h2>
+          </div>
+          <p>
+            Moar Gut and DAS EDELWEISS are only about 3.3 km apart. The other three belong to
+            separate valley systems, so compare drive time—not straight-line distance.
+          </p>
+        </div>
+
+        <div class="map-shell">
+          <aside class="map-list" id="map-list" aria-label="Resort map list"></aside>
+          <div class="map-wrap">
+            <div id="map" aria-label="Interactive map showing five Austrian family resorts"></div>
+            <div class="map-instruction">Tap a photo pin for the hotel’s full gallery, price and family read.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="comparison" id="comparison" aria-labelledby="comparison-title">
+        <div class="section-heading comparison-heading">
+          <div>
+            <p class="section-label">The researched shortlist</p>
+            <h2 id="comparison-title">Five distinct ways<br />to do the splurge.</h2>
+          </div>
+          <div class="legend" aria-label="Price status legend">
+            <span><i class="status-dot live"></i> Live or exact package</span>
+            <span><i class="status-dot request"></i> Request / published lead</span>
+          </div>
+        </div>
+        <div class="resort-grid" id="resort-grid"></div>
+      </section>
+
+      <section class="scorecard" aria-labelledby="scorecard-title">
+        <div class="section-heading compact">
+          <div>
+            <p class="section-label">Side by side</p>
+            <h2 id="scorecard-title">What each one is really selling.</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Resort</th>
+                <th scope="col">Price lens</th>
+                <th scope="col">Meals</th>
+                <th scope="col">One-year-old fit</th>
+                <th scope="col">Farm / animals</th>
+                <th scope="col">Spa character</th>
+              </tr>
+            </thead>
+            <tbody id="scorecard-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="price-notes" id="price-notes" aria-labelledby="price-title">
+        <div>
+          <p class="section-label">Read before booking</p>
+          <h2 id="price-title">A quote is only exact when the booking engine says it is.</h2>
+        </div>
+        <div class="notes-grid">
+          <article>
+            <span>01</span>
+            <h3>Every total is normalized by its actual nights.</h3>
+            <p>Forsthofgut and Habachklause are Sep 11–15. Stanglwirt’s qualifying family package begins Sep 13, so its four-night comparison is Sep 13–17. Each visible headline rate is total ÷ nights.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>“Published” is not the same as checkout-ready.</h3>
+            <p>DAS EDELWEISS’s €923.75 nightly figure is its €3,695 four-night FamilyMOMENTS floor. Moar Gut’s €630+ is a current published double-room lead—not a family checkout quote—and should be treated as a floor.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Meals change the value comparison.</h3>
+            <p>Moar Gut and Habachklause are full-board/all-inclusive concepts. Forsthofgut’s quote includes its half-board kitchen. Stanglwirt’s package inclusions differ, so restaurant spend can move the real total.</p>
+          </article>
+        </div>
+        <p class="method">
+          Price check performed August 1, 2026 for two adults and one child age one. Prices are in euros and can change until booked. Exact hotel-specific assumptions, source links and caveats are inside each modal. Photography is from the hotels’ official websites and media libraries.
         </p>
       </section>
-
-      <section class="explorer" aria-label="Interactive resort map and hotel list">
-        <aside class="hotel-panel">
-          <div class="panel-heading">
-            <div>
-              <p class="eyebrow">Shortlist</p>
-              <h2>Choose a pin</h2>
-            </div>
-            <button id="fit-all" type="button">Fit all</button>
-          </div>
-          <div id="hotel-list" class="hotel-list"></div>
-        </aside>
-
-        <div class="map-panel">
-          <div id="map" aria-label="Map showing five Austrian resorts"></div>
-          <div class="map-key">
-            <span><i class="dot"></i> Shortlisted hotel</span>
-            <span><i class="dash"></i> Großarl pair · 3.3 km direct</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="cluster-read" aria-labelledby="cluster-title">
-        <div class="cluster-heading">
-          <p class="eyebrow">Four location profiles</p>
-          <h2 id="cluster-title">How the map breaks down.</h2>
-        </div>
-        <article>
-          <span>01</span>
-          <h3>Leogang</h3>
-          <p>Forsthofgut stands alone in the Saalfelden–Leogang / Saalbach orbit, north of Zell am See.</p>
-        </article>
-        <article class="pair-card">
-          <span>02</span>
-          <h3>Großarl pair</h3>
-          <p>DAS EDELWEISS is in the main village area; Moar Gut is farther south in a more rural setting.</p>
-        </article>
-        <article>
-          <span>03</span>
-          <h3>Oberpinzgau</h3>
-          <p>Habachklause sits by the Habach Valley near Bramberg, west of the main Zell am See area.</p>
-        </article>
-        <article>
-          <span>04</span>
-          <h3>Wilder Kaiser</h3>
-          <p>Stanglwirt is the only Tyrol option, in Going near Kitzbühel and the Wilder Kaiser.</p>
-        </article>
-      </section>
-
-      <p class="method-note">
-        Coordinates and addresses were checked against the hotels’ official sites and OpenStreetMap.
-        This page intentionally leaves pricing, rooms, childcare, spa, and booking analysis to the detailed research pass.
-      </p>
     </main>
+
+    <footer>
+      <a href="../../">← Trip Planning HQ</a>
+      <span>One-off resort research · not a finished itinerary</span>
+    </footer>
+
+    <div class="modal" id="resort-modal" hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" data-close-modal aria-label="Close hotel details">×</button>
+        <div id="modal-content"></div>
+      </section>
+    </div>
   </body>
 </html>
