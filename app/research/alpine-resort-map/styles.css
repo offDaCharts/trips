@@ -331,12 +331,28 @@ main {
   letter-spacing: -.05em;
 }
 
-.finalist-intro > p:last-child {
+.finalist-intro > p:not(.section-label) {
   margin: 22px 0 0;
   color: var(--muted);
   font-size: 11px;
   line-height: 1.65;
 }
+
+.visual-compare-link {
+  align-self: flex-start;
+  margin-top: 24px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--terracotta);
+  color: var(--forest);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .09em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.visual-compare-link:hover,
+.visual-compare-link:focus-visible { color: var(--terracotta); }
 
 .finalist-deep-dives > a {
   display: grid;
