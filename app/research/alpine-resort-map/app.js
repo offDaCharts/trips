@@ -52,6 +52,7 @@ const hotels = [
     ],
     website: "https://www.forsthofgut.at/",
     booking: "https://www.forsthofgut.at/en/booking/",
+    deepDive: "./forsthofgut/",
     sources: [
       { label: "Family + miniGUT", url: "https://www.forsthofgut.at/en/family/" },
       { label: "Food + resort inclusions", url: "https://www.forsthofgut.at/en/rooms/included-services/?consent_edit=1" },
@@ -227,6 +228,7 @@ const hotels = [
     ],
     website: "https://www.habachklause.com/en",
     booking: "https://www.habachklause.com/en/rooms-offers/rooms-suites",
+    deepDive: "./habachklause/",
     sources: [
       { label: "Official family resort", url: "https://www.habachklause.com/en" },
       { label: "Rooms + suites", url: "https://www.habachklause.com/en/rooms-offers/rooms-suites" },
@@ -327,7 +329,7 @@ function resortCard(hotel) {
             <small>${hotel.price} · ${hotel.priceLine}</small>
           </div>
           <div class="status ${hotel.status}"><i></i>${hotel.statusText}</div>
-          <span class="card-cta">See gallery + full details <b>↗</b></span>
+          <span class="card-cta">${hotel.deepDive ? "Open preview + deep dive" : "See gallery + full details"} <b>↗</b></span>
         </div>
       </button>
     </article>
@@ -477,6 +479,7 @@ function modalMarkup(hotel) {
       </div>
 
       <div class="modal-actions">
+        ${hotel.deepDive ? `<a class="button button-primary" href="${hotel.deepDive}">Open full deep dive →</a>` : ""}
         <a class="button button-primary" href="${hotel.booking}" target="_blank" rel="noreferrer">Check hotel price ↗</a>
         <a class="button button-outline" href="${mapsUrl(hotel)}" target="_blank" rel="noreferrer">Map + directions ↗</a>
       </div>
