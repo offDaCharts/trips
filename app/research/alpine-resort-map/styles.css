@@ -299,6 +299,7 @@ main {
 
 .verdict,
 .rate-board,
+.value-board,
 .map-section,
 .comparison,
 .scorecard,
@@ -359,6 +360,214 @@ main {
 .rate-row > strong,
 .rate-row > strong small {
   display: block;
+}
+
+.value-board {
+  border-top: 1px solid var(--line);
+}
+
+.value-heading {
+  margin-bottom: 44px;
+}
+
+.value-callouts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.value-callouts article {
+  min-width: 0;
+  padding: clamp(25px, 3.2vw, 42px);
+  background: var(--white);
+}
+
+.value-callouts article.value-winner {
+  background: var(--forest);
+  color: white;
+}
+
+.value-callouts span,
+.modal-value span {
+  display: block;
+  color: var(--terracotta);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.value-callouts .value-winner span {
+  color: var(--gold);
+}
+
+.value-callouts strong {
+  display: block;
+  margin-top: 18px;
+  color: var(--forest);
+  font-family: "Newsreader", Georgia, serif;
+  font-size: clamp(35px, 4vw, 52px);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.value-callouts .value-winner > strong {
+  color: white;
+}
+
+.value-callouts strong small {
+  margin-left: 4px;
+  color: var(--muted);
+  font-family: "DM Sans", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.value-callouts .value-winner strong small {
+  color: rgba(255, 255, 255, 0.56);
+}
+
+.value-callouts h3 {
+  margin: 4px 0 12px;
+  font-size: 28px;
+}
+
+.value-callouts p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.value-callouts .value-winner p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.meal-matrix-wrap {
+  margin-top: 30px;
+}
+
+.matrix-intro {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 14px;
+}
+
+.matrix-intro h3 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.matrix-intro p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+}
+
+.matrix-key {
+  padding: 6px 9px;
+  background: var(--white);
+  color: var(--muted);
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.matrix-key.included {
+  color: #2f7657;
+}
+
+.matrix-key.paid {
+  color: #a35d29;
+}
+
+.meal-matrix {
+  min-width: 1050px;
+}
+
+.meal-matrix th:not(:first-child),
+.meal-matrix td:not(:first-child):not(.value-gap) {
+  text-align: center;
+}
+
+.meal-matrix tbody th small {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-family: "DM Sans", sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.coverage {
+  display: inline-flex;
+  min-width: 56px;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.coverage b {
+  display: grid;
+  place-items: center;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 6px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.coverage small {
+  color: var(--muted);
+  font-size: 7px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.coverage.included b {
+  background: #dceadf;
+  color: #286447;
+}
+
+.coverage.paid b {
+  background: #f4e3d2;
+  color: #96541f;
+}
+
+.coverage.missing b {
+  background: #ecece8;
+  color: #7d827f;
+}
+
+.coverage.partial b {
+  border-radius: 12px;
+  background: #e7e2cc;
+  color: #776522;
+  font-size: 8px;
+}
+
+.value-gap {
+  min-width: 270px;
+}
+
+.value-gap strong {
+  color: var(--forest);
+  font-family: "DM Sans", sans-serif;
+  font-size: 10px;
+}
+
+.value-gap small {
+  margin-top: 5px;
+  font-size: 9px;
+  line-height: 1.45;
 }
 
 .rate-name b {
@@ -1340,6 +1549,39 @@ footer a {
   line-height: 1.55;
 }
 
+.modal-value {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 16px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.modal-value > div,
+.modal-value > p {
+  margin: 0;
+  padding: 19px 22px;
+  background: white;
+}
+
+.modal-value strong {
+  display: block;
+  margin-top: 6px;
+  color: var(--forest);
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.modal-value > p {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.55;
+}
+
 .modal-columns {
   display: grid;
   grid-template-columns: 1.25fr 0.75fr;
@@ -1574,6 +1816,7 @@ footer a {
 
   .verdict,
   .rate-board,
+  .value-board,
   .map-section,
   .comparison,
   .scorecard,
@@ -1583,6 +1826,15 @@ footer a {
 
   .verdict-grid {
     grid-template-columns: 1fr;
+  }
+
+  .value-callouts {
+    grid-template-columns: 1fr;
+  }
+
+  .matrix-intro {
+    align-items: start;
+    flex-direction: column;
   }
 
   .rate-row {
@@ -1674,6 +1926,14 @@ footer a {
   .modal-columns {
     grid-template-columns: 1fr;
     gap: 28px;
+  }
+
+  .modal-value {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-value > p {
+    grid-column: 1;
   }
 
   .modal-price {

@@ -16,9 +16,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="./styles.css?v=2" />
+    <link rel="stylesheet" href="./styles.css?v=3" />
     <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script defer src="./app.js?v=2"></script>
+    <script defer src="./app.js?v=3"></script>
   </head>
   <body>
     <a class="skip-link" href="#comparison">Skip to comparison</a>
@@ -29,6 +29,7 @@
         <div>
           <a href="#map-section">Map</a>
           <a href="#comparison">Compare</a>
+          <a href="#value">Value</a>
           <a href="#price-notes">Price notes</a>
         </div>
       </nav>
@@ -66,7 +67,7 @@
       <div class="hero-facts" aria-label="Research summary">
         <div><strong>5</strong><span>resorts visited online</span></div>
         <div><strong>5</strong><span>nightly-rate benchmarks</span></div>
-        <div><strong>3</strong><span>exact family/package rates</span></div>
+        <div><strong>4</strong><span>exact family/package rates</span></div>
         <div><strong>Aug 1</strong><span>2026 price check</span></div>
       </div>
     </header>
@@ -108,6 +109,63 @@
           <p>Exact family totals are divided by four. Asterisks identify published floors that still need a family quote.</p>
         </div>
         <div class="rate-bars" id="rate-bars"></div>
+      </section>
+
+      <section class="value-board" id="value" aria-labelledby="value-title">
+        <div class="section-heading value-heading">
+          <div>
+            <p class="section-label">The apples-to-apples view</p>
+            <h2 id="value-title">The room rate is only<br />half the value story.</h2>
+          </div>
+          <p>
+            These are the inclusions attached to the exact rate or named package shown—not a generic list of everything each hotel can sell.
+          </p>
+        </div>
+
+        <div class="value-callouts">
+          <article class="value-winner">
+            <span>Lowest fully fed stay</span>
+            <strong>€667.60<small>/night</small></strong>
+            <h3>Habachklause</h3>
+            <p>Breakfast, lunch, afternoon food, dinner, baby food, self-serve nonalcoholic drinks and daily infant care are in the rate.</p>
+          </article>
+          <article>
+            <span>The misleading low headline</span>
+            <strong>€862<small>/night with dinner</small></strong>
+            <h3>Stanglwirt</h3>
+            <p>The package is €708/night with breakfast. Four published-price hotel dinners add €616, taking the stay to €3,448 before lunch or drinks.</p>
+          </article>
+          <article>
+            <span>Premium, but genuinely bundled</span>
+            <strong>€1,040<small>/night</small></strong>
+            <h3>Moar Gut</h3>
+            <p>The corrected family checkout includes full board, baby food, child drinks and daily infant care. Adult drinks and €25.20 local tax remain extra.</p>
+          </article>
+        </div>
+
+        <div class="meal-matrix-wrap">
+          <div class="matrix-intro">
+            <h3>What is actually included?</h3>
+            <p><span class="matrix-key included">✓ Included</span><span class="matrix-key paid">€ Paid add-on</span><span class="matrix-key missing">— Not included</span></p>
+          </div>
+          <div class="table-wrap matrix-table-wrap">
+            <table class="meal-matrix">
+              <thead>
+                <tr>
+                  <th scope="col">Resort</th>
+                  <th scope="col">Breakfast</th>
+                  <th scope="col">Lunch</th>
+                  <th scope="col">Afternoon</th>
+                  <th scope="col">Dinner</th>
+                  <th scope="col">Child drinks</th>
+                  <th scope="col">Care at age 1</th>
+                  <th scope="col">What still costs extra</th>
+                </tr>
+              </thead>
+              <tbody id="meal-matrix-body"></tbody>
+            </table>
+          </div>
+        </div>
       </section>
 
       <section class="map-section" id="map-section" aria-labelledby="map-title">
@@ -157,11 +215,11 @@
             <thead>
               <tr>
                 <th scope="col">Resort</th>
-                <th scope="col">Price lens</th>
-                <th scope="col">Meals</th>
-                <th scope="col">One-year-old fit</th>
-                <th scope="col">Farm / animals</th>
-                <th scope="col">Spa character</th>
+                <th scope="col">Price evidence</th>
+                <th scope="col">Included meal plan</th>
+                <th scope="col">Care at age 1</th>
+                <th scope="col">Known add-on</th>
+                <th scope="col">Resort character</th>
               </tr>
             </thead>
             <tbody id="scorecard-body"></tbody>
@@ -178,21 +236,21 @@
           <article>
             <span>01</span>
             <h3>Every total is normalized by its actual nights.</h3>
-            <p>Forsthofgut and Habachklause are Sep 11–15. Stanglwirt’s qualifying family package begins Sep 13, so its four-night comparison is Sep 13–17. Each visible headline rate is total ÷ nights.</p>
+            <p>Forsthofgut and Habachklause are Sep 11–15. Moar Gut is the nearby Sep 13–17 result returned by its engine. Stanglwirt’s four-night package is available within Sep 13–18. Each visible headline rate is total ÷ nights.</p>
           </article>
           <article>
             <span>02</span>
             <h3>“Published” is not the same as checkout-ready.</h3>
-            <p>DAS EDELWEISS’s €923.75 nightly figure is its €3,695 four-night FamilyMOMENTS floor. Moar Gut’s €630+ is a current published double-room lead—not a family checkout quote—and should be treated as a floor.</p>
+            <p>DAS EDELWEISS’s €923.75 nightly figure is its €3,695 four-night FamilyMOMENTS floor, not a date-locked family checkout. The other four are exact family checkout totals or exact published family packages.</p>
           </article>
           <article>
             <span>03</span>
             <h3>Meals change the value comparison.</h3>
-            <p>Moar Gut and Habachklause are full-board/all-inclusive concepts. Forsthofgut’s quote includes its half-board kitchen. Stanglwirt’s package inclusions differ, so restaurant spend can move the real total.</p>
+            <p>Moar Gut and Habachklause cover the full day. Forsthofgut includes breakfast, afternoon food and dinner. DAS EDELWEISS is half board. Stanglwirt includes breakfast only; four hotel dinners add €616.</p>
           </article>
         </div>
         <p class="method">
-          Price check performed August 1, 2026 for two adults and one child age one. Prices are in euros and can change until booked. Exact hotel-specific assumptions, source links and caveats are inside each modal. Photography is from the hotels’ official websites and media libraries.
+          Price and inclusion check updated August 1, 2026 for two adults and one child age one. Prices are in euros and can change until booked. Moar Gut uses the official checkout result supplied for Sep 13–17; Forsthofgut and Habachklause use live official checkout totals; Stanglwirt uses its exact family package; DAS EDELWEISS remains a published family-package floor. Exact assumptions, source links and caveats are inside each modal.
         </p>
       </section>
     </main>

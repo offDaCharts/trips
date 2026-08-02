@@ -24,6 +24,17 @@ const hotels = [
     verdict: "Choose it when the hotel itself should feel special, but you still want easy mountain days rather than four days inside a sealed resort bubble.",
     familyRead: "Excellent shared family facilities; supervised Rocky’s Kids Club starts at age 2, so the one-year-old is too young for standard club care.",
     meals: "Half board",
+    mealPlan: "Breakfast + afternoon snack + 5-course dinner",
+    foodCoverage: {
+      breakfast: "included",
+      lunch: "not included",
+      afternoon: "included",
+      dinner: "included",
+      childDrinks: "not included",
+      infantCare: "not included",
+    },
+    valueGap: "Allow for lunch, drinks and any childcare for the one-year-old. The afternoon KüchenGRUSS may be enough on lighter days.",
+    knownAddOn: "No fixed food add-on published",
     babyFit: "Strong; club from 2",
     animals: "miniGUT farm + horses",
     spa: "5,700 m² · split family/adults",
@@ -43,6 +54,7 @@ const hotels = [
     booking: "https://www.forsthofgut.at/en/booking/",
     sources: [
       { label: "Family + miniGUT", url: "https://www.forsthofgut.at/en/family/" },
+      { label: "Food + resort inclusions", url: "https://www.forsthofgut.at/en/rooms/included-services/?consent_edit=1" },
       { label: "waldSPA Family & Kids", url: "https://www.forsthofgut.at/en/waldspa/family-kids/" },
       { label: "Rooms + published rates", url: "https://www.forsthofgut.at/en/rooms/" },
     ],
@@ -57,19 +69,30 @@ const hotels = [
     lat: 47.2134383,
     lng: 13.1936141,
     label: "Best baby-first luxury",
-    status: "request",
-    statusText: "Published lead · family quote required",
-    nightly: "€630+*",
-    nightlyValue: 630,
-    rateBasis: "double-room nightly lead",
-    price: "No family checkout total",
-    priceLine: "Current published double-room lead",
-    priceDetail: "A July 2026 hotel review reports rooms from €630 per night, including full board and childcare. The official engine returned no family inventory for September, even across multiple four- and seven-night searches.",
-    caveat: "Use €630 only as a floor, not as a 2-adult + infant quote. Moar Gut invited a tailored request. Its official FAQ says quoted prices are per suite up to full occupancy and include gourmet full board; local tax is €3.15 per adult per day.",
+    status: "live",
+    statusText: "Exact family checkout · nearby dates",
+    nightly: "€1,040",
+    nightlyValue: 1040,
+    rateBasis: "exact family nightly",
+    price: "€4,160",
+    priceLine: "4-night total · Sep 13–17",
+    priceDetail: "Suite Vergissmeinnicht · 2 adults + child age 1 · gourmet full board. Suite Lilie and Suite Lavendel were shown at the same starting total.",
+    caveat: "The requested Sep 12–16 stay was unavailable, so the official booking engine offered Sep 13–17, Sep 14–18 and Sep 15–19 at the same €4,160 starting total. Local tax of €3.15 per adult per day is excluded: €25.20 for two adults over four nights.",
     intro: "The most purpose-built family luxury resort here: 46 suites on a car-free, ten-hectare estate that grew from an organic farm.",
     verdict: "Choose it when baby care and frictionless full-board family life matter more than getting the lowest transparent online price.",
     familyRead: "The strongest one-year-old fit in the set: baby care begins at 30 days, baby equipment is extensive, and the daily program runs 9 a.m.–9 p.m.",
     meals: "Gourmet full board",
+    mealPlan: "Breakfast + lunch + afternoon desserts + 6-course dinner",
+    foodCoverage: {
+      breakfast: "included",
+      lunch: "included",
+      afternoon: "included",
+      dinner: "included",
+      childDrinks: "included",
+      infantCare: "included",
+    },
+    valueGap: "Adult drinks, optional sports lessons and local tax remain extra; core meals, baby food, child drinks and infant care are bundled.",
+    knownAddOn: "+ €25.20 local tax",
     babyFit: "Exceptional; care from 30 days",
     animals: "Organic farm + riding stable",
     spa: "Nature spa + 25 m pool",
@@ -90,8 +113,8 @@ const hotels = [
     sources: [
       { label: "Official resort overview", url: "https://www.moargut.com/en/moar-gut/" },
       { label: "Suites + inclusions", url: "https://www.moargut.com/en/suites-offers/suites/" },
+      { label: "Full-board + childcare inclusions", url: "https://www.moargut.com/en/suites-offers/included-services/" },
       { label: "Pricing + baby FAQ", url: "https://www.moargut.com/en/faq/" },
-      { label: "Current €630 nightly lead", url: "https://moneyweek.com/spending-it/travel-holidays/review-moar-gut-is-a-first-class-choice-for-a-family-holiday-in-austria" },
     ],
   },
   {
@@ -116,7 +139,18 @@ const hotels = [
     intro: "A polished five-star mountain resort with the biggest indoor-water-world energy on this list and direct village/lift convenience.",
     verdict: "Choose it for bad-weather-proof pools, slides, restaurants and spa—especially if resort amenities matter more than an intimate farm atmosphere.",
     familyRead: "Very strong shared facilities for a toddler, but standard included supervision starts at age 3; younger care is an added-cost service.",
-    meals: "EDELWEISS culinary delights",
+    meals: "Half board on this offer",
+    mealPlan: "Breakfast + 4-course dinner",
+    foodCoverage: {
+      breakfast: "included",
+      lunch: "not included",
+      afternoon: "not included",
+      dinner: "included",
+      childDrinks: "not included",
+      infantCare: "paid",
+    },
+    valueGap: "Allow for lunch, drinks and infant care. Care under age 3 costs €25 for one hour, €50 for two or €60 for three.",
+    knownAddOn: "+ €240 for four 3-hour infant-care sessions",
     babyFit: "Strong; paid care from 0",
     animals: "Not the core proposition",
     spa: "7,000 m² · five-slide water park",
@@ -136,6 +170,8 @@ const hotels = [
     booking: "https://www.edelweiss-grossarl.com/en/accommodations-offers/offers/offer-details/familymoments",
     sources: [
       { label: "FamilyMOMENTS offer", url: "https://www.edelweiss-grossarl.com/en/accommodations-offers/offers/offer-details/familymoments" },
+      { label: "Official included services", url: "https://www.edelweiss-grossarl.com/en/accommodations-offers/inclusive-services" },
+      { label: "Infant-care prices", url: "https://www.edelweiss-grossarl.com/en/family-time/luxury-family-hotel-salzburger-land-austria/edelweiss-children-youth-area" },
       { label: "Family hotel details", url: "https://www.edelweiss-grossarl.com/en/family-time/luxury-family-hotel-salzburger-land-austria" },
       { label: "Family Mountain Spa", url: "https://www.edelweiss-grossarl.com/en/mountain-spa/family-spa-hotel-austria" },
     ],
@@ -163,6 +199,17 @@ const hotels = [
     verdict: "Choose it when you want the practical benefits of a Kinderhotel and farm resort, but at a smaller scale and a materially lower live price.",
     familyRead: "Outstanding: daily baby and child care, indoor play, a 4,000 m² outdoor area, animal feeding and family wellness are core inclusions.",
     meals: "Non-alcoholic all-inclusive",
+    mealPlan: "Breakfast + lunch + afternoon food + dinner",
+    foodCoverage: {
+      breakfast: "included",
+      lunch: "included",
+      afternoon: "included",
+      dinner: "included",
+      childDrinks: "included",
+      infantCare: "included",
+    },
+    valueGap: "Alcohol and anything ordered from table service or the Kristallbar cost extra; the self-serve juice bar and baby-food bar are included.",
+    knownAddOn: "No required meal add-on",
     babyFit: "Exceptional; daily baby care",
     animals: "Working farm program",
     spa: "Family wellness + adults-only",
@@ -183,6 +230,8 @@ const hotels = [
     sources: [
       { label: "Official family resort", url: "https://www.habachklause.com/en" },
       { label: "Rooms + suites", url: "https://www.habachklause.com/en/rooms-offers/rooms-suites" },
+      { label: "Food + drink inclusions", url: "https://www.habachklause.com/en/culinary-delights/catering-all-inclusive-vip" },
+      { label: "Baby-care inclusions", url: "https://www.habachklause.com/en/rooms-offers/included-services" },
       { label: "Summer + farm experiences", url: "https://www.habachklause.com/en/experiences/summer" },
     ],
   },
@@ -202,14 +251,25 @@ const hotels = [
     nightlyValue: 708,
     rateBasis: "exact family nightly",
     price: "€2,832",
-    priceLine: "4 nights · Sep 13–17",
+    priceLine: "4 nights · within Sep 13–18",
     priceDetail: "Family downtime package · studio · 2 adults + up to 2 children under 7",
-    caveat: "The qualifying package begins September 13, so this comparison shifts two nights later than the target window. A suite starts at €4,060. Confirm board details and any local tax before payment.",
+    caveat: "The official package is available for a four-night stay within Sep 13–18. A suite starts at €4,060. The package explicitly includes breakfast—not dinner. At the hotel's published Dreiklang prices, dinner for two adults and a child under three adds €154 nightly, or €616 over four nights.",
     intro: "The most grown-up grand resort of the five: a Wilder Kaiser institution with an organic farm, Lipizzaner stud and a vast wellness world.",
     verdict: "Choose it when the adults’ hotel experience matters as much as the family infrastructure—and when Munich is likely to be the arrival or departure airport.",
-    familyRead: "Strong family resort facilities and a dedicated children’s world, though the exact care setup for a one-year-old should be confirmed directly.",
-    meals: "Package inclusions; confirm board",
-    babyFit: "Strong facilities; confirm care age",
+    familyRead: "Strong facilities. This package includes the crèche for children over 12 months from 2–5 p.m.; registration is required the day before.",
+    meals: "Breakfast only",
+    mealPlan: "Luxury breakfast; lunch and dinner extra",
+    foodCoverage: {
+      breakfast: "included",
+      lunch: "not included",
+      afternoon: "kids only",
+      dinner: "not included",
+      childDrinks: "not included",
+      infantCare: "included",
+    },
+    valueGap: "Allow for lunch, dinner and drinks. Four Dreiklang dinners raise the known four-night cost from €2,832 to €3,448 before lunch and beverages.",
+    knownAddOn: "+ €616 for four hotel dinners",
+    babyFit: "Included crèche from 12 months",
     animals: "Organic farm + Lipizzaners",
     spa: "12,000 m² wellness world",
     highlights: [
@@ -228,6 +288,7 @@ const hotels = [
     booking: "https://www.stanglwirt.com/en/offers/family-downtime-with-your-little-ones.html",
     sources: [
       { label: "Exact family package", url: "https://www.stanglwirt.com/en/offers/family-downtime-with-your-little-ones.html" },
+      { label: "Published dinner prices", url: "https://www.stanglwirt.com/en/hotel/agbs/general-terms-and-conditions.html" },
       { label: "Organic farming", url: "https://www.stanglwirt.com/en/about-us/farming.html" },
       { label: "Children’s water world", url: "https://www.stanglwirt.com/en/wellnesshotel/water-worlds/childrens-water-world.html" },
     ],
@@ -239,6 +300,7 @@ const modalContent = document.querySelector("#modal-content");
 const resortGrid = document.querySelector("#resort-grid");
 const mapList = document.querySelector("#map-list");
 const scorecardBody = document.querySelector("#scorecard-body");
+const mealMatrixBody = document.querySelector("#meal-matrix-body");
 const rateBars = document.querySelector("#rate-bars");
 let lastFocusedElement = null;
 
@@ -260,7 +322,7 @@ function resortCard(hotel) {
           <h3>${hotel.shortName}</h3>
           <p class="card-intro">${hotel.intro}</p>
           <div class="card-price">
-            <span>Starting at · normalized rate</span>
+            <span>Family rate · normalized</span>
             <strong>${hotel.nightly}<sup>/night</sup></strong>
             <small>${hotel.price} · ${hotel.priceLine}</small>
           </div>
@@ -296,10 +358,38 @@ scorecardBody.innerHTML = hotels
       <tr data-open-hotel="${hotel.id}" tabindex="0" role="button" aria-label="Open ${hotel.name}">
         <th scope="row"><span>${hotel.number}</span>${hotel.shortName}</th>
         <td><strong>${hotel.nightly} / night</strong><small>${hotel.price} · ${hotel.rateBasis}</small></td>
-        <td>${hotel.meals}</td>
+        <td>${hotel.mealPlan}</td>
         <td>${hotel.babyFit}</td>
-        <td>${hotel.animals}</td>
-        <td>${hotel.spa}</td>
+        <td><strong>${hotel.knownAddOn}</strong><small>${hotel.valueGap}</small></td>
+        <td>${hotel.animals}<small>${hotel.spa}</small></td>
+      </tr>`,
+  )
+  .join("");
+
+const coverageLabels = {
+  included: { symbol: "✓", label: "Included", className: "included" },
+  paid: { symbol: "€", label: "Paid add-on", className: "paid" },
+  "not included": { symbol: "—", label: "Not included", className: "missing" },
+  "kids only": { symbol: "Kids", label: "Children only", className: "partial" },
+};
+
+function coverageCell(value) {
+  const item = coverageLabels[value];
+  return `<span class="coverage ${item.className}" aria-label="${item.label}"><b>${item.symbol}</b><small>${item.label}</small></span>`;
+}
+
+mealMatrixBody.innerHTML = hotels
+  .map(
+    (hotel) => `
+      <tr data-open-hotel="${hotel.id}" tabindex="0" role="button" aria-label="Open ${hotel.name}">
+        <th scope="row"><span>${hotel.number}</span>${hotel.shortName}<small>${hotel.nightly} / night</small></th>
+        <td>${coverageCell(hotel.foodCoverage.breakfast)}</td>
+        <td>${coverageCell(hotel.foodCoverage.lunch)}</td>
+        <td>${coverageCell(hotel.foodCoverage.afternoon)}</td>
+        <td>${coverageCell(hotel.foodCoverage.dinner)}</td>
+        <td>${coverageCell(hotel.foodCoverage.childDrinks)}</td>
+        <td>${coverageCell(hotel.foodCoverage.infantCare)}</td>
+        <td class="value-gap"><strong>${hotel.knownAddOn}</strong><small>${hotel.valueGap}</small></td>
       </tr>`,
   )
   .join("");
@@ -344,7 +434,7 @@ function modalMarkup(hotel) {
       <div class="modal-lead">
         <p>${hotel.intro}</p>
         <aside class="modal-price">
-          <span>Starting at · normalized</span>
+          <span>Family rate · normalized</span>
           <strong>${hotel.nightly}<small> / night</small></strong>
           <p>${hotel.price} · ${hotel.priceLine}</p>
           <small class="status ${hotel.status}"><i></i>${hotel.statusText}</small>
@@ -355,6 +445,18 @@ function modalMarkup(hotel) {
         <span>What was priced</span>
         <p>${hotel.priceDetail}</p>
         <small>${hotel.caveat}</small>
+      </div>
+
+      <div class="modal-value">
+        <div>
+          <span>Included meal plan</span>
+          <strong>${hotel.mealPlan}</strong>
+        </div>
+        <div>
+          <span>Known add-on</span>
+          <strong>${hotel.knownAddOn}</strong>
+        </div>
+        <p>${hotel.valueGap}</p>
       </div>
 
       <div class="modal-columns">
