@@ -29,21 +29,6 @@ const officialPages = {
     habachklause: "https://www.habachklause.com/en/family-farm-resort/farm-animals",
     moargut: "https://www.moargut.com/en/farm/",
   },
-  dining: {
-    forsthofgut: "https://www.forsthofgut.at/en/cuisine/",
-    habachklause: "https://www.habachklause.com/en/culinary-delights/alpine-cuisine-restaurant",
-    moargut: "https://www.moargut.com/en/cuisine/gourmet-full-board/",
-  },
-  mountain: {
-    forsthofgut: "https://www.forsthofgut.at/en/nature-active/summeractive/",
-    habachklause: "https://www.habachklause.com/en/experiences/excursions-adventures",
-    moargut: "https://www.moargut.com/en/active/active-in-summer/",
-  },
-  adult: {
-    forsthofgut: "https://www.forsthofgut.at/en/waldspa/adults-only/",
-    habachklause: "https://www.habachklause.com/en/wellness-spa/adults-only-spa",
-    moargut: "https://www.moargut.com/en/wellness/",
-  },
 };
 
 const hotelFromImage = (source) => {

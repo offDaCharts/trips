@@ -4,20 +4,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#132b23" />
-    <meta name="description" content="A side-by-side, eight-image visual comparison of Forsthofgut, Habachklause and Moar Gut." />
+    <meta name="description" content="A 45-photo, side-by-side visual comparison of Forsthofgut, Habachklause and Moar Gut." />
     <title>Three Resorts · Visual Comparison</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles.css?v=2" />
-    <script defer src="./app.js?v=2"></script>
+    <link rel="stylesheet" href="./styles.css?v=3" />
+    <script defer src="./app.js?v=3"></script>
   </head>
   <body>
     <header class="intro">
-      <nav><a href="../">← Resort comparison</a><span>24 official hotel images · 8 matched views</span></nav>
+      <nav><a href="../">← Resort comparison</a><span>45 official hotel images · 5 matched categories</span></nav>
       <p class="eyebrow">The visual decision</p>
-      <h1>Three places.<br /><em>Same eight views.</em></h1>
-      <p class="lede">Scroll down to compare. Tap a photograph to enlarge it—or open the matching hotel page.</p>
+      <h1>Three places.<br /><em>Three views each.</em></h1>
+      <p class="lede">Five matched categories, with three photographs per hotel in each one. Tap any photograph to enlarge it—or open the matching hotel page.</p>
       <p class="mobile-note">On a phone, swipe sideways to move between resorts.</p>
     </header>
 
@@ -32,78 +32,111 @@
         <section class="photo-category" aria-labelledby="setting-label">
           <div class="category-label"><span>01</span><h2 id="setting-label">The setting</h2></div>
           <div class="photo-row" role="row">
-            <figure><button class="photo-button" type="button" data-caption="Forsthofgut · Leogang resort setting"><img src="../../../assets/alpine-family-resorts/forsthofgut-resort.jpg" alt="Forsthofgut below the Leogang mountains" /></button><figcaption>Forsthofgut</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Habachklause · Bramberg resort grounds"><img src="../../../assets/alpine-family-resorts/habachklause-resort.jpg" alt="Habachklause resort grounds and play areas" /></button><figcaption>Habachklause</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Moar Gut · Großarl valley resort"><img src="../../../assets/alpine-family-resorts/moargut-exterior.jpg" alt="Moar Gut resort, gardens and outdoor pool at dusk" /></button><figcaption>Moar Gut</figcaption></figure>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · the nature hotel below the Leogang mountains"><img src="../../../assets/alpine-family-resorts/forsthofgut-resort.jpg" alt="Forsthofgut below the Leogang mountains" /></button><figcaption>01 / Resort</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · the forest-framed resort in autumn"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-setting-autumn.jpg" alt="Forsthofgut resort surrounded by autumn forest" /></button><figcaption>02 / Autumn</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · Lake House, pools and mountain backdrop"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-setting-lakehouse.jpg" alt="Forsthofgut Lake House and pools below dramatic mountains" /></button><figcaption>03 / Lake House</figcaption></figure>
+            </div>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · resort grounds and outdoor family play areas"><img src="../../../assets/alpine-family-resorts/habachklause-resort.jpg" alt="Habachklause resort grounds and play areas" /></button><figcaption>01 / Grounds</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · the full hotel and its spacious garden setting"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-setting-wide.jpg" alt="Wide view of Habachklause and its outdoor grounds" /></button><figcaption>02 / Wide view</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · the Wildkogel mountain setting for family days out"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-mountain.jpg" alt="Parent and child on a mountain slide in the Wildkogel area near Habachklause" /></button><figcaption>03 / Wildkogel</figcaption></figure>
+            </div>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · resort, gardens and outdoor pool at dusk"><img src="../../../assets/alpine-family-resorts/moargut-exterior.jpg" alt="Moar Gut resort, gardens and outdoor pool at dusk" /></button><figcaption>01 / Dusk</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · the farm resort in the Großarl valley"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-resort.jpg" alt="Moar Gut buildings and grounds in Großarl" /></button><figcaption>02 / Resort</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · the surrounding Großarl mountain landscape"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-setting-mountains.jpg" alt="Mountain landscape surrounding Moar Gut" /></button><figcaption>03 / Valley</figcaption></figure>
+            </div>
           </div>
         </section>
 
         <section class="photo-category" aria-labelledby="room-label">
           <div class="category-label"><span>02</span><h2 id="room-label">The room</h2></div>
           <div class="photo-row" role="row">
-            <figure><button class="photo-button" type="button" data-caption="Forsthofgut · official room photography; pictured category may differ from the priced Berglust room"><img src="../../../assets/alpine-family-resorts/forsthofgut-room.jpg" alt="Light wood and neutral guest room at Forsthofgut" /></button><figcaption>Forsthofgut</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Habachklause · family room setup"><img src="../../../assets/alpine-family-resorts/habachklause-room.jpg" alt="Habachklause family room with a cot" /></button><figcaption>Habachklause</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Moar Gut · Suite Vergissmeinnicht"><img src="../../../assets/alpine-family-resorts/moargut-suite.jpg" alt="Suite Vergissmeinnicht adult sleeping and living room at Moar Gut" /></button><figcaption>Moar Gut</figcaption></figure>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · Nature Room Berglust, the comparison's priced room category"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-room-berglust-1.jpg" alt="Nature Room Berglust at Forsthofgut" /></button><figcaption>01 / Berglust</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · second view of the Nature Room Berglust"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-room-berglust-2.jpg" alt="Second view of the Nature Room Berglust at Forsthofgut" /></button><figcaption>02 / Living</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · Nature Room Berglust bathroom"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-room-berglust-bath.jpg" alt="Bathroom in the Nature Room Berglust at Forsthofgut" /></button><figcaption>03 / Bath</figcaption></figure>
+            </div>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · 3-room Suite Edelweiss family setup"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-room.jpg" alt="Habachklause Suite Edelweiss with a cot" /></button><figcaption>01 / Suite</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · Suite Edelweiss second bedroom"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-room-edelweiss-wide.jpg" alt="Second bedroom in Habachklause Suite Edelweiss" /></button><figcaption>02 / Bedroom</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · Suite Edelweiss children's bedroom"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-room-edelweiss-kids.jpg" alt="Children's bedroom in Habachklause Suite Edelweiss" /></button><figcaption>03 / Kids' room</figcaption></figure>
+            </div>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · Suite Vergissmeinnicht adult sleeping and living room"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-suite.jpg" alt="Suite Vergissmeinnicht adult sleeping and living room at Moar Gut" /></button><figcaption>01 / Suite</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · Suite Vergissmeinnicht separate children's bedroom"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-suite-2.jpg" alt="Separate twin children's bedroom in Moar Gut Suite Vergissmeinnicht" /></button><figcaption>02 / Kids' room</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · Suite Vergissmeinnicht family bathroom"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-suite-3.jpg" alt="Large bathroom in Moar Gut Suite Vergissmeinnicht" /></button><figcaption>03 / Bath</figcaption></figure>
+            </div>
           </div>
         </section>
 
         <section class="photo-category" aria-labelledby="family-label">
           <div class="category-label"><span>03</span><h2 id="family-label">The family world</h2></div>
           <div class="photo-row" role="row">
-            <figure><button class="photo-button" type="button" data-caption="Forsthofgut · family life around the nature resort"><img src="../../../assets/alpine-family-resorts/forsthofgut-family.jpg" alt="A family walking through the Forsthofgut grounds" /></button><figcaption>Forsthofgut</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Habachklause · dedicated Baby Club"><img src="../../../assets/alpine-family-resorts/habachklause-baby.jpg" alt="Bright dedicated Baby Club at Habachklause" /></button><figcaption>Habachklause</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Moar Gut · separate infant nap room in the Nature Kinderhof"><img src="../../../assets/alpine-family-resorts/moargut-baby-care.jpg" alt="Separate nap room in the Moar Gut Nature Kinderhof" /></button><figcaption>Moar Gut</figcaption></figure>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · children meeting Rocky in the kids' club"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-family-club.jpg" alt="Children meeting Rocky in the Forsthofgut kids' club" /></button><figcaption>01 / Kids' club</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · toddler play in the ball pit"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-family-ballpit.jpg" alt="Toddler playing in the Forsthofgut ball pit" /></button><figcaption>02 / Toddler play</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · outdoor trampoline play"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-family-trampoline.jpg" alt="Young child playing on an outdoor trampoline at Forsthofgut" /></button><figcaption>03 / Outdoors</figcaption></figure>
+            </div>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · toddler playing in the dedicated Baby Club"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-family-toddler.jpg" alt="Toddler on a ride-on toy in the Habachklause Baby Club" /></button><figcaption>01 / Baby Club</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · child building with large soft blocks"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-family-blocks.jpg" alt="Child playing with large soft blocks at Habachklause" /></button><figcaption>02 / Indoor play</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · overview of the dedicated Baby Club play space"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-baby.jpg" alt="Bright dedicated Baby Club at Habachklause" /></button><figcaption>03 / Baby space</figcaption></figure>
+            </div>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · parent and young child on the garden swing"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-family-swing.jpg" alt="Parent pushing a young child on a swing at Moar Gut" /></button><figcaption>01 / Swing</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · baby exploring the Nature Kinderhof"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-family-baby-kinderhof.jpg" alt="Baby sitting in the Moar Gut Nature Kinderhof" /></button><figcaption>02 / Kinderhof</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · child using the rope-climbing play structure"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-family-climbing.jpg" alt="Child climbing in the Moar Gut play area" /></button><figcaption>03 / Climbing</figcaption></figure>
+            </div>
           </div>
         </section>
 
         <section class="photo-category" aria-labelledby="water-label">
           <div class="category-label"><span>04</span><h2 id="water-label">The water</h2></div>
           <div class="photo-row" role="row">
-            <figure><button class="photo-button" type="button" data-caption="Forsthofgut · waldSPA Family & Kids"><img src="../../../assets/alpine-family-resorts/forsthofgut-spa.jpg" alt="Forsthofgut family spa and water slide" /></button><figcaption>Forsthofgut</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Habachklause · outdoor family water playground"><img src="../../../assets/alpine-family-resorts/habachklause-pool.jpg" alt="Family using the outdoor water playground at Habachklause" /></button><figcaption>Habachklause</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Moar Gut · natural swimming lake"><img src="../../../assets/alpine-family-resorts/moargut-lake.jpg" alt="Natural swimming lake and loungers at Moar Gut" /></button><figcaption>Moar Gut</figcaption></figure>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · waldSPA Family & Kids water slide"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-spa.jpg" alt="Forsthofgut family spa and water slide" /></button><figcaption>01 / Water slide</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · indoor family pool"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-water-indoor.jpg" alt="Indoor family swimming pool at Forsthofgut" /></button><figcaption>02 / Family pool</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · adults-only waldSPA pool and natural pond"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-adult-spa.jpg" alt="Forsthofgut adults-only pool beside the natural swimming pond" /></button><figcaption>03 / Adult pool</figcaption></figure>
+            </div>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · outdoor family water playground"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-pool.jpg" alt="Family using the outdoor water playground at Habachklause" /></button><figcaption>01 / Splash park</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · parent and child in the indoor family pool"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-water-family-pool.jpg" alt="Parent and child swimming in the Habachklause indoor pool" /></button><figcaption>02 / Indoor pool</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · adults' wellness pool"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-adult-spa.jpg" alt="Adults using the wellness pool at Habachklause" /></button><figcaption>03 / Adult pool</figcaption></figure>
+            </div>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · natural swimming lake"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-lake.jpg" alt="Natural swimming lake and loungers at Moar Gut" /></button><figcaption>01 / Swim lake</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · panoramic indoor pool"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-water-indoor.jpg" alt="Panoramic indoor swimming pool at Moar Gut" /></button><figcaption>02 / Indoor pool</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · parent and child enjoying the water world"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-water-family.jpg" alt="Parent and child swimming together at Moar Gut" /></button><figcaption>03 / Family swim</figcaption></figure>
+            </div>
           </div>
         </section>
 
         <section class="photo-category" aria-labelledby="farm-label">
           <div class="category-label"><span>05</span><h2 id="farm-label">The farm</h2></div>
           <div class="photo-row" role="row">
-            <figure><button class="photo-button" type="button" data-caption="Forsthofgut · miniGUT children's farm"><img src="../../../assets/alpine-family-resorts/forsthofgut-farm.jpg" alt="Forsthofgut miniGUT children's farm building" /></button><figcaption>Forsthofgut</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Habachklause · farm produce and hands-on farm identity"><img src="../../../assets/alpine-family-resorts/habachklause-farm.jpg" alt="Fresh farm vegetables at Habachklause" /></button><figcaption>Habachklause</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Moar Gut · working organic farm"><img src="../../../assets/alpine-family-resorts/moargut-farm.jpg" alt="Cows walking through the Moar Gut organic farm" /></button><figcaption>Moar Gut</figcaption></figure>
-          </div>
-        </section>
-
-        <section class="photo-category" aria-labelledby="dining-label">
-          <div class="category-label"><span>06</span><h2 id="dining-label">The table</h2></div>
-          <div class="photo-row" role="row">
-            <figure><button class="photo-button" type="button" data-caption="Forsthofgut · design-led dining room"><img src="../../../assets/alpine-family-resorts/forsthofgut-dining.jpg" alt="Dark, design-led restaurant dining room at Forsthofgut" /></button><figcaption>Forsthofgut</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Habachklause · composed adult dinner course"><img src="../../../assets/alpine-family-resorts/habachklause-dining.jpg" alt="Composed plated dinner course at Habachklause" /></button><figcaption>Habachklause</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Moar Gut · gourmet full-board breakfast"><img src="../../../assets/alpine-family-resorts/moargut-dining.jpg" alt="Breakfast table at Moar Gut" /></button><figcaption>Moar Gut</figcaption></figure>
-          </div>
-        </section>
-
-        <section class="photo-category" aria-labelledby="mountain-label">
-          <div class="category-label"><span>07</span><h2 id="mountain-label">The mountain day</h2></div>
-          <div class="photo-row" role="row">
-            <figure><button class="photo-button" type="button" data-caption="Forsthofgut · hiking in the Leogang mountains"><img src="../../../assets/alpine-family-resorts/forsthofgut-mountain.jpg" alt="Hikers reaching a summit above Leogang near Forsthofgut" /></button><figcaption>Forsthofgut</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Habachklause · Wildkogel family slide outing"><img src="../../../assets/alpine-family-resorts/habachklause-mountain.jpg" alt="Parent and child riding an alpine slide near Habachklause" /></button><figcaption>Habachklause</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Moar Gut · riding through the Großarl landscape"><img src="../../../assets/alpine-family-resorts/moargut-riding.jpg" alt="Horse riders crossing an alpine meadow near Moar Gut" /></button><figcaption>Moar Gut</figcaption></figure>
-          </div>
-        </section>
-
-        <section class="photo-category" aria-labelledby="adult-label">
-          <div class="category-label"><span>08</span><h2 id="adult-label">The adult escape</h2></div>
-          <div class="photo-row" role="row">
-            <figure><button class="photo-button" type="button" data-caption="Forsthofgut · adults-only waldSPA pool"><img src="../../../assets/alpine-family-resorts/forsthofgut-adult-spa.jpg" alt="Forsthofgut adults-only pool beside the natural swimming pond" /></button><figcaption>Forsthofgut</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Habachklause · adults' wellness pool"><img src="../../../assets/alpine-family-resorts/habachklause-adult-spa.jpg" alt="Adults using the wellness pool at Habachklause" /></button><figcaption>Habachklause</figcaption></figure>
-            <figure><button class="photo-button" type="button" data-caption="Moar Gut · Nature Spa"><img src="../../../assets/alpine-family-resorts/moargut-spa.jpg" alt="Moar Gut spa and wellness area" /></button><figcaption>Moar Gut</figcaption></figure>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · children feeding the miniGUT goats"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-farm-goats.jpg" alt="Children feeding goats at Forsthofgut miniGUT" /></button><figcaption>01 / Goats</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · close encounter with a miniGUT donkey"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-farm-donkey.jpg" alt="Child meeting a donkey at Forsthofgut miniGUT" /></button><figcaption>02 / Donkey</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Forsthofgut · hand-feeding deer at miniGUT"><img loading="lazy" src="../../../assets/alpine-family-resorts/forsthofgut-farm-deer.jpg" alt="Child hand-feeding deer at Forsthofgut miniGUT" /></button><figcaption>03 / Deer</figcaption></figure>
+            </div>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · parent and child petting a rabbit"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-farm-rabbit.jpg" alt="Parent and child petting a rabbit at Habachklause" /></button><figcaption>01 / Rabbit</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · ponies on the family farm"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-farm-ponies.jpg" alt="Two ponies on the Habachklause family farm" /></button><figcaption>02 / Ponies</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Habachklause · animal barn and outdoor enclosures"><img loading="lazy" src="../../../assets/alpine-family-resorts/habachklause-setting-farm.jpg" alt="Animal barn and enclosures at Habachklause" /></button><figcaption>03 / Barn</figcaption></figure>
+            </div>
+            <div class="hotel-stack">
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · cattle on the working organic farm"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-farm.jpg" alt="Cows walking through the Moar Gut organic farm" /></button><figcaption>01 / Cattle</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · hands-on horse grooming"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-farm-horse.jpg" alt="Child grooming a horse at Moar Gut" /></button><figcaption>02 / Horses</figcaption></figure>
+              <figure><button class="photo-button" type="button" data-caption="Moar Gut · child cuddling a farm rabbit"><img loading="lazy" src="../../../assets/alpine-family-resorts/moargut-farm-rabbit.jpg" alt="Child cuddling a rabbit at Moar Gut" /></button><figcaption>03 / Rabbit</figcaption></figure>
+            </div>
           </div>
         </section>
       </div>
     </main>
 
-    <footer><a href="../">← Back to the full resort comparison</a><span>24 official hotel photographs · tap images to enlarge</span></footer>
+    <footer><a href="../">← Back to the full resort comparison</a><span>45 official hotel photographs · tap images to enlarge</span></footer>
 
     <dialog class="lightbox" aria-label="Expanded resort photograph">
       <button class="lightbox-close" type="button" aria-label="Close expanded photograph">Close ×</button>
