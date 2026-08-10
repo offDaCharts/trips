@@ -10,9 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="./styles.css?v=1" />
+    <link rel="stylesheet" href="./styles.css?v=2" />
     <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script defer src="./app.js?v=1"></script>
+    <script defer src="./app.js?v=2"></script>
   </head>
   <body>
     <a class="skip-link" href="#compare">Skip to stay comparison</a>
@@ -26,47 +26,54 @@
         <div class="hero-copy">
           <p class="eyebrow">Montana · ranch country · late summer</p>
           <h1>Austria’s farm-stay feeling,<br /><em>under a bigger sky.</em></h1>
-          <p class="lede">A photo-first comparison of eight ranches and lodges—screened for two adults and a one-year-old—plus a 13-night Glacier-to-Yellowstone trip that mixes horses, lakes, mountains, food and an actual spa day.</p>
+          <p class="lede">A photo-first comparison for two adults and a one-year-old, now centered on true all-inclusive ranch stays between $500 and $2,000 per family-night—with the expensive distractions pushed to the bottom.</p>
           <div class="hero-actions"><a class="button primary" href="#compare">Compare the stays</a><a class="button ghost" href="#route">See the trip</a></div>
         </div>
         <div class="hero-collage" aria-label="Montana ranch preview">
-          <figure class="collage-main"><img src="../../assets/montana-ranch-trip/clydesdale-hero.jpg" alt="Clydesdale horses at Clydesdale Outpost" /><figcaption>Whitefish · Clydesdale Outpost</figcaption></figure>
-          <figure class="collage-top"><img src="../../assets/montana-ranch-trip/sage-hero.jpg" alt="Sage Lodge in Paradise Valley" /><figcaption>Paradise Valley · Sage Lodge</figcaption></figure>
+          <figure class="collage-main"><img src="../../assets/montana-ranch-trip/flathead-hero.jpg" alt="Flathead Lake Lodge on the water" /><figcaption>Bigfork · Flathead Lake Lodge</figcaption></figure>
+          <figure class="collage-top"><img src="../../assets/montana-ranch-trip/hawley-hero.jpg" alt="Hawley Mountain Guest Ranch" /><figcaption>McLeod · Hawley Mountain</figcaption></figure>
           <figure class="collage-bottom"><img src="../../assets/montana-ranch-trip/flathead-family.jpg" alt="A family ranch scene at Flathead Lake Lodge" /><figcaption>Bigfork · Flathead Lake Lodge</figcaption></figure>
         </div>
       </div>
-      <div class="hero-facts"><div><strong>8</strong><span>distinct stays</span></div><div><strong>16</strong><span>official property photos</span></div><div><strong>13</strong><span>suggested nights</span></div><div><strong>1</strong><span>open-jaw route</span></div></div>
+      <div class="hero-facts"><div><strong>10</strong><span>stays researched</span></div><div><strong>60</strong><span>official property photos</span></div><div><strong>3</strong><span>budget-first leads</span></div><div><strong>$2k</strong><span>family-night ceiling</span></div></div>
     </header>
 
     <main>
       <section class="verdict section-pad">
-        <div class="section-intro"><p class="section-label">The fast read</p><h2>Montana can match the ingredients.<br />It rarely bundles them as neatly.</h2><p>Austria’s best family resorts combine farm animals, spa, full board and infant care in one rate. Montana makes you choose: authentic ranch programming, polished lodge luxury, or flexible cabin value.</p></div>
+        <div class="section-intro"><p class="section-label">The fast read</p><h2>There are two real price-fit leads.<br />A third needs one phone quote.</h2><p>Flathead and Hawley publish all-inclusive family math inside the budget. Circle Bar has the right inclusions, flexible dates and a free infant, but hides the room price behind its booking flow.</p></div>
         <div class="verdict-grid">
-          <article><span>Best overall trip fit</span><h3>Clydesdale + 320 + Sage</h3><p>Three flexible bases, three different moods, no forced weeklong ranch package.</p></article>
-          <article><span>Closest all-inclusive analog</span><h3>Flathead Lake Lodge</h3><p>Seven nights, meals, lake sports, horses and airport transfers—with the baby free.</p></article>
-          <article><span>Best adult-luxury finish</span><h3>Sage Lodge</h3><p>Serious food, Yellowstone access and spa energy without giving up family welcome.</p></article>
-          <article><span>Best if budget disappears</span><h3>Rock Creek</h3><p>The most complete all-inclusive, baby-ready ranch experience in the shortlist.</p></article>
+          <article><span>#1 · best overall</span><h3>Flathead Lake Lodge</h3><p>$1,604–$1,976 per family-night, fully inclusive, infant free. Call for the Aug 30 week.</p></article>
+          <article><span>#2 · best value</span><h3>Hawley Mountain</h3><p>$1,166–$1,541 per family-night on the conservative three-person published tier.</p></article>
+          <article><span>#3 · flexible wildcard</span><h3>Circle Bar</h3><p>Three-night minimum, all meals and ranch activities, infant free. Price still needs a quote.</p></article>
+          <article><span>Not the focus</span><h3>Luxury benchmarks</h3><p>Mountain Sky, Paws Up and Rock Creek are retained below only to show what the budget buys elsewhere.</p></article>
         </div>
+        <div class="season-misses"><article><span>Perfect concept · wrong dates</span><h3>Nine Quarter Circle</h3><p><strong>$1,759/family-night</strong> for two adults + child 0–5, including meals, riding, guided fishing and babysitting—but family season ends Aug 22.</p><a href="https://www.ninequartercircle.com/your-stay/rates-policies/" target="_blank" rel="noreferrer">Official 2026 rates ↗</a></article><article><span>In range · wrong dates</span><h3>Bar W Guest Ranch</h3><p><strong>About $1,008/family-night</strong> for two adults before any infant charge, with meals and ranch activities—but 2026 family weeks end Aug 15.</p><a href="https://thebarw.com/packages/2026-packages-rates" target="_blank" rel="noreferrer">Official 2026 rates ↗</a></article></div>
+      </section>
+
+      <section class="cost-board section-pad" id="prices">
+        <div class="section-heading"><div><p class="section-label">Real numbers first</p><h2>Family-night cost, not teaser rates.</h2></div><p>The first three are the actual shortlist. Exact published math is green, quote-dependent planning is tan, and unavailable dates are red. Every number is for the whole family—not per person.</p></div>
+        <div class="cost-grid" id="cost-grid"></div>
+        <p class="cost-footnote">Flathead and Hawley include lodging, meals and activities. Circle Bar says it does too, but needs an all-in quote after its 15% service fee and 2% tax. “Infant” means the one-year-old in the planning brief.</p>
       </section>
 
       <section class="route section-pad" id="route">
-        <div class="route-heading"><div><p class="section-label">The recommended shape</p><h2>Glacier to Yellowstone,<br />with three ranch personalities.</h2></div><p>Fly into Kalispell (FCA), out of Bozeman (BZN). The route moves south instead of doubling back and keeps every transfer under a half day.</p></div>
-        <div class="route-line" aria-label="Recommended 13-night route">
-          <article><span>01</span><div><small>4 nights · Whitefish</small><h3>Clydesdale Outpost</h3><p>Settle into a two-bedroom cabin, meet the herd, then take two unhurried Glacier days.</p><b>Premium swap: Flathead Lake Lodge</b></div></article>
-          <article><span>02</span><div><small>4 nights · Gallatin Canyon</small><h3>320 Guest Ranch</h3><p>Cabin life between Big Sky and West Yellowstone; horses and park days à la carte.</p><b>Premium swap: Lone Mountain Ranch</b></div></article>
-          <article><span>03</span><div><small>4 nights · Paradise Valley</small><h3>Sage Lodge</h3><p>Yellowstone’s north side, river views, proper dining and a restorative final chapter.</p><b>Premium swap: Mountain Sky</b></div></article>
-          <article><span>04</span><div><small>1 night · Bozeman</small><h3>Easy departure buffer</h3><p>Short Livingston/Bozeman day, a real dinner, then a low-stress BZN flight home.</p><b>13 nights total</b></div></article>
+        <div class="route-heading"><div><p class="section-label">Build around one anchor</p><h2>Choose the ranch week first.<br />Then add park nights.</h2></div><p>Do not chain three ranch packages. Pick the one whose dates confirm, then use the remaining week for Glacier or Yellowstone at ordinary lodging prices.</p></div>
+        <div class="route-line" aria-label="All-inclusive ranch anchor options">
+          <article><span>01</span><div><small>Best answer · 7 nights</small><h3>Flathead Lake Lodge</h3><p>Aug 30–Sep 6 all-inclusive week, then six nights moving toward Yellowstone.</p><b>$11,228 lodge room · call first</b></div></article>
+          <article><span>02</span><div><small>Best value · 6 nights</small><h3>Hawley Mountain</h3><p>A small wilderness ranch week, then pair it with Yellowstone and Bozeman.</p><b>$6,993–$9,246 published family total</b></div></article>
+          <article><span>03</span><div><small>Most flexible · 3+ nights</small><h3>Circle Bar</h3><p>Use a shorter all-inclusive ranch block and preserve more time for both parks.</p><b>Get total after 17% fee + tax</b></div></article>
+          <article><span>04</span><div><small>Fallback · flexible nights</small><h3>320 Guest Ranch</h3><p>Not inclusive, but $340/night after tax leaves a large food and activity allowance.</p><b>Only use if the inclusive leads fail</b></div></article>
         </div>
-        <aside class="route-note"><strong>The catch for Aug 31–Sep 13:</strong> many classic dude ranches are Sunday-to-Sunday, and several family programs end by Labor Day. That is why the default route uses flexible-night properties and treats the weeklong ranches as availability-dependent upgrades.</aside>
+        <aside class="route-note"><strong>Date reality for Aug 31–Sep 13:</strong> the useful Flathead and Hawley weeks begin Sunday, Aug 30, one day before the original window. Moving arrival forward one day unlocks the strongest options. Circle Bar can start on other days, but Sep 6–12 overlaps its women-only special week and must be confirmed.</aside>
       </section>
 
       <section class="map-section section-pad" id="map-section">
-        <div class="section-heading"><div><p class="section-label">Where everything sits</p><h2>Eight stays across western Montana.</h2></div><p>Tap a property below or on the map. The orange line is the recommended FCA-to-BZN route; the outlying luxury ranches are comparison options, not route requirements.</p></div>
+        <div class="section-heading"><div><p class="section-label">Where everything sits</p><h2>Ten stays across Montana.</h2></div><p>Tap a property below or on the map. The orange line connects the three all-inclusive budget leads for orientation; it is not a recommendation to book all three.</p></div>
         <div class="map-shell"><aside class="map-list" id="map-list" aria-label="Stay map list"></aside><div class="map-wrap"><div id="map" aria-label="Interactive map of Montana ranch stays"></div><span class="map-key">Recommended route · orange</span></div></div>
       </section>
 
       <section class="compare section-pad" id="compare">
-        <div class="section-heading compare-heading"><div><p class="section-label">The researched shortlist</p><h2>Eight very different answers<br />to “farm stay, but Montana.”</h2></div><div class="filters" id="filters" aria-label="Filter stays"><button class="active" data-filter="all">All 8</button><button data-filter="flexible">Flexible nights</button><button data-filter="inclusive">All-inclusive</button><button data-filter="splurge">Big splurge</button></div></div>
+        <div class="section-heading compare-heading"><div><p class="section-label">Full property tours</p><h2>Six photos, real cost math<br />and the honest catch for each.</h2></div><div class="filters" id="filters" aria-label="Filter stays"><button class="active" data-filter="inrange">$500–$2k focus</button><button data-filter="all">All 10</button><button data-filter="inclusive">All-inclusive</button><button data-filter="flexible">Flexible nights</button><button data-filter="splurge">Over budget</button></div></div>
         <div class="stay-grid" id="stay-grid"></div>
       </section>
 
@@ -81,8 +88,8 @@
       </section>
 
       <section class="decision section-pad">
-        <div class="decision-copy"><p class="section-label">My call</p><h2>Book the flexible trio first.<br />Keep one ranch splurge optional.</h2><p>The Clydesdale → 320 → Sage route best preserves the Austria brief without letting a single seven-night package consume the whole trip budget. If Flathead has the Aug 30 week and the quote works, replace Whitefish’s four nights with the full week, then finish with four nights at Sage and one Bozeman night.</p></div>
-        <div class="decision-cards"><article><span>Version A · balanced</span><strong>Clydesdale 4<br />320 Ranch 4<br />Sage 4<br />Bozeman 1</strong><p>Best variety and most controllable spend.</p></article><article><span>Version B · ranch-first</span><strong>Flathead 7<br />Sage 4<br />Bozeman 1</strong><p>Closest to an all-inclusive Austrian family-resort rhythm.</p></article></div>
+        <div class="decision-copy"><p class="section-label">My call</p><h2>Call Flathead first.<br />Call Hawley second.</h2><p>Flathead is the strongest match and lands just inside the cap even in a cabin. Hawley is the better-value, more intimate alternative. Ask both about the week beginning Aug 30 and place a short hold if possible; only then price Circle Bar as the flexible fallback.</p></div>
+        <div class="decision-cards"><article><span>First choice</span><strong>Flathead 7<br />Yellowstone 4<br />Bozeman 2</strong><p>Best bundled family experience; $11,228–$13,832 for the ranch week.</p></article><article><span>Value choice</span><strong>Hawley 6<br />Yellowstone 4<br />Bozeman 3</strong><p>More rustic, but the ranch week starts around $6,993 on published three-person math.</p></article></div>
       </section>
 
       <section class="notes section-pad" id="notes"><p><strong>Research posture:</strong> official property information checked August 10, 2026. Rates and seasonal programming can change; September 2026 inventory must be confirmed directly. Price marks: <b>$$</b> comparatively practical, <b>$$$</b> upscale à la carte, <b>$$$$</b> inclusive splurge, <b>$$$$+</b> exceptional splurge.</p><p>Map tiles © OpenStreetMap contributors. Photography belongs to the named properties and is used here for trip-planning comparison.</p></section>
