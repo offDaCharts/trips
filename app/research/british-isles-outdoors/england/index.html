@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#18332e" />
+  <title>England Outdoors · Five-Day Route</title>
+  <meta name="description" content="A photo-led five-day outdoor England route from Richmond Park to the South Downs, New Forest and Dorset coast." />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../">Three-country shortlist</a>
+    <nav class="topnav" aria-label="Country guides"><a href="../scotland/">Scotland</a><a href="../ireland/">Ireland</a><a href="../../../index.html">All trips</a></nav>
+  </header>
+
+  <section class="hero">
+    <img src="../../../assets/british-isles-outdoors/england/old-harry-aerial.jpg" alt="Aerial view of Old Harry Rocks on the Dorset coast" />
+    <div class="hero-copy">
+      <p class="eyebrow">Option 01 · London edge to the Jurassic Coast</p>
+      <h1>England, outside the city.</h1>
+      <p class="deck">Use London only as the gateway. The actual trip is royal parkland, chalk cliffs, New Forest ponies and two days on Dorset's sculpted coast.</p>
+    </div>
+  </section>
+
+  <div class="stat-strip">
+    <div class="stat"><span>Shape</span><strong>5 days / 5 nights</strong></div>
+    <div class="stat"><span>Bases</span><strong>3 practical bases</strong></div>
+    <div class="stat"><span>Best for</span><strong>Coast + easy logistics</strong></div>
+    <div class="stat"><span>Baby balance</span><strong>Stroller + carrier</strong></div>
+  </div>
+
+  <main>
+    <section class="section">
+      <div class="section-intro">
+        <div><p class="eyebrow">Why choose it</p><h2>The broadest scenery, with the least flight friction.</h2></div>
+        <div>
+          <p class="section-lede">This is the safest operational choice: Heathrow or Gatwick on one end, a dense road network, and plenty of ways to shorten a day without losing it.</p>
+          <p class="body-copy">It is not a miniature Scotland. The appeal is variety—deer meadow at breakfast, brilliant white cliffs the next day, ponies in open heath and then the Jurassic Coast. London can be a dinner and riverside walk, not the center of the vacation.</p>
+        </div>
+      </div>
+      <div class="verdict-grid">
+        <article class="verdict-card dark"><h3>The sell</h3><p>Highest odds that every day produces something memorable even if wind, rain or nap timing changes the plan.</p></article>
+        <article class="verdict-card"><h3>The tradeoff</h3><p>No true mountain day, and the Richmond-to-South-Downs transfer is vulnerable to London traffic.</p></article>
+      </div>
+    </section>
+
+    <section class="map-section" aria-labelledby="route-heading">
+      <div class="section" style="padding-top:0;padding-bottom:38px"><p class="eyebrow">The route</p><h2 id="route-heading">London's edge → Sussex → Dorset</h2></div>
+      <div class="map-shell"><div id="route-map" aria-label="Map of the five-day England route"></div><div class="map-note"><b>Three bases:</b> Richmond/London edge (1), Lewes or Alfriston (2), then Purbeck (2). The dashed line shows the planning sequence, not turn-by-turn navigation.</div></div>
+    </section>
+
+    <div class="days-wrap" id="days-root" aria-label="England day-by-day plan"></div>
+
+    <section class="alert-section">
+      <div class="section alert-grid">
+        <div><p class="eyebrow">September reality check</p><h2>Cliffs and animals change the rules.</h2></div>
+        <div>
+          <p>Richmond's deer rut runs from September into autumn: give deer at least 50 metres and much more around an active male. In the New Forest, do not feed or pet ponies. On every coast day, stay well back from unguarded cliff edges and use the carrier rather than the stroller on uneven ground.</p>
+          <p><a href="https://www.royalparks.org.uk/visit/parks/richmond-park/faqs" target="_blank" rel="noreferrer">Richmond deer guidance</a> · <a href="https://www.newforestnpa.gov.uk/enjoying/visiting-responsibly/keep-your-distance-from-animals/" target="_blank" rel="noreferrer">New Forest animal guidance</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-intro">
+        <div><p class="eyebrow">Gateway logic</p><h2>Pick the London airport around the airfare.</h2></div>
+        <div><p class="section-lede">Gatwick is the cleaner start for Sussex; Heathrow is better for Richmond and often has broader onward-Europe choice.</p><p class="body-copy">A one-way car from the arrival airport keeps this route simple. If the onward flight to Munich, Vienna or Zurich is materially better from Heathrow, finish Purbeck the prior afternoon and sleep near the airport; do not gamble on a same-morning Dorset drive. This page does not quote live airfare.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="country-switcher" aria-label="Other country options">
+    <a href="../england/"><img src="../../../assets/british-isles-outdoors/england/durdle-sunset.jpg" alt="" /><span>England</span></a>
+    <a href="../scotland/"><img src="../../../assets/british-isles-outdoors/scotland/glencoe-reflection.jpg" alt="" /><span>Scotland →</span></a>
+    <a href="../ireland/"><img src="../../../assets/british-isles-outdoors/ireland/moher-north.jpg" alt="" /><span>Ireland →</span></a>
+  </nav>
+
+  <footer class="site-footer"><span>Route research checked August 10, 2026.</span><a href="../credits.html">Photo credits</a></footer>
+  <dialog class="lightbox" id="photo-lightbox"><img alt="" /><div class="lightbox-bar"><p></p><button class="lightbox-close" type="button">Close</button></div></dialog>
+
+  <script>
+  window.outdoorGuide = {
+    days: [
+      {
+        kicker: "London, barely", title: "Richmond's wild side", coords: [51.4427, -0.2730],
+        pitch: "Land, collect the car and make the arrival day count: ancient oaks, broad grassland and deer inside Greater London—then one good London dinner if energy allows.",
+        activity: "Choose a 2–4 mile park loop, Isabella Plantation or a Thames-side extension.",
+        baby: "All-terrain stroller on main paths; carrier for rougher woodland. Excellent grass reset space.",
+        logistics: "20–40 min from Heathrow depending on traffic · sleep Richmond or west London.",
+        weather: "Kew glasshouses or a short riverside walk and early dinner.",
+        mapCopy: "A genuinely outdoorsy arrival day without driving deep into England.",
+        source: { url: "https://www.royalparks.org.uk/visit/parks/richmond-park" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/england/richmond-deer.jpg", alt: "A herd of deer in Richmond Park", caption: "Richmond Park · deer meadow" },
+          { src: "../../../assets/british-isles-outdoors/england/richmond-woods.jpg", alt: "Deer spread across Richmond Park grassland", caption: "Richmond Park · open parkland" }
+        ]
+      },
+      {
+        kicker: "Chalk-cliff day", title: "Seven Sisters", coords: [50.7432, 0.2018],
+        pitch: "Walk above the Channel where rolling green downs end in brilliant white cliffs. This is the England image that earns the detour east before the route turns west.",
+        activity: "Easy 2-mile Belle Tout option or 4.4-mile Birling Gap–Exceat route in good weather.",
+        baby: "Carrier day. Slopes, steps and uneven clifftop ground make the stroller the wrong tool.",
+        logistics: "About 1 hr 45 from Richmond · sleep Lewes or Alfriston for a second night in one base.",
+        weather: "Lewes Castle, Charleston or a short Birling Gap beach look between showers.",
+        mapCopy: "The signature chalk-cliff walk, with a short and a moderate version.",
+        source: { url: "https://www.nationaltrust.org.uk/visit/sussex/birling-gap-and-the-seven-sisters/cliff-top-walk-from-birling-gap-to-exceat" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/england/seven-sisters-cottages.jpg", alt: "Seven Sisters cliffs rising above the Channel", caption: "Seven Sisters · Cuckmere Haven" },
+          { src: "../../../assets/british-isles-outdoors/england/seven-sisters-ridge.jpg", alt: "The green ridge and white cliffs of Seven Sisters", caption: "Seven Sisters · chalk and sea" }
+        ]
+      },
+      {
+        kicker: "Forest transfer", title: "Ponies in the New Forest", coords: [50.8190, -1.5764],
+        pitch: "Break the westbound transfer with free-roaming ponies, old woodland and heath. It is a texture change—not another hike stacked onto the previous one.",
+        activity: "Pick one signed family walk near Brockenhurst, Bolderwood or Blackwater; add a picnic, not mileage.",
+        baby: "Good all-terrain stroller options and lots of open reset space. Keep hands and food away from ponies.",
+        logistics: "Roughly 1 hr 45 from Lewes, then 1 hr 15 to Purbeck · sleep Purbeck for two nights.",
+        weather: "Short woodland loop, New Forest Wildlife Park or café stop in Brockenhurst.",
+        mapCopy: "A scenic transfer day built around ponies, heath and ancient woodland.",
+        source: { url: "https://www.newforestnpa.gov.uk/walks/" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/england/new-forest-sunrise.jpg", alt: "New Forest ponies at sunrise", caption: "New Forest · early light" },
+          { src: "../../../assets/british-isles-outdoors/england/new-forest-foals.jpg", alt: "Ponies and foals in a New Forest meadow", caption: "New Forest · grazing ponies" }
+        ]
+      },
+      {
+        kicker: "Jurassic Coast", title: "Durdle Door + Lulworth", coords: [50.6212, -2.2768],
+        pitch: "A stone arch, bright coves and folded geology turn a compact stretch of coast into a full visual day. Go early, then slow the afternoon down on the beach.",
+        activity: "Walk Lulworth Cove to Durdle Door if dry; otherwise visit each viewpoint separately.",
+        baby: "Carrier required for the steep coast path and steps. Beach is the natural crawl-and-reset stop.",
+        logistics: "About 35–50 min from a Purbeck base · second night in the same room.",
+        weather: "Corfe Castle, Swanage Railway or the Tank Museum if wind makes the cliffs unpleasant.",
+        mapCopy: "England's most recognizable natural arch and a satisfying full coast day.",
+        source: { url: "https://lulworth.com/visit/places-to-visit/durdle-door/" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/england/durdle-door.jpg", alt: "Durdle Door stone arch and beach", caption: "Durdle Door · Jurassic Coast" },
+          { src: "../../../assets/british-isles-outdoors/england/durdle-sunset.jpg", alt: "Golden light through Durdle Door", caption: "Durdle Door · evening light" }
+        ]
+      },
+      {
+        kicker: "Sea-stack finale", title: "Old Harry + Studland", coords: [50.6425, -1.9235],
+        pitch: "Finish with an easy-to-scale coastal day: chalk sea stacks in the morning, then Studland's broad beach and dunes before the airport reposition.",
+        activity: "Walk from South Beach to Old Harry Rocks; extend on Ballard Down only if weather and legs agree.",
+        baby: "Carrier for the cliff walk; stroller and play time work well around Studland village and beach access.",
+        logistics: "10–25 min from most Purbeck bases · reposition toward LHR/LGW after lunch if flying next morning.",
+        weather: "Swanage waterfront, Corfe village or a shorter Studland beach window.",
+        mapCopy: "A flexible sea-stack walk plus beach time, ideal for the final day.",
+        source: { url: "https://www.nationaltrust.org.uk/visit/dorset/studland-bay/old-harry-rocks-walk" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/england/old-harry-aerial.jpg", alt: "Aerial view of Old Harry Rocks and the Dorset coast", caption: "Old Harry Rocks · from above" },
+          { src: "../../../assets/british-isles-outdoors/england/old-harry-coast.jpg", alt: "White chalk stacks at Old Harry Rocks", caption: "Old Harry Rocks · clifftop view" }
+        ]
+      }
+    ]
+  };
+  </script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="../guide.js"></script>
+</body>
+</html>

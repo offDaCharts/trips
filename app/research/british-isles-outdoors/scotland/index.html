@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#18332e" />
+  <title>Scotland Outdoors · Five-Day Route</title>
+  <meta name="description" content="A photo-led five-day Scotland route from Edinburgh through Loch Lomond and Glencoe to the Cairngorms." />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../">Three-country shortlist</a>
+    <nav class="topnav" aria-label="Country guides"><a href="../england/">England</a><a href="../ireland/">Ireland</a><a href="../../../index.html">All trips</a></nav>
+  </header>
+
+  <section class="hero">
+    <img src="../../../assets/british-isles-outdoors/scotland/glencoe-reflection.jpg" alt="Glencoe mountains reflected in still water" />
+    <div class="hero-copy">
+      <p class="eyebrow">Option 02 · Edinburgh to the Cairngorms</p>
+      <h1>Scotland, built around the Highlands.</h1>
+      <p class="deck">One energetic Edinburgh day, then loch islands, a real summit, Glencoe's mountain walls and two slower days in the Cairngorms.</p>
+    </div>
+  </section>
+
+  <div class="stat-strip">
+    <div class="stat"><span>Shape</span><strong>5 days / 5 nights</strong></div>
+    <div class="stat"><span>Bases</span><strong>3 practical bases</strong></div>
+    <div class="stat"><span>Best for</span><strong>Mountain drama</strong></div>
+    <div class="stat"><span>Baby balance</span><strong>Carrier + easy lochs</strong></div>
+  </div>
+
+  <main>
+    <section class="section">
+      <div class="section-intro">
+        <div><p class="eyebrow">Why choose it</p><h2>The option that feels most like the trip has already reached the Alps.</h2></div>
+        <div>
+          <p class="section-lede">If the first leg should be a destination—not merely a convenient stop—Scotland wins. The progression from Edinburgh's volcanic ridge to Glencoe and the Cairngorms has real scale.</p>
+          <p class="body-copy">This deliberately skips Skye. In five nights, forcing Skye adds road hours and one-night hops that work against the family rhythm. Glencoe and the Cairngorms deliver the Highlands without turning the route into windshield tourism.</p>
+        </div>
+      </div>
+      <div class="verdict-grid">
+        <article class="verdict-card dark"><h3>The sell</h3><p>The strongest photos, most satisfying hikes and clearest match for a family that actively wants mountains, lakes and viewpoints.</p></article>
+        <article class="verdict-card"><h3>The tradeoff</h3><p>Wind and rain have more power here. The route needs flexible day order and a willingness to take the short version.</p></article>
+      </div>
+    </section>
+
+    <section class="map-section" aria-labelledby="route-heading">
+      <div class="section" style="padding-top:0;padding-bottom:38px"><p class="eyebrow">The route</p><h2 id="route-heading">Edinburgh → Glencoe → Cairngorms</h2></div>
+      <div class="map-shell"><div id="route-map" aria-label="Map of the five-day Scotland route"></div><div class="map-note"><b>Three bases:</b> Edinburgh (1), Glencoe (2), then Aviemore/Rothiemurchus (2). The dashed line is the planning sequence; use live navigation for the actual roads.</div></div>
+    </section>
+
+    <div class="days-wrap" id="days-root" aria-label="Scotland day-by-day plan"></div>
+
+    <section class="alert-section">
+      <div class="section alert-grid">
+        <div><p class="eyebrow">September reality check</p><h2>Let the clearest day choose the summit.</h2></div>
+        <div>
+          <p>Conic Hill and Glencoe are exposed; wind matters as much as rain with a child in a carrier. Keep the summit day movable and use Glencoe Lochan, Loch an Eilein or Loch Morlich when the tops disappear. Glenmore Forest Park reopened in August 2026 after wildfire closures, but check the official status immediately before travel.</p>
+          <p><a href="https://forestryandland.gov.scot/visit/destinations/glenmore" target="_blank" rel="noreferrer">Glenmore visitor status</a> · <a href="https://cairngorms.co.uk/" target="_blank" rel="noreferrer">Cairngorms conditions</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-intro">
+        <div><p class="eyebrow">Gateway logic</p><h2>Edinburgh keeps the route clean.</h2></div>
+        <div><p class="section-lede">Fly into Edinburgh, collect the car once and leave from Edinburgh if the onward fare works—or compare a final-night Glasgow reposition.</p><p class="body-copy">Edinburgh is the better route start because Arthur's Seat turns the arrival day into a real outing. Returning there from Aviemore is about a half-day movement; schedule the onward Europe flight late enough or sleep near the airport. Glasgow is closer to Loch Lomond and Glencoe but less elegant for this eastward finish. This page does not quote live airfare.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="country-switcher" aria-label="Other country options">
+    <a href="../england/"><img src="../../../assets/british-isles-outdoors/england/durdle-sunset.jpg" alt="" /><span>← England</span></a>
+    <a href="../scotland/"><img src="../../../assets/british-isles-outdoors/scotland/glencoe-reflection.jpg" alt="" /><span>Scotland</span></a>
+    <a href="../ireland/"><img src="../../../assets/british-isles-outdoors/ireland/moher-north.jpg" alt="" /><span>Ireland →</span></a>
+  </nav>
+
+  <footer class="site-footer"><span>Route research checked August 10, 2026.</span><a href="../credits.html">Photo credits</a></footer>
+  <dialog class="lightbox" id="photo-lightbox"><img alt="" /><div class="lightbox-bar"><p></p><button class="lightbox-close" type="button">Close</button></div></dialog>
+
+  <script>
+  window.outdoorGuide = {
+    days: [
+      {
+        kicker: "Volcanic city edge", title: "Arthur's Seat", coords: [55.9441, -3.1618],
+        pitch: "Land and go straight to Edinburgh's wild core: a compact volcanic climb with the city, Firth of Forth and distant hills unfolding around it.",
+        activity: "Climb from Holyrood on the gentler route; add only a short Old Town wander and dinner afterward.",
+        baby: "Carrier required above the lower paths. Meadows around Holyrood Park give an easy reset before or after.",
+        logistics: "About 30 min from Edinburgh Airport · sleep central Edinburgh or near Holyrood.",
+        weather: "Dynamic Earth, National Museum of Scotland or a low circuit in Holyrood Park.",
+        mapCopy: "A useful arrival day: real elevation and panoramic views inside Edinburgh.",
+        source: { url: "https://www.historicenvironment.scot/visit-a-place/places/holyrood-park/" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/scotland/arthurs-seat.jpg", alt: "Hikers on Arthur's Seat overlooking Edinburgh", caption: "Arthur's Seat · city and firth" },
+          { src: "../../../assets/british-isles-outdoors/scotland/arthurs-seat-rocks.jpg", alt: "Rocky slopes of Arthur's Seat above Edinburgh", caption: "Arthur's Seat · volcanic ridge" }
+        ]
+      },
+      {
+        kicker: "Summit + loch", title: "Conic Hill", coords: [56.0958, -4.5391],
+        pitch: "Climb above Balmaha for the first true Highland composition: Loch Lomond's islands spread below and the fault line dividing Lowlands from Highlands underfoot.",
+        activity: "Out-and-back to the summit from Balmaha; turn around at the first big viewpoint if weather or nap timing says so.",
+        baby: "Carrier day. The improved path helps, but it remains a climb with exposed upper ground.",
+        logistics: "About 1 hr 30 from Edinburgh, then 1 hr 45 to Glencoe · first of two Glencoe nights.",
+        weather: "Loch Lomond shore, Balmaha woodland or SEA LIFE Loch Lomond before driving north.",
+        mapCopy: "The route's best effort-to-panorama ratio, with views well before the summit.",
+        source: { url: "https://www.lochlomond-trossachs.org/things-to-do/walking/hillwalking/conic-hill/" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/scotland/conic-hill.jpg", alt: "Conic Hill rising behind Balmaha", caption: "Conic Hill · Highland gateway" },
+          { src: "../../../assets/british-isles-outdoors/scotland/conic-view.jpg", alt: "Loch Lomond islands viewed from Conic Hill", caption: "Conic Hill · Loch Lomond panorama" }
+        ]
+      },
+      {
+        kicker: "Big-mountain day", title: "Glencoe, slowly", coords: [56.6870, -5.1038],
+        pitch: "Do not reduce Glencoe to scenic pullouts. Pair the valley's mountain walls with one of Glencoe Lochan's compact loops and leave room to stop whenever the light changes.",
+        activity: "One-mile Lochan Trail, Woodland Trail or steeper Mountain Trail; add Three Sisters viewpoints and Signal Rock.",
+        baby: "Stroller possible on the easiest lochan circuit; carrier for woodland roots and steeper options.",
+        logistics: "Minimal driving from a Glencoe base · second night in the same room.",
+        weather: "Glencoe Visitor Centre, the easy lochan loop between showers or nearby indoor pool time.",
+        mapCopy: "The visual peak of the route, balanced with three short family-friendly trails.",
+        source: { url: "https://forestryandland.gov.scot/visit/destinations/glencoe-lochan/trails" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/scotland/glencoe-lochan.jpg", alt: "Glencoe Lochan below mountain slopes", caption: "Glencoe Lochan · mountain frame" },
+          { src: "../../../assets/british-isles-outdoors/scotland/glencoe-reflection.jpg", alt: "Autumn mountains reflected at Glencoe Lochan", caption: "Glencoe Lochan · still water" }
+        ]
+      },
+      {
+        kicker: "Castle in the pines", title: "Loch an Eilein", coords: [57.1484, -3.8244],
+        pitch: "Transfer east, then trade exposed peaks for Rothiemurchus pine forest, a quiet loch and the ruined island castle that makes the whole circuit feel storybook.",
+        activity: "Walk the roughly 3-mile loch circuit or just the castle-facing shore; stop at Ruthven Barracks en route if desired.",
+        baby: "All-terrain stroller can work on the main track in dry conditions; carrier is more comfortable after rain.",
+        logistics: "About 1 hr 45 from Glencoe · first of two Aviemore/Rothiemurchus nights.",
+        weather: "Highland Folk Museum, Landmark Forest Adventure Park or a short castle viewpoint walk.",
+        mapCopy: "A calmer forest-and-loch day after Glencoe, with excellent family pacing.",
+        source: { url: "https://cairngorms.co.uk/visiting/things-to-do/walking" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/scotland/eilein-castle.jpg", alt: "Ruined island castle in Loch an Eilein", caption: "Loch an Eilein · island castle" },
+          { src: "../../../assets/british-isles-outdoors/scotland/eilein-panorama.jpg", alt: "Wide view across Loch an Eilein and forest", caption: "Loch an Eilein · pine and water" }
+        ]
+      },
+      {
+        kicker: "Beach below the peaks", title: "Loch Morlich", coords: [57.1676, -3.7026],
+        pitch: "Finish on a sandy freshwater beach with the Cairngorm plateau across the water—mountain scenery for the adults and a natural crawl, picnic and reset zone for the baby.",
+        activity: "Easy shore time plus a short Glenmore forest trail; add the reindeer centre or wildlife park only if it improves the day.",
+        baby: "Best reset day of the Scotland route. Stroller-friendly access near the beach; carrier on forest trails.",
+        logistics: "20 min from Aviemore · reposition toward Edinburgh after lunch or keep a final airport night.",
+        weather: "Highland Wildlife Park, Strathspey Railway or Rothiemurchus café and short woodland loops.",
+        mapCopy: "A soft-sand finale beneath the peaks, without sacrificing the final vacation day.",
+        source: { url: "https://forestryandland.gov.scot/visit/destinations/glenmore" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/scotland/morlich-beach.jpg", alt: "Loch Morlich beach with Cairngorm mountains beyond", caption: "Loch Morlich · beach below the peaks" },
+          { src: "../../../assets/british-isles-outdoors/scotland/morlich-wide.jpg", alt: "Mountains reflected across Loch Morlich", caption: "Loch Morlich · wide Highland view" }
+        ]
+      }
+    ]
+  };
+  </script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="../guide.js"></script>
+</body>
+</html>

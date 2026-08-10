@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#18332e" />
+  <title>Ireland Outdoors · Five-Day Route</title>
+  <meta name="description" content="A photo-led five-day Ireland route from Howth and Wicklow to the Burren and Cliffs of Moher." />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../">Three-country shortlist</a>
+    <nav class="topnav" aria-label="Country guides"><a href="../england/">England</a><a href="../scotland/">Scotland</a><a href="../../../index.html">All trips</a></nav>
+  </header>
+
+  <section class="hero">
+    <img src="../../../assets/british-isles-outdoors/ireland/moher-north.jpg" alt="Green Atlantic cliffs at the Cliffs of Moher" />
+    <div class="hero-copy">
+      <p class="eyebrow">Option 03 · Dublin coast to County Clare</p>
+      <h1>Ireland, from one wild coast to the other.</h1>
+      <p class="deck">Touch Dublin lightly. The real story is Howth's headland, Glendalough's mountain lakes, the Sally Gap road and three nights among the Burren and Atlantic cliffs.</p>
+    </div>
+  </section>
+
+  <div class="stat-strip">
+    <div class="stat"><span>Shape</span><strong>5 days / 5 nights</strong></div>
+    <div class="stat"><span>Bases</span><strong>3 practical bases</strong></div>
+    <div class="stat"><span>Best for</span><strong>Wild coast + character</strong></div>
+    <div class="stat"><span>Baby balance</span><strong>Short walks + carrier</strong></div>
+  </div>
+
+  <main>
+    <section class="section">
+      <div class="section-intro">
+        <div><p class="eyebrow">Why choose it</p><h2>The most atmospheric option—and the one with the best bad-weather personality.</h2></div>
+        <div>
+          <p class="section-lede">Ireland's advantage is not one giant objective. It is the sequence: harbor and gorse, a monastic lake valley, peat-dark uplands, limestone pavement and the open Atlantic.</p>
+          <p class="body-copy">The hikes are easy to scale, Doolin makes a sociable three-night base, and rain does not erase the mood. The compromise is one cross-island day. Build stops into it and it becomes a transfer with scenery, not dead time.</p>
+        </div>
+      </div>
+      <div class="verdict-grid">
+        <article class="verdict-card dark"><h3>The sell</h3><p>The strongest mixture of outdoors and sense of place: dramatic coast, distinctive geology, music, villages and a route that still feels good under clouds.</p></article>
+        <article class="verdict-card"><h3>The tradeoff</h3><p>Day three is a real driving day, and left-side driving on narrow rural roads demands more attention than the mileage suggests.</p></article>
+      </div>
+    </section>
+
+    <section class="map-section" aria-labelledby="route-heading">
+      <div class="section" style="padding-top:0;padding-bottom:38px"><p class="eyebrow">The route</p><h2 id="route-heading">Howth → Wicklow → County Clare</h2></div>
+      <div class="map-shell"><div id="route-map" aria-label="Map of the five-day Ireland route"></div><div class="map-note"><b>Three bases:</b> Howth (1), Wicklow/Glendalough (1), then Doolin or north Clare (3). The dashed line shows the sequence rather than exact road navigation.</div></div>
+    </section>
+
+    <div class="days-wrap" id="days-root" aria-label="Ireland day-by-day plan"></div>
+
+    <section class="alert-section">
+      <div class="section alert-grid">
+        <div><p class="eyebrow">Current trail reality</p><h2>Use the safe versions, not the heroic ones.</h2></div>
+        <div>
+          <p>Glendalough trail work in 2026 affects the White Route/Spinc area, so this plan uses the Upper Lake, Green Road and Poulanass options instead. At the Cliffs of Moher, sections of the long coastal walk remain closed; stay on official designated paths and use the paved visitor-centre viewpoints in high wind.</p>
+          <p><a href="https://www.nationalparks.ie/wicklow/glendalough-trail-works-2026/" target="_blank" rel="noreferrer">Glendalough works notice</a> · <a href="https://www.cliffsofmoher.ie/en/your-visit/beyond-the-cliffs-places-to-see/cliffs-of-moher-coastal-walk/" target="_blank" rel="noreferrer">Cliffs path status</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-intro">
+        <div><p class="eyebrow">Gateway logic</p><h2>Dublin is the obvious in-and-out.</h2></div>
+        <div><p class="section-lede">Dublin Airport makes Howth a useful first day and provides the broadest onward-Europe choice. Shannon can shorten the road trip, but it usually narrows the onward flight menu.</p><p class="body-copy">For a five-night one-way route, price DUB-in/SNN-out only if the onward mainland flight works exceptionally well. Otherwise keep the car through County Clare, then drive roughly three hours to Dublin and place a final airport night before a morning flight. This page does not quote live airfare.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="country-switcher" aria-label="Other country options">
+    <a href="../england/"><img src="../../../assets/british-isles-outdoors/england/durdle-sunset.jpg" alt="" /><span>← England</span></a>
+    <a href="../scotland/"><img src="../../../assets/british-isles-outdoors/scotland/glencoe-reflection.jpg" alt="" /><span>← Scotland</span></a>
+    <a href="../ireland/"><img src="../../../assets/british-isles-outdoors/ireland/moher-north.jpg" alt="" /><span>Ireland</span></a>
+  </nav>
+
+  <footer class="site-footer"><span>Route research checked August 10, 2026.</span><a href="../credits.html">Photo credits</a></footer>
+  <dialog class="lightbox" id="photo-lightbox"><img alt="" /><div class="lightbox-bar"><p></p><button class="lightbox-close" type="button">Close</button></div></dialog>
+
+  <script>
+  window.outdoorGuide = {
+    days: [
+      {
+        kicker: "Dublin's wild edge", title: "Howth Head", coords: [53.3867, -6.0610],
+        pitch: "Land and go to the sea, not a hotel room: gorse-covered cliffs, lighthouse views, harbor seals and a seafood dinner within easy reach of Dublin Airport.",
+        activity: "Walk a section of the cliff path rather than chasing the entire 7.8 km loop on arrival day.",
+        baby: "Carrier on the cliff trail; stroller works around the harbor and village. Plenty of easy reset stops.",
+        logistics: "About 25–35 min from Dublin Airport · sleep Howth for one night.",
+        weather: "Harbor walk, National Transport Museum or a brief cliff window between showers.",
+        mapCopy: "A high-value arrival day of cliff, harbor and seafood—without central Dublin.",
+        source: { url: "https://www.discoverireland.ie/dublin/howth-cliff-path-loop" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/ireland/howth-gorse.jpg", alt: "Yellow gorse along the Howth cliff path", caption: "Howth Head · gorse and sea" },
+          { src: "../../../assets/british-isles-outdoors/ireland/howth-path.jpg", alt: "Narrow walking path above the sea at Howth", caption: "Howth Head · cliff path" }
+        ]
+      },
+      {
+        kicker: "Lake-valley day", title: "Glendalough", coords: [53.0105, -6.3274],
+        pitch: "Move from the coast into a glacial valley of dark water, wooded slopes and a medieval monastic settlement. It delivers scenery and texture without requiring an all-day hike.",
+        activity: "Upper Lake and Green Road loop plus the 1.6 km Poulanass route if open; skip the disrupted Spinc route.",
+        baby: "All-terrain stroller on flatter valley paths; carrier for Poulanass and rougher ground.",
+        logistics: "About 1 hr 20 from Howth · sleep Glendalough, Laragh or Roundwood.",
+        weather: "Monastic site, visitor centre and a short Upper Lake walk when showers ease.",
+        mapCopy: "A family-scalable mix of lake, woodland, waterfall and monastic ruins.",
+        source: { url: "https://www.nationalparks.ie/wicklow/things-to-do/" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/ireland/glendalough-upper.jpg", alt: "Glendalough Upper Lake below green slopes", caption: "Glendalough · Upper Lake" },
+          { src: "../../../assets/british-isles-outdoors/ireland/glendalough-west.jpg", alt: "Long view over Glendalough valley and lake", caption: "Glendalough · glacial valley" }
+        ]
+      },
+      {
+        kicker: "The long scenic transfer", title: "Sally Gap to Clare", coords: [53.1370, -6.3123],
+        pitch: "Cross Wicklow's open bogland past Lough Tay, then head west. This is the route's longest movement, so make the first two hours cinematic and keep the rest purposeful.",
+        activity: "Short roadside viewpoints at Sally Gap and Lough Tay; one playground or farm stop during the westbound drive.",
+        baby: "Minimal carrier time by design. Use two deliberate floor/play resets instead of stacking another hike.",
+        logistics: "Roughly 3.5–4 hr total to Doolin with stops · first of three County Clare nights.",
+        weather: "The moody plateau still works in rain; skip exposed pullouts if visibility or wind is poor.",
+        mapCopy: "A beautiful first half makes the unavoidable cross-island transfer feel intentional.",
+        source: { url: "https://www.discoverireland.ie/wicklow" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/ireland/sally-gap-view.jpg", alt: "A winding road through the moody Sally Gap landscape", caption: "Sally Gap · open uplands" },
+          { src: "../../../assets/british-isles-outdoors/ireland/sally-gap-stream.jpg", alt: "A stream crossing the Wicklow uplands near Sally Gap", caption: "Sally Gap · bog and water" }
+        ]
+      },
+      {
+        kicker: "Limestone world", title: "The Burren", coords: [53.0870, -9.0170],
+        pitch: "Walk across pale limestone pavement split by deep fissures, with wildflowers in the cracks and Atlantic light on the horizon. It looks like nowhere else on the shortlist.",
+        activity: "Choose a 1–2.5 km Slieve Carran loop or another marked Burren National Park trail; add Poulnabrone Dolmen.",
+        baby: "Carrier only on limestone. The footing is uneven and fissured; keep the route short and hands free.",
+        logistics: "30–45 min from Doolin · second night in the same base. Free park shuttle is useful when operating.",
+        weather: "Aillwee Cave, Burren Nature Sanctuary or a short dolmen stop between showers.",
+        mapCopy: "The most distinctive geology of the three-country comparison, in short trail-sized portions.",
+        source: { url: "https://www.nationalparks.ie/burren/things-to-do/" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/ireland/burren-wide.jpg", alt: "Wide limestone pavement and sky in the Burren", caption: "The Burren · limestone horizon" },
+          { src: "../../../assets/british-isles-outdoors/ireland/burren-limestone.jpg", alt: "Fissured limestone landscape in the Burren", caption: "The Burren · karst pavement" }
+        ]
+      },
+      {
+        kicker: "Atlantic finale", title: "Cliffs of Moher", coords: [52.9715, -9.4309],
+        pitch: "Take the official viewpoint paths early, when the light and crowds are kinder, then spend the afternoon on the lower Doolin coast rather than forcing a closed or unsafe cliff traverse.",
+        activity: "Paved visitor-centre viewpoints and O'Brien's Tower; optional safe Doolin shore walk afterward.",
+        baby: "Stroller works on the paved official paths; use the carrier only where permitted and well back from edges.",
+        logistics: "15 min from Doolin · third Clare night, or begin a late Dublin reposition only if the next flight requires it.",
+        weather: "Cliffs visitor experience, Doolin Cave and village music; exposed paths may close in extreme wind.",
+        mapCopy: "The iconic finish, using official safe paths rather than the partially closed long coastal walk.",
+        source: { url: "https://www.cliffsofmoher.ie/" },
+        images: [
+          { src: "../../../assets/british-isles-outdoors/ireland/moher-north.jpg", alt: "Green Cliffs of Moher above Atlantic surf", caption: "Cliffs of Moher · Atlantic edge" },
+          { src: "../../../assets/british-isles-outdoors/ireland/moher-atlantic.jpg", alt: "O'Brien's Tower above the Atlantic at the Cliffs of Moher", caption: "Cliffs of Moher · O'Brien's Tower" }
+        ]
+      }
+    ]
+  };
+  </script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="../guide.js"></script>
+</body>
+</html>
