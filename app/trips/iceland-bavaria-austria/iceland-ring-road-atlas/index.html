@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101b1d" />
+    <meta name="description" content="Every Iceland destination in Ryan Shirley's travel film, mapped against the Ring Road with route types, detours, photos, and realistic trip-length comparisons." />
+    <title>Ryan Shirley’s Iceland — The Complete Ring Road Atlas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./atlas.css?v=1" />
+  </head>
+  <body>
+    <a class="skip-link" href="#atlas">Skip to the map</a>
+    <header class="topbar">
+      <a class="brand" href="../"><span>RI</span> Ryan / Iceland</a>
+      <nav aria-label="Page navigation"><a href="#atlas">Map</a><a href="#chapters">Chapters</a><a href="#scale">Trip lengths</a><a href="#reality">Reality check</a></nav>
+      <a class="hub-link" href="../../../">Trip HQ ↗</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Complete video atlas · 24 mapped destinations</p>
+          <h1>The whole<br /><em>island.</em></h1>
+          <p class="hero-lede">Every named or clearly identifiable stop in Ryan Shirley’s Iceland film—placed against the Ring Road so we can see the full temptation before cutting it down.</p>
+          <div class="hero-actions"><a class="button primary" href="#atlas">Open all 24 pins ↓</a><a class="button ghost" href="https://www.youtube.com/watch?v=iBSbD_7bvE8" target="_blank" rel="noreferrer">Watch Ryan’s film ↗</a></div>
+          <dl class="hero-stats"><div><dt>10</dt><dd>video chapters</dd></div><div><dt>24</dt><dd>mapped stops</dd></div><div><dt>1,322 km</dt><dd>Ring Road before detours</dd></div><div><dt>12–16</dt><dd>nights for the full idea</dd></div></dl>
+        </div>
+        <div class="hero-visual">
+          <figure class="hero-main"><img src="../../../assets/iceland-ring-road/landmannalaugar.jpg" alt="Colorful rhyolite mountains in Landmannalaugar" /><figcaption><span>00:28 · Highlands</span><strong>Landmannalaugar</strong></figcaption></figure>
+          <figure class="hero-top"><img src="../../../assets/iceland-ring-road/stokksnes.jpg" alt="Vestrahorn mountain above Stokksnes beach" /><figcaption><span>05:53 · Southeast</span><strong>Stokksnes</strong></figcaption></figure>
+          <figure class="hero-bottom"><img src="../../../assets/iceland-ring-road/kirkjufell.jpg" alt="Kirkjufell mountain on Snæfellsnes" /><figcaption><span>09:38 · West</span><strong>Kirkjufell</strong></figcaption></figure>
+          <div class="orbit-stamp"><span>24</span><b>pins</b></div>
+        </div>
+      </section>
+
+      <section class="truth-strip"><strong>Four days does not equal the Ring Road.</strong><p>The base loop alone is 1,322 km. Ryan adds two highland expeditions, Þórsmörk, three East Iceland detours, Dettifoss/Hafragilsfoss, and Snæfellsnes.</p><a href="#scale">See the time ladder →</a></section>
+
+      <section class="intro section-shell">
+        <div><p class="section-number">01 / WHAT THE MAP REVEALS</p><h2>It is not one loop.<br /><em>It is four trips.</em></h2></div>
+        <div class="intro-copy"><p>Ryan’s film looks seamless because the edits erase the geography. On the road, his list breaks into a paved Ring Road spine, substantial regional spurs, interior F-road terrain, and one specialist river-crossing day.</p><div class="type-grid"><article><i class="dot core"></i><span>Core road</span><strong>9 stops</strong><p>On or close to Route 1.</p></article><article><i class="dot detour"></i><span>Major detour</span><strong>11 stops</strong><p>Worthwhile, but adds hours.</p></article><article><i class="dot highlands"></i><span>4×4 / F-road</span><strong>3 stops</strong><p>Separate weather day.</p></article><article><i class="dot guided"></i><span>Guided access</span><strong>1 stop</strong><p>Þórsmörk river crossings.</p></article></div></div>
+      </section>
+
+      <section class="atlas-section" id="atlas" aria-labelledby="atlas-title">
+        <div class="section-shell atlas-head">
+          <div><p class="section-number light">02 / THE COMPLETE ATLAS</p><h2 id="atlas-title">Filter the ambition.</h2></div>
+          <p>Tap any pin or list row. Its photo, access reality, video timestamp, and driving role remain open beside the map.</p>
+        </div>
+        <div class="section-shell filter-row" role="group" aria-label="Filter map points">
+          <button class="active" type="button" data-filter="all" aria-pressed="true">All 24 <span>Everything in the film</span></button>
+          <button type="button" data-filter="core" aria-pressed="false">Ring Road core <span>Easy road access</span></button>
+          <button type="button" data-filter="detour" aria-pressed="false">Detours <span>Leave Route 1</span></button>
+          <button type="button" data-filter="highlands" aria-pressed="false">Highlands <span>4×4 territory</span></button>
+          <button type="button" data-filter="guided" aria-pressed="false">Specialist <span>Guided river crossing</span></button>
+        </div>
+        <div class="section-shell map-grid">
+          <div class="map-wrap"><div id="ring-map" aria-label="Interactive map of all locations in Ryan Shirley's Iceland video"></div><div class="map-key"><span><i class="line-ring"></i> Ring Road spine</span><span><i class="line-spur"></i> major spurs</span><span>Details stay open—no hover required</span></div></div>
+          <aside id="pin-detail" class="pin-detail" aria-live="polite"></aside>
+        </div>
+        <div class="section-shell region-rail" id="region-rail"></div>
+      </section>
+
+      <section class="chapter-section" id="chapters" aria-labelledby="chapter-title">
+        <div class="section-shell chapter-heading"><div><p class="section-number">03 / ALL TEN CHAPTERS</p><h2 id="chapter-title">The film, put back into geography.</h2></div><p>Each chapter opens its full stop list. Use “show on map” to isolate that region and compare it with the rest of the island.</p></div>
+        <div class="section-shell chapter-list" id="chapter-list"></div>
+      </section>
+
+      <section class="scale-section" id="scale" aria-labelledby="scale-title">
+        <div class="section-shell scale-heading"><div><p class="section-number light">04 / THE TIME LADDER</p><h2 id="scale-title">How much Iceland does each trip buy?</h2></div><p>The full video is not a four-day Ring Road. This ladder shows where the route changes from a windshield marathon into a trip.</p></div>
+        <div class="section-shell scale-grid">
+          <article class="current"><span>4 nights</span><h3>Choose one quarter</h3><strong>South Coast wins</strong><p>Waterfalls, Vík, Fjaðrárgljúfur; Jökulsárlón only with the fourth night. This is the current short plan.</p><ul><li>Keep 6–8 pins</li><li>Skip Ring Road claim</li><li>No north, east, or Snæfellsnes</li></ul><a href="../iceland-sep-8-12/">Open the 3/4-night plan ↗</a></article>
+          <article><span>7 nights</span><h3>Fast core loop</h3><strong>Possible, not pleasant</strong><p>Route 1 every day with the main south, east, Mývatn, and Goðafoss stops. Weather has almost no room to move.</p><ul><li>Cut all Highlands</li><li>Cut Þórsmörk</li><li>Cut Snæfellsnes</li></ul></article>
+          <article><span>10 nights</span><h3>Real Ring Road</h3><strong>First credible version</strong><p>Two south nights, two east/northeast, Mývatn, Akureyri, and two west/flex nights. Choose two detours.</p><ul><li>Keep Stokksnes</li><li>Pick Seyðisfjörður or Stuðlagil</li><li>Still cut Highlands</li></ul></article>
+          <article class="best"><span>12–14 nights</span><h3>Ryan core atlas</h3><strong>Recommended full loop</strong><p>Most paved highlights, Snæfellsnes, one proper flex day, and one large adventure swap.</p><ul><li>Add Snæfellsnes</li><li>Add East detours</li><li>Choose Highlands or Þórsmörk</li></ul></article>
+          <article><span>16+ nights</span><h3>The entire film</h3><strong>Everything, honestly</strong><p>All regions plus Landmannalaugar, highland canyon/crater stops, guided Þórsmörk, hikes, and weather recovery.</p><ul><li>4×4 vehicle strategy</li><li>Guided Þórsmörk day</li><li>Two true weather flex days</li></ul></article>
+        </div>
+      </section>
+
+      <section class="reality-section" id="reality" aria-labelledby="reality-title">
+        <div class="section-shell reality-layout">
+          <div><p class="section-number">05 / SEPTEMBER REALITY</p><h2 id="reality-title">The map is the dream.<br /><em>Conditions choose the route.</em></h2><p class="reality-lede">Early September can still support the Ring Road. It does not guarantee open, calm Highland access—and it never turns glacial river crossings into a rental-car activity.</p></div>
+          <div class="reality-grid">
+            <article><span>4×4 rule</span><h3>F-roads are a different trip</h3><p>Landmannalaugar, Bláhylur, and Sigöldugljúfur require a suitable vehicle and a same-morning road check. Rental terms and river-crossing exclusions control the plan.</p></article>
+            <article class="warning"><span>Do not self-drive</span><h3>Þórsmörk</h3><p>Ryan used a specialist super-jeep operator because the route crosses deep, changing glacial rivers. Treat it as a booked guided day.</p></article>
+            <article><span>Family rhythm</span><h3>Hikes accumulate</h3><p>Reykjadalur, Hengifoss/Litlanesfoss, Stuðlagil’s better side, and glacier viewpoints are not ten-minute photo stops when carrying a child.</p></article>
+            <article><span>Daily check</span><h3>Roads, wind, surf</h3><p>Use live road and SafeTravel guidance each morning. Reynisfjara warnings and northeast road conditions can change the day’s order.</p><a href="https://umferdin.is/en" target="_blank" rel="noreferrer">Live road map ↗</a></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="sources section-shell">
+        <p class="section-number">06 / SOURCES + PHOTOGRAPHY</p><h2>One film. Current access rules. Open map data.</h2>
+        <div class="source-grid"><article><strong>Ryan Shirley</strong><p>The chapter timestamps, stop sequence, and access anecdotes come from his complete Iceland travel film.</p><a href="https://www.youtube.com/watch?v=iBSbD_7bvE8" target="_blank" rel="noreferrer">Watch the source film ↗</a></article><article><strong>Road Administration</strong><p>Highland and Ring Road conditions should be checked live; September access cannot be promised months ahead.</p><a href="https://umferdin.is/en" target="_blank" rel="noreferrer">Open live conditions ↗</a></article><article><strong>Visit Iceland + national parks</strong><p>Official regional context, safety guidance, and managed-trail information supplement the video.</p><a href="https://www.visiticeland.com/article/the-ring-road/" target="_blank" rel="noreferrer">Official Ring Road overview ↗</a></article><article><strong>Map + images</strong><p>OpenStreetMap tiles; locally cached Wikimedia Commons photography with original file links below.</p><a href="https://commons.wikimedia.org/" target="_blank" rel="noreferrer">Wikimedia Commons ↗</a></article></div>
+        <p class="credits">New imagery: Landmannalaugar (Chmee2/Valtameri, CC BY 3.0), Laugavegur/Þórsmörk (Michal Klajban, CC BY-SA 4.0), Stokksnes (Daniel Oberhaus, CC BY 4.0), Hengifoss, Seyðisfjörður, and Kirkjufell (Jakub Hałun, CC BY 4.0), Mývatn (Giles Laurent, CC BY-SA 4.0), Goðafoss (Martin Falbisoner, CC BY-SA 4.0), and Dettifoss (Roger McLassus, CC BY-SA 3.0), via Wikimedia Commons.</p>
+      </section>
+    </main>
+
+    <footer><div><span>Complete Iceland atlas</span><strong>All 24 Ryan Shirley stops</strong></div><div><a href="../iceland-sep-8-12/">Short Iceland plan</a><a href="../">Full Iceland + Alps route</a><a href="../../../">Trip HQ</a></div></footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="./atlas.js?v=1"></script>
+  </body>
+</html>
