@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#132526" />
+    <meta
+      name="description"
+      content="A photo-rich, map-led Iceland plan for September 8–11 or 12, 2026, edited from Ryan Shirley's Iceland guide for a short family road trip."
+    />
+    <title>Iceland: The Three- or Four-Night Cut</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./iceland.css?v=1" />
+  </head>
+  <body>
+    <a class="skip-link" href="#map-plan">Skip to the route map</a>
+
+    <header class="site-header">
+      <a class="brand" href="../"><span>FI</span> Fire / Iceland</a>
+      <nav aria-label="Page navigation">
+        <a href="#verdict">Verdict</a>
+        <a href="#map-plan">Map</a>
+        <a href="#ryan-edit">Ryan edit</a>
+        <a href="#field-notes">Field notes</a>
+      </nav>
+      <a class="home-link" href="../../../">Trip HQ <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Iceland · Sep 8–11 or 12, 2026</p>
+          <h1 id="hero-title">Four days.<br /><em>No filler.</em></h1>
+          <p class="hero-lede">
+            Land in the morning, point the car southeast, and build the Iceland leg around the
+            waterfalls, black coast, canyon, and ice that dominate Ryan Shirley’s film.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#map-plan">Open the map <span aria-hidden="true">↓</span></a>
+            <a class="button button-ghost" href="#options">Compare 3 vs 4 nights</a>
+          </div>
+          <dl class="hero-facts">
+            <div><dt>Sep 08</dt><dd>morning arrival</dd></div>
+            <div><dt>3 / 4</dt><dd>nights to choose</dd></div>
+            <div><dt>13½h</dt><dd>rough daylight</dd></div>
+            <div><dt>KEF</dt><dd>pick up the car</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero-collage" aria-label="Iceland route highlights">
+          <figure class="hero-main">
+            <img
+              src="../../../assets/iceland-golden-circle-south-coast-days/day-07-transfer-south-via-seljalandsfoss.jpg"
+              alt="Seljalandsfoss waterfall dropping over a green Icelandic cliff"
+            />
+            <figcaption><span>Ryan stop 04</span><strong>Seljalandsfoss</strong></figcaption>
+          </figure>
+          <figure class="hero-small hero-small-top">
+            <img src="../../../assets/iceland-sep-8-12/fjadrargljufur.jpg" alt="Mossy walls and river at Fjaðrárgljúfur canyon" />
+            <figcaption><span>The three-night edge</span><strong>Fjaðrárgljúfur</strong></figcaption>
+          </figure>
+          <figure class="hero-small hero-small-bottom">
+            <img
+              src="../../../assets/iceland-golden-circle-south-coast-days/day-10-south-coast-weather-buffer.jpg"
+              alt="Icebergs floating in Jökulsárlón glacier lagoon"
+            />
+            <figcaption><span>Unlocked by Sep 12</span><strong>Jökulsárlón</strong></figcaption>
+          </figure>
+          <div class="hero-stamp" aria-hidden="true"><b>KEF</b><span>→</span><b>ICE</b></div>
+        </div>
+      </section>
+
+      <section class="verdict-strip" aria-label="Route verdict">
+        <div><span>The call</span><strong>Four nights is the version worth booking.</strong></div>
+        <p>September 12 buys the glacier day. September 11 means a smart turn at Fjaðrárgljúfur—not a punishing dash to Jökulsárlón.</p>
+        <a href="#options">See both edits <span aria-hidden="true">→</span></a>
+      </section>
+
+      <section class="verdict section-shell" id="verdict" aria-labelledby="verdict-title">
+        <div class="section-kicker">
+          <p class="section-number">01 / THE ROUTE LOGIC</p>
+          <h2 id="verdict-title">Follow the coast.<br /><em>Not the checklist.</em></h2>
+        </div>
+        <div class="verdict-body">
+          <p class="large-copy">
+            Ryan’s video roams the entire island. Your useful slice is much tighter:
+            <strong>Seljalandsfoss → Skógafoss → Reynisfjara → Fjaðrárgljúfur</strong>.
+            Add <strong>Skaftafell and Jökulsárlón</strong> only when the September 12 flight is confirmed.
+          </p>
+          <div class="logic-grid">
+            <article><span>01</span><h3>Move east immediately</h3><p>The arrival day is active. Pick up at KEF, eat en route, and reach the first waterfalls before sleeping near Skógar.</p></article>
+            <article><span>02</span><h3>Let weather reorder</h3><p>Keep the same hotels, but swap beach, canyon, and glacier stops within the open daylight when wind or surf dictates.</p></article>
+            <article><span>03</span><h3>Protect the Europe flight</h3><p>The last Iceland night comes back west. Do not wake at Jökulsárlón and gamble a five-hour airport run.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="options-section" id="options" aria-labelledby="options-title">
+        <div class="section-shell options-head">
+          <div>
+            <p class="section-number section-number-light">02 / PICK THE DEPARTURE</p>
+            <h2 id="options-title">One extra night changes the horizon.</h2>
+          </div>
+          <p>Both versions use a rental car and finish back in Reykjavík or near KEF. The difference is whether the ice-lagoon day is honest or rushed.</p>
+        </div>
+
+        <div class="option-grid section-shell">
+          <article class="option-card">
+            <div class="option-top"><span>Option A</span><b>Depart Sep 11</b></div>
+            <h3>The essential South</h3>
+            <p>Three nights, two changing bases, and a deliberate turnaround at Fjaðrárgljúfur.</p>
+            <dl><div><dt>3</dt><dd>nights</dd></div><div><dt>~635 km</dt><dd>total road</dd></div><div><dt>4</dt><dd>Ryan chapters</dd></div></dl>
+            <ul>
+              <li>Seljalandsfoss + Skógafoss</li>
+              <li>Dyrhólaey + Reynisfjara</li>
+              <li>Fjaðrárgljúfur canyon</li>
+              <li>Reykjadalur only as a dry-weather bonus</li>
+            </ul>
+            <button type="button" class="route-choice" data-route-select="short">Show Sep 8–11 on map <span>→</span></button>
+          </article>
+
+          <article class="option-card recommended">
+            <div class="recommend-label">Recommended</div>
+            <div class="option-top"><span>Option B</span><b>Depart Sep 12</b></div>
+            <h3>The glacier extension</h3>
+            <p>Four nights—the same coast, now with enough time for a managed glacier trail and Jökulsárlón.</p>
+            <dl><div><dt>4</dt><dd>nights</dd></div><div><dt>~900 km</dt><dd>total road</dd></div><div><dt>5</dt><dd>Ryan chapters</dd></div></dl>
+            <ul>
+              <li>Everything in the three-night route</li>
+              <li>Skaftafellsjökull’s signed S1 trail</li>
+              <li>Jökulsárlón + Diamond Beach</li>
+              <li>A full westbound weather-recovery day</li>
+            </ul>
+            <button type="button" class="route-choice active" data-route-select="long">Show Sep 8–12 on map <span>→</span></button>
+          </article>
+        </div>
+      </section>
+
+      <section class="map-section" id="map-plan" aria-labelledby="map-title">
+        <div class="section-shell map-heading">
+          <div>
+            <p class="section-number">03 / INTERACTIVE FIELD MAP</p>
+            <h2 id="map-title">Tap a pin.<br /><em>Keep the details.</em></h2>
+          </div>
+          <div class="map-route-switch" role="group" aria-label="Choose route length">
+            <button type="button" data-route="short" aria-pressed="false">3 nights <span>Sep 8–11</span></button>
+            <button type="button" class="active" data-route="long" aria-pressed="true">4 nights <span>Sep 8–12</span></button>
+          </div>
+        </div>
+
+        <div class="map-shell section-shell">
+          <div class="map-canvas-wrap">
+            <div id="route-map" aria-label="Interactive map of the Iceland South Coast route"></div>
+            <div class="map-legend"><span><i></i> route</span><span><b></b> sleep</span><span>Pin details stay open beside the map</span></div>
+          </div>
+          <aside class="map-detail" id="map-detail" aria-live="polite"></aside>
+        </div>
+
+        <div class="route-summary section-shell" id="route-summary" aria-live="polite"></div>
+        <div class="day-list section-shell" id="day-list"></div>
+      </section>
+
+      <section class="ryan-section" id="ryan-edit" aria-labelledby="ryan-title">
+        <div class="section-shell ryan-heading">
+          <div>
+            <p class="section-number section-number-light">04 / THE RYAN SHIRLEY EDIT</p>
+            <h2 id="ryan-title">What makes the cut.<br /><em>What waits.</em></h2>
+          </div>
+          <p>
+            The source film is a nationwide top ten, not a four-day itinerary. This is the practical edit for your dates, family rhythm, and onward flight.
+          </p>
+        </div>
+
+        <div class="video-lead section-shell">
+          <a class="video-frame" href="https://www.youtube.com/watch?v=iBSbD_7bvE8" target="_blank" rel="noreferrer" aria-label="Watch Ryan Shirley's Top 10 Places to Visit in Iceland on YouTube">
+            <img src="../../../assets/iceland-sep-8-12/dyrholaey.jpg" alt="Dyrhólaey sea arch above the Atlantic" />
+            <span class="play-button" aria-hidden="true">▶</span>
+            <div><small>Source film · 10:49</small><strong>Ryan Shirley: Top 10 Places to Visit in Iceland</strong></div>
+          </a>
+          <div class="video-note">
+            <span>The useful insight</span>
+            <p>Ryan spends nearly two straight minutes on the same South Coast line you can actually drive: Seljalandsfoss, Skógafoss, Reynisfjara, and Fjaðrárgljúfur—then continues into the glaciers.</p>
+            <a href="https://www.youtube.com/watch?v=iBSbD_7bvE8&amp;t=199s" target="_blank" rel="noreferrer">Start at Seljalandsfoss · 3:19 ↗</a>
+          </div>
+        </div>
+
+        <div class="chapter-grid section-shell">
+          <article class="chapter-card yes"><span>Build around it · 3:19–5:53</span><h3>South Coast + glaciers</h3><p>Five of the film’s most photogenic ideas sit on one paved eastbound line. This is the trip.</p><a href="https://www.youtube.com/watch?v=iBSbD_7bvE8&amp;t=199s" target="_blank" rel="noreferrer">Watch chapter ↗</a></article>
+          <article class="chapter-card maybe"><span>Optional swap · 1:41</span><h3>Reykjadalur</h3><p>Ryan calls the warm river worth the long uphill hike. Keep it as a dry, low-wind bonus—carrier only, not a fixed promise.</p><a href="https://www.youtube.com/watch?v=iBSbD_7bvE8&amp;t=101s" target="_blank" rel="noreferrer">Watch chapter ↗</a></article>
+          <article class="chapter-card no"><span>Save · 0:28 + 2:14</span><h3>Highlands + Þórsmörk</h3><p>F-roads, river crossings, specialized vehicles, and a full adventure day. Spectacular, but wrong for this short infant-paced leg.</p><a href="https://www.youtube.com/watch?v=iBSbD_7bvE8&amp;t=28s" target="_blank" rel="noreferrer">Watch chapter ↗</a></article>
+          <article class="chapter-card no"><span>Save · 5:53 onward</span><h3>Stokksnes, east, north + Snæfellsnes</h3><p>Every one pulls the route another half-day or more away from KEF. They belong in a longer Ring Road or west-coast trip.</p><a href="https://www.youtube.com/watch?v=iBSbD_7bvE8&amp;t=353s" target="_blank" rel="noreferrer">Watch chapter ↗</a></article>
+        </div>
+      </section>
+
+      <section class="gallery-section" aria-labelledby="gallery-title">
+        <div class="section-shell gallery-heading">
+          <p class="section-number">05 / THE PAYOFF</p>
+          <h2 id="gallery-title">The landscapes arrive in layers.</h2>
+        </div>
+        <div class="photo-grid section-shell">
+          <figure class="photo-large"><img src="../../../assets/iceland-golden-circle-south-coast-days/day-08-skogafoss-and-reynisfjara-viewing-day.jpg" alt="Skógafoss dropping into a broad gravel basin" loading="lazy" /><figcaption><span>60 meters of water</span><strong>Skógafoss</strong></figcaption></figure>
+          <figure><img src="../../../assets/iceland-sep-8-12/dyrholaey.jpg" alt="Dyrhólaey rock arch and ocean" loading="lazy" /><figcaption><span>Cliff-road reveal</span><strong>Dyrhólaey</strong></figcaption></figure>
+          <figure><img src="../../../assets/iceland-golden-circle-south-coast-days/day-09-jokulsarlon-decision-or-vik-slow-day.jpg" alt="Black sand and surf at Reynisfjara" loading="lazy" /><figcaption><span>Look, do not play</span><strong>Reynisfjara</strong></figcaption></figure>
+          <figure class="photo-wide"><img src="../../../assets/iceland-sep-8-12/fjadrargljufur.jpg" alt="River winding through Fjaðrárgljúfur canyon" loading="lazy" /><figcaption><span>The natural turnaround</span><strong>Fjaðrárgljúfur</strong></figcaption></figure>
+          <figure><img src="../../../assets/iceland-sep-8-12/svinafellsjokull.jpg" alt="Dark-striped outlet glacier in southeast Iceland" loading="lazy" /><figcaption><span>Ryan’s ice chapter</span><strong>Vatnajökull outlet ice</strong></figcaption></figure>
+          <figure><img src="../../../assets/iceland-golden-circle-south-coast-days/day-10-south-coast-weather-buffer.jpg" alt="Icebergs in Jökulsárlón glacier lagoon" loading="lazy" /><figcaption><span>Four-night reward</span><strong>Jökulsárlón</strong></figcaption></figure>
+        </div>
+      </section>
+
+      <section class="field-section" id="field-notes" aria-labelledby="field-title">
+        <div class="section-shell field-layout">
+          <div>
+            <p class="section-number">06 / FAMILY FIELD NOTES</p>
+            <h2 id="field-title">The car is easy.<br /><em>The wind is the variable.</em></h2>
+            <p class="field-lede">This is a carrier-first trip. The main viewpoints are short, but spray, gravel, stairs, and exposed cliff paths make a stroller a secondary tool.</p>
+          </div>
+          <div class="field-grid">
+            <article><span>Car</span><h3>One KEF rental, full leg</h3><p>A regular vehicle covers this paved core route. Choose an automatic with room for luggage and a child seat; add AWD for comfort, not because this plan uses F-roads.</p></article>
+            <article><span>Waterfalls</span><h3>Stay dry when it matters</h3><p>Seljalandsfoss’s behind-the-fall path and Gljúfrabúi can be very wet and slippery. With a baby, the front views are still excellent; skip the wet loop in wind.</p></article>
+            <article class="safety"><span>Black beach</span><h3>Obey the light, stay high</h3><p>At Reynisfjara, keep the child held, stay far above the waterline, never turn your back on the sea, and do not enter if the warning is red.</p><a href="https://www.visiticeland.com/article/reynisfjara-black-sand-beach-is-dangerous/" target="_blank" rel="noreferrer">Official warning ↗</a></article>
+            <article><span>Blue Lagoon</span><h3>Not a family stop under age two</h3><p>The lagoon’s minimum age is two. If your child is still under two, only an adult split works—and it is not strong enough to displace a South Coast day.</p><a href="https://support.bluelagoon.com/hc/en-us/articles/360005870937-What-is-the-minimum-age-for-using-the-Blue-Lagoon" target="_blank" rel="noreferrer">Age policy ↗</a></article>
+            <article><span>Glacier</span><h3>Use the managed trail</h3><p>Ryan filmed Svínafellsjökull. For this plan, use Skaftafell’s signed S1 glacier trail: 4.1 km, roughly 1–1½ hours, rated easy by the park.</p><a href="https://www.vatnajokulsthjodgardur.is/en/areas/skaftafell" target="_blank" rel="noreferrer">Park trail list ↗</a></article>
+            <article><span>Every morning</span><h3>Roads first, weather second</h3><p>Check the Icelandic Road Administration and SafeTravel before leaving. If wind closes the plan, move the coast day rather than racing the forecast.</p><a href="https://umferdin.is/en" target="_blank" rel="noreferrer">Live road map ↗</a></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking-section" aria-labelledby="booking-title">
+        <div class="section-shell booking-layout">
+          <div>
+            <p class="section-number section-number-light">07 / WHAT TO HOLD</p>
+            <h2 id="booking-title">Book the spine.<br /><em>Leave the hours loose.</em></h2>
+          </div>
+          <ol>
+            <li><span>01</span><div><strong>Confirm Sep 11 vs Sep 12 flight</strong><p>That single decision determines whether Jökulsárlón is in or out.</p></div></li>
+            <li><span>02</span><div><strong>Reserve KEF car + child seat</strong><p>Pickup on the morning of September 8; return before the Europe flight.</p></div></li>
+            <li><span>03</span><div><strong>Hold west-to-east lodging</strong><p>Night 1 near Skógar/Hvolsvöllur; middle nights in Vík or Kirkjubæjarklaustur; final night Reykjavík/KEF.</p></div></li>
+            <li><span>04</span><div><strong>Re-check one week out</strong><p>Use live road, wind, and surf information to settle the order—not to add more geography.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="sources section-shell" aria-labelledby="sources-title">
+        <p class="section-number">08 / SOURCES + IMAGE CREDITS</p>
+        <h2 id="sources-title">The film inspires it. Current field guidance controls it.</h2>
+        <div class="source-grid">
+          <article><strong>Ryan Shirley</strong><p>Top 10 Places to Visit in Iceland; chapter list and location sequence used for the route edit.</p><a href="https://www.youtube.com/watch?v=iBSbD_7bvE8" target="_blank" rel="noreferrer">Watch on YouTube ↗</a></article>
+          <article><strong>Visit Iceland</strong><p>Official South Coast overview and current warning guidance for Reynisfjara.</p><a href="https://www.visiticeland.com/article/the-south-coast/" target="_blank" rel="noreferrer">South Coast ↗</a><a href="https://www.visiticeland.com/article/reynisfjara-black-sand-beach-is-dangerous/" target="_blank" rel="noreferrer">Beach warning ↗</a></article>
+          <article><strong>Vatnajökull National Park</strong><p>Official access, current route lengths, trail difficulty, and visitor information for Skaftafell.</p><a href="https://www.vatnajokulsthjodgardur.is/en/areas/skaftafell" target="_blank" rel="noreferrer">Skaftafell ↗</a></article>
+          <article><strong>Live conditions</strong><p>Road Administration conditions plus the Blue Lagoon’s current minimum-age policy.</p><a href="https://umferdin.is/en" target="_blank" rel="noreferrer">Roads ↗</a><a href="https://support.bluelagoon.com/hc/en-us/articles/360005870937-What-is-the-minimum-age-for-using-the-Blue-Lagoon" target="_blank" rel="noreferrer">Lagoon age ↗</a></article>
+        </div>
+        <p class="credit-note">
+          New photography: Fjaðrárgljúfur by Jon Flobrant (CC0), Dyrhólaey by Diego Delso (CC BY-SA 4.0), Svínafellsjökull by Bromr (CC BY-SA 3.0), and Reykjadalur by Jakub Hałun (CC BY-SA 4.0), via Wikimedia Commons.
+          <a href="https://commons.wikimedia.org/wiki/File:Fja%C3%B0r%C3%A1rglj%C3%BAfur_(Unsplash).jpg" target="_blank" rel="noreferrer">Canyon</a> ·
+          <a href="https://commons.wikimedia.org/wiki/File:Dyrh%C3%B3laey,_Su%C3%B0urland,_Islandia,_2014-08-17,_DD_140.jpg" target="_blank" rel="noreferrer">Dyrhólaey</a> ·
+          <a href="https://commons.wikimedia.org/wiki/File:Sv%C3%ADnafellsj%C3%B6kull.JPG" target="_blank" rel="noreferrer">Glacier</a> ·
+          <a href="https://commons.wikimedia.org/wiki/File:Reykjadalur_Valley,_Iceland,_20230502_1406_4226.jpg" target="_blank" rel="noreferrer">Reykjadalur</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div><span>Iceland field plan</span><strong>September 8–11 or 12, 2026</strong></div>
+      <div><a href="../">Back to the full Iceland + Alps route</a><a href="../../../">Trip Planning HQ</a></div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="./iceland.js?v=1"></script>
+  </body>
+</html>
