@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#102729" />
+    <meta name="description" content="A price-checked shortlist of memorable Iceland stays around Keflavík, Reykjavík and the South Coast for September 8–12, 2026." />
+    <title>Iceland Stay Shortlist · Sep 8–12, 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./stays.css?v=2" />
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script defer src="./stays.js?v=2"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <nav aria-label="Page navigation"><a href="../iceland-sep-8-12/">← Iceland ideas</a><a href="#route">Route</a><a href="#shortlist">Stays</a><a href="#map-section">Map</a></nav>
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Iceland · Sep 8–12, 2026 · 2 adults + infant</p>
+          <h1>Sleep somewhere<br /><em>worth remembering.</em></h1>
+          <p>Cool, location-smart stays around Keflavík, Reykjavík and the South Coast—screened around a $500 nightly ceiling.</p>
+          <a class="button" href="#shortlist">Explore the shortlist ↓</a>
+        </div>
+        <aside class="fast-answer">
+          <p class="eyebrow">The fast answer</p>
+          <ol>
+            <li><span>Sep 8 · Reykjavík</span><strong>Reykjavík Marina</strong><b>$248</b></li>
+            <li><span>Sep 9 · South Coast</span><strong>Black Sand Hotel</strong><b>$442</b></li>
+            <li><span>Sep 10 · Far south</span><strong>Hunkubakkar</strong><b>$248</b></li>
+          </ol>
+          <p class="micro">Exact target-night snapshots found Aug 18. Prices can move.</p>
+        </aside>
+      </div>
+      <div class="zone-strip">
+        <article><span>01 · AIRPORT</span><strong>Marina calm + rooftop heat</strong><p>The painless first or final night.</p></article>
+        <article><span>02 · REYKJAVÍK</span><strong>Harbor character</strong><p>Walkable city stays with a point of view.</p></article>
+        <article><span>03 · SOUTH COAST</span><strong>Black sand at the window</strong><p>Sleep inside the landscape.</p></article>
+      </div>
+    </header>
+
+    <main>
+      <section class="shell availability-note">
+        <div><p class="eyebrow">Read this first</p><h2>Price checked,<br />with honest labels.</h2></div>
+        <div class="legend-copy">
+          <p><span class="dot exact"></span><strong>Exact date seen</strong> means a Sep 8, 9 or 10 target-night result surfaced for this search.</p>
+          <p><span class="dot recheck"></span><strong>Recheck target date</strong> means the current price benchmark fits, but the Sep 11 checkout night still needs confirmation.</p>
+          <p class="micro">Rates shown are snapshots for one room. Confirm taxes, cancellation terms, crib availability and occupancy before paying.</p>
+        </div>
+      </section>
+
+      <section class="route" id="route">
+        <div class="shell">
+          <p class="eyebrow">One clean four-night hold</p>
+          <div class="section-heading"><h2>City → black sand → canyon → airport.</h2><div><strong>≈ $1,320 total</strong><span>≈ $330 / night</span></div></div>
+          <div class="route-grid">
+            <article><span>SEP 8</span><b>01</b><h3>Reykjavík Marina</h3><p>Land, settle into the Old Harbour, walk to dinner.</p><strong>$248</strong></article>
+            <article><span>SEP 9</span><b>02</b><h3>Black Sand Hotel</h3><p>Design-forward beachfront base near Selfoss.</p><strong>$442</strong></article>
+            <article><span>SEP 10</span><b>03</b><h3>Hunkubakkar</h3><p>Farm cottages beside Fjaðrárgljúfur country.</p><strong>$248</strong></article>
+            <article><span>SEP 11</span><b>04</b><h3>Hotel Berg</h3><p>Warm rooftop pool and an easy KEF departure.</p><strong>≈ $382*</strong></article>
+          </div>
+          <p class="micro route-caveat">* Hotel Berg is a current direct-price benchmark; confirm the Sep 11 target night.</p>
+        </div>
+      </section>
+
+      <section class="shell shortlist" id="shortlist">
+        <p class="eyebrow">The shortlist</p>
+        <div class="section-heading"><h2>Six stays with a reason to choose them.</h2><div class="filters" role="group" aria-label="Filter stays"><button class="active" data-filter="all">All</button><button data-filter="airport">Airport</button><button data-filter="city">Reykjavík</button><button data-filter="south">South</button></div></div>
+        <div class="stay-grid" id="stay-grid"></div>
+      </section>
+
+      <section class="map-wrap" id="map-section">
+        <div class="shell map-heading"><div><p class="eyebrow">See the geography</p><h2>A route, not a hotel pile.</h2></div><p>Click a stay to locate it. The suggested four-night flow moves east, then returns toward KEF for a low-friction flight day.</p></div>
+        <div class="map-layout"><div id="map" aria-label="Map of Iceland stays"></div><div class="map-list" id="map-list"></div></div>
+      </section>
+
+      <section class="shell compare">
+        <p class="eyebrow">Side by side</p><div class="section-heading"><h2>Pick by feeling—or by logistics.</h2></div>
+        <div class="table-scroll"><table><thead><tr><th>Stay</th><th>Zone</th><th>Price found</th><th>Status</th><th>Why it wins</th><th>Watch-out</th></tr></thead><tbody id="comparison-body"></tbody></table></div>
+      </section>
+
+      <section class="decision"><div class="shell decision-grid"><div><p class="eyebrow">Booking order</p><h2>Hold these three first.</h2></div><ol><li><b>Black Sand Hotel</b><span>The newest, most cinematic option—and the closest to the ceiling.</span></li><li><b>Hunkubakkar</b><span>Best value/location combination for the far-south night.</span></li><li><b>Reykjavík Marina</b><span>A strong direct rate in the part of town you actually want to walk.</span></li></ol></div></section>
+    </main>
+
+    <footer><div><strong>Iceland stay shortlist</strong><span>Research snapshot: August 18, 2026</span></div><div><a href="../iceland-sep-8-12/">Iceland ideas</a><a href="../../../">Trip Planning HQ</a></div></footer>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+const assetRoot = "../../../assets/iceland-stays-sep-8-12/";
+
+const stays = [
+  {id:"berg",name:"Hotel Berg",zone:"airport",zoneLabel:"Airport",location:"Keflavík · about 5–10 min from KEF",price:"≈ $382",rate:"current direct benchmark",status:"recheck",statusLabel:"Recheck Sep 11",coords:[64.002,-22.557],images:["berg-pool.jpg","berg-room.jpg"],why:"A tiny-harbor setting, rooftop warm pool and easy airport logistics make this the best final-night splurge.",best:"Departure night",baby:"Confirm crib + room",catch:"Target night not locked",site:"https://www.hotelberg.is/en/index.html",book:"https://app.thebookingfactory.com/hotel-berg/book/#/choose-dates"},
+  {id:"lighthouse",name:"Lighthouse Inn",zone:"airport",zoneLabel:"Airport",location:"Garður · about 15–20 min from KEF",price:"≈ $252",rate:"current direct benchmark",status:"recheck",statusLabel:"Recheck dates",coords:[64.082,-22.690],images:["lighthouse-exterior.jpg","lighthouse-room.jpg"],why:"A quiet coastal alternative near two lighthouses—more Icelandic atmosphere than an airport chain.",best:"Quiet first/final night",baby:"Ask for crib",catch:"Car is useful",site:"https://www.lighthouseinn.is/",book:"https://app.thebookingfactory.com/lighthouseinn/book#/"},
+  {id:"marina",name:"Reykjavík Marina",zone:"city",zoneLabel:"Reykjavík",location:"Old Harbour · walkable center",price:"$248",rate:"Sep 8–9 direct total",status:"exact",statusLabel:"Exact date seen",coords:[64.151,-21.950],images:["marina-hero.jpg"],why:"Playful harbor design and the right doorstep for a short Reykjavík night: food, boats and downtown on foot.",best:"Harbor character",baby:"Confirm crib",catch:"Room sizes vary",site:"https://www.icelandhotelcollectionbyberjaya.com/en/hotels/reykjavik/reykjavik-marina",book:"https://www.icelandhotelcollectionbyberjaya.com/en/hotels/reykjavik/reykjavik-marina"},
+  {id:"sand",name:"Sand Hotel",zone:"city",zoneLabel:"Reykjavík",location:"Laugavegur · central Reykjavík",price:"$391–463",rate:"Sep 8–9 snapshots",status:"exact",statusLabel:"Exact date seen",coords:[64.145,-21.925],images:["sand-exterior.jpg","sand-room.jpg"],why:"The polished boutique choice right on Laugavegur when a refined room matters more than harbor personality.",best:"Design + shopping",baby:"Confirm room type",catch:"Near the budget cap",site:"https://www.keahotels.is/en/hotels/sand-hotel",book:"https://www.keahotels.is/sand-hotel/book?currency=USD&from=2026-09-08&to=2026-09-09&rooms=2%2C0%2C0"},
+  {id:"black-sand",name:"Black Sand Hotel",zone:"south",zoneLabel:"South Coast",location:"Ölfus · beachfront near Selfoss",price:"$442",rate:"Sep 8–9 total",status:"exact",statusLabel:"Exact date seen",coords:[63.858,-21.246],images:["black-sand-hero.webp","black-sand-room.jpg"],why:"A new, cinematic beachfront hotel for 2026. The boldest design stay that still landed below the $500 ceiling.",best:"Ocean + architecture",baby:"Confirm crib",catch:"Limited nearby dining",site:"https://www.blacksandhotel.is/",book:"https://book.blacksandhotel.is/accommodation"},
+  {id:"hunkubakkar",name:"Hunkubakkar",zone:"south",zoneLabel:"Far South",location:"Kirkjubæjarklaustur · near Fjaðrárgljúfur",price:"$248",rate:"Sep 9–10 family room",status:"exact",statusLabel:"Exact date seen",coords:[63.7694,-18.1303],images:["hunku-exterior.jpg","hunku-room.jpg"],why:"Simple cottages on a working farm, local lamb at dinner and an unusually good position for canyon country.",best:"Farm atmosphere",baby:"Family room surfaced",catch:"Rustic, not luxe",site:"https://www.heyiceland.is/accommodation/detail/762/hunkubakkar",book:"https://www.heyiceland.is/accommodation/detail/762/hunkubakkar"}
+];
+
+const routeIds=["marina","black-sand","hunkubakkar","berg"];
+const grid=document.querySelector("#stay-grid");
+const mapList=document.querySelector("#map-list");
+const comparison=document.querySelector("#comparison-body");
+const imageMarkup=stay=>stay.images.map((image,index)=>`<img src="${assetRoot}${image}" alt="${index?"Room at":"View of"} ${stay.name}" loading="lazy" />`).join("");
+
+function card(stay){return `<article class="stay-card" data-zone="${stay.zone}"><div class="stay-gallery">${imageMarkup(stay)}</div><div class="stay-card-body"><div class="stay-top"><span class="stay-zone">${stay.zoneLabel}</span><span class="status ${stay.status}">${stay.statusLabel}</span></div><h3>${stay.name}</h3><span class="location">${stay.location}</span><div class="price-line"><strong>${stay.price}</strong><span>${stay.rate}</span></div><p>${stay.why}</p><div class="facts"><span><strong>Best for</strong>${stay.best}</span><span><strong>With a baby</strong>${stay.baby}</span></div><div class="card-links"><a href="${stay.site}" target="_blank" rel="noreferrer">Official site ↗</a><a href="${stay.book}" target="_blank" rel="noreferrer">Check dates ↗</a></div></div></article>`}
+grid.innerHTML=stays.map(card).join("");
+comparison.innerHTML=stays.map(stay=>`<tr><td>${stay.name}</td><td>${stay.zoneLabel}</td><td><strong>${stay.price}</strong><br>${stay.rate}</td><td>${stay.statusLabel}</td><td>${stay.best}</td><td>${stay.catch}</td></tr>`).join("");
+
+document.querySelectorAll(".filters button").forEach(button=>button.addEventListener("click",()=>{document.querySelectorAll(".filters button").forEach(item=>item.classList.remove("active"));button.classList.add("active");const filter=button.dataset.filter;document.querySelectorAll(".stay-card").forEach(item=>item.hidden=filter!=="all"&&item.dataset.zone!==filter)}));
+
+if(window.L){
+  const map=L.map("map",{scrollWheelZoom:false}).setView([64.22,-20.2],7);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+  const markers={};
+  stays.forEach((stay,index)=>{const marker=L.marker(stay.coords).addTo(map).bindPopup(`<h4>${stay.name}</h4><p>${stay.zoneLabel} · ${stay.price}</p>`);markers[stay.id]=marker;mapList.insertAdjacentHTML("beforeend",`<button data-id="${stay.id}"><b>${String(index+1).padStart(2,"0")}</b><span><strong>${stay.name}</strong>${stay.location}</span><em>${stay.price}</em></button>`)});
+  const route=routeIds.map(id=>stays.find(stay=>stay.id===id).coords);
+  L.polyline(route,{color:"#d35f42",weight:3,opacity:.8,dashArray:"7 8"}).addTo(map);
+  map.fitBounds(L.latLngBounds(stays.map(stay=>stay.coords)).pad(.12));
+  mapList.addEventListener("click",event=>{const button=event.target.closest("button");if(!button)return;mapList.querySelectorAll("button").forEach(item=>item.classList.remove("active"));button.classList.add("active");const marker=markers[button.dataset.id];map.setView(marker.getLatLng(),10);marker.openPopup()});
+}
