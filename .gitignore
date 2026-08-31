@@ -1,4 +1,6 @@
 .DS_Store
 .tmp/
 *.log
-
+.tmp-assets/
+app/research/austria-arrival-options/frankfurt/
+app/research/austria-arrival-options/publish/

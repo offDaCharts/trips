@@ -1,0 +1,143 @@
+:root {
+  --ink: #17201c;
+  --forest: #203d31;
+  --moss: #577264;
+  --cream: #f4efe5;
+  --paper: #fbf9f4;
+  --line: #d8d4ca;
+  --clay: #a85f43;
+  --gold: #d4a14a;
+  --white: #fff;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--ink); background: var(--paper); font-family: "DM Sans", sans-serif; }
+a { color: inherit; }
+.route-hero {
+  min-height: 72vh;
+  padding: 26px clamp(20px, 6vw, 92px) 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+.munich .route-hero { background-image: linear-gradient(90deg, rgba(12,31,24,.9), rgba(12,31,24,.3)), url("./assets/wolfgangsee.jpg"); }
+.frankfurt .route-hero { background-image: linear-gradient(90deg, rgba(27,29,22,.9), rgba(27,29,22,.24)), url("./assets/salzburg.jpg"); }
+.paris .route-hero { background-image: linear-gradient(90deg, rgba(25,25,24,.9), rgba(25,25,24,.28)), url("./assets/palais-garnier.jpg"); }
+.nav { display: flex; justify-content: space-between; align-items: center; gap: 22px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; }
+.nav a { text-decoration: none; }
+.route-label { color: #f2c56f; }
+.hero-content { max-width: 920px; margin: 11vh 0 7vh; }
+.eyebrow { margin: 0 0 13px; color: var(--clay); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; }
+.route-hero .eyebrow { color: #f2c56f; }
+h1, h2, h3 { font-family: "Playfair Display", serif; font-weight: 600; }
+h1 { margin: 0; max-width: 900px; font-size: clamp(54px, 9vw, 116px); line-height: .87; letter-spacing: -.055em; }
+.hero-deck { max-width: 680px; margin: 25px 0 0; color: rgba(255,255,255,.8); font-size: clamp(18px, 2vw, 24px); line-height: 1.45; }
+.flight-ticket { display: grid; grid-template-columns: 1.1fr 1fr 1fr .8fr; gap: 1px; background: rgba(255,255,255,.28); backdrop-filter: blur(12px); }
+.flight-ticket div { min-height: 92px; padding: 18px; background: rgba(15,34,26,.65); }
+.flight-ticket span, .flight-ticket strong, .flight-ticket small { display: block; }
+.flight-ticket span { color: rgba(255,255,255,.6); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; }
+.flight-ticket strong { margin-top: 8px; font-size: 21px; }
+.flight-ticket small { margin-top: 3px; color: rgba(255,255,255,.68); }
+main { padding: 70px clamp(18px, 5vw, 74px) 90px; }
+.summary-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 28px; }
+.summary-copy { padding-right: 6vw; }
+.summary-copy h2, .section-heading h2 { margin: 0; font-size: clamp(38px, 5.5vw, 70px); line-height: .98; letter-spacing: -.035em; }
+.summary-copy > p:last-child { color: #5e6862; font-size: 18px; line-height: 1.7; }
+.scorecard { border-top: 4px solid var(--forest); background: white; box-shadow: 0 20px 50px rgba(28,43,35,.09); }
+.scorecard div { display: grid; grid-template-columns: 1fr auto; gap: 18px; padding: 18px 22px; border-bottom: 1px solid var(--line); }
+.scorecard span { color: #69726d; }
+.scorecard strong { text-align: right; }
+.quick-plan { margin-top: 54px; padding: clamp(24px,4vw,42px); color: white; background: var(--forest); }
+.quick-plan-heading { display: flex; align-items: end; justify-content: space-between; gap: 28px; margin-bottom: 24px; }
+.quick-plan-heading h2 { margin: 0; font-size: clamp(32px,4.5vw,58px); line-height: .98; }
+.quick-plan-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 1px; background: rgba(255,255,255,.2); }
+.quick-plan-grid article { min-height: 148px; padding: 20px; background: rgba(13,35,27,.82); }
+.quick-plan-grid span,.quick-plan-grid strong,.quick-plan-grid small { display: block; }
+.quick-plan-grid span { color: #f2c56f; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; }
+.quick-plan-grid strong { margin-top: 12px; font-size: 18px; line-height: 1.25; }
+.quick-plan-grid small { margin-top: 8px; color: rgba(255,255,255,.67); line-height: 1.45; }
+.section { margin-top: 80px; }
+.section-heading { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 24px; }
+.section-heading > p { max-width: 430px; margin: 0; color: #68716c; line-height: 1.55; }
+.timeline { border-top: 1px solid var(--line); }
+.day { display: grid; grid-template-columns: 120px 1fr; gap: 34px; padding: 34px 0; border-bottom: 1px solid var(--line); }
+.day-date strong, .day-date span { display: block; }
+.day-date strong { color: var(--clay); font-size: 24px; }
+.day-date span { margin-top: 4px; color: #7a817d; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
+.day h3 { margin: 0 0 13px; font-size: clamp(27px, 3vw, 40px); line-height: 1.05; }
+.day p { max-width: 840px; margin: 0; color: #5e6762; font-size: 16px; line-height: 1.65; }
+.schedule { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 17px; }
+.schedule span { padding: 7px 9px; border: 1px solid var(--line); background: white; color: #414a45; font-size: 12px; }
+.visual-timeline { display: grid; gap: 24px; }
+.visual-day { display: grid; grid-template-columns: minmax(280px,.72fr) minmax(0,1.28fr); min-height: 350px; overflow: hidden; border: 1px solid var(--line); background: white; box-shadow: 0 18px 44px rgba(28,43,35,.08); }
+.visual-day > img { width: 100%; height: 100%; min-height: 350px; object-fit: cover; }
+.visual-day-copy { padding: clamp(24px,4vw,46px); align-self: center; }
+.visual-day-copy h3 { margin: 12px 0 14px; font-size: clamp(30px,3.5vw,48px); line-height: 1.02; }
+.visual-day-copy p { margin: 0; color: #5e6762; font-size: 16px; line-height: 1.65; }
+.visual-day.optional { border-style: dashed; background: #f6f2e9; }
+.map-shell { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(260px, .65fr); min-height: 550px; border: 1px solid var(--line); background: white; box-shadow: 0 20px 50px rgba(28,43,35,.1); }
+#route-map { min-height: 550px; background: #dfe7df; }
+#city-map { min-height: 480px; background: #dfe7df; }
+.map-shell.compact { min-height: 480px; }
+.map-list { padding: 26px; }
+.map-list h3 { margin: 0 0 20px; font-size: 28px; }
+.map-list ol { margin: 0; padding: 0; list-style: none; }
+.map-list li { display: grid; grid-template-columns: 30px 1fr; gap: 11px; padding: 13px 0; border-bottom: 1px solid var(--line); }
+.map-list b { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--forest); color: white; font-size: 12px; }
+.map-list strong, .map-list small { display: block; }
+.map-list small { margin-top: 2px; color: #7b827e; }
+.leaflet-div-icon { border: 0 !important; background: transparent !important; }
+.map-marker { display: grid; place-items: center; width: 30px; height: 30px; border: 2px solid white; border-radius: 50%; background: var(--forest); color: white; font: 700 12px/1 "DM Sans", sans-serif; box-shadow: 0 3px 12px rgba(0,0,0,.28); }
+.cost-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.cost-card { padding: 26px; border: 1px solid var(--line); background: white; }
+.cost-card.featured { color: white; background: var(--forest); border-color: var(--forest); }
+.cost-card span { color: #717975; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; }
+.cost-card.featured span { color: rgba(255,255,255,.62); }
+.cost-card strong { display: block; margin-top: 12px; font: 600 clamp(34px, 5vw, 56px)/1 "Playfair Display", serif; }
+.cost-card p { margin: 13px 0 0; color: #68706c; line-height: 1.5; }
+.cost-card.featured p { color: rgba(255,255,255,.7); }
+.evidence-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; }
+.evidence-grid.single { grid-template-columns: minmax(0,980px); }
+.evidence-grid figure { margin: 0; overflow: hidden; border: 1px solid var(--line); background: white; box-shadow: 0 18px 44px rgba(28,43,35,.08); }
+.evidence-grid img { display: block; width: 100%; aspect-ratio: 16/7; object-fit: cover; object-position: top; }
+.evidence-grid figcaption { padding: 15px 17px; color: #59635e; font-size: 13px; line-height: 1.45; }
+.stay-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.stay-card { min-height: 230px; padding: 24px; border: 1px solid var(--line); background: white; display: flex; flex-direction: column; }
+.stay-card h3 { margin: 0; font-size: 27px; }
+.stay-card p { color: #66706a; line-height: 1.55; }
+.stay-card a { margin-top: auto; font-weight: 700; color: var(--clay); }
+.caution { margin-top: 70px; padding: 28px; border-left: 5px solid var(--gold); background: #f0e8d8; }
+.caution h3 { margin: 0 0 9px; font-size: 26px; }
+.caution p { margin: 0; max-width: 900px; color: #5f625e; line-height: 1.6; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 60px; }
+.button { padding: 14px 18px; background: var(--forest); color: white; text-decoration: none; font-weight: 700; }
+.button.secondary { border: 1px solid var(--forest); color: var(--forest); background: transparent; }
+footer { display: flex; justify-content: space-between; gap: 24px; padding: 24px clamp(18px, 5vw, 74px); border-top: 1px solid var(--line); color: #717975; font-size: 12px; }
+footer p { margin: 0; }
+footer a { color: var(--forest); font-weight: 700; }
+@media (max-width: 850px) {
+  .flight-ticket { grid-template-columns: 1fr 1fr; }
+  .summary-grid, .map-shell { grid-template-columns: 1fr; }
+  #route-map { min-height: 420px; }
+  .stay-grid { grid-template-columns: 1fr; }
+  .quick-plan-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 620px) {
+  .route-hero { min-height: 760px; }
+  .nav .route-label { display: none; }
+  .flight-ticket { grid-template-columns: 1fr; }
+  .flight-ticket div { min-height: auto; }
+  .section-heading { display: block; }
+  .quick-plan-heading { display: block; }
+  .quick-plan-grid { grid-template-columns: 1fr; }
+  .section-heading > p { margin-top: 14px; }
+  .day { grid-template-columns: 1fr; gap: 14px; }
+  .visual-day { grid-template-columns: 1fr; }
+  .visual-day > img { min-height: 240px; height: 240px; }
+  .evidence-grid { grid-template-columns: 1fr; }
+  .cost-grid { grid-template-columns: 1fr; }
+  footer { flex-direction: column; }
+}
