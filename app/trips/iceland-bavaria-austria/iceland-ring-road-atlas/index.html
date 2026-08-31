@@ -10,13 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="./atlas.css?v=1" />
+    <link rel="stylesheet" href="./atlas.css?v=2" />
   </head>
   <body>
     <a class="skip-link" href="#atlas">Skip to the map</a>
     <header class="topbar">
       <a class="brand" href="../"><span>RI</span> Ryan / Iceland</a>
-      <nav aria-label="Page navigation"><a href="#atlas">Map</a><a href="#chapters">Chapters</a><a href="#scale">Trip lengths</a><a href="#reality">Reality check</a></nav>
+      <nav aria-label="Page navigation"><a href="#atlas">Map</a><a href="#deep-dives">Deep dives</a><a href="#chapters">Chapters</a><a href="#scale">Trip lengths</a></nav>
       <a class="hub-link" href="../../../">Trip HQ ↗</a>
     </header>
 
@@ -63,13 +63,22 @@
         <div class="section-shell region-rail" id="region-rail"></div>
       </section>
 
+      <section class="deep-dive-section" id="deep-dives" aria-labelledby="deep-dive-title">
+        <div class="section-shell deep-dive-heading">
+          <div><p class="section-number light">03 / SOUTH + HIGHLANDS DETAIL</p><h2 id="deep-dive-title">Nine pins.<br /><em>A much closer look.</em></h2></div>
+          <p>The first nine locations from the map now have their own photo stories and practical visit breakdowns. Use the index to jump directly to one place.</p>
+        </div>
+        <nav class="section-shell deep-dive-index" id="deep-dive-index" aria-label="Jump to a detailed location"></nav>
+        <div class="deep-dive-list" id="deep-dive-list"></div>
+      </section>
+
       <section class="chapter-section" id="chapters" aria-labelledby="chapter-title">
-        <div class="section-shell chapter-heading"><div><p class="section-number">03 / ALL TEN CHAPTERS</p><h2 id="chapter-title">The film, put back into geography.</h2></div><p>Each chapter opens its full stop list. Use “show on map” to isolate that region and compare it with the rest of the island.</p></div>
+        <div class="section-shell chapter-heading"><div><p class="section-number">04 / ALL TEN CHAPTERS</p><h2 id="chapter-title">The film, put back into geography.</h2></div><p>Each chapter opens its full stop list. Use “show on map” to isolate that region and compare it with the rest of the island.</p></div>
         <div class="section-shell chapter-list" id="chapter-list"></div>
       </section>
 
       <section class="scale-section" id="scale" aria-labelledby="scale-title">
-        <div class="section-shell scale-heading"><div><p class="section-number light">04 / THE TIME LADDER</p><h2 id="scale-title">How much Iceland does each trip buy?</h2></div><p>The full video is not a four-day Ring Road. This ladder shows where the route changes from a windshield marathon into a trip.</p></div>
+        <div class="section-shell scale-heading"><div><p class="section-number light">05 / THE TIME LADDER</p><h2 id="scale-title">How much Iceland does each trip buy?</h2></div><p>The full video is not a four-day Ring Road. This ladder shows where the route changes from a windshield marathon into a trip.</p></div>
         <div class="section-shell scale-grid">
           <article class="current"><span>4 nights</span><h3>Choose one quarter</h3><strong>South Coast wins</strong><p>Waterfalls, Vík, Fjaðrárgljúfur; Jökulsárlón only with the fourth night. This is the current short plan.</p><ul><li>Keep 6–8 pins</li><li>Skip Ring Road claim</li><li>No north, east, or Snæfellsnes</li></ul><a href="../iceland-sep-8-12/">Open the 3/4-night plan ↗</a></article>
           <article><span>7 nights</span><h3>Fast core loop</h3><strong>Possible, not pleasant</strong><p>Route 1 every day with the main south, east, Mývatn, and Goðafoss stops. Weather has almost no room to move.</p><ul><li>Cut all Highlands</li><li>Cut Þórsmörk</li><li>Cut Snæfellsnes</li></ul></article>
@@ -81,7 +90,7 @@
 
       <section class="reality-section" id="reality" aria-labelledby="reality-title">
         <div class="section-shell reality-layout">
-          <div><p class="section-number">05 / SEPTEMBER REALITY</p><h2 id="reality-title">The map is the dream.<br /><em>Conditions choose the route.</em></h2><p class="reality-lede">Early September can still support the Ring Road. It does not guarantee open, calm Highland access—and it never turns glacial river crossings into a rental-car activity.</p></div>
+          <div><p class="section-number">06 / SEPTEMBER REALITY</p><h2 id="reality-title">The map is the dream.<br /><em>Conditions choose the route.</em></h2><p class="reality-lede">Early September can still support the Ring Road. It does not guarantee open, calm Highland access—and it never turns glacial river crossings into a rental-car activity.</p></div>
           <div class="reality-grid">
             <article><span>4×4 rule</span><h3>F-roads are a different trip</h3><p>Landmannalaugar, Bláhylur, and Sigöldugljúfur require a suitable vehicle and a same-morning road check. Rental terms and river-crossing exclusions control the plan.</p></article>
             <article class="warning"><span>Do not self-drive</span><h3>Þórsmörk</h3><p>Ryan used a specialist super-jeep operator because the route crosses deep, changing glacial rivers. Treat it as a booked guided day.</p></article>
@@ -92,14 +101,15 @@
       </section>
 
       <section class="sources section-shell">
-        <p class="section-number">06 / SOURCES + PHOTOGRAPHY</p><h2>One film. Current access rules. Open map data.</h2>
+        <p class="section-number">07 / SOURCES + PHOTOGRAPHY</p><h2>One film. Current access rules. Open map data.</h2>
         <div class="source-grid"><article><strong>Ryan Shirley</strong><p>The chapter timestamps, stop sequence, and access anecdotes come from his complete Iceland travel film.</p><a href="https://www.youtube.com/watch?v=iBSbD_7bvE8" target="_blank" rel="noreferrer">Watch the source film ↗</a></article><article><strong>Road Administration</strong><p>Highland and Ring Road conditions should be checked live; September access cannot be promised months ahead.</p><a href="https://umferdin.is/en" target="_blank" rel="noreferrer">Open live conditions ↗</a></article><article><strong>Visit Iceland + national parks</strong><p>Official regional context, safety guidance, and managed-trail information supplement the video.</p><a href="https://www.visiticeland.com/article/the-ring-road/" target="_blank" rel="noreferrer">Official Ring Road overview ↗</a></article><article><strong>Map + images</strong><p>OpenStreetMap tiles; locally cached Wikimedia Commons photography with original file links below.</p><a href="https://commons.wikimedia.org/" target="_blank" rel="noreferrer">Wikimedia Commons ↗</a></article></div>
         <p class="credits">New imagery: Landmannalaugar (Chmee2/Valtameri, CC BY 3.0), Laugavegur/Þórsmörk (Michal Klajban, CC BY-SA 4.0), Stokksnes (Daniel Oberhaus, CC BY 4.0), Hengifoss, Seyðisfjörður, and Kirkjufell (Jakub Hałun, CC BY 4.0), Mývatn (Giles Laurent, CC BY-SA 4.0), Goðafoss (Martin Falbisoner, CC BY-SA 4.0), and Dettifoss (Roger McLassus, CC BY-SA 3.0), via Wikimedia Commons.</p>
+        <p class="credits">Deep-dive gallery photography: Syrio (CC BY-SA 4.0), Corvux corax (CC BY 4.0), Borvan53 (CC BY-SA 3.0), Thomas Fabian (CC BY-SA 2.0), Syony (CC0), Jakub Hałun (CC BY / CC BY-SA 4.0), Andreas Tille (CC BY-SA 4.0), Michal Klajban (CC BY-SA 4.0), Martin Falbisoner (CC BY-SA 4.0), and Jon Flobrant (CC0). Every new gallery photograph links to its exact Wikimedia Commons source page.</p>
       </section>
     </main>
 
     <footer><div><span>Complete Iceland atlas</span><strong>All 24 Ryan Shirley stops</strong></div><div><a href="../iceland-sep-8-12/">Short Iceland plan</a><a href="../">Full Iceland + Alps route</a><a href="../../../">Trip HQ</a></div></footer>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="./atlas.js?v=1"></script>
+    <script src="./atlas.js?v=2"></script>
   </body>
 </html>

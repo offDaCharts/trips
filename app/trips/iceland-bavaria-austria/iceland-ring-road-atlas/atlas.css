@@ -119,6 +119,41 @@ h2 { margin-bottom: 0; font: 500 clamp(3rem, 5vw, 5.7rem)/.94 var(--serif); lett
 .map-pin.detour { color: white; background: var(--lava); }.map-pin.highlands { background: #d8bd5b; }.map-pin.guided { color: white; background: #8b6ba0; }
 .leaflet-control-attribution { font-size: 9px; }
 
+.deep-dive-section { padding-top: 120px; color: white; background: #0c181a; }
+.deep-dive-heading { display: grid; grid-template-columns: 1.2fr .8fr; gap: 8vw; align-items: end; padding-bottom: 3.5rem; }
+.deep-dive-heading h2 em { color: var(--lava); }
+.deep-dive-heading > p { max-width: 500px; margin: 0; color: rgba(255,255,255,.63); line-height: 1.6; }
+.deep-dive-index { display: flex; gap: .5rem; padding-bottom: 1rem; overflow-x: auto; scrollbar-color: var(--lava) transparent; }
+.deep-dive-index a { flex: 0 0 auto; display: flex; gap: .55rem; align-items: center; min-height: 48px; padding: .65rem .85rem; color: white; border: 1px solid rgba(255,255,255,.22); text-decoration: none; font: 500 .88rem var(--serif); }
+.deep-dive-index a:hover { color: var(--ink); background: var(--ice); }
+.deep-dive-index span { color: var(--lava); font: 700 .58rem var(--sans); letter-spacing: .1em; }
+.deep-dive { scroll-margin-top: 74px; padding-block: 100px; border-top: 1px solid rgba(255,255,255,.17); }
+.deep-dive:nth-child(even) { background: #15272a; }
+.deep-dive-top { display: grid; grid-template-columns: 1fr 430px; gap: 5rem; align-items: end; margin-bottom: 2.5rem; }
+.deep-dive-title > span, .deep-dive-top aside > span, .deep-experience > span, .deep-plan > span { display: block; margin-bottom: .75rem; color: var(--lava); font-size: .62rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.deep-dive-title h3 { margin: 0; font: 500 clamp(3rem, 5vw, 5.5rem)/.9 var(--serif); letter-spacing: -.04em; }
+.deep-dive-title p { margin: .7rem 0 0; color: var(--ice); font: 400 1.2rem var(--serif); }
+.deep-dive-top aside { padding: 1.3rem 0 0 1.5rem; border-left: 3px solid var(--lava); }
+.deep-dive-top aside strong { display: block; font: 500 1.45rem/1.25 var(--serif); }
+.deep-gallery { display: grid; grid-template-columns: 1.35fr .825fr .825fr; gap: 2px; width: min(1500px, 100%); margin-inline: auto; background: rgba(255,255,255,.08); }
+.deep-gallery figure { margin: 0; min-width: 0; background: var(--ink); }
+.deep-gallery figure a { display: block; height: 100%; color: inherit; text-decoration: none; }
+.deep-gallery img { height: 480px; object-fit: cover; filter: saturate(.88); }
+.deep-gallery figcaption { min-height: 62px; padding: .85rem 1rem; color: rgba(255,255,255,.72); background: #0a1517; font-size: .7rem; line-height: 1.4; }
+.deep-gallery figcaption span { margin-right: .65rem; color: var(--lava); font-weight: 700; letter-spacing: .1em; }
+.deep-dive-content { display: grid; grid-template-columns: 1fr .8fr 1fr; gap: 4rem; padding-top: 3rem; }
+.deep-experience p { margin: 0; color: rgba(255,255,255,.76); font: 400 1.2rem/1.55 var(--serif); }
+.deep-plan ol { margin: 0; padding: 0; list-style: none; counter-reset: plan; }
+.deep-plan li { counter-increment: plan; position: relative; padding: .7rem 0 .7rem 2.2rem; color: rgba(255,255,255,.66); border-top: 1px solid rgba(255,255,255,.14); font-size: .78rem; line-height: 1.5; }
+.deep-plan li::before { content: counter(plan, decimal-leading-zero); position: absolute; left: 0; top: .7rem; color: var(--ice); font-size: .6rem; font-weight: 700; }
+.deep-facts { margin: 0; border-top: 1px solid rgba(255,255,255,.17); }
+.deep-facts div { display: grid; grid-template-columns: 90px 1fr; gap: 1rem; padding: .75rem 0; border-bottom: 1px solid rgba(255,255,255,.17); }
+.deep-facts dt { color: var(--ice); font-size: .59rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.deep-facts dd { margin: 0; color: rgba(255,255,255,.7); font-size: .76rem; line-height: 1.45; }
+.deep-actions { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 2rem; }
+.deep-actions a { padding: .7rem .8rem; border: 1px solid rgba(255,255,255,.28); text-decoration: none; font-size: .66rem; font-weight: 700; }
+.deep-actions a:first-child { color: var(--ink); border-color: var(--ice); background: var(--ice); }
+
 .chapter-section { padding-block: 120px; }
 .chapter-heading { display: grid; grid-template-columns: 1.25fr .75fr; gap: 8vw; align-items: end; margin-bottom: 4rem; }
 .chapter-heading > p { margin: 0; color: #5c6b6d; line-height: 1.6; }
@@ -182,6 +217,9 @@ footer a { font-size: .72rem; text-decoration: none; }
   .scale-grid { grid-template-columns: repeat(2, 1fr); }
   .scale-grid article { border-bottom: 1px solid rgba(255,255,255,.17); }
   .source-grid { grid-template-columns: repeat(2, 1fr); }
+  .deep-dive-top { grid-template-columns: 1fr 330px; gap: 3rem; }
+  .deep-dive-content { grid-template-columns: 1fr 1fr; }
+  .deep-facts { grid-column: 1 / 3; }
 }
 
 @media (max-width: 760px) {
@@ -200,7 +238,7 @@ footer a { font-size: .72rem; text-decoration: none; }
   .type-grid { grid-template-columns: 1fr 1fr; }
   .type-grid article { min-height: 150px; padding: 1rem; }
   .atlas-section, .chapter-section, .scale-section, .reality-section, .sources { padding-block: 80px; }
-  .atlas-head, .scale-heading, .chapter-heading { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+  .atlas-head, .scale-heading, .chapter-heading, .deep-dive-heading { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
   .filter-row { display: flex; margin-top: 2rem; overflow-x: auto; border: 0; }
   .filter-row button { flex: 0 0 150px; min-height: 74px; border: 1px solid rgba(255,255,255,.18); }
   .map-grid { grid-template-columns: 1fr; }
@@ -208,6 +246,16 @@ footer a { font-size: .72rem; text-decoration: none; }
   .pin-detail { min-height: 0; }
   .detail-image { height: 250px; }
   .region-rail { width: calc(100% - 16px); margin-left: 16px; }
+  .deep-dive-section { padding-top: 80px; }
+  .deep-dive-index { width: calc(100% - 16px); margin-left: 16px; }
+  .deep-dive { scroll-margin-top: 62px; padding-block: 72px; }
+  .deep-dive-top { grid-template-columns: 1fr; gap: 1.8rem; }
+  .deep-dive-top aside { padding-top: .7rem; }
+  .deep-gallery { display: flex; gap: 8px; padding: 0 16px 8px; overflow-x: auto; background: transparent; scroll-snap-type: x mandatory; }
+  .deep-gallery figure { flex: 0 0 82vw; scroll-snap-align: start; }
+  .deep-gallery img { height: 400px; }
+  .deep-dive-content { grid-template-columns: 1fr; gap: 2.5rem; }
+  .deep-facts { grid-column: auto; }
   .chapter-heading { margin-bottom: 2rem; }
   .chapter-card { grid-template-columns: 46px 1fr; gap: 1rem; padding: 1.7rem 0; }
   .chapter-copy, .show-chapter { grid-column: 2; }
