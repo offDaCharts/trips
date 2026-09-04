@@ -12,6 +12,8 @@
     return `<a class="editor-pick" href="#stay-${s.id}"><div class="pick-image"><img src="${escape(s.photos[p.photo].src)}" alt="${escape(s.photos[p.photo].label)}" loading="lazy"><span class="pick-tag">${p.label}</span></div><div class="pick-content"><span class="eyebrow">${escape(s.place)} · ${escape(s.host)}</span><h3>${p.title}</h3><div class="pick-bottom"><div><strong>${money(s.total)} <small>/ 2 nights</small></strong><small>${money(s.total/2)} per night</small></div><span class="pick-arrow" aria-hidden="true">↗</span></div></div></a>`;
   }).join('');
   document.querySelectorAll('#price-rows tr').forEach((row,i)=>{
+    const labels=['Property / host','Initial captured','New offer / rate','Change vs initial*','Current 2-night total','Per night'];
+    row.querySelectorAll('td').forEach((cell,index)=>{cell.dataset.label=labels[index];});
     const s=austriaStays[i];const a=row.querySelector('td a');if(!a)return;
     const img=document.createElement('img');img.className='table-thumb';img.src=s.photos[0].src;img.alt='';img.loading='lazy';a.before(img);a.classList.add('table-property');
   });
