@@ -6,22 +6,29 @@
   <meta name="description" content="Compare eight Austria Airbnbs for September 12–14, 2026, with nearby walks, lakes, mountain outings, Ryan Shirley video highlights, photos and a map.">
   <title>Airbnbs Austria | Trip Planning HQ</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./design.css?v=2">
+  <link rel="preconnect" href="https://a0.muscache.com">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <script defer src="./data.js"></script>
   <script defer src="./nearby-data.js"></script>
   <script defer src="./nearby.js"></script>
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script defer src="./app.js"></script>
+  <script defer src="./design.js?v=2"></script>
 </head>
 <body>
   <header>
     <div class="wrap">
       <nav aria-label="Page navigation"><a href="../">← Trip Planning HQ</a><a href="#prices">Compare prices</a><a href="#map-section">Map</a><a href="#nearby">Nearby things to do</a><a href="#properties">Photos &amp; replies</a></nav>
-      <p class="eyebrow">September 12–14, 2026 · Two nights · 2 adults + 1 infant</p>
-      <h1>Airbnbs Austria</h1>
-      <p class="intro">Eight stays. Four Special Offers. The actual price differences.</p>
-      <p class="checked">Snapshot checked September 4, 2026 · Not live availability</p>
-      <a class="nearby-jump" href="#nearby">Which stay puts you near the things you want to do? Explore all six areas ↓</a>
+      <div class="editorial-intro">
+        <div class="editorial-copy"><p class="eyebrow">The Austria edit / September 2026</p>
+          <h1>A little closer<br>to the <em>Alps.</em></h1>
+          <p class="intro">Lakeside mornings, mountain terraces, and somewhere lovely to come back to.</p>
+          <div class="trip-ticket"><span><strong>12 — 14</strong> September</span><span><strong>2 nights</strong> 2 adults + 1 infant</span><a href="#properties">Find your stay <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <a class="hero-photograph" href="#stay-7670473" aria-label="Explore Waterfront 3 by Lake Zell"><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-7670473/original/117fc7c3-9d3a-4f1d-ba13-17f92f6cd5b7.jpeg?im_w=960" alt="A wooden balcony overlooking Lake Zell and the Austrian mountains" fetchpriority="high"><span class="hero-image-label"><span>47°19′ N · 12°49′ E<br>ZELL AM SEE</span><strong>A room with a view ↗</strong></span></a>
+      </div>
+      <div class="edition-line"><span>Airbnbs Austria · 8 considered stays</span><span>Offers checked September 4, 2026</span></div>
       <div class="summary">
         <div><span>Host replies</span><strong>7 of 8</strong><small>One still awaiting a reply</small></div>
         <div><span>Special Offers</span><strong>4 received</strong><small>Three below pre-inquiry prices</small></div>
@@ -32,32 +39,28 @@
   </header>
   <main class="wrap">
     <noscript><p class="notice">Enable JavaScript to display the price comparison, photo galleries and map.</p></noscript>
-    <div class="takes">
-      <a href="#stay-40878046"><span class="eyebrow">#1 · Lowest cost</span><p>Sabrina’s two-bedroom SEPP cabin has the lowest current total, with a garden and terrace.</p></a>
-      <a href="#stay-592678181026580220"><span class="eyebrow">#3 · Wellness upgrade</span><p>Jessica’s shared pool and spa facilities cost $162.80 more than Sabrina across the two nights.</p></a>
-      <a href="#stay-636643225454568287"><span class="eyebrow">#6 · Biggest reduction</span><p>Susan’s duplex has the largest saving, but its total is still $596.06 above Sabrina’s cabin.</p></a>
-    </div>
+    <section class="edit-picks" aria-labelledby="picks-title"><div class="section-kicker"><span>01 / The shortlist</span><span>Three ways to make it yours</span></div><div class="pick-heading"><h2 id="picks-title">Start with these.</h2><p>A cabin for value. A loft for wellness.<br>A duplex with the biggest price reduction.</p></div><div id="editor-picks" class="editor-picks"></div></section>
+    <section id="properties">
+      <div class="section-head controls"><div><p class="section-number">02 / Stay collection</p><h2>Find your kind of hideaway.</h2><p>Three representative photos per property. Select a photo to enlarge.</p></div><div class="filters"><label for="filter">Show<select id="filter"><option value="all">All 8 properties</option><option value="offers">4 Special Offers</option><option value="two-night">Two-night options</option></select></label><label for="sort">Sort<select id="sort"><option value="price">Lowest total first</option><option value="savings">Largest reduction first</option></select></label></div></div>
+      <div id="cards" class="cards"></div>
+    </section>
     <section id="prices" class="panel">
-      <div class="section-head"><h2>The numbers, side by side</h2><p>Initial = September 3 price before contacting the host, after existing discounts. Changes compare the lodging/payment line, before separately shown taxes. All dollar amounts are USD.</p></div>
+      <div class="section-head"><p class="section-number">03 / The details</p><h2>A good stay. A fair price.</h2><p>Initial = September 3 price before contacting the host, after existing discounts. Changes compare the lodging/payment line, before separately shown taxes. All dollar amounts are USD.</p></div>
       <div class="table-scroll" tabindex="0" aria-label="Scrollable price comparison"><table><caption class="sr-only">Austria Airbnb initial prices and offers for September 12–14, 2026</caption><thead><tr><th scope="col">Property / host</th><th scope="col">Initial captured</th><th scope="col">New offer / rate</th><th scope="col">Change vs initial*</th><th scope="col">Current 2-night total</th><th scope="col">Per night</th></tr></thead><tbody id="price-rows"></tbody></table></div>
       <div class="caveats"><p>*Approximate price changes: rounded initial captures and USD conversion can affect the difference. Taxes shown separately are excluded from the discount calculation, but included in current totals. Final charges and availability must be checked on Airbnb.</p><p><strong>Not every reply is a discount:</strong> Steinbock’s offer is higher than the later pre-inquiry price. Lena confirmed the existing discount only. ChaletsPlus declined a price reduction; Stefanie declined two nights. Wanna Rise has not confirmed an exception.</p><p>The four Special Offers show 2 adults without an infant in their booking details. The original inquiries included the infant; make sure the booking party is correct at checkout.</p></div>
     </section>
     <section id="map-section" class="panel">
-      <div class="section-head"><h2>Where the stays are</h2><p>Tap a pin for photos, nearby outing ideas and links. Town and area locators, not private addresses. #3 and #7 share the Going marker. #8 is a broad Zell am See–Kaprun area circle, not a verified property pin.</p></div>
+      <div class="section-head"><p class="section-number">04 / Get your bearings</p><h2>Different corners of the Alps.</h2><p>Tap a pin for photos, nearby outing ideas and links. Town and area locators, not private addresses. #3 and #7 share the Going marker. #8 is a broad Zell am See–Kaprun area circle, not a verified property pin.</p></div>
       <div id="map" aria-label="Approximate locations of eight Austria stays"></div>
       <p id="map-error" class="notice" hidden>The map could not load. Use the Explore area links on the property cards.</p>
       <div id="map-legend" class="legend"></div>
     </section>
     <section id="nearby" aria-labelledby="nearby-title">
-      <div class="section-head nearby-head"><p class="eyebrow">The setting matters as much as the stay</p><h2 id="nearby-title">What would we actually do here?</h2><p>Six areas, covering all eight Airbnbs. Local walks, worthwhile short drives, and the bigger outings from <a href="../austria/">your Ryan Shirley Austria guide</a>. These are alternatives for two nights, not a plan to fit everything in.</p></div>
+      <div class="section-head nearby-head"><p class="section-number">05 / Beyond the front door</p><h2 id="nearby-title">What would we actually do here?</h2><p>Six areas, covering all eight Airbnbs. Local walks, worthwhile short drives, and the bigger outings from <a href="../austria/">your Ryan Shirley Austria guide</a>. These are alternatives for two nights, not a plan to fit everything in.</p></div>
       <div class="nearby-method"><strong>How to read the distances</strong><p>Driving ranges below are approximate planning estimates from each town or area—not live traffic or directions from a private address. Add parking, lift queues and walking. “Local” does not mean verified walking distance from the Airbnb. Outing lengths allow a relaxed pace; conditions and infant needs can change them.</p><p>Research checked September 4, 2026 for your September 12–14 stay. Recheck weather, trail status and operating notices before setting out. Photos show the place, not a promise of September weather.</p></div>
       <div id="area-index" class="area-index" aria-label="Choose an Airbnb area"></div>
       <div id="nearby-content"></div>
       <div class="nearby-method"><strong>Before choosing the stay</strong><p>Ask the host for the actual walking route to the village, shore or lift; parking and stroller access; and the exact guest-card name and included dates. The map cannot settle those questions from town-level pins. #7 still has a three-night minimum, and #8 has neither a confirmed two-night exception nor a precise location.</p></div>
-    </section>
-    <section id="properties">
-      <div class="section-head controls"><div><h2>The stays &amp; the replies</h2><p>Three representative photos per property. Select a photo to enlarge.</p></div><div class="filters"><label for="filter">Show<select id="filter"><option value="all">All 8 properties</option><option value="offers">4 Special Offers</option><option value="two-night">Two-night options</option></select></label><label for="sort">Sort<select id="sort"><option value="price">Lowest total first</option><option value="savings">Largest reduction first</option></select></label></div></div>
-      <div id="cards" class="cards"></div>
     </section>
     <footer><a href="../">← Trip Planning HQ</a><p>Sources: Airbnb listings and host responses checked September 4, 2026. Initial prices captured September 3. This is a planning snapshot, not a public offer to book at these rates. Photos belong to the respective listing owners; seasonal imagery may differ from September. Map © OpenStreetMap contributors.</p></footer>
   </main>
