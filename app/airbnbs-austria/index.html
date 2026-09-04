@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare eight Austria Airbnb stays for September 12–14, 2026: initial prices, host offers, discounts, representative photos and a map.">
+  <title>Airbnbs Austria | Trip Planning HQ</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script defer src="./data.js"></script>
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav aria-label="Page navigation"><a href="../">← Trip Planning HQ</a><a href="#prices">Compare prices</a><a href="#map-section">Map</a><a href="#properties">Photos &amp; replies</a></nav>
+      <p class="eyebrow">September 12–14, 2026 · Two nights · 2 adults + 1 infant</p>
+      <h1>Airbnbs Austria</h1>
+      <p class="intro">Eight stays. Four Special Offers. The actual price differences.</p>
+      <p class="checked">Snapshot checked September 4, 2026 · Not live availability</p>
+      <div class="summary">
+        <div><span>Host replies</span><strong>7 of 8</strong><small>One still awaiting a reply</small></div>
+        <div><span>Special Offers</span><strong>4 received</strong><small>Three below pre-inquiry prices</small></div>
+        <div><span>Lowest current total</span><strong>$744.22</strong><small>Sabrina · $372.11 per night</small></div>
+        <div><span>Largest reduction</span><strong>26.2%</strong><small>Susan · approximately $475.74 less</small></div>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <noscript><p class="notice">Enable JavaScript to display the price comparison, photo galleries and map.</p></noscript>
+    <div class="takes">
+      <a href="#stay-40878046"><span class="eyebrow">#1 · Lowest cost</span><p>Sabrina’s two-bedroom SEPP cabin has the lowest current total, with a garden and terrace.</p></a>
+      <a href="#stay-592678181026580220"><span class="eyebrow">#3 · Wellness upgrade</span><p>Jessica’s shared pool and spa facilities cost $162.80 more than Sabrina across the two nights.</p></a>
+      <a href="#stay-636643225454568287"><span class="eyebrow">#6 · Biggest reduction</span><p>Susan’s duplex has the largest saving, but its total is still $596.06 above Sabrina’s cabin.</p></a>
+    </div>
+    <section id="prices" class="panel">
+      <div class="section-head"><h2>The numbers, side by side</h2><p>Initial = September 3 price before contacting the host, after existing discounts. Changes compare the lodging/payment line, before separately shown taxes. All dollar amounts are USD.</p></div>
+      <div class="table-scroll" tabindex="0" aria-label="Scrollable price comparison"><table><caption class="sr-only">Austria Airbnb initial prices and offers for September 12–14, 2026</caption><thead><tr><th scope="col">Property / host</th><th scope="col">Initial captured</th><th scope="col">New offer / rate</th><th scope="col">Change vs initial*</th><th scope="col">Current 2-night total</th><th scope="col">Per night</th></tr></thead><tbody id="price-rows"></tbody></table></div>
+      <div class="caveats"><p>*Approximate price changes: rounded initial captures and USD conversion can affect the difference. Taxes shown separately are excluded from the discount calculation, but included in current totals. Final charges and availability must be checked on Airbnb.</p><p><strong>Not every reply is a discount:</strong> Steinbock’s offer is higher than the later pre-inquiry price. Lena confirmed the existing discount only. ChaletsPlus declined a price reduction; Stefanie declined two nights. Wanna Rise has not confirmed an exception.</p><p>The four Special Offers show 2 adults without an infant in their booking details. The original inquiries included the infant; make sure the booking party is correct at checkout.</p></div>
+    </section>
+    <section id="map-section" class="panel">
+      <div class="section-head"><h2>Where the stays are</h2><p>Town and area locators, not private addresses. #3 and #7 share the Going marker. #8 is a broad Zell am See–Kaprun area circle, not a verified property pin.</p></div>
+      <div id="map" aria-label="Approximate locations of eight Austria stays"></div>
+      <p id="map-error" class="notice" hidden>The map could not load. Use the Explore area links on the property cards.</p>
+      <div id="map-legend" class="legend"></div>
+    </section>
+    <section id="properties">
+      <div class="section-head controls"><div><h2>The stays &amp; the replies</h2><p>Three representative photos per property. Select a photo to enlarge.</p></div><div class="filters"><label for="filter">Show<select id="filter"><option value="all">All 8 properties</option><option value="offers">4 Special Offers</option><option value="two-night">Two-night options</option></select></label><label for="sort">Sort<select id="sort"><option value="price">Lowest total first</option><option value="savings">Largest reduction first</option></select></label></div></div>
+      <div id="cards" class="cards"></div>
+    </section>
+    <footer><a href="../">← Trip Planning HQ</a><p>Sources: Airbnb listings and host responses checked September 4, 2026. Initial prices captured September 3. This is a planning snapshot, not a public offer to book at these rates. Photos belong to the respective listing owners; seasonal imagery may differ from September. Map © OpenStreetMap contributors.</p></footer>
+  </main>
+  <dialog id="gallery" aria-labelledby="gallery-title" aria-describedby="gallery-caption"><button class="close" id="close-gallery" aria-label="Close photo gallery">✕</button><h2 id="gallery-title"></h2><p id="gallery-caption"></p><img id="gallery-image" alt=""><div class="gallery-nav"><button id="previous">← Previous</button><span id="gallery-count"></span><button id="next">Next →</button></div></dialog>
+</body>
+</html>
