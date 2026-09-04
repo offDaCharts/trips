@@ -3,22 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Compare eight Austria Airbnb stays for September 12–14, 2026: initial prices, host offers, discounts, representative photos and a map.">
+  <meta name="description" content="Compare eight Austria Airbnbs for September 12–14, 2026, with nearby walks, lakes, mountain outings, Ryan Shirley video highlights, photos and a map.">
   <title>Airbnbs Austria | Trip Planning HQ</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <script defer src="./data.js"></script>
+  <script defer src="./nearby-data.js"></script>
+  <script defer src="./nearby.js"></script>
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script defer src="./app.js"></script>
 </head>
 <body>
   <header>
     <div class="wrap">
-      <nav aria-label="Page navigation"><a href="../">← Trip Planning HQ</a><a href="#prices">Compare prices</a><a href="#map-section">Map</a><a href="#properties">Photos &amp; replies</a></nav>
+      <nav aria-label="Page navigation"><a href="../">← Trip Planning HQ</a><a href="#prices">Compare prices</a><a href="#map-section">Map</a><a href="#nearby">Nearby things to do</a><a href="#properties">Photos &amp; replies</a></nav>
       <p class="eyebrow">September 12–14, 2026 · Two nights · 2 adults + 1 infant</p>
       <h1>Airbnbs Austria</h1>
       <p class="intro">Eight stays. Four Special Offers. The actual price differences.</p>
       <p class="checked">Snapshot checked September 4, 2026 · Not live availability</p>
+      <a class="nearby-jump" href="#nearby">Which stay puts you near the things you want to do? Explore all six areas ↓</a>
       <div class="summary">
         <div><span>Host replies</span><strong>7 of 8</strong><small>One still awaiting a reply</small></div>
         <div><span>Special Offers</span><strong>4 received</strong><small>Three below pre-inquiry prices</small></div>
@@ -40,10 +43,17 @@
       <div class="caveats"><p>*Approximate price changes: rounded initial captures and USD conversion can affect the difference. Taxes shown separately are excluded from the discount calculation, but included in current totals. Final charges and availability must be checked on Airbnb.</p><p><strong>Not every reply is a discount:</strong> Steinbock’s offer is higher than the later pre-inquiry price. Lena confirmed the existing discount only. ChaletsPlus declined a price reduction; Stefanie declined two nights. Wanna Rise has not confirmed an exception.</p><p>The four Special Offers show 2 adults without an infant in their booking details. The original inquiries included the infant; make sure the booking party is correct at checkout.</p></div>
     </section>
     <section id="map-section" class="panel">
-      <div class="section-head"><h2>Where the stays are</h2><p>Town and area locators, not private addresses. #3 and #7 share the Going marker. #8 is a broad Zell am See–Kaprun area circle, not a verified property pin.</p></div>
+      <div class="section-head"><h2>Where the stays are</h2><p>Tap a pin for photos, nearby outing ideas and links. Town and area locators, not private addresses. #3 and #7 share the Going marker. #8 is a broad Zell am See–Kaprun area circle, not a verified property pin.</p></div>
       <div id="map" aria-label="Approximate locations of eight Austria stays"></div>
       <p id="map-error" class="notice" hidden>The map could not load. Use the Explore area links on the property cards.</p>
       <div id="map-legend" class="legend"></div>
+    </section>
+    <section id="nearby" aria-labelledby="nearby-title">
+      <div class="section-head nearby-head"><p class="eyebrow">The setting matters as much as the stay</p><h2 id="nearby-title">What would we actually do here?</h2><p>Six areas, covering all eight Airbnbs. Local walks, worthwhile short drives, and the bigger outings from <a href="../austria/">your Ryan Shirley Austria guide</a>. These are alternatives for two nights, not a plan to fit everything in.</p></div>
+      <div class="nearby-method"><strong>How to read the distances</strong><p>Driving ranges below are approximate planning estimates from each town or area—not live traffic or directions from a private address. Add parking, lift queues and walking. “Local” does not mean verified walking distance from the Airbnb. Outing lengths allow a relaxed pace; conditions and infant needs can change them.</p><p>Research checked September 4, 2026 for your September 12–14 stay. Recheck weather, trail status and operating notices before setting out. Photos show the place, not a promise of September weather.</p></div>
+      <div id="area-index" class="area-index" aria-label="Choose an Airbnb area"></div>
+      <div id="nearby-content"></div>
+      <div class="nearby-method"><strong>Before choosing the stay</strong><p>Ask the host for the actual walking route to the village, shore or lift; parking and stroller access; and the exact guest-card name and included dates. The map cannot settle those questions from town-level pins. #7 still has a three-night minimum, and #8 has neither a confirmed two-night exception nor a precise location.</p></div>
     </section>
     <section id="properties">
       <div class="section-head controls"><div><h2>The stays &amp; the replies</h2><p>Three representative photos per property. Select a photo to enlarge.</p></div><div class="filters"><label for="filter">Show<select id="filter"><option value="all">All 8 properties</option><option value="offers">4 Special Offers</option><option value="two-night">Two-night options</option></select></label><label for="sort">Sort<select id="sort"><option value="price">Lowest total first</option><option value="savings">Largest reduction first</option></select></label></div></div>
