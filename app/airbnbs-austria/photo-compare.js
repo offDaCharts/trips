@@ -1,0 +1,17 @@
+(() => {
+  'use strict';
+  const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);
+  const photo=a=>a.photo?`./assets/nearby/${a.photo}.jpg`:`../austria/assets/${a.video}.jpg`;
+  const notes={rauris:'Quiet cabin base; valley walks and bigger mountain drives.',going:'Mountain reflections and meadow walks; Jessica also has shared wellness facilities.',zell:'Lake time with the option of a mountain outing; the widest mix of low-effort scenery.',neukirchen:'Waterfalls and lift-assisted mountain views, rather than a lakeside village.',hollersbach:'Streamside nature paired with Lena’s private sauna and whirlpool.',wolfgang:'Lakeside villages and the Schafberg railway; the strongest lake-and-village combination.'};
+  const button=(src,label)=>`<button class="photo" data-src="${esc(src)}" data-caption="${esc(label)}" aria-label="Enlarge ${esc(label)}"><img src="${esc(src)}" alt="${esc(label)}" loading="lazy"></button>`;
+  const groups=[['rauris','going','zell'],['neukirchen','hollersbach','wolfgang']];
+  document.getElementById('boards').innerHTML=groups.map((ids,i)=>`<section class="board" id="sheet-${i+1}" aria-label="Area comparison ${i+1}"><div class="board-head"><span>PHOTO BOARD ${i+1} / 2</span><span>NEARBY SCENERY + THE STAYS</span></div><div class="columns">${ids.map(id=>{
+    const a=austriaAreas.find(a=>a.id===id);const stays=a.stays.map(n=>austriaStays.find(s=>s.number===n));
+    return `<article class="area"><div class="area-title"><h2>${esc(a.name)}</h2><p>${esc(a.tagline)}</p></div><p class="row-label">Nearby scenery · excursions</p><div class="outings">${a.activities.slice(0,2).map(p=>`<figure>${button(photo(p),p.name+' · nearby outing, not the property')}<figcaption><strong>${esc(p.name)}</strong><span>${esc(p.access)}</span></figcaption></figure>`).join('')}</div><p class="row-label">The ${stays.length>1?'stays':'stay'} · listing photos</p><div class="stays" style="--count:${stays.length}">${stays.map(s=>`<div class="stay">${button(s.photos[0].src,s.host+' · '+s.photos[0].label)}<div class="stay-info"><a href="./#stay-${s.id}">#${s.number} ${esc(s.host)} · ${esc(s.name)}</a><strong>${s.total===null?'No 2-night quote':money(s.total)}</strong><small>${s.total===null?esc(s.statusLabel):'2 nights · '+money(s.total/2)+' / night'}</small></div></div>`).join('')}</div><div class="area-bottom"><p><b>The difference:</b> ${esc(notes[id])}</p><a href="./#nearby-${id}">Walks, access & date-specific notes ↗</a></div></article>`;
+  }).join('')}</div></section>`).join('');
+  document.getElementById('credits').innerHTML=Object.values(austriaNearbyCredits).map(c=>`<span><a href="${esc(c[3])}">${esc(c[0])}</a> · <a href="${esc(c[2])}">${esc(c[1])}</a></span>`).join('')+'<span>Other excursion images: Ryan Shirley video frames from the existing Austria guide. Stay photos: respective Airbnb listing owners. Display crops only.</span>';
+  const dialog=document.getElementById('photo');let opener;
+  document.getElementById('boards').addEventListener('click',e=>{const b=e.target.closest('button[data-src]');if(!b)return;opener=b;dialog.querySelector('img').src=b.dataset.src;dialog.querySelector('img').alt=b.dataset.caption;dialog.querySelector('p').textContent=b.dataset.caption;dialog.showModal();});
+  dialog.querySelector('.close').addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>opener?.focus());
+})();
