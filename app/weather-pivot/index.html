@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Bolzano, Vipiteno and Innsbruck for September 12–14, 2026: dated Airbnb availability, weather, activities and driving to Forsthofgut.">
+  <title>Bolzano, Vipiteno or Innsbruck? | Trip Planning HQ</title>
+  <link rel="stylesheet" href="./style.css?v=2">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script defer src="./data.js?v=2"></script>
+  <script defer src="./app.js?v=2"></script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav><a href="../">← Trip Planning HQ</a><a href="#verdict">Decision</a><a href="#weather">Weather</a><a href="#stays">Airbnbs</a><a href="#activities">Things to do</a><a href="#driving">Driving</a></nav>
+      <p class="kicker">Weather pivot · September 12–14, 2026</p>
+      <h1>Bolzano, <em>Vipiteno</em> or Innsbruck?</h1>
+      <p class="lede">Two active nights between Munich Airport and Forsthofgut—comparing the warmest detour, the practical Italian middle ground, and the simplest route.</p>
+      <p class="stamp">Forecast and Airbnb snapshot checked September 5, 2026 · USD totals · 2 adults + 1 infant</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="verdict" class="verdict">
+      <div class="decision weather"><p class="kicker">Best weather upside</p><h2>Bolzano</h2><strong>Warmest · broadest south-side break</strong><p>Go this far only if the lower-valley forecast still clearly beats the northern Alps. It delivers the biggest change of scenery, but also the longest route.</p><a href="#bolzano">Explore Bolzano ↓</a></div>
+      <div class="decision middle"><p class="kicker">Best compromise</p><h2>Vipiteno</h2><strong>Italian Alps · value to boutique</strong><p>Forty-ish minutes closer to Munich than Bolzano, about 40 minutes closer to Leogang, with both inexpensive farm stays and $500-ish premium designs.</p><a href="#vipiteno">Explore Vipiteno ↓</a></div>
+      <div class="decision drive"><p class="kicker">Best simplicity</p><h2>Innsbruck</h2><strong>Shortest drive · strongest rain backup</strong><p>Keep this if the forecasts converge. You retain most of Monday morning, and the city gives you useful indoor/outdoor pivots without another long drive.</p><a href="#innsbruck">Explore Innsbruck ↓</a></div>
+      <div class="bottom-line"><p class="kicker">Our call today</p><h2>Hold cancellable Vipiteno and Bolzano options; decide September 9–10.</h2><p><strong>Vipiteno is the new default.</strong> It makes sense unless Bolzano develops a materially clearer forecast. Pick Innsbruck if all three look similar or if you want to minimize road time with an infant.</p></div>
+    </section>
+
+    <section class="scorecard" aria-labelledby="scorecard-title">
+      <div class="section-head"><p class="kicker">Decision at a glance</p><h2 id="scorecard-title">What you gain—and give up</h2></div>
+      <div class="score-grid">
+        <article><p class="kicker orange">Bolzano</p><h3>Weather swing</h3><dl><div><dt>Selected stays</dt><dd>$398–$700</dd></div><div><dt>Total drive</dt><dd>~6 hr 30</dd></div><div><dt>Best for</dt><dd>Warm valley walks, Renon</dd></div><div><dt>Main cost</dt><dd>Longest detour</dd></div></dl></article>
+        <article><p class="kicker gold">Vipiteno</p><h3>Italian middle ground</h3><dl><div><dt>Selected stays</dt><dd>$221–$517</dd></div><div><dt>Total drive</dt><dd>~5 hr 20</dd></div><div><dt>Best for</dt><dd>Old town, Rosskopf, farm feel</dd></div><div><dt>Main cost</dt><dd>Cooler than Bolzano</dd></div></dl></article>
+        <article><p class="kicker blue">Innsbruck</p><h3>Route efficiency</h3><dl><div><dt>Selected stays</dt><dd>$256–$402</dd></div><div><dt>Total drive</dt><dd>~3 hr 55</dd></div><div><dt>Best for</dt><dd>Nordkette + easy backup plans</dd></div><div><dt>Main cost</dt><dd>Less of a weather escape</dd></div></dl></article>
+      </div>
+    </section>
+
+    <section id="weather">
+      <div class="section-head"><p class="kicker">Exact dates · city forecasts</p><h2>What each day currently looks like</h2><p>High/low temperatures are one current forecast snapshot, not a guarantee. City valleys can be dry while nearby summits are socked in.</p></div>
+      <div class="weather-table" role="table" aria-label="Weather comparison">
+        <div class="weather-row heading" role="row"><span>Date</span><strong>Bolzano</strong><strong>Vipiteno</strong><strong>Innsbruck</strong><strong>Leogang baseline</strong></div>
+        <div class="weather-row"><span><b>Sat 12</b><small>arrival + drive</small></span><div class="forecast sun"><b>74° / 51°F</b><em>Sun + a few clouds</em></div><div class="forecast sun"><b>72° / 51°F</b><em>Sun/cloud mix</em><small>Other models show shower risk</small></div><div class="forecast cloud"><b>65° / 47°F</b><em>Morning rain, mostly cloudy</em></div><div class="forecast rain"><b>60° / 44°F</b><em>Morning showers, rather cloudy</em></div></div>
+        <div class="weather-row"><span><b>Sun 13</b><small>full day</small></span><div class="forecast mixed"><b>74° / 51°F</b><em>Partial sun, possible showers</em></div><div class="forecast mixed"><b>69° / 50°F</b><em>Sun/clouds; shower possible</em></div><div class="forecast mixed"><b>67° / 46°F</b><em>Part sun, afternoon showers</em></div><div class="forecast rain"><b>60° / 44°F</b><em>Morning rain, overcast</em></div></div>
+        <div class="weather-row"><span><b>Mon 14</b><small>drive to hotel</small></span><div class="forecast sun"><b>74° / 52°F</b><em>Mostly sunny</em></div><div class="forecast mixed"><b>68° / 51°F</b><em>Sun/cloud intervals</em></div><div class="forecast cloud"><b>67° / 50°F</b><em>Morning rain, then cloudy</em></div><div class="forecast cloud"><b>63° / 44°F</b><em>Morning rain, mainly cloudy</em></div></div>
+      </div>
+      <aside class="confidence"><strong>Forecast confidence: low.</strong><p>Models disagree sharply this far out—especially for Vipiteno—so the important signal is relative, not hourly precision. Keep cancellable lodging and recheck September 9–10, then check valley forecasts and mountain webcams on the morning of each outing.</p><a href="https://www.accuweather.com/en/it/sterzing/216221/september-weather/216221" target="_blank" rel="noopener noreferrer">Vipiteno forecast ↗</a><a href="https://meteo.tempoitalia.it/previsioni-lungo-termine/bolzano-bozen" target="_blank" rel="noopener noreferrer">Bolzano forecast ↗</a><a href="https://www.timeanddate.com/weather/%402772641/ext" target="_blank" rel="noopener noreferrer">Leogang forecast ↗</a></aside>
+    </section>
+
+    <section id="driving">
+      <div class="section-head"><p class="kicker">Door-to-door tradeoff</p><h2>The route cost in time</h2><p>Planning times exclude rental pickup, traffic and stops. Munich, Kufstein and Brenner congestion can add time.</p></div>
+      <div id="route-map" aria-label="Map from Munich Airport through Bolzano, Vipiteno or Innsbruck to Forsthofgut"></div>
+      <div class="route-grid">
+        <article><p class="kicker orange">Bolzano route</p><h3>About 6 hr 30</h3><div class="route-leg"><span>MUC → Bolzano</span><strong>~3 hr 30 · 287 km</strong></div><div class="route-leg"><span>Bolzano → Forsthofgut</span><strong>2 hr 57 · 235 km</strong></div><p>The true weather detour. Leave around 9:30 Monday for a relaxed afternoon check-in.</p><a href="https://www.google.com/maps/dir/Munich+Airport/Bolzano,+Italy/Naturhotel+Forsthofgut,+Leogang,+Austria" target="_blank" rel="noopener noreferrer">Open route ↗</a></article>
+        <article><p class="kicker gold">Vipiteno route</p><h3>About 5 hr 20</h3><div class="route-leg"><span>MUC → Vipiteno</span><strong>~3 hr · 218 km</strong></div><div class="route-leg"><span>Vipiteno → Forsthofgut</span><strong>2 hr 19 · 168 km</strong></div><p>About 1 hr 10 less total driving than Bolzano while preserving an Italian-Alps stop.</p><a href="https://www.google.com/maps/dir/Munich+Airport/Vipiteno,+Italy/Naturhotel+Forsthofgut,+Leogang,+Austria" target="_blank" rel="noopener noreferrer">Open route ↗</a></article>
+        <article><p class="kicker blue">Innsbruck route</p><h3>About 3 hr 55</h3><div class="route-leg"><span>MUC → Innsbruck</span><strong>~2 hr 15 · 190 km</strong></div><div class="route-leg"><span>Innsbruck → Forsthofgut</span><strong>1 hr 41 · 121 km</strong></div><p>Best for preserving time. Monday morning can still include a real activity before checkout.</p><a href="https://www.google.com/maps/dir/Munich+Airport/Innsbruck,+Austria/Naturhotel+Forsthofgut,+Leogang,+Austria" target="_blank" rel="noopener noreferrer">Open route ↗</a></article>
+      </div>
+      <p class="road-note"><strong>Rental-car check:</strong> tell the Munich agency you will cross into Austria and Italy. The Italy routes use Austria’s motorway/vignette system, the Brenner special-toll section and Italy’s A22; confirm cross-border permission and roadside coverage at pickup.</p>
+    </section>
+
+    <section id="stays">
+      <div class="section-head"><p class="kicker">Dated Airbnb snapshot · 2 adults + 1 infant</p><h2>Available September 12–14</h2><p>USD totals shown in search results with Airbnb fees included. Availability, price and cancellation can change. Confirm parking, crib availability, stairs and the full cancellation deadline before booking.</p></div>
+      <div class="city-block" id="bolzano"><div class="city-title"><div><p class="kicker orange">Weather-first</p><h3>Bolzano stays</h3></div><div><strong>$398–$700</strong><span>selected two-night totals</span></div></div><div id="bolzano-stays" class="stay-grid"></div><a class="search-link" href="https://www.airbnb.com/s/Bolzano--Italy/homes?checkin=2026-09-12&checkout=2026-09-14&adults=2&infants=1" target="_blank" rel="noopener noreferrer">See dated Bolzano search ↗</a></div>
+      <div class="city-block" id="vipiteno"><div class="city-title"><div><p class="kicker gold">Compromise pick</p><h3>Vipiteno / Sterzing stays</h3></div><div><strong>$221–$517</strong><span>value + premium two-night totals</span></div></div><p class="city-note"><strong>Not all budget:</strong> the last two cards intentionally show the closest boutique splurges. They approach Bolzano pricing, but they remain self-catering apartments—not full-service resorts.</p><div id="vipiteno-stays" class="stay-grid vipiteno-grid"></div><a class="search-link" href="https://www.airbnb.com/s/Vipiteno--Italy/homes?checkin=2026-09-12&checkout=2026-09-14&adults=2&infants=1" target="_blank" rel="noopener noreferrer">See dated Vipiteno search ↗</a></div>
+      <div class="city-block" id="innsbruck"><div class="city-title"><div><p class="kicker blue">Efficiency-first</p><h3>Innsbruck stays</h3></div><div><strong>$256–$402</strong><span>selected two-night totals</span></div></div><div id="innsbruck-stays" class="stay-grid"></div><a class="search-link" href="https://www.airbnb.com/s/Innsbruck--Austria/homes?checkin=2026-09-12&checkout=2026-09-14&adults=2&infants=1" target="_blank" rel="noopener noreferrer">See dated Innsbruck search ↗</a></div>
+    </section>
+
+    <section id="activities">
+      <div class="section-head"><p class="kicker">Outdoors first · rain backups included</p><h2>What the two nights could feel like</h2></div>
+      <div class="activity-columns">
+        <article class="activity-city"><div class="activity-hero"><img src="./assets/ritten.jpg" alt="Earth pyramids on the Renon plateau"><span>Bolzano’s advantage lives in the warmer lower valley</span></div><h3>Bolzano</h3><div class="plan"><b>Saturday</b><p>Talvera riverside and old-town arcades, then Renon cable car if you arrive with visibility.</p></div><div class="plan"><b>Best full day</b><p><strong>Renon + earth pyramids:</strong> cable car, narrow-gauge train and a short walk. It feels like a real landscape day without another long drive.</p><a href="https://www.suedtirol.info/en/en/experiences-and-events/culture-and-attractions/worth-seeing-places/earth-pyramids" target="_blank" rel="noopener noreferrer">Official guide ↗</a></div><div class="plan"><b>Lower-altitude alternative</b><p>Lake Kaltern and the wine road, roughly 25–35 minutes south, if high peaks stay cloudy.</p></div><div class="plan rain-plan"><b>Rain plan</b><p>South Tyrol Museum of Archaeology for Ötzi, then the covered Via dei Portici arcades.</p></div></article>
+        <article class="activity-city"><div class="activity-hero"><img src="./assets/vipiteno-town.jpg" alt="Pastel buildings and the Zwölferturm in Vipiteno"><span>A compact medieval town with mountains at the end of the street</span></div><h3>Vipiteno</h3><div class="plan"><b>Saturday</b><p>Walk the pedestrian old town to the Zwölferturm, then settle into a farm stay or Racines valley base.</p></div><div class="plan"><b>Best full day</b><p><strong>Rosskopf:</strong> gondola from town, easy high-level paths and huts. Check operations and webcams before committing.</p><a href="https://www.sterzing.com/en/summer/families/all-family-activities.html" target="_blank" rel="noopener noreferrer">Official family activities ↗</a></div><div class="plan"><b>Signature nature option</b><p><strong>Gilfenklamm:</strong> a dramatic marble gorge near Racines. Use a baby carrier—not a stroller—and skip it if walkways are slick from heavy rain.</p></div><div class="plan event-plan"><b>Exactly on Sunday, Sep 13</b><p>The official calendar lists Vipiteno’s Dumpling Festival from 11:00–19:00—an unusually good low-effort cultural anchor between outdoor windows.</p></div><div class="plan rain-plan"><b>Rain plan</b><p>Ridnaun Mining Museum or the compact old town. This is less flexible than Innsbruck but stronger than a pure mountain village.</p></div></article>
+        <article class="activity-city"><div class="activity-hero"><img src="./assets/innsbruck-nordkette.jpg" alt="Innsbruck below the Nordkette mountains"><span>Innsbruck puts the mountain directly above the city</span></div><h3>Innsbruck</h3><div class="plan"><b>Saturday</b><p>Old Town, Inn riverfront and Bergisel; use dry intervals instead of giving away the arrival day.</p></div><div class="plan"><b>Best full day</b><p><strong>Nordkette:</strong> lifts climb from the center to Seegrube. Go early before possible afternoon showers.</p><a href="https://nordkette.com/en/" target="_blank" rel="noopener noreferrer">Live status + webcams ↗</a></div><div class="plan"><b>Lower-altitude alternative</b><p>Achensee for a short Pertisau shore walk or boat segment, about 45–60 minutes away.</p></div><div class="plan rain-plan"><b>Rain plan</b><p>Imperial Palace or Tirol Panorama, then river and old-town walks between showers.</p></div></article>
+      </div>
+    </section>
+
+    <section class="sources"><div class="section-head"><p class="kicker">Verification links</p><h2>Recheck before you lock it</h2></div><div class="source-grid"><a href="https://www.rome2rio.com/s/Sterzing/Leogang" target="_blank" rel="noopener noreferrer"><strong>Vipiteno → Leogang</strong><span>2 hr 19 · 168 km snapshot</span></a><a href="https://maps.adac.de/routenplaner/route-von-muenchen-nach-sterzing" target="_blank" rel="noopener noreferrer"><strong>Munich → Vipiteno</strong><span>route, toll and construction notes</span></a><a href="https://www.sterzing.com/en/plan-your-holiday/info/how-to-arrive.html" target="_blank" rel="noopener noreferrer"><strong>Vipiteno tourism</strong><span>official arrival information</span></a><a href="https://www.sterzing.com/en/summer/families/all-family-activities.html" target="_blank" rel="noopener noreferrer"><strong>Sep 13 event + activities</strong><span>official 2026 listings</span></a></div></section>
+
+    <footer><a href="../">← Trip Planning HQ</a><p>Planning snapshot—not a booking or weather guarantee. Airbnb photos belong to their listing owners. Activity photos: Renon Earth Pyramids by Julian Mendez (public domain), Vipiteno by Zairon (CC BY-SA 4.0), Innsbruck Nordkette panorama by Böhringer Friedrich (CC BY-SA 2.5), all via Wikimedia Commons. Driving times are approximate and should be checked against live traffic.</p></footer>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded',()=>{
+      if(!window.L)return;
+      const m=L.map('route-map',{scrollWheelZoom:false}).setView([47.5,11.5],7);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors'}).addTo(m);
+      const p={muc:[48.3538,11.7861],inn:[47.2692,11.4041],vp:[46.8957,11.4311],bz:[46.4983,11.3548],f:[47.4395,12.7333]};
+      L.polyline([p.muc,p.bz,p.f],{color:'#c5662f',weight:5,opacity:.68}).addTo(m);
+      L.polyline([p.muc,p.vp,p.f],{color:'#ad7d19',weight:6,opacity:.92}).addTo(m);
+      L.polyline([p.muc,p.inn,p.f],{color:'#27627a',weight:5,opacity:.76}).addTo(m);
+      [['Munich Airport',p.muc],['Innsbruck',p.inn],['Vipiteno',p.vp],['Bolzano',p.bz],['Forsthofgut',p.f]].forEach(([n,x])=>L.marker(x).addTo(m).bindTooltip(n,{permanent:true,direction:'top'}));
+      m.fitBounds([p.muc,p.bz,p.f],{padding:[35,35]});
+    });
+  </script>
+</body>
+</html>
