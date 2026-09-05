@@ -64,6 +64,7 @@ body{font-family:'DM Sans',system-ui,sans-serif;background:var(--paper);color:va
 }
 @media(max-width:360px){
   .wrap{padding-inline:16px}
+  header nav,.editor-picks{margin-right:-16px;padding-right:16px}
   .card-body{padding:17px}
   .stats strong{font-size:18px}
   .area-index{grid-template-columns:1fr}
