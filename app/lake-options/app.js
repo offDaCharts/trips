@@ -17,10 +17,10 @@ map.fitBounds(L.latLngBounds(places.map(p=>[p.lat,p.lng])),{padding:[35,35]});
 
 const cafes=[
   {name:'Your Airbnb',home:true,lat:47.5162,lng:12.3315,label:'Starting point',detail:'Höhenleitweg 4, Going am Wilden Kaiser'},
-  {name:'Helenes Kaffee Werk',lat:47.5285357,lng:12.2492826,label:'Best nearby match · Scheffau',detail:'Avocado bread, poached eggs, pancakes and homemade cakes.',url:'https://www.google.com/maps/search/?api=1&query=Helenes+Kaffee+Werk+Scheffau'},
-  {name:'das kaff.',lat:47.5393334,lng:12.4423901,label:'Modern savory breakfast · Kirchdorf',detail:'Specialty coffee, avocado bread, waffles and brunch plates.',url:'https://www.google.com/maps/search/?api=1&query=das+kaff+Innsbrucker+Strasse+66+Kirchdorf+Tirol'},
-  {name:'Pano Brot & Kaffee',lat:47.4468922,lng:12.3899752,label:'Bakery + coffee · Kitzbühel',detail:'Stylish bakery stop with coffee, pastries and a town stroll.',url:'https://www.google.com/maps/search/?api=1&query=Pano+Brot+Kaffee+Kitzbuhel'},
-  {name:'Goinger Bäck',lat:47.5147504,lng:12.3312513,label:'Closest simple option · Going',detail:'Fresh bread, pastries, coffee and savory filled rolls.',url:'https://www.google.com/maps/search/?api=1&query=Goinger+Back+Going+Austria'}
+  {name:'Helenes Kaffee Werk',lat:47.5285357,lng:12.2492826,label:'9 min · 7.4 km · Scheffau',detail:'Avocado bread, poached eggs, pancakes and homemade cakes.',url:'https://www.google.com/maps/search/?api=1&query=Helenes+Kaffee+Werk+Scheffau'},
+  {name:'das kaff.',lat:47.5393334,lng:12.4423901,label:'14 min · 10.4 km · Kirchdorf',detail:'Specialty coffee, avocado bread, waffles and brunch plates.',url:'https://www.google.com/maps/search/?api=1&query=das+kaff+Innsbrucker+Strasse+66+Kirchdorf+Tirol'},
+  {name:'Pano Brot & Kaffee',lat:47.4468922,lng:12.3899752,label:'17 min · 12.6 km · Kitzbühel',detail:'Stylish bakery stop with coffee, pastries and a town stroll.',url:'https://www.google.com/maps/search/?api=1&query=Pano+Brot+Kaffee+Kitzbuhel'},
+  {name:'Goinger Bäck',lat:47.5147504,lng:12.3312513,label:'1 min · 0.4 km · Going',detail:'Fresh bread, pastries, coffee and savory filled rolls.',url:'https://www.google.com/maps/search/?api=1&query=Goinger+Back+Going+Austria'}
 ];
 const cafeMap=L.map('cafe-map',{scrollWheelZoom:false}).setView([47.51,12.34],11);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap contributors'}).addTo(cafeMap);
