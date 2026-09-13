@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="A visual comparison of six Austrian alpine lakes from Going am Wilden Kaiser, with drive times, family fit and onward routing to Naturhotel Forsthofgut.">
-  <title>Six Lakes from Going · Austria Field Guide</title>
+  <meta name="description" content="A visual comparison of seven Austrian alpine lakes from Going am Wilden Kaiser, with drive times, family fit and onward routing to Naturhotel Forsthofgut.">
+  <title>Seven Lakes from Going · Austria Field Guide</title>
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-  <link rel="stylesheet" href="./styles.css?v=1">
+  <link rel="stylesheet" href="./styles.css?v=2">
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script defer src="./app.js?v=1"></script>
+  <script defer src="./app.js?v=2"></script>
 </head>
 <body>
   <header class="hero">
     <nav><a href="../">← Trip HQ</a><a href="../going-to-forsthofgut/">30-hour plan ↗</a></nav>
     <div class="hero-copy">
       <p class="eyebrow">Separate research board · from the shared chat</p>
-      <h1>Six lakes.<br><em>One useful reality check.</em></h1>
+      <h1>Seven lakes.<br><em>One useful reality check.</em></h1>
       <p>The beautiful options around Tirol—reframed around your exact base in Going, Rue, and tomorrow’s destination in Leogang.</p>
     </div>
     <aside><span>Most practical now</span><strong>Hintersteiner See</strong><span>Best substantial day trip</span><strong>Achensee</strong></aside>
@@ -31,7 +31,7 @@
 
     <section class="map-section">
       <div class="section-head"><span>02 / Put them in space</span><h2>The western spread.</h2><p>Tap any photo pin for its drive math and family verdict.</p></div>
-      <div id="map" aria-label="Map of six Austrian lake options from Going to Naturhotel Forsthofgut"></div>
+      <div id="map" aria-label="Map of seven Austrian lake options from Going to Naturhotel Forsthofgut"></div>
       <div class="legend"><i class="base"></i> Base / hotel <i class="go"></i> Practical <i class="maybe"></i> Dedicated outing <i class="no"></i> Too far for this transfer</div>
     </section>
 
@@ -48,32 +48,38 @@
         <div class="copy"><span class="badge">Best destination lake</span><h3>Achensee</h3><p>A vast, fjord-like lake between the Karwendel and Rofan ranges. Pertisau gives you promenades, boats and a dramatic wall of mountains without requiring a hard hike.</p><ul><li><b>From Going:</b> 57 min · 60 km</li><li><b>Onward to Forsthofgut:</b> 1 hr 36 · 94 km</li><li><b>With Rue:</b> promenade and boat are the easiest high-reward combination</li></ul><a href="https://www.google.com/maps/dir/H%C3%B6henleitweg+4,+Going+am+Wilden+Kaiser/Pertisau+am+Achensee" target="_blank" rel="noreferrer">Directions ↗</a></div>
       </article>
 
+      <article class="lake winner">
+        <figure><img src="../austria/assets/zell-am-see.jpg" alt="Zell am See beneath the Schmittenhöhe"><figcaption>03 · best on the way to the hotel</figcaption></figure>
+        <div class="copy"><span class="badge">Best transfer-day lake</span><h3>Zell am See</h3><p>The only major lake here that naturally leads toward Forsthofgut. It combines an easy stroller-friendly waterfront with a compact old town—and gives you two ways to scale the outing.</p><ul><li><b>From Going:</b> 1 hr 06 · 57 km</li><li><b>Onward to Forsthofgut:</b> 25 min · 23 km</li><li><b>Easy option:</b> promenade, old town and a panorama cruise</li><li><b>Clear-sky option:</b> Schmittenhöhe cable car for the high lake view</li></ul><div class="choice-links"><a href="https://www.google.com/maps/dir/H%C3%B6henleitweg+4,+Going+am+Wilden+Kaiser/Zell+am+See/Naturhotel+Forsthofgut,+Leogang" target="_blank" rel="noreferrer">Transfer route ↗</a><a href="https://www.schmitten.at/en/Summer-on-the-mountain/Open-facilities-and-highlights" target="_blank" rel="noreferrer">Lift status ↗</a></div></div>
+      </article>
+
       <article class="lake">
-        <figure><img src="./assets/piburger-see.jpg" alt="Piburger See reflecting forest and mountain slopes"><figcaption>03 · quiet woodland lake</figcaption></figure>
+        <figure><img src="./assets/piburger-see.jpg" alt="Piburger See reflecting forest and mountain slopes"><figcaption>04 · quiet woodland lake</figcaption></figure>
         <div class="copy"><span class="badge neutral">Dedicated outing</span><h3>Piburger See</h3><p>Smaller, calmer and more intimate than Achensee. The reward is a forest-ringed mirror lake above Oetz; the tradeoff is a long westward drive and an approach walk.</p><ul><li><b>From Going:</b> 1 hr 54 · 139 km</li><li><b>Onward to Forsthofgut:</b> 2 hr 33 · 172 km</li><li><b>With Rue:</b> carrier is more flexible than stroller around the lake</li></ul><a href="https://www.google.com/maps/dir/H%C3%B6henleitweg+4,+Going+am+Wilden+Kaiser/Piburger+See" target="_blank" rel="noreferrer">Directions ↗</a></div>
       </article>
 
       <article class="lake reverse">
-        <figure><img src="./assets/obernberger-see.jpg" alt="Obernberger See and its chapel among the Alps"><figcaption>04 · chapel + high valley</figcaption></figure>
+        <figure><img src="./assets/obernberger-see.jpg" alt="Obernberger See and its chapel among the Alps"><figcaption>05 · chapel + high valley</figcaption></figure>
         <div class="copy"><span class="badge neutral">Dedicated outing</span><h3>Obernberger See</h3><p>The most storybook composition: a high lake, forest and Maria am See chapel under the Tribulaun. Unlike roadside lakes, it requires roughly a 30-minute uphill walk from parking.</p><ul><li><b>From Going:</b> 1 hr 41 · 117 km</li><li><b>Onward to Forsthofgut:</b> 2 hr 21 · 151 km</li><li><b>With Rue:</b> bring the carrier; not a quick pull-off</li></ul><a href="https://www.google.com/maps/dir/H%C3%B6henleitweg+4,+Going+am+Wilden+Kaiser/Obernberger+See" target="_blank" rel="noreferrer">Directions ↗</a></div>
       </article>
 
       <article class="lake far">
-        <figure><img src="./assets/plansee.jpg" alt="Plansee surrounded by forested Alpine ridges"><figcaption>05 · dramatic, but west</figcaption></figure>
+        <figure><img src="./assets/plansee.jpg" alt="Plansee surrounded by forested Alpine ridges"><figcaption>06 · dramatic, but west</figcaption></figure>
         <div class="copy"><span class="badge coral">Wrong direction tomorrow</span><h3>Plansee</h3><p>A long, blue-green mountain lake with roadside viewpoints and easy scenic access. It earns the praise from the shared research—but not as a stop on the way to Leogang.</p><ul><li><b>From Going:</b> 2 hr 31 · 181 km</li><li><b>Onward to Forsthofgut:</b> 3 hr 11 · 215 km</li><li><b>Verdict:</b> save for a Reutte / Füssen itinerary</li></ul><a href="https://www.google.com/maps/dir/H%C3%B6henleitweg+4,+Going+am+Wilden+Kaiser/Plansee" target="_blank" rel="noreferrer">Directions ↗</a></div>
       </article>
 
       <article class="lake far reverse">
-        <figure><img src="./assets/lunersee.jpg" alt="Turquoise Lünersee in a high rocky mountain basin"><figcaption>06 · the expedition</figcaption></figure>
+        <figure><img src="./assets/lunersee.jpg" alt="Turquoise Lünersee in a high rocky mountain basin"><figcaption>07 · the expedition</figcaption></figure>
         <div class="copy"><span class="badge coral">Future trip</span><h3>Lünersee</h3><p>The most genuinely high-alpine option, reached by cable car above Brand. It is spectacular, but lift schedules, mountain weather and six-plus hours of driving make it a separate expedition.</p><ul><li><b>From Going:</b> 3 hr 09 · 234 km</li><li><b>Onward to Forsthofgut:</b> 3 hr 47 · 268 km</li><li><b>Verdict:</b> pair with Vorarlberg, not this stay</li></ul><a href="https://www.google.com/maps/dir/H%C3%B6henleitweg+4,+Going+am+Wilden+Kaiser/L%C3%BCnerseebahn" target="_blank" rel="noreferrer">Directions ↗</a></div>
       </article>
     </section>
 
     <section class="matrix">
-      <div class="section-head"><span>04 / Scan it fast</span><h2>All six at a glance.</h2></div>
+      <div class="section-head"><span>04 / Scan it fast</span><h2>All seven at a glance.</h2></div>
       <div class="table-wrap"><table><thead><tr><th>Lake</th><th>Going → lake</th><th>Lake → hotel</th><th>Ease with baby</th><th>Best role</th></tr></thead><tbody>
         <tr><td>Hintersteiner</td><td>11m</td><td>50m</td><td>High</td><td>Short local hit</td></tr>
         <tr><td>Achensee</td><td>57m</td><td>1h 36</td><td>High</td><td>Full lake day</td></tr>
+        <tr><td>Zell am See</td><td>1h 06</td><td>25m</td><td>High</td><td>Best transfer stop</td></tr>
         <tr><td>Obernberger</td><td>1h 41</td><td>2h 21</td><td>Medium</td><td>Carrier hike</td></tr>
         <tr><td>Piburger</td><td>1h 54</td><td>2h 33</td><td>Medium</td><td>Quiet nature day</td></tr>
         <tr><td>Plansee</td><td>2h 31</td><td>3h 11</td><td>High once there</td><td>Western road trip</td></tr>

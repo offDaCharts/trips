@@ -3,6 +3,7 @@ const places=[
   {name:'Naturhotel Forsthofgut',kind:'base',lat:47.4395,lng:12.7178,img:'../assets/alpine-family-resorts/forsthofgut-resort.jpg',time:'Tomorrow’s hotel',note:'Leogang · check-in from 3 p.m.'},
   {name:'Hintersteiner See',kind:'go',lat:47.5415,lng:12.2374,img:'./assets/hintersteiner-see.jpg',time:'11m from Going · 50m to hotel',note:'The easy local lake'},
   {name:'Achensee',kind:'go',lat:47.443,lng:11.704,img:'./assets/achensee.jpg',time:'57m from Going · 1h 36 to hotel',note:'Best substantial lake day'},
+  {name:'Zell am See',kind:'go',lat:47.3234,lng:12.7980,img:'../austria/assets/zell-am-see.jpg',time:'1h 06 from Going · 25m to hotel',note:'Best lake stop on the transfer'},
   {name:'Obernberger See',kind:'maybe',lat:47.016,lng:11.421,img:'./assets/obernberger-see.jpg',time:'1h 41 from Going · 2h 21 to hotel',note:'High valley + chapel; approach walk'},
   {name:'Piburger See',kind:'maybe',lat:47.188,lng:10.887,img:'./assets/piburger-see.jpg',time:'1h 54 from Going · 2h 33 to hotel',note:'Quiet, forested and intimate'},
   {name:'Plansee',kind:'no',lat:47.472,lng:10.807,img:'./assets/plansee.jpg',time:'2h 31 from Going · 3h 11 to hotel',note:'Beautiful but decisively west'},
