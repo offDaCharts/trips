@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A live two-day field plan from Going am Wilden Kaiser to Naturhotel Forsthofgut, with Ryan Shirley Austria highlights, weather and drive-time comparisons." />
+  <title>Going → Forsthofgut · The Next 30 Hours</title>
+  <link rel="preconnect" href="https://unpkg.com" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="./styles.css?v=1" />
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script defer src="./app.js?v=1"></script>
+</head>
+<body>
+  <header class="hero">
+    <nav><a href="../">← Trip HQ</a><a href="../austria/">Austria video guide ↗</a></nav>
+    <div class="hero-copy">
+      <p class="eyebrow">Live field plan · September 13–14</p>
+      <h1>The next<br><em>30 hours.</em></h1>
+      <p>One open day beneath the Wilder Kaiser. One short transfer to Leogang. The goal is to collect the right scenery—not the most mileage.</p>
+    </div>
+    <div class="hero-verdict">
+      <span>Our call</span>
+      <strong>Stay local today.<br>Use Zell am See tomorrow.</strong>
+      <small>Wolfgangsee and Hallstatt deserve their own day.</small>
+    </div>
+  </header>
+
+  <main>
+    <section class="weather-strip" aria-label="Weather snapshot">
+      <article><span>Sun · Sep 13</span><strong>Going</strong><b>69°F / 54°F</b><p>Increasing cloud, but dry enough for a mountain or lake afternoon.</p></article>
+      <article><span>Mon · Sep 14</span><strong>Transfer day</strong><b>64°F / 49°F</b><p>Early showers; brighter breaks are more likely later.</p></article>
+      <article class="drive"><span>Direct baseline</span><strong>Going → Forsthofgut</strong><b>42 min</b><p>Zell changes that to about 1 hr 31 of total driving.</p></article>
+    </section>
+
+    <section class="decision" id="plan">
+      <div class="section-head"><p>01 / The answer</p><h2>What belongs when.</h2></div>
+      <div class="day-grid">
+        <article class="day-card today">
+          <div class="day-label"><span>Today</span><b>September 13</b></div>
+          <img src="../airbnbs-austria/assets/nearby/astbergsee.jpg" alt="The Wilder Kaiser reflected in Astbergsee" />
+          <div class="day-body">
+            <p class="pick">Best if you can reach the lift by about 2:30</p>
+            <h3>Astbergsee + Pony Alm</h3>
+            <p>Do the close-to-home mountain view while the weather is good. Today is the final daily-operation date of the 2026 high season; the Pony Alm is scheduled until 4 p.m.</p>
+            <ul><li>5–10 min to the Astbergbahn valley station</li><li>Chairlift; bring the baby carrier, not the stroller</li><li>Reflection lake, panoramic ridge and ponies</li></ul>
+            <a href="https://www.google.com/maps/dir/H%C3%B6henleitweg+4,+Going+am+Wilden+Kaiser/Astbergbahn,+Going+am+Wilden+Kaiser" target="_blank" rel="noreferrer">Open directions ↗</a>
+          </div>
+          <aside><strong>Too late for the lift?</strong><p>Use Hintersteiner See for a short shore walk, or drive to Wochenbrunner Alm for the terrace and enormous Kaiser view; it is open until 7 p.m.</p></aside>
+        </article>
+
+        <article class="day-card tomorrow">
+          <div class="day-label"><span>Tomorrow</span><b>September 14</b></div>
+          <img src="../austria/assets/zell-am-see.jpg" alt="Zell am See and its alpine lake" />
+          <div class="day-body">
+            <p class="pick">Best transfer-day addition</p>
+            <h3>Zell am See → Forsthofgut</h3>
+            <p>Let the early showers pass while you pack, then take the southern bend to Zell. The lake is the flexible version; ride Schmittenhöhe only if the summit camera is clear.</p>
+            <ul><li>Going → Zell: ~1 hr 06</li><li>Zell → Forsthofgut: ~25 min</li><li>Forsthofgut room guaranteed from 3 p.m.</li></ul>
+            <a href="https://www.google.com/maps/dir/H%C3%B6henleitweg+4,+Going+am+Wilden+Kaiser/Zell+am+See/Naturhotel+Forsthofgut,+Leogang" target="_blank" rel="noreferrer">Open the transfer route ↗</a>
+          </div>
+          <aside><strong>Suggested rhythm</strong><p>Leave 9:30–10 → lakefront and old town 10:40 → optional 12:00 or 1:00 cruise → lunch → leave around 2:20 → check in near 3.</p></aside>
+        </article>
+      </div>
+    </section>
+
+    <section class="map-section" id="map-section">
+      <div class="section-head"><p>02 / Geography</p><h2>See why Zell wins.</h2><span>Tap a pin for the place, drive times and practical verdict.</span></div>
+      <div class="map-shell"><div id="map" aria-label="Map comparing Going, local outings, Zell am See, Wolfgangsee, Hallstatt and Naturhotel Forsthofgut"></div></div>
+      <div class="legend"><span><i class="local"></i>Today</span><span><i class="transfer"></i>Tomorrow</span><span><i class="detour"></i>Save for another trip</span></div>
+    </section>
+
+    <section class="options" id="compare">
+      <div class="section-head"><p>03 / Video highlights tested</p><h2>The honest comparison.</h2></div>
+      <div class="option-grid">
+        <article class="option recommended">
+          <figure><img src="../austria/assets/zell-am-see.jpg" alt="Zell am See lake and mountains"><figcaption>Ryan video · 10:21</figcaption></figure>
+          <div><span class="badge">Best tomorrow</span><h3>Zell am See</h3><p>Lake, compact old town and a mountain backdrop with almost no commitment. It fits the weather because the plan can shrink to a promenade or expand to a cruise or summit.</p><dl><div><dt>From Going</dt><dd>1 hr 06</dd></div><div><dt>To Forsthofgut</dt><dd>25 min</dd></div><div><dt>Total wheels turning</dt><dd>1 hr 31</dd></div></dl><small>+49 min versus driving direct</small></div>
+        </article>
+        <article class="option">
+          <figure><img src="../airbnbs-austria/assets/nearby/hintersteiner-see.jpg" alt="Turquoise Hintersteiner See below the Wilder Kaiser"><figcaption>Local addition · not in video</figcaption></figure>
+          <div><span class="badge">Best late today</span><h3>Hintersteiner See</h3><p>The strongest lake close to the Airbnb. Go for the east-shore view and a short walk; do not force the full loop late in the day with the baby.</p><dl><div><dt>From Going</dt><dd>11 min</dd></div><div><dt>To Forsthofgut</dt><dd>50 min</dd></div><div><dt>Transfer via lake</dt><dd>1 hr 01</dd></div></dl><small>Limited parking; the access road climbs from Scheffau.</small></div>
+        </article>
+        <article class="option deprioritized">
+          <figure><img src="../austria/assets/wolfgangsee.jpg" alt="Wolfgangsee ringed by Austrian mountains"><figcaption>Ryan video · 04:41</figcaption></figure>
+          <div><span class="badge">Not these two days</span><h3>Wolfgangsee</h3><p>A genuine headliner, especially with Schafberg, but it points east while Forsthofgut lies west. Four hours of transfer driving leaves too little time for the lake.</p><dl><div><dt>From Going</dt><dd>2 hr 06</dd></div><div><dt>To Forsthofgut</dt><dd>2 hr 02</dd></div><div><dt>Total wheels turning</dt><dd>4 hr 08</dd></div></dl><small>Save for a dedicated Salzkammergut day.</small></div>
+        </article>
+        <article class="option deprioritized">
+          <figure><img src="../austria/assets/hallstatt.jpg" alt="Hallstatt village beside Hallstättersee"><figcaption>Ryan video · 00:26</figcaption></figure>
+          <div><span class="badge">Beautiful, wrong geometry</span><h3>Hallstatt</h3><p>The famous frame is real, but tomorrow’s forecast is showery and the route adds more than three hours over the direct transfer before parking and crowds.</p><dl><div><dt>From Going</dt><dd>2 hr 17</dd></div><div><dt>To Forsthofgut</dt><dd>1 hr 53</dd></div><div><dt>Total wheels turning</dt><dd>4 hr 10</dd></div></dl><small>Do it early on a future Salzkammergut overnight.</small></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="zell-detail">
+      <div class="section-head"><p>04 / Tomorrow's flex menu</p><h2>Choose by the clouds.</h2></div>
+      <div class="flex-grid">
+        <article><span>Low cloud / showers</span><h3>Promenade + old town</h3><p>Park once, walk the lake edge, cross the compact center and have an early lunch. Easy with the stroller and still feels like a real destination.</p><b>Allow 1½–2 hours</b></article>
+        <article><span>Lake is calm</span><h3>Panorama cruise</h3><p>MS Schmittenhöhe panorama sailings are scheduled hourly from 10 a.m. to 5 p.m. through October 4. Confirm at the pier before committing.</p><b>Choose 12:00 or 1:00</b></article>
+        <article><span>Summit is visible</span><h3>Schmittenhöhebahn</h3><p>The main cable car is scheduled 9 a.m.–5 p.m. A fast up-and-back gives the video’s high view, but only choose it if live cameras show something beyond cloud.</p><b>Allow at least 2 hours</b></article>
+      </div>
+      <div class="action-row"><a href="https://www.schmitten.at/en/Summer-on-the-mountain/Open-facilities-and-highlights" target="_blank" rel="noreferrer">Check live lift status ↗</a><a href="https://tickets.schmitten.at/en/summer/support/service" target="_blank" rel="noreferrer">Boat schedule ↗</a><a href="https://www.forsthofgut.at/en/online-check-in/" target="_blank" rel="noreferrer">Forsthofgut check-in ↗</a></div>
+    </section>
+
+    <section class="sources">
+      <p>Drive times are route-planning snapshots without live traffic, calculated September 13. Weather is a dated planning snapshot and should be refreshed before mountain lifts. Video references: Ryan Shirley, <em>Top 25 Places To Visit in Austria</em>.</p>
+      <a href="https://youtu.be/tl223Zu09CE" target="_blank" rel="noreferrer">Watch the Austria video ↗</a>
+    </section>
+  </main>
+</body>
+</html>
