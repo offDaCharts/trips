@@ -1,0 +1,284 @@
+{
+  "checked": "2026-09-20",
+  "checkin": "2026-12-20",
+  "checkout": "2026-12-27",
+  "party": "2 adults + 1 infant; no pets priced",
+  "evidence": "Each shortlisted listing displayed these dates, a 7-night quote and Reserve button. No reservation made.",
+  "stays": [
+    {
+      "key": "treehouse",
+      "id": "1001321328747898340",
+      "name": "Mountain Chalet Treehouse",
+      "tag": "Our pick \u00b7 your own woodland spa",
+      "price": 6221,
+      "rating": "4.98",
+      "reviews": 54,
+      "beds": 3,
+      "baths": "2.5",
+      "sleeps": 8,
+      "area": "Luce Hill \u00b7 between village & Trapp\u2019s",
+      "pitch": "A whole wellness deck in the trees: hot tub, sauna and cold plunge, with big windows and a fireside living room inside.",
+      "features": [
+        "Private hot tub",
+        "Sauna + cold plunge",
+        "Fireplace",
+        "Kitchen + laundry"
+      ],
+      "tradeoff": "Forest outlook rather than a sweeping mountain panorama. Elevated deck and ungated hot tub need care with Rue.",
+      "cancel": "Free cancellation before November 20; partial refund before December 13, per the listing.",
+      "pet": "Pet permission not verified.",
+      "note": "Host recommends a winter-ready vehicle. Confirm crib, stair gates and hot-tub cover before booking.",
+      "images": [
+        {
+          "src": "photos/treehouse-1.jpg",
+          "caption": "The chalet and wraparound woodland deck \u00b7 green season",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-1001321328747898340/original/7c459637-ee13-4268-b951-717da965ac70.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/treehouse-2.jpg",
+          "caption": "Private outdoor hot tub among the trees",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1001321328747898340/original/f252e8d9-fd3f-4f86-a280-b00a6fb72f01.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/treehouse-3.jpg",
+          "caption": "Living room, fireplace and forest-facing windows",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1001321328747898340/original/172ab9dd-a73f-495e-bee1-d61927c4c0d8.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/treehouse-4.jpg",
+          "caption": "Open living and dining area",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1001321328747898340/original/c96c2793-387c-4972-a2ae-ce73e9fffdd5.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/treehouse-5.jpg",
+          "caption": "Queen bedroom",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1001321328747898340/original/de2766b0-2cb3-4700-a01d-7c5de392ae05.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/treehouse-6.jpg",
+          "caption": "Second bedroom with bunk beds",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1001321328747898340/original/3c6940ec-f31e-4d88-80d8-399ce0ddc630.jpeg?im_w=1200"
+        }
+      ],
+      "url": "https://www.airbnb.com/rooms/1001321328747898340?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1"
+    },
+    {
+      "key": "trapp",
+      "id": "53007848",
+      "name": "World-Class Villa at Trapp",
+      "tag": "The Alpine feeling \u00b7 mountain-view splurge",
+      "price": 9570,
+      "rating": "4.98",
+      "reviews": 103,
+      "beds": 2,
+      "baths": "2.5",
+      "sleeps": 8,
+      "area": "On the von Trapp resort grounds",
+      "pitch": "The closest echo of Austria: a stone fireplace, tall windows framing the mountains, and access to the Trapp resort\u2019s pool and trails.",
+      "features": [
+        "Mountain-view windows",
+        "Stone fireplace",
+        "Resort pool access",
+        "2 bedroom suites"
+      ],
+      "tradeoff": "Bedrooms are upstairs. Resort wellness facilities are shared; the listing\u2019s \u201cprivate hot tub\u201d label needs clarification.",
+      "cancel": "Free cancellation for 24 hours; partial refund before December 13, per the listing.",
+      "pet": "Pet permission not verified.",
+      "note": "Host says resort amenities are included. Confirm winter trail passes, any activity fees, crib and which hot-tub facilities are available.",
+      "images": [
+        {
+          "src": "photos/trapp-interior-10.jpg",
+          "caption": "Living-room windows looking toward the mountains \u00b7 autumn",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTMwMDc4NDg=/original/2d18c0c8-8865-4a73-94bb-ee9588e835f0.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/trapp-1.jpg",
+          "caption": "Villa exterior in snow",
+          "source": "https://a0.muscache.com/im/pictures/a7308aaf-cdb1-4465-a5d2-b40a7cfc3f52.jpg?im_w=1200"
+        },
+        {
+          "src": "photos/trapp-interior-9.jpg",
+          "caption": "Dining area opening into the living room",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-53007848/original/0c1e039b-885c-4597-a9c4-6daa840b59cd.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/trapp-6.jpg",
+          "caption": "Upstairs king suite",
+          "source": "https://a0.muscache.com/im/pictures/b74ad2b4-3431-4da8-b2af-c868d96b40e8.jpg?im_w=1200"
+        },
+        {
+          "src": "photos/trapp-4.jpg",
+          "caption": "Aerial winter setting \u00b7 not a room view",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-53007848/original/f03aba97-d6cc-41e9-873e-9bd9a7bde187.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/trapp-5.jpg",
+          "caption": "Villa garden \u00b7 green season",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTMwMDc4NDg=/original/4f007b1c-5306-485a-beec-370cbcef20d2.jpeg?im_w=1200"
+        }
+      ],
+      "url": "https://www.airbnb.com/rooms/53007848?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1"
+    },
+    {
+      "key": "hollow",
+      "id": "1253616541457583423",
+      "name": "Stowe Hollow",
+      "tag": "Best value here \u00b7 a house near the village",
+      "price": 5362,
+      "rating": "4.88",
+      "reviews": 17,
+      "beds": 3,
+      "baths": "3.5",
+      "sleeps": 6,
+      "area": "Stowe Hollow \u00b7 under a mile to village",
+      "pitch": "A vaulted living room, wood fire and three en-suite bedrooms. The private stone patio adds a hot tub and a gas fire pit.",
+      "features": [
+        "Private hot tub",
+        "Wood-burning fireplace",
+        "3 en-suite bedrooms",
+        "Pets allowed"
+      ],
+      "tradeoff": "Mansfield views are described from the covered entrance; don\u2019t assume a mountain view from every room.",
+      "cancel": "Free cancellation before November 20; partial refund before December 13, per the listing.",
+      "pet": "Pets allowed; confirm both Maui and Kona and the total pet fee.",
+      "note": "Listing summary says 3.5 baths while the description says 3. Confirm the layout, baby gear and stair gates.",
+      "images": [
+        {
+          "src": "photos/hollow-1.jpg",
+          "caption": "Stowe Hollow exterior in snow",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-1253616541457583423/original/8b49aca1-d639-4c18-8346-fddcebc938d1.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/hollow-2.jpg",
+          "caption": "Stone patio, private hot tub and fire pit \u00b7 green season",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI1MzYxNjU0MTQ1NzU4MzQyMw%3D%3D/original/3a495ecc-fc16-429c-b3cf-90a03b33a4dd.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/hollow-3.jpg",
+          "caption": "Vaulted living room with wood-burning fireplace",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-1253616541457583423/original/dccc8408-ae76-43bd-b5b8-9a7e807c2852.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/hollow-4.jpg",
+          "caption": "Spacious king bedroom",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-1253616541457583423/original/88bb6fe4-5455-49aa-a3a3-db6350ccb82d.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/hollow-5.jpg",
+          "caption": "Kitchen with wood cabinetry",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-1253616541457583423/original/cf8a9310-dd9d-403a-815a-53b047c61634.jpeg?im_w=1200"
+        }
+      ],
+      "url": "https://www.airbnb.com/rooms/1253616541457583423?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1"
+    },
+    {
+      "key": "salty",
+      "id": "1435808665902647970",
+      "name": "Salty Margarita",
+      "tag": "The statement stay \u00b7 Airbnb Luxe",
+      "price": 17229,
+      "rating": "5.0",
+      "reviews": 41,
+      "beds": 3,
+      "baths": "4.5",
+      "sleeps": 10,
+      "area": "Mountain Road \u00b7 near ski shuttle",
+      "pitch": "A soaring great room and a full apr\u00e8s-ski setup: private hot tub, cedar sauna and a game room. A serious splurge, especially for just three.",
+      "features": [
+        "Airbnb Luxe",
+        "Private hot tub + sauna",
+        "Game room",
+        "Bedroom fireplaces"
+      ],
+      "tradeoff": "Listed as a townhouse. Title says 4 bedrooms, but Airbnb\u2019s room summary shows 3; verify the fourth sleeping space.",
+      "cancel": "Free cancellation for 24 hours; partial refund before December 13, per the listing.",
+      "pet": "Pet permission not verified.",
+      "note": "Confirm a separate quiet room and crib for Rue. Ask whether the bathroom issue mentioned in a recent review has been resolved.",
+      "images": [
+        {
+          "src": "photos/salty-1.jpg",
+          "caption": "Great room, stone fireplace and tall windows",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1435808665902647970/original/b81f70ee-c0eb-4a5f-9689-b38ee1c52a76.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/salty-2.jpg",
+          "caption": "Open kitchen and great room",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1435808665902647970/original/48926c28-d4dc-4ed5-9b39-974b68119f3f.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/salty-3.jpg",
+          "caption": "Main-floor king bedroom",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1435808665902647970/original/cba47755-c52d-4846-b671-44632f406624.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/salty-4.jpg",
+          "caption": "Game room with pool table and bunks",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1435808665902647970/original/8e513ba9-c3cb-4a34-8cd3-6dbb6b6403ea.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/salty-5.jpg",
+          "caption": "Kitchen island and living area",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1435808665902647970/original/8b04375f-5023-4a0e-bcd1-215cbb6ca5c5.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/salty-6.jpg",
+          "caption": "Private hot tub and cedar sauna \u00b7 green season",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1435808665902647970/original/91683032-9782-4df1-8341-296f49f8f7fa.jpeg?im_w=1200"
+        }
+      ],
+      "url": "https://www.airbnb.com/rooms/1435808665902647970?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1"
+    },
+    {
+      "key": "modern",
+      "id": "1650714543415288734",
+      "name": "Modern Stowe Retreat",
+      "tag": "Room for everyone \u00b7 contemporary new build",
+      "price": 13452,
+      "rating": "4.86",
+      "reviews": 7,
+      "beds": 4,
+      "baths": "5",
+      "sleeps": 14,
+      "area": "Near Stowe village \u00b7 duplex, Unit 2",
+      "pitch": "Clean modern interiors, a gas fireplace and 2,900 square feet over three levels. A good candidate if this becomes an extended-family Christmas.",
+      "features": [
+        "New construction",
+        "Gas fireplace",
+        "Game room",
+        "Garage + ski storage"
+      ],
+      "tradeoff": "One side of a duplex, not a detached estate. No private hot tub advertised; only seven reviews so far.",
+      "cancel": "Free cancellation before November 20; partial refund before December 13, per the listing.",
+      "pet": "One dog per reservation, with a fee. Not a fit for both Maui and Kona under the stated policy.",
+      "note": "Main-floor queen suite; additional bedrooms upstairs. Confirm crib and stair gates. Host estimates 10\u201315 minutes to skiing, before holiday traffic.",
+      "images": [
+        {
+          "src": "photos/modern-1.jpg",
+          "caption": "Kitchen island and dining area",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1650714543415288734/original/dc4e4eb9-ace3-41d5-bd28-8aa299b39e98.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/modern-2.jpg",
+          "caption": "Living room with gas fireplace",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1650714543415288734/original/596e1a5e-d8d4-4466-974c-2d06b62a47f9.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/modern-3.jpg",
+          "caption": "Bedroom with large windows",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1650714543415288734/original/f0a5e523-b242-4ec6-ae02-c3ae5a8247cb.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/modern-4.jpg",
+          "caption": "Game room with foosball and ski decor",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1650714543415288734/original/58983cbe-fafe-4551-bc58-7c987880cb51.jpeg?im_w=1200"
+        },
+        {
+          "src": "photos/modern-5.jpg",
+          "caption": "Entry and mudroom",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1650714543415288734/original/e5dab2a6-45b6-4879-82d2-a64e2f982b37.jpeg?im_w=1200"
+        }
+      ],
+      "url": "https://www.airbnb.com/rooms/1650714543415288734?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1"
+    }
+  ]
+}
