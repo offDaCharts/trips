@@ -44,7 +44,8 @@ tn:{title:'Smoky cabins + High Country',headline:'A cozy Thanksgiving loop; snow
 ['Beech Mountain → Atlanta','Drive 5½–6½ hr plus breaks; aim to descend after roads are clear and arrive home before late evening.','Home','Plan a lunch stop and several dog-and-Rue breaks.','Extend if winter conditions prevent a comfortable departure.']
 ]}};
 const windows={before:{date:'2026-12-22',note:'Dec 22–28: Christmas morning falls at Snowshoe, Beech or the Homestead. The Smokies loop transfers on Dec 25; reverse its two bases if you choose this window. Buy groceries and book meals ahead.'},christmas:{date:'2026-12-25',note:'Dec 25–31: Christmas Day is a driving day, not a snowy morning at the destination. Pack lunch and dinner supplies; holiday food stops may be closed. Snowshoe is reached on Dec 26.'},after:{date:'2026-12-26',note:'Dec 26–Jan 1: celebrate Christmas at home, then go north. This avoids a Christmas Day transfer but overlaps peak holiday demand and New Year’s. Those few extra days do not guarantee more snow.'},thanksgiving:{date:'2026-11-22',note:'Nov 22–28: Thanksgiving is Thursday Nov 26. Prefer the Smokies/NC loop or a hotel holiday you would enjoy without snow. Ski and sledding openings are weather-dependent. On the Snowshoe route, Thanksgiving is the transfer to the Homestead.'}};
-let selected='wv',period='before',map=null,layer=null;
+const requestedRoute=new URLSearchParams(location.search).get('route');
+let selected=Object.hasOwn(routes,requestedRoute)?requestedRoute:'wv',period='before',map=null,layer=null;
 const money=n=>'$'+n.toLocaleString('en-US');
 const sum=r=>[1,2].map(col=>r.budget.reduce((n,row)=>n+row[col],0));
 const date=i=>{const d=new Date(windows[period].date+'T12:00:00');d.setDate(d.getDate()+i);return d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});};
