@@ -6,6 +6,10 @@ Use this note as the master brief for any future trip-specific research thread, 
 
 Read this master brief, `research-standards.md`, and relevant recent trip pages before asking about travelers, origin, or travel style. The user explicitly reiterated this preference on September 20, 2026. The usual party is the user, Steph, and Rue; Atlanta is the default origin and Delta is preferred. Do not re-ask these established facts unless the new request suggests a change. Treat dates and budgets below as trip-specific historical context, not automatic constraints for a new trip.
 
+## Exploration Comes Before Detail
+
+User correction, September 20, 2026: During the first stage, build a high-level visual comparison with substantially less text. Prioritize better/more relevant photography, especially actual room-window sightlines. Show a price range and actively investigate cheaper options without treating generic hotel rates as special-view rates. Keep detailed daily itineraries, flights, and logistics for after the destination/stay choice. Put source/price caveats in expandable notes while keeping material view limitations and price status visible. This stage-specific preference overrides detailed daily planning requirements below until the user is ready.
+
 ## Core Trip Shape
 
 - Travelers: two adults plus one baby who will be about one year old.
