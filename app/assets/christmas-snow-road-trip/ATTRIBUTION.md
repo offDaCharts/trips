@@ -11,3 +11,7 @@ Downloaded September 20, 2026. Historical promotional photos, not a forecast of 
 - `dancing-bear-interior.jpg`: Dancing Bear Lodge, Deluxe Plus bedroom. Same source page. Image https://dancingbearlodge.com/media/uploads/2023/08/1-Bedroom-Deluxe-Plus-8-1199x800.jpg
 - `dogwood-interior.jpg`: Blue Ridge Mountain Rentals, Dogwood Den living room. Source https://www.blueridgerentals.com/rentals/dogwood-den Image https://gallery.streamlinevrs.com/units-gallery/00/0B/B9/image_165046554.jpeg
 - `homestead-interior.jpg`: Omni Hotels & Resorts, historical Great Hall Christmas decorations. Source https://www.omnihotels.com/blog/homesteads-great-hall-christmas-tree-tradition/ Image https://www.omnihotels.com/blog/wp-content/uploads/2017/11/homesteadtree.jpg
+
+## Expanded visual idea book
+
+Full per-photo source URLs, captions, seasons and credits are in `gallery/manifest.json` and the page’s photo-credit section. 26 additional source photographs, reviewed September 20, 2026. Copyright remains with the named sources; no open reuse license is asserted. Nonwinter outdoor property photos are labeled on the page.

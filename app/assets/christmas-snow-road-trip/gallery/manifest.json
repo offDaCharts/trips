@@ -1,0 +1,282 @@
+[
+  {
+    "id": "beech-sledding",
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/nc-beech-sledding.jpg",
+    "source_page": "https://beechmtn.com/visit/sledding-hill/",
+    "image_url": "https://beechmtn.com/wp-content/uploads/2025/01/BeechMtn_Sledding.jpg",
+    "caption": "Little snow adventures · Beech sledding hill",
+    "season": "Winter",
+    "attribution": "Beech Mountain Visitor Center",
+    "rights": "Copyrighted source photography; attribution supplied, no reuse license asserted.",
+    "visually_verified": true,
+    "file": "gallery/nc-beech-sledding.jpg"
+  },
+  {
+    "id": "beech-gazebo",
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/nc-beech-gazebo.jpg",
+    "source_page": "https://beechmtn.com/winter/",
+    "image_url": "https://beechmtn.com/wp-content/uploads/2025/02/BeechMtn_Freds-Gazebo-credit-Sam-Dean.jpg",
+    "caption": "Fred’s gazebo · Beech Mountain",
+    "season": "Winter",
+    "attribution": "Sam Dean / Beech Mountain Visitor Center",
+    "rights": "Copyrighted source photography; attribution supplied, no reuse license asserted.",
+    "visually_verified": true,
+    "file": "gallery/nc-beech-gazebo.jpg"
+  },
+  {
+    "id": "beech-winter-scenery",
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/nc-beech-winter-scenery.jpg",
+    "source_page": "https://beechmtn.com/winter/",
+    "image_url": "https://beechmtn.com/wp-content/uploads/2025/12/Winter_Lift_2000x833.jpg",
+    "caption": "The High Country in winter",
+    "season": "Winter",
+    "attribution": "Beech Mountain Visitor Center",
+    "rights": "Copyrighted source photography; attribution supplied, no reuse license asserted.",
+    "visually_verified": true,
+    "file": "gallery/nc-beech-winter-scenery.jpg"
+  },
+  {
+    "id": "dogwood-165046546",
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/nc-dogwood-165046546.jpg",
+    "source_page": "https://www.blueridgerentals.com/rentals/dogwood-den",
+    "image_url": "https://gallery.streamlinevrs.com/units-gallery/00/0B/B9/image_165046546.jpeg",
+    "caption": "Dogwood Den · a cabin in the trees",
+    "season": "Nonwinter; green foliage, exact season unspecified",
+    "attribution": "Blue Ridge Mountain Rentals",
+    "rights": "Copyrighted source photography; attribution supplied, no reuse license asserted.",
+    "visually_verified": true,
+    "file": "gallery/nc-dogwood-165046546.jpg"
+  },
+  {
+    "id": "dogwood-165046553",
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/nc-dogwood-165046553.jpg",
+    "source_page": "https://www.blueridgerentals.com/rentals/dogwood-den",
+    "image_url": "https://gallery.streamlinevrs.com/units-gallery/00/0B/B9/image_165046553.jpeg",
+    "caption": "Dogwood Den · back to the fireplace",
+    "season": "Interior; exact season unspecified",
+    "attribution": "Blue Ridge Mountain Rentals",
+    "rights": "Copyrighted source photography; attribution supplied, no reuse license asserted.",
+    "visually_verified": true,
+    "file": "gallery/nc-dogwood-165046553.jpg"
+  },
+  {
+    "id": "biltmore-library",
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/nc-biltmore-library.jpg",
+    "source_page": "https://www.biltmore.com/blog/biltmores-christmas-decor-by-the-numbers/",
+    "image_url": "https://www.biltmore.com/wp-content/uploads/2025/11/2025-Christmas-at-Biltmore_Library-1024x683.jpg",
+    "caption": "Christmas in Biltmore’s Library",
+    "season": "Christmas 2025",
+    "attribution": "Biltmore",
+    "rights": "Copyrighted source photography; attribution supplied, no reuse license asserted.",
+    "visually_verified": true,
+    "file": "gallery/nc-biltmore-library.jpg"
+  },
+  {
+    "id": "biltmore-antler-hill",
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/nc-biltmore-antler-hill.jpg",
+    "source_page": "https://www.biltmore.com/blog/biltmores-christmas-decor-by-the-numbers/",
+    "image_url": "https://www.biltmore.com/wp-content/uploads/2024/10/Digital-Biltmore_Social_24Christmas45-1024x684.jpg",
+    "caption": "Antler Hill Village · a walk under the lights",
+    "season": "Christmas 2024",
+    "attribution": "Biltmore",
+    "rights": "Copyrighted source photography; attribution supplied, no reuse license asserted.",
+    "visually_verified": true,
+    "file": "gallery/nc-biltmore-antler-hill.jpg"
+  },
+  {
+    "id": "biltmore-conservatory",
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/nc-biltmore-conservatory.jpg",
+    "source_page": "https://www.biltmore.com/blog/biltmores-christmas-decor-by-the-numbers/",
+    "image_url": "https://www.biltmore.com/wp-content/uploads/2024/10/Digital-Biltmore_Social_24Christmas51-1024x684.jpg",
+    "caption": "Biltmore’s Conservatory at Christmas",
+    "season": "Christmas 2024",
+    "attribution": "Biltmore",
+    "rights": "Copyrighted source photography; attribution supplied, no reuse license asserted.",
+    "visually_verified": true,
+    "file": "gallery/nc-biltmore-conservatory.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/tn-bear-leconte-exterior.jpg",
+    "source_page": "https://dancingbearlodge.com/lodging/leconte-cabin/",
+    "image_url": "https://dancingbearlodge.com/media/uploads/2023/08/LeConte-Cabin-Townsend-TN-2-1199x800.jpg",
+    "caption": "Dancing Bear · LeConte cabin",
+    "season": "Summer foliage; property reference",
+    "file": "gallery/tn-bear-leconte-exterior.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/tn-bear-leconte-livingroom.jpg",
+    "source_page": "https://dancingbearlodge.com/lodging/leconte-cabin/",
+    "image_url": "https://dancingbearlodge.com/media/uploads/2023/08/LeConte-Cabin-Townsend-TN-6-1199x800.jpg",
+    "caption": "LeConte cabin · settle in for the evening",
+    "season": "Interior; photographed with summer foliage outside",
+    "file": "gallery/tn-bear-leconte-livingroom.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/tn-bear-shepherds-pie.jpg",
+    "source_page": "https://dancingbearlodge.com/dining/gallery/",
+    "image_url": "https://dancingbearlodge.com/media/uploads/2023/04/Appalachian-Shepherds-Pie.jpg",
+    "caption": "Dancing Bear Bistro · comfort food",
+    "season": "Menu inspiration; photography season unspecified",
+    "file": "gallery/tn-bear-shepherds-pie.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/tn-smokies-little-river-snow.jpg",
+    "source_page": "https://www.nps.gov/grsm/planyourvisit/weather.htm",
+    "image_url": "https://www.nps.gov/grsm/planyourvisit/images/Resized_Little-River-Trail-Winter-II_Bob-Carr_1817.png",
+    "caption": "Little River winter scenery · no dogs on trail",
+    "season": "Winter",
+    "file": "gallery/tn-smokies-little-river-snow.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/tn-snowy-road.jpg",
+    "source_page": "https://www.gatlinburg.com/blog/post/5-best-views-in-gatlinburg-this-winter/",
+    "image_url": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill%2Ch_675%2Cq_75%2Cw_1200/v1/clients/gatlinburgtn/2019_snow_8_fbedd044-2536-4d3a-95a3-2791ca64d0ec.jpg",
+    "caption": "An occasional snowy day in the Smokies",
+    "season": "Winter",
+    "file": "gallery/tn-snowy-road.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/tn-dollywood-bell-lights.jpg",
+    "source_page": "https://www.dollywood.com/themepark/festivals/Smoky-Mountain-Christmas",
+    "image_url": "https://hfe.widen.net/content/jcpd15jrbc/jpeg/DW23_Web_Bells.jpeg?w=1366&h=540&keep=c&crop=yes&color=ffffff00&quality=100&u=cnnlyv",
+    "caption": "Dollywood · Christmas bells",
+    "season": "Holiday",
+    "file": "gallery/tn-dollywood-bell-lights.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/tn-dollywood-mill-lights.jpg",
+    "source_page": "https://www.dollywood.com/themepark/festivals/Smoky-Mountain-Christmas",
+    "image_url": "https://hfe.widen.net/content/djp7ohbirl/jpeg/DW23_Web_Mill.jpeg?w=1366&h=540&keep=c&crop=yes&color=ffffff00&quality=100&u=cnnlyv",
+    "caption": "Dollywood · the mill after dark",
+    "season": "Holiday",
+    "file": "gallery/tn-dollywood-mill-lights.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/tn-dollywood-chapel-lights.jpg",
+    "source_page": "https://www.dollywood.com/themepark/festivals/Smoky-Mountain-Christmas",
+    "image_url": "https://hfe.widen.net/content/9dvj0ittni/jpeg/DW23_Web_Chapel.jpeg?w=1366&h=540&keep=c&crop=yes&color=ffffff00&quality=100&u=cnnlyv",
+    "caption": "Dollywood · chapel lights",
+    "season": "Holiday",
+    "file": "gallery/tn-dollywood-chapel-lights.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/wvva-snowshoe-village.jpg",
+    "source_page": "https://casago.com/snowshoe/things-to-do/snowshoe-village/",
+    "image_url": "https://cdn.casago.com/uploads/sites/25/village5-scaled.jpg",
+    "caption": "Snow-covered shops and lodges in Snowshoe Village.",
+    "season": "winter",
+    "provider": "Casago Snowshoe vacation-rental operator",
+    "width": 2560,
+    "height": 1440,
+    "visually_verified": true,
+    "file": "gallery/wvva-snowshoe-village.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/wvva-2023-01-03_SN_KS_Sunrise-IMG_6977-CR3_DXO-1-1024x721.jpg",
+    "source_page": "https://blog.snowshoemtn.com/discover-snowshoe/48-things-to-do-at-snowshoe-this-winter/",
+    "image_url": "https://blog.snowshoemtn.com/wp-content/uploads/2023/12/2023-01-03_SN_KS_Sunrise-IMG_6977-CR3_DXO-1-1024x721.jpg",
+    "caption": "Sunrise over the snowy slopes and mountains at Snowshoe.",
+    "season": "winter",
+    "provider": "Snowshoe Mountain",
+    "width": 1024,
+    "height": 721,
+    "visually_verified": true,
+    "file": "gallery/wvva-2023-01-03_SN_KS_Sunrise-IMG_6977-CR3_DXO-1-1024x721.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/wvva-Autumn-Breeze-Stables-1024x682.jpg",
+    "source_page": "https://blog.snowshoemtn.com/discover-snowshoe/48-things-to-do-at-snowshoe-this-winter/",
+    "image_url": "https://blog.snowshoemtn.com/wp-content/uploads/2024/01/Autumn-Breeze-Stables-1024x682.jpg",
+    "caption": "Horse-drawn sleigh traveling through Snowshoe’s snowy forest.",
+    "season": "winter",
+    "provider": "Snowshoe Mountain",
+    "width": 1024,
+    "height": 682,
+    "visually_verified": true,
+    "file": "gallery/wvva-Autumn-Breeze-Stables-1024x682.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/wvva-2022-03-18_SN_KS_Moonrise-5-1024x683.jpg",
+    "source_page": "https://blog.snowshoemtn.com/discover-snowshoe/48-things-to-do-at-snowshoe-this-winter/",
+    "image_url": "https://blog.snowshoemtn.com/wp-content/uploads/2024/01/2022-03-18_SN_KS_Moonrise-5-1024x683.jpg",
+    "caption": "Moonrise above the mountain ridges at Snowshoe.",
+    "season": "March; seasonal landscape",
+    "provider": "Snowshoe Mountain",
+    "width": 1024,
+    "height": 683,
+    "visually_verified": true,
+    "file": "gallery/wvva-2022-03-18_SN_KS_Moonrise-5-1024x683.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/wvva-McLennan_Snowshoe_16_0196-700x467.jpg",
+    "source_page": "https://wvtourism.com/seasons/winter/skiing-and-snowboarding/",
+    "image_url": "https://wvtourism.com/wp-content/uploads/2020/02/McLennan_Snowshoe_16_0196-700x467.jpg",
+    "caption": "Skier among snow-covered trees with mountain views at Snowshoe.",
+    "season": "winter",
+    "provider": "West Virginia Department of Tourism",
+    "width": 700,
+    "height": 467,
+    "visually_verified": true,
+    "file": "gallery/wvva-McLennan_Snowshoe_16_0196-700x467.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/wvva-homestead-room.jpg",
+    "source_page": "https://www.omnihotels.com/hotels/homestead-virginia/accommodations",
+    "image_url": "https://www.omnihotels.com/-/media/images/hotels/homrst/digex/carousel/king-room-hero.jpg",
+    "caption": "King guest room at The Omni Homestead Resort.",
+    "season": "year-round interior",
+    "provider": "Omni Hotels & Resorts",
+    "width": 2880,
+    "height": 1870,
+    "visually_verified": true,
+    "file": "gallery/wvva-homestead-room.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/wvva-homestead-pool.jpg",
+    "source_page": "https://www.omnihotels.com/hotels/homestead-virginia/wellness/pools",
+    "image_url": "https://www.omnihotels.com/-/media/images/hotels/homrst/pool/indoor-pool/homrst-lifestyle-indoor-pool.jpg",
+    "caption": "The bright indoor pool at The Omni Homestead Resort.",
+    "season": "year-round interior",
+    "provider": "Omni Hotels & Resorts",
+    "width": 1170,
+    "height": 660,
+    "visually_verified": true,
+    "file": "gallery/wvva-homestead-pool.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/wvva-homestead-christmas.jpg",
+    "source_page": "https://www.omnihotels.com/hotels/homestead-virginia/specials",
+    "image_url": "https://www.omnihotels.com/-/media/images/globals/specials/homrst-omni-homestead-resort-christmas-tree.jpg",
+    "caption": "Christmas tree and garlands in the Homestead’s Great Hall.",
+    "season": "Christmas / winter",
+    "provider": "Omni Hotels & Resorts",
+    "width": 1170,
+    "height": 660,
+    "visually_verified": true,
+    "file": "gallery/wvva-homestead-christmas.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/wvva-abingdon-carolers.jpg",
+    "source_page": "https://www.virginia.org/listing/a-classic-small-town-christmas-in-abingdon-va/14229/",
+    "image_url": "https://assets.simpleviewinc.com/simpleview/image/upload/crm/virginia/20131210-abingdon-virginia-jb0603_a0bd6409-5056-a36a-07b1c84acd3e8dba.jpg",
+    "caption": "Christmas caroler figures in historic Abingdon.",
+    "season": "Christmas / winter",
+    "provider": "Virginia Tourism Corporation",
+    "width": 4266,
+    "height": 2844,
+    "visually_verified": true,
+    "file": "gallery/wvva-abingdon-carolers.jpg"
+  },
+  {
+    "local_path": "app/assets/christmas-snow-road-trip/gallery/wvva-abingdon-theatre.jpg",
+    "source_page": "https://www.virginia.org/listing/a-classic-small-town-christmas-in-abingdon-va/14229/",
+    "image_url": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_75,w_1200/v1/crm/virginia/Barter-at-Christmas_23b6e1ea-5056-a36a-070e0fd41e99cf3a.jpg",
+    "caption": "Barter Theatre decorated for Christmas in snowy Abingdon.",
+    "season": "Christmas / winter",
+    "provider": "Virginia Tourism Corporation",
+    "width": 1200,
+    "height": 784,
+    "visually_verified": true,
+    "file": "gallery/wvva-abingdon-theatre.jpg"
+  }
+]
