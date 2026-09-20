@@ -1,0 +1,232 @@
+[
+  {
+    "file": "one-room.jpg",
+    "source": "https://www.1hotels.com/central-park/offers",
+    "image_url": "https://www.1hotels.com/sites/1hotels.com/files/styles/card/public/brandfolder/7ggqgfhkhvf6pj23qxn4v/1HOTEL-RM1602-CITY_KING-01-REVISEDh1320.jpg?h=e95f15e8&itok=ekDhUvJu",
+    "credit": "City King",
+    "size": [
+      800,
+      600
+    ]
+  },
+  {
+    "file": "one-suite.jpg",
+    "source": "https://www.1hotels.com/central-park/offers",
+    "image_url": "https://www.1hotels.com/sites/1hotels.com/files/styles/card/public/brandfolder/ct33s6nmvrc5mpxmknc33p5/1HOTEL-RM1608-PARK_SUITE-02-REVISEDh1320.jpg?h=0a4db9f1&itok=aA5URiP1",
+    "credit": "Park Suite",
+    "size": [
+      800,
+      600
+    ]
+  },
+  {
+    "file": "one-parade.jpg",
+    "source": "https://www.1hotels.com/central-park/offers",
+    "image_url": "https://www.1hotels.com/sites/1hotels.com/files/styles/card_square/public/brandfolder/nzkxgq5hx8cmgxgrpnjfxtr/1hotels_thanksgivingparade2019_95h1281.jpg?h=abba163d&itok=dj5Z0Ghv",
+    "credit": "Thanksgiving",
+    "size": [
+      600,
+      600
+    ]
+  },
+  {
+    "file": "one-lobby.jpg",
+    "source": "https://www.1hotels.com/central-park/offers",
+    "image_url": "https://www.1hotels.com/sites/1hotels.com/files/styles/card/public/brandfolder/qx5fjg6p88hh46vsvm29jxjn/Lobby_1h1920.jpg?h=7fca706b&itok=_7syEEHI",
+    "credit": "1 Hotel Central Park Lobby",
+    "size": [
+      800,
+      600
+    ]
+  },
+  {
+    "file": "jams.jpg",
+    "source": "https://www.1hotels.com/central-park/offers",
+    "image_url": "https://www.1hotels.com/sites/1hotels.com/files/styles/card/public/brandfolder/4qwggf6bvm7m87kw48wpqvm/Jams1h1320.jpg?h=22f6ab40&itok=mxWJpN-b",
+    "credit": "Jams Central Park dining area",
+    "size": [
+      800,
+      600
+    ]
+  },
+  {
+    "file": "one-facade.jpg",
+    "source": "https://www.1hotels.com/central-park/offers",
+    "image_url": "https://www.1hotels.com/sites/1hotels.com/files/styles/card_square/public/brandfolder/4b8np46qpcr6rpqw9fqvnj/Facade_1_Hotel_Central_Park_Photo_Credit_Eric_Laignelh1440.jpg?h=794d44c4&itok=fEB3C5_d",
+    "credit": "Eric Laignel / 1 Hotel Central Park",
+    "size": [
+      600,
+      600
+    ]
+  },
+  {
+    "file": "one-festive.jpg",
+    "source": "https://www.1hotels.com/central-park/offers",
+    "image_url": "https://www.1hotels.com/sites/1hotels.com/files/styles/card_square/public/brandfolder/m4xjjgcvt35zmbbf36f584q/Festive_Lobby_3h1280.jpg?h=dfbd2403&itok=Q11jSL4A",
+    "credit": "Festive",
+    "size": [
+      600,
+      600
+    ]
+  },
+  {
+    "file": "central-park.jpg",
+    "source": "https://www.1hotels.com/central-park/offers",
+    "image_url": "https://www.1hotels.com/sites/1hotels.com/files/styles/card/public/brandfolder/rvf8v92bgt7kf4j49kn7xkbx/Walkabout_AM_Central_Park_0074w720.jpg?h=cf7bcd10&itok=UEXE5gdE",
+    "credit": "Central Park Buildings",
+    "size": [
+      800,
+      600
+    ]
+  },
+  {
+    "file": "warwick-room.jpg",
+    "source": "https://www.warwickhotels.com/warwick-new-york",
+    "image_url": "https://image-tc.galaxy.tf/wijpeg-e84mbe5sfs1gp1h4mzujbzytl/rooms-suites_page-image.jpg",
+    "credit": "Rooms & Suites",
+    "size": [
+      1600,
+      1065
+    ]
+  },
+  {
+    "file": "warwick-terrace.jpg",
+    "source": "https://www.warwickhotels.com/warwick-new-york",
+    "image_url": "https://image-tc.galaxy.tf/wijpeg-8rfo3in764mcf6kbwht7vxzwb/suite-on-54th-terrace-warwick-new-york-hotel.jpg?width=800",
+    "credit": "Elegant rooftop terrace features a set table and chairs overlooking a city skyline at Warwick New York",
+    "size": [
+      800,
+      532
+    ]
+  },
+  {
+    "file": "luma-room.jpg",
+    "source": "https://www.lumahotels.com/times-square/",
+    "image_url": "https://d18slle4wlf9ku.cloudfront.net/headless_base-1028505334/cms/imagepool/68fff187bc89a.jpg",
+    "credit": "Room",
+    "size": [
+      1298,
+      1200
+    ]
+  },
+  {
+    "file": "luma-dining.jpg",
+    "source": "https://www.lumahotels.com/times-square/",
+    "image_url": "https://d18slle4wlf9ku.cloudfront.net/headless_base-1028505334/cms/imagepool/68d5d5ac3d14d.jpg",
+    "credit": "Dining image 1",
+    "size": [
+      1500,
+      1000
+    ]
+  },
+  {
+    "file": "bryant.jpg",
+    "source": "https://bryantpark.org/activities/bank-of-america-winter-village-at-bryant-park",
+    "image_url": "https://bryantpark.org/images/cache/assets/uploads/images/meta/WinterVillage_-_2021-12-15_-_ColinMiller_66_fbook-1200x627.jpg",
+    "credit": "Bryant Park; Colin Miller (2021/2024 images), Jane Kratochvil (2026 rink image)",
+    "size": [
+      1200,
+      627
+    ]
+  },
+  {
+    "file": "bryant-market.jpg",
+    "source": "https://bryantpark.org/activities/bank-of-america-winter-village-at-bryant-park",
+    "image_url": "https://bryantpark.org/assets/uploads/images/general/_resize/Winter-Village_Bryant-Park_2024-12-19_Colin-Miller_155_lores_resize_b75e780a70a3a913790624d10d39c370.jpg",
+    "credit": "Bryant Park; Colin Miller (2021/2024 images), Jane Kratochvil (2026 rink image)",
+    "size": [
+      400,
+      267
+    ]
+  },
+  {
+    "file": "bryant-rink.jpg",
+    "source": "https://bryantpark.org/activities/bank-of-america-winter-village-at-bryant-park",
+    "image_url": "https://bryantpark.org/assets/uploads/images/general/_resize/Winter-Village_2026-01-02_Jane-Kratochvil_066_lores_resize_b75e780a70a3a913790624d10d39c370.JPG",
+    "credit": "Bryant Park; Colin Miller (2021/2024 images), Jane Kratochvil (2026 rink image)",
+    "size": [
+      400,
+      267
+    ]
+  },
+  {
+    "file": "mandarin.jpg",
+    "source": "https://www.mandarinoriental.com/en/new-york/manhattan/offers/thanksgiving-with-a-view",
+    "image_url": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/iz342uokN4ioGgTT36wc.jpg",
+    "credit": "Mandarin Oriental, New York",
+    "size": [
+      1600,
+      900
+    ]
+  },
+  {
+    "file": "bow-bridge.jpg",
+    "source": "https://www.centralparknyc.org/",
+    "image_url": "https://d2wsrtli9cxkek.cloudfront.net/media/images/blog-wide@2x-From-Bow-Bridge-1.jpg?auto=compress%2Cformat&fit=clip&q=80&w=500&s=1daf8d4fdd8642c5a8b67dd5db81bbe2",
+    "credit": "Bethesda Terrace and Fountain photographed from the Bow Bridge area \u00b7 Central Park Conservancy",
+    "size": [
+      500,
+      279
+    ]
+  },
+  {
+    "file": "parade.jpg",
+    "source": "https://www.hilton.com/en/hotels/nycnhhh-new-york-hilton-midtown/things-to-do/thanksgiving-parade/",
+    "image_url": "https://assets.hiltonstatic.com/hilton-asset-cache/image/upload/c_fill,w_1600,h_1000,q_85,f_auto,g_auto/Imagery/Destination%20Photography/Hilton%20Hotels%20and%20Resorts/N/NYCNHHH/MacysParade2013-pumpkin.jpg",
+    "credit": "Historic parade photography \u00b7 Hilton; not a room-view guarantee",
+    "size": [
+      1600,
+      1000
+    ]
+  },
+  {
+    "file": "hilton-balloon.jpg",
+    "source": "https://www.hilton.com/en/hotels/nycnhhh-new-york-hilton-midtown/things-to-do/thanksgiving-parade/",
+    "image_url": "https://assets.hiltonstatic.com/hilton-asset-cache/image/upload/c_fill,w_1000,h_800,q_85,f_auto,g_auto/Imagery/Destination%20Photography/Hilton%20Hotels%20and%20Resorts/N/NYCNHHH/MacysParade2013-HelloKitty.jpg",
+    "credit": "Historic parade photography \u00b7 Hilton; not a room-view guarantee",
+    "size": [
+      1000,
+      800
+    ]
+  },
+  {
+    "file": "hilton-view.jpg",
+    "source": "https://www.hilton.com/en/hotels/nycnhhh-new-york-hilton-midtown/things-to-do/thanksgiving-parade/",
+    "image_url": "https://assets.hiltonstatic.com/hilton-asset-cache/image/upload/c_fill,w_1000,h_800,q_85,f_auto,g_auto/Imagery/Lifestyle%20Photography/Hilton%20Hotels%20and%20Resorts/N/NYCNHHH/HilNY_Thanksgiving_GirlPhoto%202_resized.jpg",
+    "credit": "Historic parade photography \u00b7 Hilton; not a room-view guarantee",
+    "size": [
+      1000,
+      800
+    ]
+  },
+  {
+    "file": "mandarin-0.jpg",
+    "source": "https://www.mandarinoriental.com/en/new-york/manhattan/offers/thanksgiving-with-a-view",
+    "image_url": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/Y2APKPCbhJxy8iYWSPHs.jpg",
+    "credit": "Mandarin Oriental official Thanksgiving gallery; representative photography"
+  },
+  {
+    "file": "mandarin-1.jpg",
+    "source": "https://www.mandarinoriental.com/en/new-york/manhattan/offers/thanksgiving-with-a-view",
+    "image_url": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/pN8967QojX1dxCfQ3YBi.jpg",
+    "credit": "Mandarin Oriental official Thanksgiving gallery; representative photography"
+  },
+  {
+    "file": "mandarin-2.jpg",
+    "source": "https://www.mandarinoriental.com/en/new-york/manhattan/offers/thanksgiving-with-a-view",
+    "image_url": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/jhkwrQTSVKihw7R3ynaW.jpg",
+    "credit": "Mandarin Oriental official Thanksgiving gallery; representative photography"
+  },
+  {
+    "file": "mandarin-3.jpg",
+    "source": "https://www.mandarinoriental.com/en/new-york/manhattan/offers/thanksgiving-with-a-view",
+    "image_url": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/LXFMsiE24j42659iSAJW.jpg",
+    "credit": "Mandarin Oriental official Thanksgiving gallery; representative photography"
+  },
+  {
+    "file": "museum.jpg",
+    "image_url": "https://www.amnh.org/var/ezflow_site/storage/images/media/amnh/images/explore/zoom-images/tyrannosaurus-rex-amnh-zoom-1920-10802/5976380-4-eng-US/tyrannosaurus-rex-amnh-zoom-1920-1080_full_990.jpg",
+    "source": "https://www.amnh.org/explore/digital-backgrounds",
+    "credit": "\u00a9 American Museum of Natural History; official digital background"
+  }
+]

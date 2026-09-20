@@ -1,0 +1,86 @@
+{
+  "hotels": [
+    {
+      "id": "hilton",
+      "name": "New York Hilton Midtown",
+      "lat": 40.7623,
+      "lng": -73.9795
+    },
+    {
+      "id": "one",
+      "name": "1 Hotel Central Park",
+      "lat": 40.7652,
+      "lng": -73.9762
+    },
+    {
+      "id": "warwick",
+      "name": "Warwick New York",
+      "lat": 40.7627,
+      "lng": -73.9785
+    },
+    {
+      "id": "mandarin",
+      "name": "Mandarin Oriental, New York",
+      "lat": 40.7688,
+      "lng": -73.9822
+    },
+    {
+      "id": "luma",
+      "name": "LUMA Hotel Times Square",
+      "lat": 40.7547,
+      "lng": -73.9852
+    }
+  ],
+  "days": [
+    {
+      "num": 1,
+      "date": "Tuesday \u00b7 November 24",
+      "title": "Hello, New York.",
+      "image": "mandarin-2",
+      "coords": [
+        40.7645,
+        -73.973
+      ]
+    },
+    {
+      "num": 2,
+      "date": "Wednesday \u00b7 November 25",
+      "title": "Big wonders, little moments.",
+      "image": "museum",
+      "coords": [
+        40.7813,
+        -73.9735
+      ]
+    },
+    {
+      "num": 3,
+      "date": "Thursday \u00b7 November 26",
+      "title": "The balloons are here.",
+      "image": "parade",
+      "coords": [
+        40.7622,
+        -73.9795
+      ]
+    },
+    {
+      "num": 4,
+      "date": "Friday \u00b7 November 27",
+      "title": "The city dresses for Christmas.",
+      "image": "bryant",
+      "coords": [
+        40.7536,
+        -73.9832
+      ]
+    },
+    {
+      "num": 5,
+      "date": "Saturday \u00b7 November 28",
+      "title": "One last New York morning.",
+      "image": "central-park",
+      "coords": [
+        40.7678,
+        -73.9718
+      ]
+    }
+  ]
+}
