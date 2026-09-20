@@ -1,0 +1,157 @@
+{
+  "checked": "2026-09-20",
+  "normals": [
+    {
+      "DLY-TMIN-NORMAL": "15.7",
+      "DATE": "12-24",
+      "STATION": "USC00426644",
+      "DLY-TMAX-NORMAL": "32.3"
+    },
+    {
+      "DLY-TMIN-NORMAL": "15.7",
+      "DATE": "12-25",
+      "STATION": "USC00426644",
+      "DLY-TMAX-NORMAL": "32.3"
+    },
+    {
+      "DLY-TMIN-NORMAL": "15.8",
+      "DATE": "12-26",
+      "STATION": "USC00426644",
+      "DLY-TMAX-NORMAL": "32.3"
+    },
+    {
+      "DLY-TMIN-NORMAL": "15.8",
+      "DATE": "12-27",
+      "STATION": "USC00426644",
+      "DLY-TMAX-NORMAL": "32.3"
+    },
+    {
+      "DLY-TMIN-NORMAL": "15.8",
+      "DATE": "12-28",
+      "STATION": "USC00426644",
+      "DLY-TMAX-NORMAL": "32.3"
+    },
+    {
+      "DLY-TMIN-NORMAL": "15.9",
+      "DATE": "12-29",
+      "STATION": "USC00426644",
+      "DLY-TMAX-NORMAL": "32.3"
+    },
+    {
+      "DLY-TMIN-NORMAL": "15.9",
+      "DATE": "12-30",
+      "STATION": "USC00426644",
+      "DLY-TMAX-NORMAL": "32.4"
+    },
+    {
+      "DLY-TMIN-NORMAL": "15.9",
+      "DATE": "12-31",
+      "STATION": "USC00426644",
+      "DLY-TMAX-NORMAL": "32.4"
+    },
+    {
+      "DLY-TMIN-NORMAL": "11.1",
+      "DATE": "12-24",
+      "STATION": "USW00054771",
+      "DLY-TMAX-NORMAL": "29.3"
+    },
+    {
+      "DLY-TMIN-NORMAL": "10.7",
+      "DATE": "12-25",
+      "STATION": "USW00054771",
+      "DLY-TMAX-NORMAL": "29.0"
+    },
+    {
+      "DLY-TMIN-NORMAL": "10.4",
+      "DATE": "12-26",
+      "STATION": "USW00054771",
+      "DLY-TMAX-NORMAL": "28.8"
+    },
+    {
+      "DLY-TMIN-NORMAL": "10.0",
+      "DATE": "12-27",
+      "STATION": "USW00054771",
+      "DLY-TMAX-NORMAL": "28.6"
+    },
+    {
+      "DLY-TMIN-NORMAL": "9.7",
+      "DATE": "12-28",
+      "STATION": "USW00054771",
+      "DLY-TMAX-NORMAL": "28.4"
+    },
+    {
+      "DLY-TMIN-NORMAL": "9.4",
+      "DATE": "12-29",
+      "STATION": "USW00054771",
+      "DLY-TMAX-NORMAL": "28.2"
+    },
+    {
+      "DLY-TMIN-NORMAL": "9.0",
+      "DATE": "12-30",
+      "STATION": "USW00054771",
+      "DLY-TMAX-NORMAL": "28.0"
+    },
+    {
+      "DLY-TMIN-NORMAL": "8.7",
+      "DATE": "12-31",
+      "STATION": "USW00054771",
+      "DLY-TMAX-NORMAL": "27.8"
+    },
+    {
+      "DLY-TMIN-NORMAL": "28.3",
+      "DATE": "12-24",
+      "STATION": "USW00014794",
+      "DLY-TMAX-NORMAL": "42.8"
+    },
+    {
+      "DLY-TMIN-NORMAL": "28.1",
+      "DATE": "12-25",
+      "STATION": "USW00014794",
+      "DLY-TMAX-NORMAL": "42.6"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.8",
+      "DATE": "12-26",
+      "STATION": "USW00014794",
+      "DLY-TMAX-NORMAL": "42.4"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.6",
+      "DATE": "12-27",
+      "STATION": "USW00014794",
+      "DLY-TMAX-NORMAL": "42.1"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.4",
+      "DATE": "12-28",
+      "STATION": "USW00014794",
+      "DLY-TMAX-NORMAL": "41.9"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.2",
+      "DATE": "12-29",
+      "STATION": "USW00014794",
+      "DLY-TMAX-NORMAL": "41.7"
+    },
+    {
+      "DLY-TMIN-NORMAL": "26.9",
+      "DATE": "12-30",
+      "STATION": "USW00014794",
+      "DLY-TMAX-NORMAL": "41.5"
+    },
+    {
+      "DLY-TMIN-NORMAL": "26.7",
+      "DATE": "12-31",
+      "STATION": "USW00014794",
+      "DLY-TMAX-NORMAL": "41.3"
+    }
+  ],
+  "normal_period": "1991\u20132020 daily averages for December 24\u201331",
+  "snow_source": "https://www.ncei.noaa.gov/media/3501",
+  "regional_snow_probabilities": {
+    "Kingston RI": 21.3,
+    "Burlington airport VT": 62.3,
+    "Mount Mansfield summit VT": 99
+  },
+  "note": "Regional stations are not hotel probabilities. Summit is much higher than lodge."
+}

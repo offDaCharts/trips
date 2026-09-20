@@ -1,0 +1,150 @@
+[
+  {
+    "id": "stein",
+    "name": "Stein Eriksen Lodge",
+    "where": "Deer Valley, Utah",
+    "badge": "My pick for the snow dream",
+    "headline": "Fly to Salt Lake.<br>Wake up on the mountain.",
+    "pitch": "Timber beams, a glowing fireplace and snow just outside. A proper alpine lodge where a slow family day can feel like the whole trip.",
+    "price": "$2,000–3,500+",
+    "unit": "Room planning allowance; suites can be substantially more",
+    "room": "One-bedroom Luxury Suite if the budget fits: a separate living room, kitchen and fireplace. Room layouts vary.",
+    "features": [
+      "Mountain lodge at 8,200 ft",
+      "Fireplace suites",
+      "Heated outdoor pools",
+      "Town shuttle"
+    ],
+    "pace": "Think 4–5 nights",
+    "flight": "ATL → SLC",
+    "transfer": "About 45–60 min to the lodge",
+    "logistics": "Look for a nonstop Atlanta–Salt Lake City flight. Arrange a transfer with a toddler car seat; the lodge’s local shuttle can reduce driving once there. Utah is two hours behind Atlanta.",
+    "snow": "Strong mountain snow candidate",
+    "temp": "32° / 16°",
+    "station": "Park City town",
+    "stationid": "USC00426644",
+    "weather": "Town normals are already around freezing by day; the lodge sits higher. This is a much stronger setting for snow than coastal Rhode Island. No verified lodge-specific Christmas percentage.",
+    "rue": "Kitchen + separate room in a suite",
+    "fees": "Tax and any mandatory fees extra; obtain a full holiday quote. Airport transfers, flights and paid activities are separate.",
+    "check": "Christmas bookings have strict terms: the published policy makes December 20–January 2 arrivals nonrefundable 60 days ahead. The advertised $500/night resort credit requires a two-bedroom suite and five nights; it is not a room price.",
+    "url": "https://www.steinlodge.com/rooms/lodge-luxury-suites",
+    "sources": [
+      [
+        "Rooms & layouts",
+        "https://www.steinlodge.com/rooms/lodge-luxury-suites"
+      ],
+      [
+        "Amenities",
+        "https://www.steinlodge.com/amenities"
+      ],
+      [
+        "Transfers & holiday terms",
+        "https://www.steinlodge.com/contact-us/faq"
+      ],
+      [
+        "Five-night festive offer",
+        "https://www.steinlodge.com/specials/festive-season-resort-credit-offer"
+      ],
+      [
+        "Published high-season price context (GBP)",
+        "https://www.oxfordski.com/luxury-ski-chalets-hotels/united-states/deer-valley-utah/stein-eriksen-lodge/"
+      ]
+    ]
+  },
+  {
+    "id": "spruce",
+    "name": "The Lodge at Spruce Peak",
+    "where": "Stowe, Vermont",
+    "badge": "The snowy New England alternative",
+    "headline": "A little village.<br>A very cozy suite.",
+    "pitch": "A fireplace, your own kitchen and a mountain village outside the door. This is the New England idea I’d put ahead of Rhode Island when snow matters most.",
+    "price": "$900–1,800+",
+    "unit": "Junior / one-bedroom suite planning allowance",
+    "room": "A one-bedroom suite gives you a full kitchen, separate bedroom, gas fireplace and laundry. Junior suites have a kitchenette.",
+    "features": [
+      "Separate-bedroom suites",
+      "Kitchen + laundry",
+      "Mountain village",
+      "Outdoor heated pool"
+    ],
+    "pace": "Think 3–5 nights",
+    "flight": "ATL → BTV",
+    "transfer": "About 45–60 min to the lodge",
+    "logistics": "Delta currently lists nonstop Atlanta–Burlington service. The hotel does not operate an airport shuttle: arrange a car-seat-equipped transfer or rental car. Same time zone as home.",
+    "snow": "Strong New England snow candidate",
+    "temp": "29° / 10°",
+    "station": "Morrisville–Stowe airport",
+    "stationid": "USW00054771",
+    "weather": "Cold valley normals and a mountain-base setting favor snow cover. Burlington’s historical white-Christmas odds are 62%; Mount Mansfield summit is 99%. Neither is the lodge’s probability.",
+    "rue": "Complimentary pack ’n play on request",
+    "fees": "Lodge resort fee: $50 + tax/night. Valet if driving: $35/night. Crib: $20/night, or request a free pack ’n play. Room tax extra.",
+    "check": "Confirm Christmas minimum nights, cancellation terms and the exact suite layout. Penthouses/residences carry a higher $125 + tax/night resort fee. Plan short outdoor sessions with Rue, then warm up in the suite.",
+    "url": "https://www.sprucepeak.com/stay/the-lodge/lodge-suites",
+    "sources": [
+      [
+        "Suite layouts",
+        "https://www.sprucepeak.com/stay/the-lodge/lodge-suites"
+      ],
+      [
+        "Family amenities, fees & airport",
+        "https://www.sprucepeak.com/accommodations/faq"
+      ],
+      [
+        "Parking & current operations",
+        "https://www.sprucepeak.com/reservations"
+      ],
+      [
+        "Atlanta nonstop route",
+        "https://btv.aero/where-we-fly/"
+      ]
+    ]
+  },
+  {
+    "id": "ocean",
+    "name": "Ocean House",
+    "where": "Watch Hill, Rhode Island",
+    "badge": "Coastal Christmas · snow is a bonus",
+    "headline": "Sea views.<br>Slippers. Christmas lights.",
+    "pitch": "A grand seaside hotel with beautiful rooms, cozy indoor time and the Atlantic outside. A lovely holiday escape if you fall for the stay itself.",
+    "price": "$800–1,500+",
+    "unit": "Room planning allowance; signature suites cost more",
+    "room": "For more bedtime separation, price a one-bedroom suite. The Spa Suite has a kitchen, living room and laundry; it is a premium category, not the base-room allowance.",
+    "features": [
+      "Grand seaside hotel",
+      "Rooms + suites",
+      "Indoor lap pool",
+      "Family-friendly resort"
+    ],
+    "pace": "Think 3–4 nights",
+    "flight": "ATL → PVD",
+    "transfer": "Allow about 1 hour to Watch Hill",
+    "logistics": "Look for nonstop Atlanta–Providence service, then a rental car or booked transfer with a toddler car seat. Watch Hill is the quieter coastal resort idea, not a snowy mountain town.",
+    "snow": "Weak choice for guaranteed snow",
+    "temp": "42° / 28°",
+    "station": "Westerly State Airport",
+    "stationid": "USW00014794",
+    "weather": "Nearby Kingston’s historical white-Christmas odds are only 21%. That is a regional reference, not an Ocean House forecast. Expect a real possibility of a green, rainy or windy Christmas.",
+    "rue": "Indoor pool has adult-only hours",
+    "fees": "Tax and daily resort fee extra; the official FAQ does not state the fee amount. Valet is included in that fee. Airfare and transfers are separate.",
+    "check": "Children are welcome, but confirm pool family hours and crib setup. The current September–June cancellation policy has a $250 administrative fee even when canceled more than 14 days ahead; within 14 days the full stay is charged. Confirm the booked holiday rate’s terms.",
+    "url": "https://www.oceanhouseri.com/",
+    "sources": [
+      [
+        "Hotel & getting there",
+        "https://www.oceanhouseri.com/"
+      ],
+      [
+        "Spa Suite layout",
+        "https://www.oceanhouseri.com/accommodations/spa-suite/"
+      ],
+      [
+        "Families, pool & policies",
+        "https://www.oceanhouseri.com/faqs/"
+      ],
+      [
+        "Providence nonstop routes",
+        "https://flyri.com/passengers/where-we-fly/"
+      ]
+    ]
+  }
+]
