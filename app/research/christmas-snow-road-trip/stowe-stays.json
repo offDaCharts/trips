@@ -1,0 +1,154 @@
+{
+  "checked": "2026-09-20",
+  "pricing_status": "Editorial planning allowances only; dates, family inventory, view premiums and holiday minimum stays unconfirmed.",
+  "stays": [
+    {
+      "id": "green",
+      "name": "Green Mountain Inn",
+      "tag": "Historic charm \u00b7 my first price check",
+      "match": "If you liked Mill Street Inn or Stone House",
+      "title": "A village inn.<br>A fireside evening.",
+      "intro": "The closest match for a cozy, characterful inn, with Stowe village just outside the door.",
+      "price": "$400\u2013700",
+      "room": "Luxury Suite \u00b7 Mansfield House",
+      "features": [
+        "Separate bedroom",
+        "Village location",
+        "Outdoor heated pool"
+      ],
+      "fit": "King bedroom plus an adjoining living room with sofa bed. Request a crib and confirm a door between the rooms, stair-free access and occupancy for all three.",
+      "trade": "Traditional interiors. The pool is outdoors; this is a village stay, without a guaranteed mountain panorama.",
+      "view": "Village / inn setting. No specific view is promised for the Luxury Suite.",
+      "fee": "Three nights: $1,200\u20132,100 before tax and any fees.",
+      "basis": "Editorial holiday suite allowance, not a published rate or availability result. Price a Deluxe room as the cheaper fallback only if sharing one sleeping space works. Confirm the assigned building, crib, total fees and holiday cancellation terms.",
+      "sources": [
+        [
+          "Suites & layouts",
+          "https://www.greenmountaininn.com/accommodations/rooms"
+        ],
+        [
+          "Amenities",
+          "https://www.greenmountaininn.com/"
+        ],
+        [
+          "Holiday stays",
+          "https://www.greenmountaininn.com/occasions/spend-the-holidays-in-stowe-vermont-at-green-mountain-inn"
+        ]
+      ],
+      "cover": 1
+    },
+    {
+      "id": "flake",
+      "name": "Stoweflake Mountain Resort",
+      "tag": "Practical family option \u00b7 lower budget",
+      "match": "If you liked Newport Beach Hotel & Suites",
+      "title": "A separate bedroom.<br>A pool for cold afternoons.",
+      "intro": "The practical contender: family space, a gas fireplace and an indoor pool, with a more modest hotel feel.",
+      "price": "$350\u2013650",
+      "room": "Main Inn \u00b7 One Bedroom Suite",
+      "features": [
+        "Separate bedroom",
+        "Indoor pool",
+        "Gas fireplace"
+      ],
+      "fit": "King bedroom, living room with pullout sofa, refrigerator and dining table. Some suites have microwaves; request one plus a crib. The published category sleeps two adults and two children.",
+      "trade": "Less polished than the luxury options. No full kitchen in this suite. Confirm current pool and dining operations before booking; do not assume the full spa is operating.",
+      "view": "Balcony included; a mountain-facing suite is not guaranteed.",
+      "fee": "Add published fees of $18.50/night plus tax. Three nights: $1,105.50\u20132,005.50 before tax.",
+      "basis": "Editorial holiday suite allowance. Go Stowe publishes a general starting rate of $189; it is not a holiday suite quote. Published policy lists $15 resort + $3.50 destination fees per night and a 14-day winter cancellation deadline with full-stay penalty; your selected rate may differ. A standard room is the cheaper fallback without a separate bedroom.",
+      "sources": [
+        [
+          "Suite layout",
+          "https://stoweflake.com/rooms/"
+        ],
+        [
+          "Amenities",
+          "https://stoweflake.com/amenities-alt/"
+        ],
+        [
+          "Fees & cancellation",
+          "https://stoweflake.com/hotel-policies/"
+        ],
+        [
+          "Tourism-board photos",
+          "https://gostowe.com/index.php/directory/businesses/stoweflake-mountain-resort-spa"
+        ],
+        [
+          "General starting-rate context",
+          "https://gostowe.com/sites/default/files/2025-06/STP-2025-2026-FOR-WEB-SM.pdf"
+        ]
+      ],
+      "cover": 0
+    },
+    {
+      "id": "trapp",
+      "name": "von Trapp Family Lodge",
+      "tag": "My pick for your alpine taste",
+      "match": "If you liked Weekapaug\u2019s quiet retreat feeling",
+      "title": "A little Austria.<br>A Vermont mountain retreat.",
+      "intro": "An Austrian-inspired hillside lodge with trails and an indoor pool. The strongest match for the mountain setting you enjoy.",
+      "price": "$650\u20131,100",
+      "room": "Arlberg Suite \u00b7 722 sq ft",
+      "features": [
+        "Separate bedroom",
+        "Mountain-view balcony",
+        "Indoor pool"
+      ],
+      "fit": "King bedroom and living room with queen sleeper sofa. A refrigerator helps with baby snacks; there is no in-room microwave. Confirm crib placement and an elevator-accessible route to the suite.",
+      "trade": "Away from the village center. Traditional lodge decor, and breakfast is usually extra. The smaller Tyrol Suite has a sitting area, without an explicitly separate bedroom.",
+      "view": "Arlberg is explicitly described with mountain views from its balcony. Photos do not establish the exact winter sightline from your assigned room.",
+      "fee": "Add published $38/night Lodge resort fee plus tax. Three nights: $2,064\u20133,414 before tax.",
+      "basis": "Editorial holiday Arlberg Suite allowance, not a confirmed offer. Generic room deals do not establish this suite\u2019s price. Request the Arlberg category by name; Nonnberg has two bedrooms but no separate seating area and requires stairs. Winter activities and family pool hours depend on the operating calendar.",
+      "sources": [
+        [
+          "Exact suites & views",
+          "https://www.vontrappresort.com/lodging.htm"
+        ],
+        [
+          "Fees, breakfast & access",
+          "https://www.vontrappresort.com/faqs.htm"
+        ],
+        [
+          "Indoor pool",
+          "https://www.vontrappresort.com/wellness-relaxation.htm"
+        ]
+      ],
+      "cover": 0
+    },
+    {
+      "id": "spruce",
+      "name": "The Lodge at Spruce Peak",
+      "tag": "Mountain luxury \u00b7 the splurge",
+      "match": "If you liked Ocean House\u2019s resort experience",
+      "title": "The mountain outside.<br>Space to settle in.",
+      "intro": "The most complete resort option: mountain-base surroundings and a spacious suite with a kitchen and laundry.",
+      "price": "$1,000\u20131,800+",
+      "room": "One-Bedroom Suite \u00b7 about 950 sq ft",
+      "features": [
+        "Kitchen + laundry",
+        "Separate bedroom",
+        "Gas fireplace"
+      ],
+      "fit": "Bedroom plus living room with sleeper sofa, full kitchen and washer/dryer. Confirm a crib. Junior Suites are a smaller alternative with a kitchenette and separate bedroom.",
+      "trade": "Peak ski-season prices can be steep even if you do not ski. The heated pool is outdoors. Mountain-base location is separate from Stowe village.",
+      "view": "Ask for Alpine for unobstructed Mount Mansfield views. Ridgeline means partial / obstructed views; Timberline mainly overlooks the resort village.",
+      "fee": "Three nights: $3,000\u20135,400+ before tax, resort fee and parking. Alpine view premiums may exceed this.",
+      "basis": "Editorial holiday one-bedroom allowance, not an Alpine-view quote. Exact dates, view category and minimum stay can move the price substantially. Compare Junior Suite and One-Bedroom totals with every fee; no holiday discount is assumed. Gallery labels distinguish the Junior Suite living room from the One-Bedroom bedroom.",
+      "sources": [
+        [
+          "Suites & floor-space",
+          "https://www.sprucepeak.com/stay/the-lodge/lodge-suites"
+        ],
+        [
+          "View categories & policies",
+          "https://www.sprucepeak.com/accommodations/faq"
+        ],
+        [
+          "Pool",
+          "https://www.sprucepeak.com/play/activities-pool"
+        ]
+      ],
+      "cover": 0
+    }
+  ]
+}
