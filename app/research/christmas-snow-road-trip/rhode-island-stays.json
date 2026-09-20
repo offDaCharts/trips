@@ -1,0 +1,126 @@
+{
+  "checked": "2026-09-20",
+  "pricing_status": "All ranges are editorial planning estimates, not verified Christmas quotes.",
+  "stays": [
+    {
+      "id": "mill",
+      "name": "Mill Street Inn",
+      "town": "Newport",
+      "tag": "My pick for historic character",
+      "title": "Exposed brick.<br>Breakfast in your suite.",
+      "intro": "A small converted mill with soft linens, warm brick and a separate room for a quiet evening after Rue goes to sleep.",
+      "price": "$300\u2013500",
+      "price_type": "Family Deluxe planning budget",
+      "fee": "Includes a provisional $50/night extra-guest allowance; tax and any local assessments extra.",
+      "room": "Deluxe Suite with sofa bed",
+      "fit": "Call first: only a few Deluxe suites accommodate three or four. Standard Deluxe, Studio and Townhouse suites allow just two, including children. Request first floor; there is no elevator.",
+      "features": [
+        "Historic mill",
+        "Separate bedroom",
+        "Breakfast included"
+      ],
+      "trade": "More boutique inn than resort. No pool advertised, and the fireplace Townhouse suites do not fit your party.",
+      "basis": "Planning estimate, not a Christmas quote. KAYAK reports a $192 January average across room types; that is neither a holiday rate nor a family Deluxe rate. The larger allowance here anticipates the eligible suite and the published $50 additional-occupant fee. Confirm how Rue is charged.",
+      "sources": [
+        [
+          "Suites & breakfast",
+          "https://www.millstreetinn.com/room/deluxe-suites/"
+        ],
+        [
+          "Occupancy & fees",
+          "https://www.millstreetinn.com/policies/"
+        ],
+        [
+          "Price context",
+          "https://www.kayak.com/Newport-Hotels-Mill-Street-Inn.65508.ksp"
+        ]
+      ],
+      "cover": 1,
+      "temp": "41\u00b0 / 27\u00b0"
+    },
+    {
+      "id": "beach",
+      "name": "Newport Beach Hotel & Suites",
+      "town": "Middletown \u00b7 beside Newport",
+      "tag": "My pick for family value",
+      "title": "Room to spread out.<br>A pool for winter afternoons.",
+      "intro": "Water-view rooms, a proper living area and an indoor pool. The easiest of these three to picture as a relaxed family base.",
+      "price": "$300\u2013500",
+      "price_type": "One-bedroom suite planning budget",
+      "fee": "Add $22/night winter destination fee plus tax. Three nights: $966\u20131,566 before tax, flights and meals.",
+      "room": "Suites Building \u00b7 one-bedroom suite",
+      "fit": "King bedroom, separate living area with sleeper sofa, kitchenette and washer/dryer. Free Pack \u2019n Play by request, subject to availability. Elevators serve all floors.",
+      "features": [
+        "Indoor heated pool",
+        "Kitchenette + laundry",
+        "Separate bedroom"
+      ],
+      "trade": "More casual than Ocean House. The beach is across the road, and some suites face the pond. Rooftop hot tub is for adult downtime; outdoor access is weather-dependent.",
+      "basis": "Planning estimate, not a Christmas quote. A hotel-associated winter weekday promotion started at $99 through April 2026; it has expired and did not establish Christmas suite pricing. KAYAK also shows a much lower winter price level for standard rooms. Budget roughly $200\u2013350 for a standard room or $300\u2013500 for the suite shown here, before the fee and tax; holidays may exceed this.",
+      "sources": [
+        [
+          "Suite layouts",
+          "https://www.newportbeachhotelandsuites.com/rooms/suites-building/"
+        ],
+        [
+          "Family amenities",
+          "https://www.newportbeachhotelandsuites.com/faq/"
+        ],
+        [
+          "Winter destination fee",
+          "https://www.newportbeachhotelandsuites.com/rooms/"
+        ],
+        [
+          "Past winter price context",
+          "https://www.newenglandinnsandresorts.com/content-library/winter-weekday-savings-at-newport-beach-hotel-suites"
+        ],
+        [
+          "Price context",
+          "https://www.kayak.com/Middletown-Hotels-Newport-Beach-Hotel-Suites.258746.ksp"
+        ]
+      ],
+      "cover": 6,
+      "temp": "41\u00b0 / 27\u00b0"
+    },
+    {
+      "id": "weekapaug",
+      "name": "Weekapaug Inn",
+      "town": "Westerly",
+      "tag": "Closest to the Ocean House feeling",
+      "title": "A fireside hideaway.<br>A quieter kind of luxury.",
+      "intro": "Ocean House\u2019s sister inn: pond views, lovely shared sitting rooms and a slower pace. The strongest match for the feeling you liked.",
+      "price": "$900\u20131,400+",
+      "price_type": "One-bedroom suite planning budget",
+      "fee": "Before tax and resort fee. Smaller rooms may cost less, but confirm occupancy for Rue before comparing prices.",
+      "room": "Cove View one-bedroom suite",
+      "fit": "A separate living area with daybed or sofa bed. The inn explicitly allows room for a provided crib in this category. Confirm the exact suite and winter operating dates.",
+      "features": [
+        "Pondside setting",
+        "Shared fireplaces",
+        "Crib-friendly suites"
+      ],
+      "trade": "A possible saving over Ocean House, not a cheaper Stone House. Family suites can erase the savings. Do not choose it for an indoor pool.",
+      "basis": "Planning estimate, not a Christmas quote. Relais & Ch\u00e2teaux lists a one-bedroom Garden View suite from $865/night inclusive of taxes and smaller rooms from $545; dates are unspecified and these are not holiday offers. Official select-night discounts have exclusions, so no discount is assumed. Confirm the category name, resort fee and final family total.",
+      "sources": [
+        [
+          "Suites & cribs",
+          "https://weekapauginn.com/garden-and-cove-view-rooms/"
+        ],
+        [
+          "Published starting prices",
+          "https://www.relaischateaux.com/us/hotel/weekapaug-inn/"
+        ],
+        [
+          "Seasonal offers",
+          "https://weekapauginn.com/seasonal-offers/"
+        ],
+        [
+          "Winter operations & fees",
+          "https://weekapauginn.com/faqs/"
+        ]
+      ],
+      "cover": 5,
+      "temp": "42\u00b0 / 28\u00b0"
+    }
+  ]
+}
