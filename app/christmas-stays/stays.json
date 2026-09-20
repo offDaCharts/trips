@@ -1,0 +1,504 @@
+{
+  "checked": "2026-09-20",
+  "checkin": "2026-12-20",
+  "checkout": "2026-12-27",
+  "currency": "USD",
+  "party": "2 adults + 1 infant; no pets priced",
+  "evidence": "All nine listings showed these exact dates, 2 guests plus 1 infant, a seven-night price and Reserve. Quotes are not holds or final checkout totals; no host messages sent.",
+  "stays": [
+    {
+      "key": "vista",
+      "area": "nh",
+      "id": "949799296985171066",
+      "name": "Mountain Vista",
+      "price": 3524,
+      "beds": 3,
+      "baths": 2,
+      "sleeps": 8,
+      "rating": "4.94",
+      "reviews": 84,
+      "pitch": "Big mountain views from the sofa, a fireplace, and a six-person hot tub in the trees. The strongest all-round house for this trip.",
+      "tags": [
+        "Private hot tub",
+        "Mountain windows",
+        "Fireplace",
+        "Pets allowed"
+      ],
+      "tradeoff": "Upstairs primary suite; host says four-wheel drive may be needed in winter.",
+      "note": "Free cancellation before November 20 shown. Confirm crib, stair gates and permission for both dogs; pets not priced.",
+      "url": "https://www.airbnb.com/rooms/949799296985171066?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1&currency=USD",
+      "images": [
+        {
+          "src": "photos/vista-2.jpg",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-949799296985171066/original/789cb302-bf95-419a-9e66-02fac5b7ae21.jpeg?im_w=1200",
+          "caption": "Living room, fireplace and mountain windows"
+        },
+        {
+          "src": "photos/vista-1.jpg",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-949799296985171066/original/ecbc47a2-16a2-4585-97a9-5110a617e01a.jpeg?im_w=1200",
+          "caption": "Chalet in a snowy mountain setting"
+        },
+        {
+          "src": "photos/vista-3.jpg",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-949799296985171066/original/2d8bfb58-8a63-45e6-a3ac-a62b400900dc.jpeg?im_w=1200",
+          "caption": "Private hot tub with a mountain outlook · green season"
+        },
+        {
+          "src": "photos/vista-4.jpg",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-949799296985171066/original/f1422ff0-1752-4990-9bb6-992420c7ebd1.jpeg?im_w=1200",
+          "caption": "Kitchen and island"
+        },
+        {
+          "src": "photos/vista-5.jpg",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-949799296985171066/original/e85b08e2-9ece-4849-8f63-79fb8c26a619.jpeg?im_w=1200",
+          "caption": "Bathroom with walk-in shower"
+        }
+      ]
+    },
+    {
+      "key": "bartlett",
+      "area": "nh",
+      "id": "1600069031642592037",
+      "name": "Modern Bartlett Cabin",
+      "price": 3171,
+      "beds": 3,
+      "baths": 2,
+      "sleeps": 8,
+      "rating": "4.97",
+      "reviews": 32,
+      "pitch": "A bright, renovated cabin with a private hot tub and space to settle in. A Pack ’n Play is listed, making it a practical family option.",
+      "tags": [
+        "Private hot tub",
+        "Pack ’n Play",
+        "Kitchen + laundry",
+        "Pets allowed"
+      ],
+      "tradeoff": "All three bedrooms are upstairs. More neighborhood cabin than secluded mountain panorama.",
+      "note": "Free cancellation before December 15 shown. Confirm stair gates and baby gear availability; ask about both dogs and fees.",
+      "url": "https://www.airbnb.com/rooms/1600069031642592037?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1&currency=USD",
+      "images": [
+        {
+          "src": "photos/bartlett-1.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1600069031642592037/original/5a05b993-b3c2-4b2d-9f16-a1c54bf2ab74.jpeg?im_w=1200",
+          "caption": "Renovated living room"
+        },
+        {
+          "src": "photos/bartlett-2.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1600069031642592037/original/5996b9da-2cf7-4455-8110-757d7b3dfd9e.jpeg?im_w=1200",
+          "caption": "Backyard and fire-pit seating · green season"
+        },
+        {
+          "src": "photos/bartlett-3.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1600069031642592037/original/a9ea0f39-2a45-468a-80f7-d3ff3f2fb392.jpeg?im_w=1200",
+          "caption": "Private outdoor hot tub"
+        },
+        {
+          "src": "photos/bartlett-4.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1600069031642592037/original/aa602b8c-d97c-41d8-86e1-242d232414af.jpeg?im_w=1200",
+          "caption": "Cabin and surrounding woods in winter"
+        },
+        {
+          "src": "photos/bartlett-5.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1600069031642592037/original/3707d4c2-6d30-4c4f-adda-652108e05fad.jpeg?im_w=1200",
+          "caption": "Bright kitchen"
+        }
+      ]
+    },
+    {
+      "key": "jackson",
+      "area": "nh",
+      "id": "683399575755371818",
+      "name": "Nordic Village Mountain Condo",
+      "price": 1705,
+      "beds": 2,
+      "baths": 2,
+      "sleeps": 4,
+      "rating": "4.98",
+      "reviews": 176,
+      "pitch": "The budget reset: mountain views, a stone-faced gas fireplace, and included access to Nordic Village’s pools and wellness facilities.",
+      "tags": [
+        "Mountain views",
+        "Gas fireplace",
+        "Shared pool + sauna",
+        "2 bedrooms"
+      ],
+      "tradeoff": "A condo with a spiral staircase, not a detached cabin. Pool and spa facilities are shared; the private hot-tub label needs clarification.",
+      "note": "Free cancellation before November 20 shown. Ask about staircase gates, crib, holiday pool hours and pets. One outdoor pool closes in winter.",
+      "url": "https://www.airbnb.com/rooms/683399575755371818?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1&currency=USD",
+      "images": [
+        {
+          "src": "photos/jackson-3.jpg",
+          "source": "https://a0.muscache.com/im/pictures/1eeb6224-4746-495c-b128-0e3650be4a74.jpg?im_w=1200",
+          "caption": "Stone-faced fireplace and spiral staircase"
+        },
+        {
+          "src": "photos/jackson-2.jpg",
+          "source": "https://a0.muscache.com/im/pictures/9b54c21d-1fb6-4b53-ac12-fcb3465507e3.jpg?im_w=1200",
+          "caption": "Living area and balcony"
+        },
+        {
+          "src": "photos/jackson-1.jpg",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-683399575755371818/original/d913e623-9f66-4be4-9841-2be77ee9ae41.jpeg?im_w=1200",
+          "caption": "Nordic Village condo exterior · green season"
+        },
+        {
+          "src": "photos/jackson-4.jpg",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-683399575755371818/original/25534d3d-8a36-4cb7-873f-0df5808b70de.jpeg?im_w=1200",
+          "caption": "Kitchen and spiral staircase"
+        },
+        {
+          "src": "photos/jackson-5.jpg",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-683399575755371818/original/30d44b18-26d6-4557-9989-00830dcdcc3f.jpeg?im_w=1200",
+          "caption": "Kitchen and dining area"
+        }
+      ]
+    },
+    {
+      "key": "rangeleyspa",
+      "area": "me",
+      "id": "1355346208900090615",
+      "name": "Six-Acre Forest Retreat",
+      "price": 4323,
+      "beds": 3,
+      "baths": 2,
+      "sleeps": 10,
+      "rating": "5.0",
+      "reviews": 55,
+      "pitch": "A new woodland lodge with a private hot tub, gas fireplace and two king bedrooms. The most complete private-spa option in the Rangeley edit.",
+      "tags": [
+        "Private hot tub",
+        "Gas fireplace",
+        "Two king bedrooms",
+        "Pets allowed"
+      ],
+      "tradeoff": "The third sleeping area is an open loft. Forest outlook rather than a lake panorama.",
+      "note": "Free cancellation before November 20 shown. Host recommends 4WD. Confirm crib, loft gates and both-dog approval.",
+      "url": "https://www.airbnb.com/rooms/1355346208900090615?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1&currency=USD",
+      "images": [
+        {
+          "src": "photos/rangeleyspa-1.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM1NTM0NjIwODkwMDA5MDYxNQ==/original/17c81c15-b6b5-482c-b3ae-0b3f41c1a236.jpeg?im_w=1200",
+          "caption": "Tall windows and fireside living room"
+        },
+        {
+          "src": "photos/rangeleyspa-2.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM1NTM0NjIwODkwMDA5MDYxNQ==/original/0f4010ac-b85b-432e-b6bc-8515b34da229.jpeg?im_w=1200",
+          "caption": "Modern kitchen"
+        },
+        {
+          "src": "photos/rangeleyspa-3.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM1NTM0NjIwODkwMDA5MDYxNQ==/original/6bbee496-e0a2-47cb-840a-7324b29dc00e.jpeg?im_w=1200",
+          "caption": "Dining area opening to the living room"
+        },
+        {
+          "src": "photos/rangeleyspa-4.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1355346208900090615/original/03acbb8c-9cc4-4f7f-b445-f3b937b1fc7a.jpeg?im_w=1200",
+          "caption": "Private hot tub among the trees · green season"
+        },
+        {
+          "src": "photos/rangeleyspa-5.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM1NTM0NjIwODkwMDA5MDYxNQ==/original/a07267e4-12b2-46ba-a400-6f3f5f07461a.jpeg?im_w=1200",
+          "caption": "King bedroom"
+        }
+      ]
+    },
+    {
+      "key": "lakeview",
+      "area": "me",
+      "id": "1483316352573158198",
+      "name": "Golden Smelt · Niboban 14",
+      "price": 2630,
+      "beds": 3,
+      "baths": 2,
+      "sleeps": 6,
+      "rating": "5.0",
+      "reviews": 3,
+      "pitch": "A new cabin with lake and mountain scenery, big porch windows and a gas stove to gather around after a snowy day. A good middle ground on price and space.",
+      "tags": [
+        "Lake views",
+        "Gas viewing stove",
+        "Gourmet kitchen",
+        "Kitchen + laundry"
+      ],
+      "tradeoff": "Only three reviews so far. About 150 yards from the shoreline, with shared grounds; no private hot tub advertised.",
+      "note": "Free cancellation before December 19 shown. No pets. Confirm crib and winter access. Beach, docks and kayaks shown in photos are summer amenities.",
+      "url": "https://www.airbnb.com/rooms/1483316352573158198?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1&currency=USD",
+      "images": [
+        {
+          "src": "photos/lakeview-3.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1483316352573158198/original/51e5c5e7-f0dd-484c-9a83-ace628dc9e41.jpeg?im_w=1200",
+          "caption": "Living room and gas viewing stove"
+        },
+        {
+          "src": "photos/lakeview-4.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1483316352573158198/original/85be5ae1-b2a4-4450-a57b-8586fd637f37.jpeg?im_w=1200",
+          "caption": "Enclosed porch sitting area"
+        },
+        {
+          "src": "photos/lakeview-1.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1483316352573158198/original/c053c91f-059a-4ab0-8155-52edaf0183b2.jpeg?im_w=1200",
+          "caption": "Shared lakeside fire pit · summer"
+        },
+        {
+          "src": "photos/lakeview-2.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1483316352573158198/original/199814c3-3834-497a-abe2-93f10fba1db1.jpeg?im_w=1200",
+          "caption": "Golden Smelt cabin exterior"
+        },
+        {
+          "src": "photos/lakeview-5.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-1483316352573158198/original/6999aae2-4136-4ff0-aa2a-3f52fe3438dc.jpeg?im_w=1200",
+          "caption": "Dining and living space"
+        }
+      ]
+    },
+    {
+      "key": "finnish",
+      "area": "me",
+      "id": "843777251621837778",
+      "name": "Balsam · Finnish-Inspired Cabin",
+      "price": 2309,
+      "beds": 2,
+      "baths": 1,
+      "sleeps": 6,
+      "rating": "5.0",
+      "reviews": 31,
+      "pitch": "Warm wood, vaulted ceilings and a covered porch near Rangeley Lake. A smaller, cozy value option with access to a community outdoor sauna.",
+      "tags": [
+        "Finnish-inspired interior",
+        "Shared sauna",
+        "Lake access",
+        "2 bedrooms"
+      ],
+      "tradeoff": "A simpler cabin, not a luxury lodge. Sauna is shared; no private hot tub or indoor fireplace advertised.",
+      "note": "Stairs required to enter. One pet maximum with a fee, so not a fit for both dogs. Confirm sauna winter operation, crib and cancellation terms.",
+      "url": "https://www.airbnb.com/rooms/843777251621837778?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1&currency=USD",
+      "images": [
+        {
+          "src": "photos/finnish-1.jpg",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-843777251621837778/original/d9794785-7d35-4c8b-b6e4-6237dd9a250f.jpeg?im_w=1200",
+          "caption": "Pine-lined living room and loft stairs"
+        },
+        {
+          "src": "photos/finnish-2.jpg",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-843777251621837778/original/643fc13f-f810-44fc-8c42-97dfa8cff2c1.jpeg?im_w=1200",
+          "caption": "Balsam cabin exterior · green season"
+        },
+        {
+          "src": "photos/finnish-3.jpg",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-843777251621837778/original/cc5a3a0a-8ad0-4306-9eeb-b248b2428d2e.jpeg?im_w=1200",
+          "caption": "Living-room windows and porch door"
+        },
+        {
+          "src": "photos/finnish-4.jpg",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-843777251621837778/original/ca01d309-3dac-483d-bf7c-956e6b3c4b8f.jpeg?im_w=1200",
+          "caption": "Open living and dining area"
+        },
+        {
+          "src": "photos/finnish-5.jpg",
+          "source": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-843777251621837778/original/aab9bb1b-7cba-4790-b7f2-e64d12264c9e.jpeg?im_w=1200",
+          "caption": "Kitchen and vaulted wood ceiling"
+        }
+      ]
+    },
+    {
+      "key": "alpin",
+      "area": "qc",
+      "id": "28028365",
+      "name": "Alpin 19 · Stoneham",
+      "price": 3015,
+      "beds": 3,
+      "baths": 1,
+      "sleeps": 6,
+      "rating": "5.0",
+      "reviews": 3,
+      "pitch": "A traditional chalet with mountain views, a wood-burning fireplace and a private hot tub. Crib and high-chair availability give it the most practical family setup in this Québec selection.",
+      "tags": [
+        "Private hot tub",
+        "Wood fireplace",
+        "Crib + high chair",
+        "Mountain views"
+      ],
+      "tradeoff": "Only three reviews. Listing summary says six guests and description says seven; priced here for two adults and an infant.",
+      "note": "Free cancellation before November 20 shown. Host mentions a $750 security deposit; confirm currency and terms. Listed registration expires December 15, before our dates: verify renewal. Stairs required; confirm baby gear and pets.",
+      "url": "https://www.airbnb.com/rooms/28028365?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1&currency=USD",
+      "images": [
+        {
+          "src": "photos/alpin-1.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MjgwMjgzNjU=/original/c35e8bcd-5f58-4b24-b459-1ef50fa30795.jpeg?im_w=1200",
+          "caption": "Living room and wood-burning stove"
+        },
+        {
+          "src": "photos/alpin-2.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MjgwMjgzNjU=/original/4bdd5d8b-3b9c-4e73-b30b-e4979228c036.jpeg?im_w=1200",
+          "caption": "Open living and kitchen area"
+        },
+        {
+          "src": "photos/alpin-3.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MjgwMjgzNjU=/original/a4a830fa-ab61-4661-8a0f-dd4da72123c8.jpeg?im_w=1200",
+          "caption": "Queen bedroom"
+        },
+        {
+          "src": "photos/alpin-4.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MjgwMjgzNjU=/original/26f1b0c4-d9a8-4f39-a9ec-aeec6b8e3297.jpeg?im_w=1200",
+          "caption": "Dining area and kitchen"
+        },
+        {
+          "src": "photos/alpin-5.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MjgwMjgzNjU=/original/aeac3f29-cc84-4553-830b-3be8e2a2df42.jpeg?im_w=1200",
+          "caption": "Chalet exterior"
+        }
+      ]
+    },
+    {
+      "key": "norr",
+      "area": "qc",
+      "id": "1307882519895558958",
+      "name": "NØRR · Lac-Beauport",
+      "price": 3947,
+      "beds": 2,
+      "baths": 1,
+      "sleeps": 6,
+      "rating": "4.95",
+      "reviews": 77,
+      "pitch": "A Scandinavian micro-chalet with mountain views, two king beds, a wood fire and a year-round hot tub. Beautiful design, with a real family-layout compromise.",
+      "tags": [
+        "Private hot tub",
+        "Wood fireplace",
+        "Two king beds",
+        "Mountain views"
+      ],
+      "tradeoff": "Two interior ladders connect the levels. Not our first choice with Rue; confirm a workable sleeping and stair arrangement before considering it.",
+      "note": "AWD/4x4 AND winter tires required November–April. Host offers a local shuttle for CAD $50 each way, not an airport transfer. Free cancellation before November 20 shown; pets unverified.",
+      "url": "https://www.airbnb.com/rooms/1307882519895558958?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1&currency=USD",
+      "images": [
+        {
+          "src": "photos/norr-2.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMwNzg4MjUxOTg5NTU1ODk1OA%3D%3D/original/5abc258f-a95d-433d-831e-2029b43f1618.jpeg?im_w=1200",
+          "caption": "Living room at sunset"
+        },
+        {
+          "src": "photos/norr-1.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMwNzg4MjUxOTg5NTU1ODk1OA%3D%3D/original/f8abcac9-145f-431f-9fbe-1df649bd49dd.jpeg?im_w=1200",
+          "caption": "NØRR exterior and its multiple levels"
+        },
+        {
+          "src": "photos/norr-4.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMwNzg4MjUxOTg5NTU1ODk1OA%3D%3D/original/d30406a6-0585-4822-8ee3-2418e5b9f7fb.jpeg?im_w=1200",
+          "caption": "Private hot tub and mountain view"
+        },
+        {
+          "src": "photos/norr-3.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMwNzg4MjUxOTg5NTU1ODk1OA%3D%3D/original/280ec5dd-076c-4ff6-be16-f85f2374c24c.jpeg?im_w=1200",
+          "caption": "Mountain-facing dining and living space"
+        },
+        {
+          "src": "photos/norr-5.jpg",
+          "source": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMwNzg4MjUxOTg5NTU1ODk1OA%3D%3D/original/40af858a-7522-4c65-84fc-67cb7f18074e.jpeg?im_w=1200",
+          "caption": "King bedroom and ladder access"
+        }
+      ]
+    },
+    {
+      "key": "ridge",
+      "area": "qc",
+      "id": "824027016129337645",
+      "name": "RidgeView · Lac-Beauport",
+      "price": 5020,
+      "beds": 2,
+      "baths": 2,
+      "sleeps": 6,
+      "rating": "4.98",
+      "reviews": 238,
+      "pitch": "The architectural splurge: huge mountain-facing windows, sunset views from bed, a wood fireplace and a private hot tub. Closest to the dramatic cabin dream.",
+      "tags": [
+        "Private hot tub",
+        "Panoramic windows",
+        "Wood fireplace",
+        "Architect-designed"
+      ],
+      "tradeoff": "Three levels with ladder-style stairs; the upper bedroom is reached only by an interior ladder staircase. A difficult setup with Rue.",
+      "note": "AWD/4x4 AND winter tires required November–April. Local shuttle CAD $50 each way from Lac-Beauport pickup point. Free cancellation before November 20 shown; pets unverified.",
+      "url": "https://www.airbnb.com/rooms/824027016129337645?check_in=2026-12-20&check_out=2026-12-27&adults=2&infants=1&currency=USD",
+      "images": [
+        {
+          "src": "photos/ridge-5.jpg",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-824027016129337645/original/4fdab75d-4141-4ac9-8897-ab5f0ed3e6b1.jpeg?im_w=1200",
+          "caption": "RidgeView exterior in snow"
+        },
+        {
+          "src": "photos/ridge-4.jpg",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-824027016129337645/original/f0b0020a-6bef-4520-a606-4be4c3f9fdb6.jpeg?im_w=1200",
+          "caption": "Bedroom windows framing the forest"
+        },
+        {
+          "src": "photos/ridge-3.jpg",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-824027016129337645/original/1e194e23-db4a-4916-8953-1e4c02fd4670.jpeg?im_w=1200",
+          "caption": "Living room and large windows"
+        },
+        {
+          "src": "photos/ridge-2.jpg",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-824027016129337645/original/67fe9f70-e84d-46c5-9a1f-11a1957aead9.jpeg?im_w=1200",
+          "caption": "Covered terrace with outdoor fire"
+        },
+        {
+          "src": "photos/ridge-1.jpg",
+          "source": "https://a0.muscache.com/im/pictures/miso/Hosting-824027016129337645/original/06b6f83b-2ea1-448e-8e77-5ff2b319eda8.jpeg?im_w=1200",
+          "caption": "RidgeView exterior among the trees"
+        }
+      ]
+    }
+  ],
+  "areas": [
+    {
+      "key": "nh",
+      "name": "Jackson & Bartlett",
+      "state": "NEW HAMPSHIRE",
+      "tag": "The easiest all-round choice",
+      "range": "$1,705–$3,524",
+      "snow": "76%",
+      "snowtext": "Nearby North Conway · historical snow on Christmas morning",
+      "image": "photos/vista-2.jpg",
+      "pitch": "Village inns, mountain views and lantern-lit sleigh rides. Start with Mountain Vista for scenery or the modern Bartlett cabin for an easier family setup.",
+      "air": "ATL → PWM · Delta nonstop",
+      "drive": "1h 45m–2h drive",
+      "flight": "Roughly 2½–2¾ hours flying to Portland, Maine. Boston is a backup with a roughly 3-hour drive.",
+      "source": "https://thewentworth.com/about-the-inn/getting-here/",
+      "fun": "https://jacksonnh.com/project/nestlenook-farm/",
+      "funlabel": "Nestlenook sleigh rides"
+    },
+    {
+      "key": "me",
+      "name": "Rangeley",
+      "state": "MAINE",
+      "tag": "Put the snow odds first",
+      "range": "$2,309–$4,323",
+      "snow": "94%",
+      "snowtext": "Rangeley station · historical snow on Christmas morning",
+      "image": "photos/rangeleyspa-1.jpg",
+      "pitch": "Quiet lake country, wood-lined cabins and the strongest U.S. snow odds in this comparison. Choose the forest retreat for a hot tub or Golden Smelt for lake scenery.",
+      "air": "ATL → PWM · Delta nonstop",
+      "drive": "2½–3h drive",
+      "flight": "Same Portland flight as New Hampshire, followed by a longer drive into the western Maine mountains.",
+      "source": "https://www.traveldojo.com/rangeley/",
+      "fun": "https://rangeleylakestrailscenter.org/",
+      "funlabel": "Rangeley winter trails"
+    },
+    {
+      "key": "qc",
+      "name": "Québec City area",
+      "state": "STONEHAM + LAC-BEAUPORT",
+      "tag": "Christmas atmosphere + bold cabins",
+      "range": "$3,015–$5,020",
+      "snow": "92%",
+      "snowtext": "Québec City · historical snow on Christmas morning",
+      "image": "photos/ridge-5.jpg",
+      "pitch": "Old Québec’s festive streets with a chalet in the hills. Alpin 19 is the more practical family option; NØRR and RidgeView are architecture picks with ladder-style stairs.",
+      "air": "YQB closest · connection from ATL",
+      "drive": "~35–45m to Stoneham",
+      "flight": "Delta nonstop alternative: ATL → Montréal (YUL), then roughly 3–3½h to Stoneham. Lac-Beauport mountain cabins need extra time for the final access road; exact drives are unverified.",
+      "source": "https://www.skiresort.com/en/ski-resort/stoneham/arrival-plane-train/",
+      "fun": "https://www.quebec-cite.com/en/what-to-do-quebec-city/december",
+      "funlabel": "December in Québec"
+    }
+  ]
+}
