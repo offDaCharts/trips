@@ -146,5 +146,14 @@
         "https://flyri.com/passengers/where-we-fly/"
       ]
     ]
+  },
+  {
+    "id": "stone",
+    "name": "Stone House Inn",
+    "where": "Little Compton, Rhode Island",
+    "price": "$350–600",
+    "pricing_status": "Planning estimate; Christmas unavailable online; see stone-house-quote.json",
+    "url": "https://www.stonehouseri.com/guest-rooms",
+    "quote_source": "https://ibe13.rmscloud.com/1C31D60147B5560A/90"
   }
 ]

@@ -286,5 +286,105 @@
     "width": 1290,
     "height": 728,
     "file": "../../assets/christmas-snow-road-trip/flights/ocean-ocean-24.jpg"
+  },
+  {
+    "stay_id": "stone",
+    "local_path": "/tmp/stone-house-photos/stone-osprey-suite.jpg",
+    "caption": "Osprey suite — king bedroom, sitting area and fireplace",
+    "source_page": "https://www.stonehouseri.com/guest-rooms",
+    "image_url": "https://static.wixstatic.com/media/0615e4_365863f6817643c1b43e667b6cf4601f~mv2.jpeg/v1/fit/w_1400,h_1100,q_85/0615e4_365863f6817643c1b43e667b6cf4601f~mv2.jpeg",
+    "season": "Interior; season not established",
+    "notes": "Image appears in the OSPREY section of the official guest rooms page. Official description identifies one bedroom on the third floor of the Barn; do not label it a two-bedroom suite. Visually verified; 1400×787; 196848 bytes.",
+    "file": "../../assets/christmas-snow-road-trip/flights/stone-osprey-suite.jpg"
+  },
+  {
+    "stay_id": "stone",
+    "local_path": "/tmp/stone-house-photos/stone-david-sisson-bedroom.jpg",
+    "caption": "David Sisson suite — bedroom",
+    "source_page": "https://www.stonehouseri.com/guest-rooms",
+    "image_url": "https://static.wixstatic.com/media/0615e4_385f8f4c18f84e1b963523a5a474c03c~mv2.jpg/v1/fit/w_1400,h_1100,q_85/0615e4_385f8f4c18f84e1b963523a5a474c03c~mv2.jpg",
+    "season": "Interior; season not established",
+    "notes": "Official alt text: David Room II.jpg. David Sisson section states this is a two-bedroom suite with king and queen bedrooms, each with its own bath. Visually verified; 1400×933; 200438 bytes.",
+    "file": "../../assets/christmas-snow-road-trip/flights/stone-david-sisson-bedroom.jpg"
+  },
+  {
+    "stay_id": "stone",
+    "local_path": "/tmp/stone-house-photos/stone-henry-sisson-bath.jpg",
+    "caption": "Henry Sisson suite — soaking tub beside bedroom",
+    "source_page": "https://www.stonehouseri.com/guest-rooms",
+    "image_url": "https://static.wixstatic.com/media/0615e4_237f4167bff14f5a99c39537800879a0~mv2.jpg/v1/fit/w_1400,h_1100,q_85/0615e4_237f4167bff14f5a99c39537800879a0~mv2.jpg",
+    "season": "Interior; season not established",
+    "notes": "Official alt text: Henry Room.jpg; image appears in HENRY SISSON section. Two-bedroom suite per official description. Visually verified; 1400×933; 158926 bytes.",
+    "file": "../../assets/christmas-snow-road-trip/flights/stone-henry-sisson-bath.jpg"
+  },
+  {
+    "stay_id": "stone",
+    "local_path": "/tmp/stone-house-photos/stone-berry-bathroom.jpg",
+    "caption": "Berry bathroom — freestanding soaking tub",
+    "source_page": "https://www.stonehouseri.com/guest-rooms",
+    "image_url": "https://static.wixstatic.com/media/0615e4_35577d77eaea478d9caa23f43a1c709f~mv2.jpg/v1/fit/w_1400,h_1100,q_85/0615e4_35577d77eaea478d9caa23f43a1c709f~mv2.jpg",
+    "season": "Interior; season not established",
+    "notes": "Official alt text: Berry Tub.jpg. Visually verified; 1400×1030; 191654 bytes.",
+    "file": "../../assets/christmas-snow-road-trip/flights/stone-berry-bathroom.jpg"
+  },
+  {
+    "stay_id": "stone",
+    "local_path": "/tmp/stone-house-photos/stone-warren-living-area.jpg",
+    "caption": "Warren — sitting area, skylight and fireplace",
+    "source_page": "https://www.stonehouseri.com/guest-rooms",
+    "image_url": "https://static.wixstatic.com/media/0615e4_627f3de2903e42c89145a916bcafacd9~mv2.jpg/v1/fit/w_1400,h_1100,q_85/0615e4_627f3de2903e42c89145a916bcafacd9~mv2.jpg",
+    "season": "Interior; season not established",
+    "notes": "Official alt text: Warren skylight.JPG. Visually verified; 1400×930; 133803 bytes.",
+    "file": "../../assets/christmas-snow-road-trip/flights/stone-warren-living-area.jpg"
+  },
+  {
+    "stay_id": "stone",
+    "local_path": "/tmp/stone-house-photos/stone-star-bedroom.jpg",
+    "caption": "Star — bedroom and fireplace",
+    "source_page": "https://www.stonehouseri.com/guest-rooms",
+    "image_url": "https://static.wixstatic.com/media/0615e4_3ddfd8278b62467885462ff721a5e2a0~mv2.jpg/v1/fit/w_1400,h_1100,q_85/0615e4_3ddfd8278b62467885462ff721a5e2a0~mv2.jpg",
+    "season": "Interior; season not established",
+    "notes": "Official alt text: Star Room.jpg. Visually verified; 1400×933; 211850 bytes.",
+    "file": "../../assets/christmas-snow-road-trip/flights/stone-star-bedroom.jpg"
+  },
+  {
+    "stay_id": "stone",
+    "local_path": "/tmp/stone-house-photos/stone-plover-suite.jpg",
+    "caption": "Plover — bedroom and sitting area",
+    "source_page": "https://www.stonehouseri.com/guest-rooms",
+    "image_url": "https://static.wixstatic.com/media/0615e4_a813c13626944f0bba404fc1a104e494~mv2.jpeg/v1/fit/w_1400,h_1100,q_85/0615e4_a813c13626944f0bba404fc1a104e494~mv2.jpeg",
+    "season": "Interior; season not established",
+    "notes": "Image appears in PLOVER section of official guest rooms page. Visually verified; 1400×787; 217584 bytes.",
+    "file": "../../assets/christmas-snow-road-trip/flights/stone-plover-suite.jpg"
+  },
+  {
+    "stay_id": "stone",
+    "local_path": "/tmp/stone-house-photos/stone-heron-suite.jpg",
+    "caption": "Heron suite — fireplace and bath",
+    "source_page": "https://www.stonehouseri.com/guest-rooms",
+    "image_url": "https://static.wixstatic.com/media/0615e4_c9b3d74fa2304e949ab69c747da9cc0a~mv2.jpg/v1/fit/w_1400,h_1100,q_85/0615e4_c9b3d74fa2304e949ab69c747da9cc0a~mv2.jpg",
+    "season": "Interior; season not established",
+    "notes": "Image appears in HERON A & B section; exact A/B unit is not specified, so caption does not assign one. Visually verified; 1400×930; 185694 bytes.",
+    "file": "../../assets/christmas-snow-road-trip/flights/stone-heron-suite.jpg"
+  },
+  {
+    "stay_id": "stone",
+    "local_path": "/tmp/stone-house-photos/stone-lantern-view.jpg",
+    "caption": "Lantern — window seating with water views",
+    "source_page": "https://www.stonehouseri.com/guest-rooms",
+    "image_url": "https://static.wixstatic.com/media/0615e4_d48bf7568a1b4adf81ad51ffacb73c70~mv2.jpg/v1/fit/w_1400,h_1100,q_85/0615e4_d48bf7568a1b4adf81ad51ffacb73c70~mv2.jpg",
+    "season": "Interior; season not established",
+    "notes": "Official alt text: Lantern Room.jpg. Visually verified; 1400×916; 224156 bytes.",
+    "file": "../../assets/christmas-snow-road-trip/flights/stone-lantern-view.jpg"
+  },
+  {
+    "stay_id": "stone",
+    "local_path": "/tmp/stone-house-photos/stone-exterior-dusk.jpg",
+    "caption": "Stone House Inn and Barn at dusk",
+    "source_page": "https://www.stonehouseri.com/",
+    "image_url": "https://static.wixstatic.com/media/0615e4_5729d8fd58ae4c879a60bb002cffb817~mv2.jpg/v1/fit/w_1400,h_1100,q_85/0615e4_5729d8fd58ae4c879a60bb002cffb817~mv2.jpg",
+    "season": "Leafy season; exact month unknown",
+    "notes": "Official homepage Open Graph image. Main inn, Barn and outdoor fire pit visible. No winter/snow depiction. Visually verified; 1000×750; 171643 bytes.",
+    "file": "../../assets/christmas-snow-road-trip/flights/stone-exterior-dusk.jpg"
   }
 ]

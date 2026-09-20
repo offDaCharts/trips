@@ -1,0 +1,102 @@
+{
+  "checked": "2026-09-20",
+  "property": "Stone House Inn, Little Compton RI",
+  "source": "https://ibe13.rmscloud.com/1C31D60147B5560A/90",
+  "occupancy": {
+    "adults": 2,
+    "infants": 1,
+    "caveat": "Engine does not define infant age; confirm Rue qualifies."
+  },
+  "holiday_searches": [
+    {
+      "arrival": "2026-12-24",
+      "departure": "2026-12-27",
+      "result": "Unavailable; call for additional availability"
+    },
+    {
+      "arrival": "2026-12-27",
+      "departure": "2026-12-30",
+      "result": "Unavailable; call for additional availability"
+    }
+  ],
+  "reference_quote": {
+    "arrival": "2026-10-26",
+    "departure": "2026-10-29",
+    "category": "Barn 2",
+    "bedding": "2 Queen Beds",
+    "currency": "USD",
+    "base_nightly": 379,
+    "displayed_nightly_with_tax": 432.06,
+    "room_subtotal": 1137,
+    "guestroom_sales_tax": 79.59,
+    "SH_guestroom_occupancy_tax": 79.59,
+    "total": 1296.18,
+    "disclaimer": "Additional rates and fees may apply; not a Christmas quote or reservation"
+  },
+  "holiday_planning_estimates": {
+    "smaller_room_base_nightly": [
+      350,
+      600
+    ],
+    "two_bedroom_base_nightly": [
+      500,
+      850
+    ],
+    "method": "Editorial allowances informed by dated nonholiday reference; not verified holiday prices."
+  },
+  "weather_normals": [
+    {
+      "DLY-TMIN-NORMAL": "27.9",
+      "DATE": "12-24",
+      "STATION": "USW00014787",
+      "DLY-TMAX-NORMAL": "41.8"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.7",
+      "DATE": "12-25",
+      "STATION": "USW00014787",
+      "DLY-TMAX-NORMAL": "41.5"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.4",
+      "DATE": "12-26",
+      "STATION": "USW00014787",
+      "DLY-TMAX-NORMAL": "41.3"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.2",
+      "DATE": "12-27",
+      "STATION": "USW00014787",
+      "DLY-TMAX-NORMAL": "41.1"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.0",
+      "DATE": "12-28",
+      "STATION": "USW00014787",
+      "DLY-TMAX-NORMAL": "40.9"
+    },
+    {
+      "DLY-TMIN-NORMAL": "26.8",
+      "DATE": "12-29",
+      "STATION": "USW00014787",
+      "DLY-TMAX-NORMAL": "40.6"
+    },
+    {
+      "DLY-TMIN-NORMAL": "26.5",
+      "DATE": "12-30",
+      "STATION": "USW00014787",
+      "DLY-TMAX-NORMAL": "40.4"
+    },
+    {
+      "DLY-TMIN-NORMAL": "26.3",
+      "DATE": "12-31",
+      "STATION": "USW00014787",
+      "DLY-TMAX-NORMAL": "40.2"
+    }
+  ],
+  "snow": {
+    "nearby_station": "Tiverton RI",
+    "white_christmas_historical_percent": 17.5,
+    "source": "https://www.ncei.noaa.gov/media/3501"
+  }
+}
