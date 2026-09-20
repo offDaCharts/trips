@@ -1,0 +1,306 @@
+{
+  "checked": "2026-09-20",
+  "period": "December 24\u201331",
+  "baseline": "NOAA 1991\u20132020",
+  "daily_normals": [
+    {
+      "DLY-TMIN-NORMAL": "22.9",
+      "DATE": "12-24",
+      "STATION": "USC00310645",
+      "DLY-TMAX-NORMAL": "37.3"
+    },
+    {
+      "DLY-TMIN-NORMAL": "22.8",
+      "DATE": "12-25",
+      "STATION": "USC00310645",
+      "DLY-TMAX-NORMAL": "37.2"
+    },
+    {
+      "DLY-TMIN-NORMAL": "22.6",
+      "DATE": "12-26",
+      "STATION": "USC00310645",
+      "DLY-TMAX-NORMAL": "37.0"
+    },
+    {
+      "DLY-TMIN-NORMAL": "22.4",
+      "DATE": "12-27",
+      "STATION": "USC00310645",
+      "DLY-TMAX-NORMAL": "36.8"
+    },
+    {
+      "DLY-TMIN-NORMAL": "22.2",
+      "DATE": "12-28",
+      "STATION": "USC00310645",
+      "DLY-TMAX-NORMAL": "36.7"
+    },
+    {
+      "DLY-TMIN-NORMAL": "22.0",
+      "DATE": "12-29",
+      "STATION": "USC00310645",
+      "DLY-TMAX-NORMAL": "36.5"
+    },
+    {
+      "DLY-TMIN-NORMAL": "21.9",
+      "DATE": "12-30",
+      "STATION": "USC00310645",
+      "DLY-TMAX-NORMAL": "36.4"
+    },
+    {
+      "DLY-TMIN-NORMAL": "21.7",
+      "DATE": "12-31",
+      "STATION": "USC00310645",
+      "DLY-TMAX-NORMAL": "36.2"
+    },
+    {
+      "DLY-TMIN-NORMAL": "24.2",
+      "DATE": "12-24",
+      "STATION": "USC00310506",
+      "DLY-TMAX-NORMAL": "42.0"
+    },
+    {
+      "DLY-TMIN-NORMAL": "24.0",
+      "DATE": "12-25",
+      "STATION": "USC00310506",
+      "DLY-TMAX-NORMAL": "41.8"
+    },
+    {
+      "DLY-TMIN-NORMAL": "23.9",
+      "DATE": "12-26",
+      "STATION": "USC00310506",
+      "DLY-TMAX-NORMAL": "41.6"
+    },
+    {
+      "DLY-TMIN-NORMAL": "23.7",
+      "DATE": "12-27",
+      "STATION": "USC00310506",
+      "DLY-TMAX-NORMAL": "41.5"
+    },
+    {
+      "DLY-TMIN-NORMAL": "23.6",
+      "DATE": "12-28",
+      "STATION": "USC00310506",
+      "DLY-TMAX-NORMAL": "41.3"
+    },
+    {
+      "DLY-TMIN-NORMAL": "23.4",
+      "DATE": "12-29",
+      "STATION": "USC00310506",
+      "DLY-TMAX-NORMAL": "41.2"
+    },
+    {
+      "DLY-TMIN-NORMAL": "23.3",
+      "DATE": "12-30",
+      "STATION": "USC00310506",
+      "DLY-TMAX-NORMAL": "41.0"
+    },
+    {
+      "DLY-TMIN-NORMAL": "23.2",
+      "DATE": "12-31",
+      "STATION": "USC00310506",
+      "DLY-TMAX-NORMAL": "40.9"
+    },
+    {
+      "DLY-TMIN-NORMAL": "24.0",
+      "DATE": "12-24",
+      "STATION": "USC00444128",
+      "DLY-TMAX-NORMAL": "41.1"
+    },
+    {
+      "DLY-TMIN-NORMAL": "23.9",
+      "DATE": "12-25",
+      "STATION": "USC00444128",
+      "DLY-TMAX-NORMAL": "41.0"
+    },
+    {
+      "DLY-TMIN-NORMAL": "23.7",
+      "DATE": "12-26",
+      "STATION": "USC00444128",
+      "DLY-TMAX-NORMAL": "40.8"
+    },
+    {
+      "DLY-TMIN-NORMAL": "23.5",
+      "DATE": "12-27",
+      "STATION": "USC00444128",
+      "DLY-TMAX-NORMAL": "40.7"
+    },
+    {
+      "DLY-TMIN-NORMAL": "23.4",
+      "DATE": "12-28",
+      "STATION": "USC00444128",
+      "DLY-TMAX-NORMAL": "40.6"
+    },
+    {
+      "DLY-TMIN-NORMAL": "23.2",
+      "DATE": "12-29",
+      "STATION": "USC00444128",
+      "DLY-TMAX-NORMAL": "40.5"
+    },
+    {
+      "DLY-TMIN-NORMAL": "23.0",
+      "DATE": "12-30",
+      "STATION": "USC00444128",
+      "DLY-TMAX-NORMAL": "40.4"
+    },
+    {
+      "DLY-TMIN-NORMAL": "22.9",
+      "DATE": "12-31",
+      "STATION": "USC00444128",
+      "DLY-TMAX-NORMAL": "40.2"
+    },
+    {
+      "DLY-TMIN-NORMAL": "28.3",
+      "DATE": "12-24",
+      "STATION": "USC00409065",
+      "DLY-TMAX-NORMAL": "48.5"
+    },
+    {
+      "DLY-TMIN-NORMAL": "28.1",
+      "DATE": "12-25",
+      "STATION": "USC00409065",
+      "DLY-TMAX-NORMAL": "48.4"
+    },
+    {
+      "DLY-TMIN-NORMAL": "28.0",
+      "DATE": "12-26",
+      "STATION": "USC00409065",
+      "DLY-TMAX-NORMAL": "48.2"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.8",
+      "DATE": "12-27",
+      "STATION": "USC00409065",
+      "DLY-TMAX-NORMAL": "48.1"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.6",
+      "DATE": "12-28",
+      "STATION": "USC00409065",
+      "DLY-TMAX-NORMAL": "47.9"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.5",
+      "DATE": "12-29",
+      "STATION": "USC00409065",
+      "DLY-TMAX-NORMAL": "47.8"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.3",
+      "DATE": "12-30",
+      "STATION": "USC00409065",
+      "DLY-TMAX-NORMAL": "47.7"
+    },
+    {
+      "DLY-TMIN-NORMAL": "27.1",
+      "DATE": "12-31",
+      "STATION": "USC00409065",
+      "DLY-TMAX-NORMAL": "47.6"
+    },
+    {
+      "DLY-TMIN-NORMAL": "30.3",
+      "DATE": "12-24",
+      "STATION": "USW00003812",
+      "DLY-TMAX-NORMAL": "49.9"
+    },
+    {
+      "DLY-TMIN-NORMAL": "30.2",
+      "DATE": "12-25",
+      "STATION": "USW00003812",
+      "DLY-TMAX-NORMAL": "49.8"
+    },
+    {
+      "DLY-TMIN-NORMAL": "30.0",
+      "DATE": "12-26",
+      "STATION": "USW00003812",
+      "DLY-TMAX-NORMAL": "49.6"
+    },
+    {
+      "DLY-TMIN-NORMAL": "29.9",
+      "DATE": "12-27",
+      "STATION": "USW00003812",
+      "DLY-TMAX-NORMAL": "49.5"
+    },
+    {
+      "DLY-TMIN-NORMAL": "29.8",
+      "DATE": "12-28",
+      "STATION": "USW00003812",
+      "DLY-TMAX-NORMAL": "49.4"
+    },
+    {
+      "DLY-TMIN-NORMAL": "29.7",
+      "DATE": "12-29",
+      "STATION": "USW00003812",
+      "DLY-TMAX-NORMAL": "49.2"
+    },
+    {
+      "DLY-TMIN-NORMAL": "29.6",
+      "DATE": "12-30",
+      "STATION": "USW00003812",
+      "DLY-TMAX-NORMAL": "49.1"
+    },
+    {
+      "DLY-TMIN-NORMAL": "29.4",
+      "DATE": "12-31",
+      "STATION": "USW00003812",
+      "DLY-TMAX-NORMAL": "49.0"
+    },
+    {
+      "DLY-TMIN-NORMAL": "18.2",
+      "DATE": "12-24",
+      "STATION": "USC00468308",
+      "DLY-TMAX-NORMAL": "32.5"
+    },
+    {
+      "DLY-TMIN-NORMAL": "18.0",
+      "DATE": "12-25",
+      "STATION": "USC00468308",
+      "DLY-TMAX-NORMAL": "32.3"
+    },
+    {
+      "DLY-TMIN-NORMAL": "17.8",
+      "DATE": "12-26",
+      "STATION": "USC00468308",
+      "DLY-TMAX-NORMAL": "32.2"
+    },
+    {
+      "DLY-TMIN-NORMAL": "17.6",
+      "DATE": "12-27",
+      "STATION": "USC00468308",
+      "DLY-TMAX-NORMAL": "32.0"
+    },
+    {
+      "DLY-TMIN-NORMAL": "17.4",
+      "DATE": "12-28",
+      "STATION": "USC00468308",
+      "DLY-TMAX-NORMAL": "31.8"
+    },
+    {
+      "DLY-TMIN-NORMAL": "17.2",
+      "DATE": "12-29",
+      "STATION": "USC00468308",
+      "DLY-TMAX-NORMAL": "31.7"
+    },
+    {
+      "DLY-TMIN-NORMAL": "16.9",
+      "DATE": "12-30",
+      "STATION": "USC00468308",
+      "DLY-TMAX-NORMAL": "31.5"
+    },
+    {
+      "DLY-TMIN-NORMAL": "16.7",
+      "DATE": "12-31",
+      "STATION": "USC00468308",
+      "DLY-TMAX-NORMAL": "31.3"
+    }
+  ],
+  "christmas_snow_source": "https://www.ncei.noaa.gov/media/3501",
+  "christmas_snow_depth_at_least_1_inch_percent": {
+    "Snowshoe": 59.5,
+    "Townsend 5S": 6.3,
+    "Asheville Regional Airport": 6.3,
+    "Banner Elk": null,
+    "Beech Mountain": null,
+    "Hot Springs VA": null
+  },
+  "null_means": "Insufficient data, not zero probability",
+  "pricing_method": "Editorial planning allowances, not retrieved holiday rates; published pet and hotel fees linked in each stay."
+}
