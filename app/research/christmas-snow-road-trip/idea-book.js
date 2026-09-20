@@ -1,8 +1,9 @@
 const viewer=document.getElementById('photo-viewer');
-const shots=[...document.querySelectorAll('.shot button')];
+const allShots=[...document.querySelectorAll('.shot button')];
+let shots=[];
 let active=0,opener=null;
 function showPhoto(index){active=(index+shots.length)%shots.length;const button=shots[active];const photo=button.querySelector('img');document.getElementById('large-photo').src=photo.src;document.getElementById('large-photo').alt=photo.alt;document.getElementById('photo-caption').textContent=button.dataset.caption;document.getElementById('photo-source').href=button.dataset.source;document.getElementById('photo-count').textContent=button.dataset.album+' · '+(active+1)+' / '+shots.length;}
-shots.forEach((button,index)=>button.addEventListener('click',()=>{opener=button;showPhoto(index);viewer.showModal();}));
+allShots.forEach(button=>button.addEventListener('click',()=>{opener=button;shots=allShots.filter(s=>s.dataset.album===button.dataset.album);showPhoto(shots.indexOf(button));viewer.showModal();}));
 document.getElementById('close-viewer').addEventListener('click',()=>viewer.close());
 document.getElementById('prev-photo').addEventListener('click',()=>showPhoto(active-1));
 document.getElementById('next-photo').addEventListener('click',()=>showPhoto(active+1));

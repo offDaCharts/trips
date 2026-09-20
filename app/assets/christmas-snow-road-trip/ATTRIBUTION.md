@@ -15,3 +15,7 @@ Downloaded September 20, 2026. Historical promotional photos, not a forecast of 
 ## Expanded visual idea book
 
 Full per-photo source URLs, captions, seasons and credits are in `gallery/manifest.json` and the page’s photo-credit section. 26 additional source photographs, reviewed September 20, 2026. Copyright remains with the named sources; no open reuse license is asserted. Nonwinter outdoor property photos are labeled on the page.
+
+## Stay-first galleries
+
+`stays/manifest.json` records exact property, source-page and photo URLs for the expanded five-stay galleries. 42 downloaded property photos plus three reused Homestead images form 45 gallery images. Official imagery is illustrative: hotel room categories vary, Dancing Bear Deluxe Plus represents multiple cabins, and green-season exteriors are labeled. Photo ownership remains with the linked properties and photographers; no open reuse license is asserted.
