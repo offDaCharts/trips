@@ -149,3 +149,7 @@ Could be a three-night finish after a different six-night stay, but moving Wedne
 Browser confirmed full-date unavailability and Dec 2–5 checkout price. Full refund before Nov 2 shown for the three-night quote. The host describes this as eight miles from Newport. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.
 
 Also checked Spyglass Cottage (1726293079062588356): $3,498.38 all-in ($4,025 - $956.25 + $429.63 tax), full dates/family, cancellation before Nov 12. More multilevel contemporary house than cottage; only 2 reviews, not ranked above the stronger style matches.
+
+
+## Coastal stay map — October 4
+Added six numbered interactive map pins, synchronized price/photo cards and listing links. Positions are the centers linked from Airbnb's visible public location maps, labeled approximate rather than confirmed arrival addresses: Sails Up 41.623,-71.2239; Cove 41.63036,-71.2293; Lincoln 41.49558,-71.36808; Salty Dog 41.64454,-71.21891; Newport Lofts 41.47786,-71.31525; reference cottage 41.5851,-71.243. Source listing URLs remain on each stay card. Reference pin uses a different color and explicitly says Dec 2–5 only.
