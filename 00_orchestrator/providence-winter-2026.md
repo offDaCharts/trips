@@ -89,3 +89,63 @@ Pack ’n Play, room-darkening shades and bathtub listed. Confirm crib readiness
 This is Middletown, not walkable downtown Newport. Host lists downtown at 5 miles and Second/Third Beach at 2 miles; plan to drive for evening outings.
 
 Also inspected Two-bedroom Hideaway in Downtown Newport (54018858); did not shortlist because its second bedroom is detached across a patio, less convenient for Rue. Historic Retreat (15409256) had exterior stairs to a second-floor unit; stronger options above.
+
+
+## User style reference and coastal matches — October 4, 2026
+User liked https://www.airbnb.com/rooms/32018945 for vibe and price. Visual interpretation: water-facing windows, bright white beams/paneling, warm wood, blue/white furnishings, comfortable cottage living space. Search now prioritizes this over plain downtown apartments; distinguish Portsmouth/Jamestown from Newport proper.
+
+### Sails Up Sea Cottage
+https://www.airbnb.com/rooms/627508397661321211?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1
+$2,599.00 discounted stay + $363.86 tax = $2,962.86. Nov 26–Dec 5; 2 adults + 1 infant.
+Two upstairs bedrooms, 1.5 baths, full kitchen, downstairs living/dining room, deck, waterfront patio, free parking and in-unit laundry. Description says queen + full; bed badges say two queens, so confirm the second bed.
+Dedicated workspace and Wi-Fi listed. Bedrooms upstairs separate nap space from the living floor; chair and internet speed still unverified.
+Bathtub downstairs. No crib or high chair listed. Photos show a narrow turning staircase, with an open side near the living room; gate suitability needs checking.
+Best style/value fit, with two real compromises: stairs and strict cancellation. The waterfront yard is not fully fenced, and Newport outings require driving.
+Full refund only within 24 hours of booking; then 50% of nights back before Nov 19 at 4 pm local, with service fee not refunded. After that, no refund. Check-in after 4 pm; checkout before 10 am. Price displayed at checkout, not a held booking. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.
+
+### Cove-Cottage · Waterfront year-round Getaway
+https://www.airbnb.com/rooms/39749670?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1
+$3,511.00 − $101.04 weekly discount + $477.39 tax = $3,887.35. Nov 26–Dec 5; 2 adults + 1 infant.
+Queen primary bedroom and bath upstairs; single-bed office/spare room and full bath downstairs. Full kitchen, free parking and in-unit washer/dryer.
+Small office/spare room in the description; dedicated workspace is labeled in a common space in amenities. Confirm which room has the desk and whether it closes off from Rue’s nap space.
+Crib and bathtub listed. Internal stairs, deck and direct water access mean the gate/crib layout matters.
+Costs $924.49 more than Sails Up. The second bedroom is a small single-bed room, so using it as an office and nursery may compete.
+Full refund before Nov 25 shown. Check-in 3 pm; checkout 11 am. Host warns shoreline rocks are slippery. Request-to-book needs host acceptance. Crib readiness and entry steps unverified. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.
+
+### 25 Lincoln · First-floor condo
+https://www.airbnb.com/rooms/29900916?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1
+$2,675.00 − $386.25 weekly discount + $320.43 tax = $2,609.18. Nov 26–Dec 5; 2 adults + 1 infant.
+Three bedrooms, one bathroom, full kitchen, washer/dryer, parking and a private porch. Owner lives upstairs.
+The extra bedroom offers useful potential for separating work and naps. Wi-Fi listed, but no dedicated workspace or tested speed.
+First-floor unit and bathtub are helpful; entry steps and crib availability unverified. Bed descriptions conflict, especially the third bedroom; confirm current layout.
+A water-view village base, not the same direct waterfront setting as your reference. Newport means driving across the bridge; the owner occupies the floor above.
+Full refund before Oct 27 shown. Request-to-book needs host acceptance. Indoor fireplace listed, but fuel type and operating rules were not confirmed. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.
+
+### The Salty Dog RI · Waterfront Carriage House
+https://www.airbnb.com/rooms/714576777383672581?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1
+$3,724.00 − $181.20 weekly discount + $495.99 tax = $4,038.79. Nov 26–Dec 5; 2 adults + 1 infant.
+Two queen bedrooms, one bath, lounge, private deck and two driveway spaces. Kitchenette has microwave, refrigerator, toaster and griddle; no full kitchen.
+Dedicated workspace explicitly listed in a room with a door. Confirm whether this is one of the bedrooms, plus chair comfort and Wi-Fi speed.
+Pack ’n Play on request, baby gates, children’s toys and room-darkening shades listed. Confirm gate placement and crib availability.
+Second-floor stairs, no washer/dryer and no full kitchen. Lovely style and useful baby gear, but less convenient for nine nights of family meals and laundry.
+Full refund before Oct 27 shown. Private accommodation with shared beach access. No host inquiry sent. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.
+
+### Newport Lofts · 2 bedrooms + loft, walk to harbor
+https://www.airbnb.com/rooms/15563002?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1
+$4,093.00 stay + $573.02 tax = $4,666.02. Nov 26–Dec 5; 2 adults + 1 infant.
+Two bedrooms with en-suite baths, kitchen, laundry, two parking spaces and an extra loft reached by spiral stairs. Located on the second floor of an office building.
+Separate bedrooms and an extra loft give options, but the loft is open to the living area. Desk, chair and Wi-Fi speed unverified.
+Second-floor access plus spiral stairs inside. Crib and gate arrangements unverified. Bed badges say two queens; description says king + queen.
+This matches the bright interiors and winter fireplace more than the waterfront-cottage setting. Costs $1,703.16 more than Sails Up, with strict cancellation.
+Full refund only within 24 hours of booking; then 50% of nights back before Nov 19 at 4 pm local, with service fee not refunded. After that, no refund. Partial/seasonal harbor view, not direct waterfront. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.
+
+### Your reference · Waterfront Portsmouth Cottage
+https://www.airbnb.com/rooms/32018945?check_in=2026-12-02&check_out=2026-12-05&adults=2&infants=1
+Dec 2–5 ONLY: $937.00 + $131.18 tax. Two adults + 1 infant. Unavailable for the full Nov 26–Dec 5 stay.
+900 sq ft, two bedrooms, one bath, full kitchen, washer/dryer and two driveway spaces. Queen bedroom plus a full-bunk room.
+Desk and Wi-Fi in the description; no verified speed or chair quality.
+Single-story interior; listing says access only by stairs, with further stairs down to the water. Crib unverified. Fireplace is decorative and non-operational.
+Could be a three-night finish after a different six-night stay, but moving Wednesday would interrupt the workweek. The first six nights need a separate quote; no combined-trip total is implied.
+Browser confirmed full-date unavailability and Dec 2–5 checkout price. Full refund before Nov 2 shown for the three-night quote. The host describes this as eight miles from Newport. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.
+
+Also checked Spyglass Cottage (1726293079062588356): $3,498.38 all-in ($4,025 - $956.25 + $429.63 tax), full dates/family, cancellation before Nov 12. More multilevel contemporary house than cottage; only 2 reviews, not ranked above the stronger style matches.

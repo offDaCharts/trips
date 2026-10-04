@@ -1,5 +1,310 @@
 const stays = [
 {
+  "id": "coast-sails",
+  "name": "Sails Up Sea Cottage",
+  "town": "Portsmouth · Island Park waterfront",
+  "tag": "Closest match at a sensible price",
+  "intro": "Bright coastal rooms, blue-and-white furnishings, an electric fireplace and water immediately outside. This is my strongest match to the cottage you liked. Rated 4.94 / 88 reviews.",
+  "price": "$2,962.86 / 9 nights",
+  "priceNote": "$2,599.00 discounted stay + $363.86 tax = $2,962.86. Nov 26–Dec 5; 2 adults + 1 infant.",
+  "room": "Two upstairs bedrooms, 1.5 baths, full kitchen, downstairs living/dining room, deck, waterfront patio, free parking and in-unit laundry. Description says queen + full; bed badges say two queens, so confirm the second bed.",
+  "work": "Dedicated workspace and Wi-Fi listed. Bedrooms upstairs separate nap space from the living floor; chair and internet speed still unverified.",
+  "rue": "Bathtub downstairs. No crib or high chair listed. Photos show a narrow turning staircase, with an open side near the living room; gate suitability needs checking.",
+  "catch": "Best style/value fit, with two real compromises: stairs and strict cancellation. The waterfront yard is not fully fenced, and Newport outings require driving.",
+  "notes": "Full refund only within 24 hours of booking; then 50% of nights back before Nov 19 at 4 pm local, with service fee not refunded. After that, no refund. Check-in after 4 pm; checkout before 10 am. Price displayed at checkout, not a held booking. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.",
+  "kind": "rental",
+  "live": true,
+  "status": "EXACT CHECKOUT TOTAL · TAXES INCLUDED",
+  "photos": [
+    {
+      "src": "../../assets/providence-winter/coast-sails-0.avif",
+      "caption": "Waterfront patio",
+      "source": "https://www.airbnb.com/rooms/627508397661321211"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-sails-1.avif",
+      "caption": "Living room and stair access",
+      "source": "https://www.airbnb.com/rooms/627508397661321211"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-sails-2.avif",
+      "caption": "Kitchen",
+      "source": "https://www.airbnb.com/rooms/627508397661321211"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-sails-3.avif",
+      "caption": "Bedroom",
+      "source": "https://www.airbnb.com/rooms/627508397661321211"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-sails-4.avif",
+      "caption": "Staircase to bedrooms",
+      "source": "https://www.airbnb.com/rooms/627508397661321211"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-sails-5.avif",
+      "caption": "Bathroom with vintage tub",
+      "source": "https://www.airbnb.com/rooms/627508397661321211"
+    }
+  ],
+  "links": [
+    [
+      "Airbnb · quoted dates",
+      "https://www.airbnb.com/rooms/627508397661321211?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1"
+    ]
+  ]
+},
+{
+  "id": "coast-cove",
+  "name": "Cove-Cottage · Waterfront year-round Getaway",
+  "town": "Portsmouth · Blue Bill Cove",
+  "tag": "Water views + small office + flexible cancellation",
+  "intro": "The front-to-back water view and big waterside deck closely match your reference. More understated interiors, with a practical small office/spare room. Rated 4.97 / 222 reviews.",
+  "price": "$3,887.35 / 9 nights",
+  "priceNote": "$3,511.00 − $101.04 weekly discount + $477.39 tax = $3,887.35. Nov 26–Dec 5; 2 adults + 1 infant.",
+  "room": "Queen primary bedroom and bath upstairs; single-bed office/spare room and full bath downstairs. Full kitchen, free parking and in-unit washer/dryer.",
+  "work": "Small office/spare room in the description; dedicated workspace is labeled in a common space in amenities. Confirm which room has the desk and whether it closes off from Rue’s nap space.",
+  "rue": "Crib and bathtub listed. Internal stairs, deck and direct water access mean the gate/crib layout matters.",
+  "catch": "Costs $924.49 more than Sails Up. The second bedroom is a small single-bed room, so using it as an office and nursery may compete.",
+  "notes": "Full refund before Nov 25 shown. Check-in 3 pm; checkout 11 am. Host warns shoreline rocks are slippery. Request-to-book needs host acceptance. Crib readiness and entry steps unverified. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.",
+  "kind": "rental",
+  "live": true,
+  "status": "EXACT CHECKOUT TOTAL · TAXES INCLUDED",
+  "photos": [
+    {
+      "src": "../../assets/providence-winter/coast-cove-0.avif",
+      "caption": "Actual listing photo 1",
+      "source": "https://www.airbnb.com/rooms/39749670"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-cove-1.avif",
+      "caption": "Actual listing photo 2",
+      "source": "https://www.airbnb.com/rooms/39749670"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-cove-2.avif",
+      "caption": "Actual listing photo 3",
+      "source": "https://www.airbnb.com/rooms/39749670"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-cove-3.avif",
+      "caption": "Actual listing photo 4",
+      "source": "https://www.airbnb.com/rooms/39749670"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-cove-4.avif",
+      "caption": "Actual listing photo 5",
+      "source": "https://www.airbnb.com/rooms/39749670"
+    }
+  ],
+  "links": [
+    [
+      "Airbnb · quoted dates",
+      "https://www.airbnb.com/rooms/39749670?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1"
+    ]
+  ]
+},
+{
+  "id": "coast-lincoln",
+  "name": "25 Lincoln · First-floor condo",
+  "town": "Jamestown · Village / water view",
+  "tag": "Best lower-price alternative",
+  "intro": "White-paneled coastal interiors, wood floors, a fireplace and a generous porch. Walk to Jamestown cafés and shops, with ocean views from the living room according to the host. Rated 4.95 / 345 reviews.",
+  "price": "$2,609.18 / 9 nights",
+  "priceNote": "$2,675.00 − $386.25 weekly discount + $320.43 tax = $2,609.18. Nov 26–Dec 5; 2 adults + 1 infant.",
+  "room": "Three bedrooms, one bathroom, full kitchen, washer/dryer, parking and a private porch. Owner lives upstairs.",
+  "work": "The extra bedroom offers useful potential for separating work and naps. Wi-Fi listed, but no dedicated workspace or tested speed.",
+  "rue": "First-floor unit and bathtub are helpful; entry steps and crib availability unverified. Bed descriptions conflict, especially the third bedroom; confirm current layout.",
+  "catch": "A water-view village base, not the same direct waterfront setting as your reference. Newport means driving across the bridge; the owner occupies the floor above.",
+  "notes": "Full refund before Oct 27 shown. Request-to-book needs host acceptance. Indoor fireplace listed, but fuel type and operating rules were not confirmed. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.",
+  "kind": "rental",
+  "live": true,
+  "status": "EXACT CHECKOUT TOTAL · TAXES INCLUDED",
+  "photos": [
+    {
+      "src": "../../assets/providence-winter/coast-lincoln-0.avif",
+      "caption": "Actual listing photo 1",
+      "source": "https://www.airbnb.com/rooms/29900916"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-lincoln-1.avif",
+      "caption": "Actual listing photo 2",
+      "source": "https://www.airbnb.com/rooms/29900916"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-lincoln-2.avif",
+      "caption": "Actual listing photo 3",
+      "source": "https://www.airbnb.com/rooms/29900916"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-lincoln-3.avif",
+      "caption": "Actual listing photo 4",
+      "source": "https://www.airbnb.com/rooms/29900916"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-lincoln-4.avif",
+      "caption": "Actual listing photo 5",
+      "source": "https://www.airbnb.com/rooms/29900916"
+    }
+  ],
+  "links": [
+    [
+      "Airbnb · quoted dates",
+      "https://www.airbnb.com/rooms/29900916?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1"
+    ]
+  ]
+},
+{
+  "id": "coast-salty",
+  "name": "The Salty Dog RI · Waterfront Carriage House",
+  "town": "Portsmouth · Common Fence Point / marina",
+  "tag": "Strongest listed baby gear and enclosed workspace",
+  "intro": "Airy white interiors, a round window, marina views and a private deck. Beautifully reviewed: 5.0 / 100 reviews, listed in Airbnb’s top 1%.",
+  "price": "$4,038.79 / 9 nights",
+  "priceNote": "$3,724.00 − $181.20 weekly discount + $495.99 tax = $4,038.79. Nov 26–Dec 5; 2 adults + 1 infant.",
+  "room": "Two queen bedrooms, one bath, lounge, private deck and two driveway spaces. Kitchenette has microwave, refrigerator, toaster and griddle; no full kitchen.",
+  "work": "Dedicated workspace explicitly listed in a room with a door. Confirm whether this is one of the bedrooms, plus chair comfort and Wi-Fi speed.",
+  "rue": "Pack ’n Play on request, baby gates, children’s toys and room-darkening shades listed. Confirm gate placement and crib availability.",
+  "catch": "Second-floor stairs, no washer/dryer and no full kitchen. Lovely style and useful baby gear, but less convenient for nine nights of family meals and laundry.",
+  "notes": "Full refund before Oct 27 shown. Private accommodation with shared beach access. No host inquiry sent. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.",
+  "kind": "rental",
+  "live": true,
+  "status": "EXACT CHECKOUT TOTAL · TAXES INCLUDED",
+  "photos": [
+    {
+      "src": "../../assets/providence-winter/coast-salty-0.avif",
+      "caption": "Actual listing photo 1",
+      "source": "https://www.airbnb.com/rooms/714576777383672581"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-salty-1.avif",
+      "caption": "Actual listing photo 2",
+      "source": "https://www.airbnb.com/rooms/714576777383672581"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-salty-2.avif",
+      "caption": "Actual listing photo 3",
+      "source": "https://www.airbnb.com/rooms/714576777383672581"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-salty-3.avif",
+      "caption": "Actual listing photo 4",
+      "source": "https://www.airbnb.com/rooms/714576777383672581"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-salty-4.avif",
+      "caption": "Actual listing photo 5",
+      "source": "https://www.airbnb.com/rooms/714576777383672581"
+    }
+  ],
+  "links": [
+    [
+      "Airbnb · quoted dates",
+      "https://www.airbnb.com/rooms/714576777383672581?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1"
+    ]
+  ]
+},
+{
+  "id": "coast-harborloft",
+  "name": "Newport Lofts · 2 bedrooms + loft, walk to harbor",
+  "town": "Newport · Thames Street",
+  "tag": "In Newport itself · stylish but pricier",
+  "intro": "Bright open living space, a gas fireplace and a deck with seasonal harbor glimpses. A polished alternative if staying right in Newport matters most. Rated 4.78 / 59 reviews.",
+  "price": "$4,666.02 / 9 nights",
+  "priceNote": "$4,093.00 stay + $573.02 tax = $4,666.02. Nov 26–Dec 5; 2 adults + 1 infant.",
+  "room": "Two bedrooms with en-suite baths, kitchen, laundry, two parking spaces and an extra loft reached by spiral stairs. Located on the second floor of an office building.",
+  "work": "Separate bedrooms and an extra loft give options, but the loft is open to the living area. Desk, chair and Wi-Fi speed unverified.",
+  "rue": "Second-floor access plus spiral stairs inside. Crib and gate arrangements unverified. Bed badges say two queens; description says king + queen.",
+  "catch": "This matches the bright interiors and winter fireplace more than the waterfront-cottage setting. Costs $1,703.16 more than Sails Up, with strict cancellation.",
+  "notes": "Full refund only within 24 hours of booking; then 50% of nights back before Nov 19 at 4 pm local, with service fee not refunded. After that, no refund. Partial/seasonal harbor view, not direct waterfront. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.",
+  "kind": "rental",
+  "live": true,
+  "status": "EXACT CHECKOUT TOTAL · TAXES INCLUDED",
+  "photos": [
+    {
+      "src": "../../assets/providence-winter/coast-harborloft-0.avif",
+      "caption": "Actual listing photo 1",
+      "source": "https://www.airbnb.com/rooms/15563002"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-harborloft-1.avif",
+      "caption": "Actual listing photo 2",
+      "source": "https://www.airbnb.com/rooms/15563002"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-harborloft-2.avif",
+      "caption": "Actual listing photo 3",
+      "source": "https://www.airbnb.com/rooms/15563002"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-harborloft-3.avif",
+      "caption": "Actual listing photo 4",
+      "source": "https://www.airbnb.com/rooms/15563002"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-harborloft-4.avif",
+      "caption": "Actual listing photo 5",
+      "source": "https://www.airbnb.com/rooms/15563002"
+    }
+  ],
+  "links": [
+    [
+      "Airbnb · quoted dates",
+      "https://www.airbnb.com/rooms/15563002?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1"
+    ]
+  ]
+},
+{
+  "id": "coast-reference",
+  "name": "Your reference · Waterfront Portsmouth Cottage",
+  "town": "Portsmouth · Sakonnet River",
+  "tag": "Style benchmark · three-night finish only",
+  "intro": "The cottage you liked: wall-to-wall water-facing windows, white beams, warm wood floors and a cozy blue-and-white living room. Rated 4.95 / 136 reviews.",
+  "price": "$1,068.18 / 3 nights",
+  "priceNote": "Dec 2–5 ONLY: $937.00 + $131.18 tax. Two adults + 1 infant. Unavailable for the full Nov 26–Dec 5 stay.",
+  "room": "900 sq ft, two bedrooms, one bath, full kitchen, washer/dryer and two driveway spaces. Queen bedroom plus a full-bunk room.",
+  "work": "Desk and Wi-Fi in the description; no verified speed or chair quality.",
+  "rue": "Single-story interior; listing says access only by stairs, with further stairs down to the water. Crib unverified. Fireplace is decorative and non-operational.",
+  "catch": "Could be a three-night finish after a different six-night stay, but moving Wednesday would interrupt the workweek. The first six nights need a separate quote; no combined-trip total is implied.",
+  "notes": "Browser confirmed full-date unavailability and Dec 2–5 checkout price. Full refund before Nov 2 shown for the three-night quote. The host describes this as eight miles from Newport. Checked October 4, 2026 in Airbnb checkout. Prices and availability can change; nothing reserved.",
+  "kind": "rental",
+  "live": true,
+  "status": "EXACT CHECKOUT TOTAL · TAXES INCLUDED",
+  "photos": [
+    {
+      "src": "../../assets/providence-winter/coast-reference-0.avif",
+      "caption": "Actual listing photo 1",
+      "source": "https://www.airbnb.com/rooms/32018945"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-reference-1.avif",
+      "caption": "Actual listing photo 2",
+      "source": "https://www.airbnb.com/rooms/32018945"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-reference-2.avif",
+      "caption": "Actual listing photo 3",
+      "source": "https://www.airbnb.com/rooms/32018945"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-reference-3.avif",
+      "caption": "Actual listing photo 4",
+      "source": "https://www.airbnb.com/rooms/32018945"
+    },
+    {
+      "src": "../../assets/providence-winter/coast-reference-4.avif",
+      "caption": "Actual listing photo 5",
+      "source": "https://www.airbnb.com/rooms/32018945"
+    }
+  ],
+  "links": [
+    [
+      "Airbnb · quoted dates",
+      "https://www.airbnb.com/rooms/32018945?check_in=2026-12-02&check_out=2026-12-05&adults=2&infants=1"
+    ]
+  ]
+},
+{
   "id": "newport-thames",
   "town": "Newport · Thames Street",
   "tag": "My pick for walkable Newport value",
