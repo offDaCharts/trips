@@ -23,7 +23,8 @@
     marker.on('popupopen',e=>{e.popup.getElement().querySelector(`a[href="#${p.id}"]`).addEventListener('click',()=>filter('all'));document.querySelectorAll('[data-map-id]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mapId===p.id)))});
     markers.set(p.id,marker);
   });
-  const reset=()=>map.fitBounds(bounds,{padding:[35,35],maxZoom:11});reset();
+  map.on('popupclose',()=>document.querySelectorAll('[data-map-id]').forEach(b=>b.setAttribute('aria-pressed','false')));
+  const reset=()=>{map.closePopup();map.fitBounds(bounds,{padding:[35,35],maxZoom:11,animate:false})};reset();
   document.querySelector('#map-reset').addEventListener('click',reset);
-  list.addEventListener('click',e=>{const b=e.target.closest('[data-map-id]');if(!b)return;const marker=markers.get(b.dataset.mapId);map.setView(marker.getLatLng(),13);marker.openPopup();document.querySelector('#stay-map').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'center'})});
+  list.addEventListener('click',e=>{const b=e.target.closest('[data-map-id]');if(!b)return;const marker=markers.get(b.dataset.mapId);map.setView(marker.getLatLng(),13,{animate:false});marker.openPopup();document.querySelector('#stay-map').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'center'})});
 })();
