@@ -1,4 +1,204 @@
 const stays = [
+{
+  "id": "newport-thames",
+  "town": "Newport · Thames Street",
+  "tag": "My pick for walkable Newport value",
+  "name": "Thames St Guesthouse",
+  "intro": "Two levels give you a living floor and a separate sleeping floor, right on Thames Street. Kitchen, laundry and a Pack ’n Play make this a strong family base. Rated 4.97 from 72 reviews.",
+  "price": "$2,914.64 / 9 nights",
+  "status": "EXACT CHECKOUT TOTAL · $323.85/night average",
+  "priceNote": "$2,556.70 after discounts + $357.94 tax. Nov 26–Dec 5 · 2 adults + 1 infant.",
+  "room": "Two queen bedrooms upstairs, 1.5 baths, full kitchen, living/dining area, deck and in-unit washer/dryer.",
+  "work": "Wi-Fi and dining table; sleeping rooms upstairs separate naps from the living floor. No dedicated workspace listed.",
+  "rue": "Pack ’n Play is listed as always available; bathtub. Stair gates and high chair are unverified.",
+  "catch": "Stairs are the main concern with Rue; a review describes them as steep. No off-street parking: use street spaces or paid lots, extra to this quote.",
+  "notes": "Browser checkout quote checked October 4, 2026 for Nov 26–Dec 5, 9 nights, 2 adults + 1 infant. Includes displayed mandatory fees and taxes. Not held; prices and availability can change. No quantified Wi-Fi speed or ergonomic desk verified. $3,165 base less $485.80 special offer and $122.50 long-stay discount, then tax. Full refund before Nov 25 shown; partial before Nov 26. Check-in after 3 pm, checkout 11 am. Request-to-book requires host acceptance.",
+  "kind": "rental",
+  "live": true,
+  "photos": [
+    {
+      "src": "../../assets/providence-winter/newport-thames-0.avif",
+      "caption": "Actual listing photo 1 · Thames St Guesthouse",
+      "source": "https://www.airbnb.com/rooms/893465281226399076"
+    },
+    {
+      "src": "../../assets/providence-winter/newport-thames-1.avif",
+      "caption": "Actual listing photo 2 · Thames St Guesthouse",
+      "source": "https://www.airbnb.com/rooms/893465281226399076"
+    },
+    {
+      "src": "../../assets/providence-winter/newport-thames-2.avif",
+      "caption": "Actual listing photo 3 · Thames St Guesthouse",
+      "source": "https://www.airbnb.com/rooms/893465281226399076"
+    },
+    {
+      "src": "../../assets/providence-winter/newport-thames-3.avif",
+      "caption": "Actual listing photo 4 · Thames St Guesthouse",
+      "source": "https://www.airbnb.com/rooms/893465281226399076"
+    },
+    {
+      "src": "../../assets/providence-winter/newport-thames-4.avif",
+      "caption": "Actual listing photo 5 · Thames St Guesthouse",
+      "source": "https://www.airbnb.com/rooms/893465281226399076"
+    }
+  ],
+  "links": [
+    [
+      "Airbnb · exact trip dates",
+      "https://www.airbnb.com/rooms/893465281226399076?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1"
+    ]
+  ]
+},
+{
+  "id": "newport-bonus",
+  "town": "Newport · Lower Thames / Fifth Ward",
+  "tag": "Best potential work-and-nap layout",
+  "name": "Downtown Thames St Condo — Great Walkability!",
+  "intro": "Two bedrooms plus a separate bonus room give you more ways to divide work and family time. Near King Park, with a private entrance and patio. Rated 4.99 from 98 reviews.",
+  "price": "$3,864.71 / 9 nights",
+  "status": "EXACT CHECKOUT TOTAL · PLUS $500 DEPOSIT",
+  "priceNote": "$3,390.10 after weekly discount + $474.61 tax. $429.41/night average. Separate $500 security deposit is not included.",
+  "room": "Two queen bedrooms, two baths, bonus room with pullout sofa, full kitchen, dining for six and in-unit laundry.",
+  "work": "Wi-Fi and Ethernet listed. Bonus room could serve as a separate office, but its door, desk and chair need confirmation.",
+  "rue": "First floor, but the host explicitly notes a few stairs inside and outside. Room-darkening shades; crib and high chair unverified.",
+  "catch": "Costs $950.07 more than Thames St Guesthouse, with street parking only. Host collects a separate $500 security deposit; confirm its payment and refund terms.",
+  "notes": "Browser checkout quote checked October 4, 2026 for Nov 26–Dec 5, 9 nights, 2 adults + 1 infant. Includes displayed mandatory fees and taxes. Not held; prices and availability can change. No quantified Wi-Fi speed or ergonomic desk verified. $3,558 base less $167.90 weekly discount, then tax. Full refund before Oct 27 shown. The separate security deposit is collected by the property before arrival/check-in.",
+  "kind": "rental",
+  "live": true,
+  "photos": [
+    {
+      "src": "../../assets/providence-winter/newport-bonus-0.webp",
+      "caption": "Actual listing photo 1 · Lower Thames condo",
+      "source": "https://www.airbnb.com/rooms/676912452375560847"
+    },
+    {
+      "src": "../../assets/providence-winter/newport-bonus-1.avif",
+      "caption": "Actual listing photo 2 · Lower Thames condo",
+      "source": "https://www.airbnb.com/rooms/676912452375560847"
+    },
+    {
+      "src": "../../assets/providence-winter/newport-bonus-2.avif",
+      "caption": "Actual listing photo 3 · Lower Thames condo",
+      "source": "https://www.airbnb.com/rooms/676912452375560847"
+    },
+    {
+      "src": "../../assets/providence-winter/newport-bonus-3.avif",
+      "caption": "Actual listing photo 4 · Lower Thames condo",
+      "source": "https://www.airbnb.com/rooms/676912452375560847"
+    },
+    {
+      "src": "../../assets/providence-winter/newport-bonus-4.avif",
+      "caption": "Actual listing photo 5 · Lower Thames condo",
+      "source": "https://www.airbnb.com/rooms/676912452375560847"
+    }
+  ],
+  "links": [
+    [
+      "Airbnb · exact trip dates",
+      "https://www.airbnb.com/rooms/676912452375560847?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1"
+    ]
+  ]
+},
+{
+  "id": "newport-bright",
+  "town": "Newport · Downtown / Broadway area",
+  "tag": "Lower downtown price + one parking space",
+  "name": "Bright & spacious 2 bed apt · Heart of Newport",
+  "intro": "Bright rooms, two king bedrooms and a sunroom, close to downtown walks. One slim off-street parking space is a useful advantage. Rated 4.90 from 115 reviews.",
+  "price": "$2,708.07 / 9 nights",
+  "status": "EXACT CHECKOUT TOTAL · $300.90/night average",
+  "priceNote": "$2,375.50 after weekly discount + $332.57 tax. Nov 26–Dec 5 · 2 adults + 1 infant.",
+  "room": "Two bedrooms, one bath, full kitchen, dining table for six, separate living room and sunroom.",
+  "work": "Wi-Fi and dining table. Separate bedrooms help with naps, but no dedicated desk or speed test verified.",
+  "rue": "Second-floor walk-up with other rentals above and below. Crib and high chair unverified.",
+  "catch": "No washer or dryer. Host flags city activity/noise, and the parking space is narrow. Full-refund cutoff shown is Oct 27.",
+  "notes": "Browser checkout quote checked October 4, 2026 for Nov 26–Dec 5, 9 nights, 2 adults + 1 infant. Includes displayed mandatory fees and taxes. Not held; prices and availability can change. No quantified Wi-Fi speed or ergonomic desk verified. $2,619 base less $243.50 weekly discount, then tax. Check-in after 4 pm, checkout 11 am. Request-to-book requires host acceptance.",
+  "kind": "rental",
+  "live": true,
+  "photos": [
+    {
+      "src": "../../assets/providence-winter/newport-bright-0.avif",
+      "caption": "Actual listing photo 1 · Bright downtown apartment",
+      "source": "https://www.airbnb.com/rooms/53739684"
+    },
+    {
+      "src": "../../assets/providence-winter/newport-bright-1.avif",
+      "caption": "Actual listing photo 2 · Bright downtown apartment",
+      "source": "https://www.airbnb.com/rooms/53739684"
+    },
+    {
+      "src": "../../assets/providence-winter/newport-bright-2.avif",
+      "caption": "Actual listing photo 3 · Bright downtown apartment",
+      "source": "https://www.airbnb.com/rooms/53739684"
+    },
+    {
+      "src": "../../assets/providence-winter/newport-bright-3.avif",
+      "caption": "Actual listing photo 4 · Bright downtown apartment",
+      "source": "https://www.airbnb.com/rooms/53739684"
+    },
+    {
+      "src": "../../assets/providence-winter/newport-bright-4.avif",
+      "caption": "Actual listing photo 5 · Bright downtown apartment",
+      "source": "https://www.airbnb.com/rooms/53739684"
+    }
+  ],
+  "links": [
+    [
+      "Airbnb · exact trip dates",
+      "https://www.airbnb.com/rooms/53739684?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1"
+    ]
+  ]
+},
+{
+  "id": "middletown-home",
+  "town": "Middletown · Nearby alternative, 5 miles from downtown Newport",
+  "tag": "Best price + easiest parking",
+  "name": "Renovated 2 Bed Private Vacation Home near Newport",
+  "intro": "A private guesthouse with a patio, firepit and generous driveway. A good value if you are happy driving into Newport. Rated 4.89 from 228 reviews.",
+  "price": "$2,168.17 / 9 nights",
+  "status": "EXACT CHECKOUT TOTAL · $240.91/night average",
+  "priceNote": "$1,901.90 after weekly discount + $266.27 tax. Nov 26–Dec 5 · 2 adults + 1 infant.",
+  "room": "Two queen bedrooms, one bath, full kitchen, living/dining room, patio and driveway parking. Laundry is in the basement; host provides access keys.",
+  "work": "Wi-Fi and dining table. Use the second bedroom for naps, with work in the living/dining space; no dedicated office listed.",
+  "rue": "Pack ’n Play, room-darkening shades and bathtub listed. Confirm crib readiness and entry/basement stairs.",
+  "catch": "This is Middletown, not walkable downtown Newport. Host lists downtown at 5 miles and Second/Third Beach at 2 miles; plan to drive for evening outings.",
+  "notes": "Browser checkout quote checked October 4, 2026 for Nov 26–Dec 5, 9 nights, 2 adults + 1 infant. Includes displayed mandatory fees and taxes. Not held; prices and availability can change. No quantified Wi-Fi speed or ergonomic desk verified. $2,101 base less $199.10 weekly discount, then tax. Full refund before Nov 21 shown; partial before Nov 26. Check-in after 3 pm, checkout 11 am. Upstairs is storage only, according to the host. Request-to-book requires host acceptance.",
+  "kind": "rental",
+  "live": true,
+  "photos": [
+    {
+      "src": "../../assets/providence-winter/middletown-home-0.avif",
+      "caption": "Actual listing photo 1 · Middletown guesthouse",
+      "source": "https://www.airbnb.com/rooms/555324377959992904"
+    },
+    {
+      "src": "../../assets/providence-winter/middletown-home-1.avif",
+      "caption": "Actual listing photo 2 · Middletown guesthouse",
+      "source": "https://www.airbnb.com/rooms/555324377959992904"
+    },
+    {
+      "src": "../../assets/providence-winter/middletown-home-2.avif",
+      "caption": "Actual listing photo 3 · Middletown guesthouse",
+      "source": "https://www.airbnb.com/rooms/555324377959992904"
+    },
+    {
+      "src": "../../assets/providence-winter/middletown-home-3.avif",
+      "caption": "Actual listing photo 4 · Middletown guesthouse",
+      "source": "https://www.airbnb.com/rooms/555324377959992904"
+    },
+    {
+      "src": "../../assets/providence-winter/middletown-home-4.avif",
+      "caption": "Actual listing photo 5 · Middletown guesthouse",
+      "source": "https://www.airbnb.com/rooms/555324377959992904"
+    }
+  ],
+  "links": [
+    [
+      "Airbnb · exact trip dates",
+      "https://www.airbnb.com/rooms/555324377959992904?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1"
+    ]
+  ]
+},
   {
     "id": "luxe",
     "kind": "rental",

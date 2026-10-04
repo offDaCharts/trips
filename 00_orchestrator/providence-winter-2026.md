@@ -47,3 +47,45 @@ User explicitly requires browser quotes, not estimates. Current dates: Nov 26–
 - Weekapaug Inn: full Nov26–Dec5 2adult+1child search returned **no rooms** (offered sister Ocean House instead; did not confuse this with Weekapaug). **Dec3–5 Cove View Suite BAR: $2,218.44 total**, $1,810 room+$136 resort+$272.44 tax. 450sqft king separate sitting room. Deposit $776.45 (35%). Even timely cancellation costs$250; within14days 100% penalty. Checkout showed2adults1child; noagefield. Room-list $1,946 includesfees but NOTtax; use checkout$2,218.44. https://be.synxis.com/?adult=2&arrive=2026-12-03&chain=8565&child=1&config=weekapaugconfig&currency=USD&depart=2026-12-05&hotel=59662&level=hotel&locale=en-US&rooms=1&theme=weekapaugtheme
 
 All are observed live prices, not held bookings; cribs remain unconfirmed. User's exact-price requirement does not permit substituting adult-only prices for family totals.
+
+
+## Newport Airbnb shortlist — October 4, 2026
+Browser checkout verified Nov 26–Dec 5 (9 nights), 2 adults + 1 infant. No booking or host messages. Twenty actual listing photos cached with credits.
+
+### Thames St Guesthouse
+https://www.airbnb.com/rooms/893465281226399076?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1
+$2,556.70 after discounts + $357.94 tax. Nov 26–Dec 5 · 2 adults + 1 infant.
+Browser checkout quote checked October 4, 2026 for Nov 26–Dec 5, 9 nights, 2 adults + 1 infant. Includes displayed mandatory fees and taxes. Not held; prices and availability can change. No quantified Wi-Fi speed or ergonomic desk verified. $3,165 base less $485.80 special offer and $122.50 long-stay discount, then tax. Full refund before Nov 25 shown; partial before Nov 26. Check-in after 3 pm, checkout 11 am. Request-to-book requires host acceptance.
+Two queen bedrooms upstairs, 1.5 baths, full kitchen, living/dining area, deck and in-unit washer/dryer.
+Wi-Fi and dining table; sleeping rooms upstairs separate naps from the living floor. No dedicated workspace listed.
+Pack ’n Play is listed as always available; bathtub. Stair gates and high chair are unverified.
+Stairs are the main concern with Rue; a review describes them as steep. No off-street parking: use street spaces or paid lots, extra to this quote.
+
+### Downtown Thames St Condo — Great Walkability!
+https://www.airbnb.com/rooms/676912452375560847?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1
+$3,390.10 after weekly discount + $474.61 tax. $429.41/night average. Separate $500 security deposit is not included.
+Browser checkout quote checked October 4, 2026 for Nov 26–Dec 5, 9 nights, 2 adults + 1 infant. Includes displayed mandatory fees and taxes. Not held; prices and availability can change. No quantified Wi-Fi speed or ergonomic desk verified. $3,558 base less $167.90 weekly discount, then tax. Full refund before Oct 27 shown. The separate security deposit is collected by the property before arrival/check-in.
+Two queen bedrooms, two baths, bonus room with pullout sofa, full kitchen, dining for six and in-unit laundry.
+Wi-Fi and Ethernet listed. Bonus room could serve as a separate office, but its door, desk and chair need confirmation.
+First floor, but the host explicitly notes a few stairs inside and outside. Room-darkening shades; crib and high chair unverified.
+Costs $950.07 more than Thames St Guesthouse, with street parking only. Host collects a separate $500 security deposit; confirm its payment and refund terms.
+
+### Bright & spacious 2 bed apt · Heart of Newport
+https://www.airbnb.com/rooms/53739684?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1
+$2,375.50 after weekly discount + $332.57 tax. Nov 26–Dec 5 · 2 adults + 1 infant.
+Browser checkout quote checked October 4, 2026 for Nov 26–Dec 5, 9 nights, 2 adults + 1 infant. Includes displayed mandatory fees and taxes. Not held; prices and availability can change. No quantified Wi-Fi speed or ergonomic desk verified. $2,619 base less $243.50 weekly discount, then tax. Check-in after 4 pm, checkout 11 am. Request-to-book requires host acceptance.
+Two bedrooms, one bath, full kitchen, dining table for six, separate living room and sunroom.
+Wi-Fi and dining table. Separate bedrooms help with naps, but no dedicated desk or speed test verified.
+Second-floor walk-up with other rentals above and below. Crib and high chair unverified.
+No washer or dryer. Host flags city activity/noise, and the parking space is narrow. Full-refund cutoff shown is Oct 27.
+
+### Renovated 2 Bed Private Vacation Home near Newport
+https://www.airbnb.com/rooms/555324377959992904?check_in=2026-11-26&check_out=2026-12-05&adults=2&infants=1
+$1,901.90 after weekly discount + $266.27 tax. Nov 26–Dec 5 · 2 adults + 1 infant.
+Browser checkout quote checked October 4, 2026 for Nov 26–Dec 5, 9 nights, 2 adults + 1 infant. Includes displayed mandatory fees and taxes. Not held; prices and availability can change. No quantified Wi-Fi speed or ergonomic desk verified. $2,101 base less $199.10 weekly discount, then tax. Full refund before Nov 21 shown; partial before Nov 26. Check-in after 3 pm, checkout 11 am. Upstairs is storage only, according to the host. Request-to-book requires host acceptance.
+Two queen bedrooms, one bath, full kitchen, living/dining room, patio and driveway parking. Laundry is in the basement; host provides access keys.
+Wi-Fi and dining table. Use the second bedroom for naps, with work in the living/dining space; no dedicated office listed.
+Pack ’n Play, room-darkening shades and bathtub listed. Confirm crib readiness and entry/basement stairs.
+This is Middletown, not walkable downtown Newport. Host lists downtown at 5 miles and Second/Third Beach at 2 miles; plan to drive for evening outings.
+
+Also inspected Two-bedroom Hideaway in Downtown Newport (54018858); did not shortlist because its second bedroom is detached across a patio, less convenient for Rue. Historic Retreat (15409256) had exterior stairs to a second-floor unit; stronger options above.
