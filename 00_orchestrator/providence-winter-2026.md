@@ -29,3 +29,10 @@ Bristol full-kitchen one-bedroom suite is 700 sq ft upstairs in Arch Building WI
 No reservations, purchases or host messages. Delta ATL–PVD route verified; actual fares and times unquoted. Illustrative family total $4,200–5,600 uses the first rental plus clearly marked tax/flight/car/food/activity allowances.
 
 Page files: app/research/providence-winter/. New photo provenance: app/assets/providence-winter/credits.json; reused hotel provenance: app/assets/christmas-snow-road-trip/rhode-island/manifest.json.
+
+## Thanksgiving alternative (user asked October 4)
+User asks about leaving Thanksgiving and staying through Saturday December 5. Evaluated Nov 26–Dec 5 as nine nights / Saturday departure; explicitly note staying Saturday night would instead mean ten nights, returning Dec 6. Added comparison at page #thanksgiving, preserving original quotes.
+
+Live check two adults + one infant: Wayland/LUXE listing unavailable full Nov 26–Dec 5. Brown/RISD available: header $2,348; price details 9 nights x displayed $315.45, subtotal $2,839.06, long-stay discount $491.65, total $2,347.41 BEFORE TAX. This is $259.35 above previous eight-night exact subtotal. Free cancel before Nov 12, partial before Nov 19 displayed. No reservation.
+
+Recommendation: useful additional Friday–Sunday before work assuming Friday off, Sunday home to recover. Bristol festival remains Dec 5–6 noon–5, so Saturday departure means flight-dependent visit or missing festival. A suggested >=5 pm flight supports short noon–1:30 festival plus car return/airport buffer; actual Delta schedule/fare not verified. Thanksgiving meal/groceries need advance arrangements. All-night hotel allowance arithmetic 9 x $300–500 = $2,700–4,500 before fees/tax is NOT quote.
