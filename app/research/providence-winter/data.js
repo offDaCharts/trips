@@ -101,16 +101,20 @@ const stays = [
     "tag": "Best town-first hotel lead",
     "name": "Bristol Harbor Inn",
     "intro": "Stay close to Bristol’s harbor and shops, with the Christmas festival in town at the end of the week. Choose a full one-bedroom suite for the work-and-nap setup.",
-    "price": "$300–500 / night",
-    "status": "PLANNING ALLOWANCE · not a date quote",
-    "live": false,
-    "priceNote": "8 nights: $2,400–4,000 before tax and amenity fee. One Bedroom Suite with Full Kitchen; inventory and fee amount unverified.",
+    "price": "$2,971.80 / 9 nights",
+    "status": "LIVE TOTAL · Nov 26–Dec 5 · taxes & fees included",
+    "live": true,
+    "priceNote": "Best Available Rate · One Bedroom Suite with Full Kitchen · 2 adults + 1 child age 1. Room $2,421 + resort fee $198 + taxes $352.80 = $2,971.80. All-in average $330.20/night.",
     "room": "700 sq ft category with king bedroom, separate living area, full kitchen and washer/dryer.",
     "work": "High-speed Wi-Fi advertised. A table is listed; confirm a suitable chair and a bedroom door.",
-    "rue": "Request a crib and confirm three-person occupancy. Easy short outings from the hotel; no pool.",
+    "rue": "The booking engine accepted two adults plus one child age 1. Request and confirm a crib; no pool.",
     "catch": "This kitchen suite is upstairs in the historic Arch Building with no elevator. The main building’s elevator does not serve it.",
-    "notes": "Displayed photograph is a generic hotel room, not verified as the proposed suite. The suite is listed with distant harbor views. Hotel FAQ says parking is included in its amenity fee. Standard November–April cancellation is by 6 pm the day before arrival, but rate-specific terms can differ. A cheaper studio trades away the separate bedroom; kitchenette studios list no cookware or flatware.",
+    "notes": "Browser quote checked October 4, 2026. Deposit $534.66 at booking. Cancel/modify by 6 pm at least 24 hours before arrival; late cancellation costs the first night plus tax. Room-only nightly rates: Nov 26 $469; Nov 27 $359; Nov 28 $299; Nov 29–Dec 3 $199 each; Dec 4 $299. Resort fee $22/night, taxed separately. Suite is upstairs without an elevator. Photo is a generic hotel room, not verified as this suite.",
     "links": [
+      [
+        "Official booking engine · recheck dates",
+        "https://reservations.bristolharborinn.com/ibe/index.aspx?propertyID=17826&sknv=3&childAges=1&adults=2"
+      ],
       [
         "Room layouts",
         "https://www.bristolharborinn.com/suites"
@@ -135,16 +139,20 @@ const stays = [
     "tag": "Best hotel for Rue and rainy afternoons",
     "name": "Newport Beach Hotel & Suites",
     "intro": "The most practical hotel carryover from your earlier Rhode Island shortlist: space to spread out, a kitchen and an indoor pool.",
-    "price": "$300–500 / night",
-    "status": "PLANNING ALLOWANCE · not a date quote",
-    "live": false,
-    "priceNote": "One-bedroom suite. 2 nights: $600–1,000; 8 nights: $2,400–4,000, before tax and daily amenity fee. Reconfirm the fee; prior notes used $22/night.",
+    "price": "$2,773.70 / 9 nights",
+    "status": "LIVE TOTAL · Nov 26–Dec 5 · taxes & fees included",
+    "live": true,
+    "priceNote": "Best Available Rate · Suites Building One Bedroom Suite · 2 adults + 1 child. Room $2,161 + taxes and fees $612.70 = $2,773.70. All-in average $308.19/night. Dec 3–5 finish: $678.43 total for 2 nights.",
     "room": "Suites Building one-bedroom: king bedroom, separate living room, kitchenette and washer/dryer.",
     "work": "Table and separate living area; Wi-Fi advertised. With Rue sleeping in the bedroom, calls would be from the living room.",
     "rue": "Free Pack ’n Play on request, subject to availability. Elevator access and indoor pool offer useful winter flexibility.",
     "catch": "Across the road from the beach, not in Newport’s historic center. Many suites look over the pond; a sea view is not automatic.",
-    "notes": "Current official FAQ confirms pool, elevators and Pack ’n Plays. Parking for one car is included in the amenity fee; cancellation depends on the rate. Images are official property examples and do not establish the exact booked category or view. Historical suite allowance carried forward for comparison, not a newly verified rate.",
+    "notes": "Browser quote checked October 4, 2026. Nine-night fees: RI State Tax $151.27, Occupancy Tax $151.27, destination fee $198, destination fee tax $27.72, transaction fee $84.44. One-night deposit; cancellation after Nov 23 at 4 pm local incurs one night. Children under 18 are free in existing bedding; the engine accepts one child but has no age selector. Dec 3–5: $533 room + $145.43 taxes/fees. Pack ’n Play remains a request. Photos are property examples, not a guaranteed category or view.",
     "links": [
+      [
+        "Official booking engine · recheck dates",
+        "https://reservations.newportbeachhotelandsuites.com/rooms?locale=en&flow=tf&Rooms=1&CheckinDate=2026-11-26&LOS=9&Adults_1=2&Children_1=1&Currency=USD"
+      ],
       [
         "Suites and floor plans",
         "https://www.newportbeachhotelandsuites.com/rooms/suites-building/"
@@ -189,16 +197,20 @@ const stays = [
     "tag": "Most charming boutique alternative",
     "name": "Mill Street Inn",
     "intro": "Warm exposed brick and a small-inn feel close to Newport’s town life. A lovely two-night finish if the family-capable room is available.",
-    "price": "$300–500 / night",
-    "status": "PLANNING ALLOWANCE · not a date quote",
+    "price": "Family quote unavailable",
+    "status": "BROWSER CHECKED · occupancy needs hotel confirmation",
     "live": false,
-    "priceNote": "Family-capable Deluxe suite. 2 nights: $600–1,000 before tax. Allowance includes a provisional $50/night additional-occupant charge; confirm treatment of Rue.",
+    "priceNote": "Nov 26–Dec 5 and Dec 3–5: the three-guest search returned no matching rooms. Deluxe Suite selection caps occupancy at two. The exact nine-night two-adult baseline is $2,944.44 including taxes/fees, but it does NOT include Rue and is not a family quote.",
     "room": "Only a limited number of Deluxe suites with sofa sleepers allow more than two guests. Arrange that category directly.",
     "work": "Separate sitting area is useful, but a full work desk and internet speed are unverified.",
     "rue": "Confirm crib and occupancy before booking. Request first floor; there is no elevator.",
     "catch": "Standard Studio and Townhouse suites have a two-person maximum. The fireplace Townhouse photos are not a family-room promise.",
-    "notes": "General policy: one-night deposit, 14-day cancellation window and $25 processing fee for timely cancellation; within 14 days the entire stay can be forfeited. Parking is limited and subject to availability. Deluxe photos do not prove sofa-sleeper availability. This is a conditional shortlist option, not cleared inventory.",
+    "notes": "Browser checked October 4, 2026. Two-adult-only Deluxe Suite Standard Rate: $2,571 room + $373.44 taxes/fees = $2,944.44; deposit $273.96. Some Deluxe suites have sofa beds; the hotel requires direct contact to arrange them (401-849-9500). Do not assume a free infant exemption. Cancel by 3 pm 14 days before arrival for deposit refund minus $25; within 14 days the entire stay is forfeited. No inquiry sent.",
     "links": [
+      [
+        "Official booking engine · recheck dates",
+        "https://hotels.cloudbeds.com/en/reservation/hCucqj/?currency=usd&checkin=2026-11-26&checkout=2026-12-05&guests=3"
+      ],
       [
         "Deluxe suites",
         "https://www.millstreetinn.com/room/deluxe-suites/"
@@ -238,16 +250,20 @@ const stays = [
     "tag": "Optional short splurge from the earlier shortlist",
     "name": "Weekapaug Inn",
     "intro": "A quieter coastal inn with inviting shared sitting rooms. Worth considering for the feeling you liked around Ocean House, if you want a special finish.",
-    "price": "$900–1,400+ / night",
-    "status": "PREMIUM PLANNING ALLOWANCE · not a date quote",
-    "live": false,
-    "priceNote": "One-bedroom suite comparison. 2 nights: $1,800–2,800+ before tax and resort fee. Holiday operation and inventory need checking.",
-    "room": "Garden or Cove View suite category; confirm exact layout. Official accommodations page describes crib space.",
+    "price": "$2,218.44 / 2 nights",
+    "status": "LIVE TOTAL · Dec 3–5 · taxes & fees included",
+    "live": true,
+    "priceNote": "Cove View Suite · Best Available Rate · 2 adults + 1 child. Room $1,810 + resort fee $136 + tax $272.44 = $2,218.44. All-in average $1,109.22/night. No rooms matched the full Nov 26–Dec 5 family search.",
+    "room": "Cove View Suite: king bed, separate sitting room, 450 sq ft; views of the cove and village.",
     "work": "Suite living area could work, but this is expensive accommodation to spend most of the day on calls.",
     "rue": "Confirm the provided crib and winter amenities. The outdoor pool is not an indoor winter-play fallback.",
-    "catch": "Much farther from Bristol and Providence. Best treated as a separate two-night splurge, not the default eight-night work base.",
-    "notes": "Price allowance comes from the prior Rhode Island comparison and is not a Nov 28–Dec 6 quote. Room images illustrate the inn; they do not guarantee the named suite or view. Snow in older property galleries would not indicate expected weather for this trip.",
+    "catch": "A costly two-night finish with strict cancellation terms. No full nine-night availability returned for the family search.",
+    "notes": "Browser quote checked October 4, 2026. Deposit $776.45 (35%) now; bookings within 14 days require 100%. Every cancellation costs at least $250; within 14 days, the penalty is 100% of the stay. Engine accepts 2 adults + 1 child; confirm crib allocation. The $1,946 displayed on the room list included fees but excluded $272.44 in tax; $2,218.44 is the checkout total. Photos illustrate the inn, not the exact suite or view.",
     "links": [
+      [
+        "Official booking engine · recheck dates",
+        "https://be.synxis.com/?adult=2&arrive=2026-12-03&chain=8565&child=1&config=weekapaugconfig&currency=USD&depart=2026-12-05&hotel=59662&level=hotel&locale=en-US&rooms=1&theme=weekapaugtheme"
+      ],
       [
         "Rooms and suites",
         "https://weekapauginn.com/garden-and-cove-view-rooms/"
