@@ -30,6 +30,17 @@ No reservations, purchases or host messages. Delta ATL–PVD route verified; act
 
 Page files: app/research/providence-winter/. New photo provenance: app/assets/providence-winter/credits.json; reused hotel provenance: app/assets/christmas-snow-road-trip/rhode-island/manifest.json.
 
+## Weather estimate — October 6, 2026
+Trip window is still too far away for a responsible day-by-day forecast. Added a clearly labeled 1991–2020 NOAA daily-normal summary for November 26–December 5 and a suggested forecast recheck around November 16–19.
+
+- Providence / T. F. Green: average normal high **47.9°F**, low **31.6°F** across the ten-day window; daily normals decline from 49.4°F / 32.8°F on Nov 26 to 46.4°F / 30.4°F on Dec 5.
+- Newport / Narragansett Bay coast: average normal high **47.9°F**, low **33.8°F**. Used for Newport, Middletown, Portsmouth and Jamestown; Bristol is treated as a nearby-bay estimate. Harbor wind can make outings feel colder than the air temperature.
+- Mystic / Westerly coast: average normal high **49.2°F**, low **34.1°F**. Westerly State Airport is the nearest NOAA coastal proxy for Mystic.
+- Providence measurable-precipitation frequency averages **35.7% per calendar date** in this window; Newport 34.3%; Westerly 35.1%. This supports planning at least one or two indoor pivots but is not a trip-total probability.
+- At Providence, trace-or-more snow frequency rises from 5.5% per date on Nov 26 to about 8% by Dec 5; one-inch-or-more frequency is roughly 3–4% per date. Snow is possible but not reliable enough to plan around.
+
+Primary data: NOAA NCEI Daily Climate Normals 1991–2020, stations USW00014765 (Providence T. F. Green), USW00014787 (Newport State Airport) and USW00014794 (Westerly State Airport). The public page includes direct data-service links. Chepachet is described qualitatively as colder inland; no unsupported precise station number is given.
+
 ## Thanksgiving alternative (user asked October 4)
 User asks about leaving Thanksgiving and staying through Saturday December 5. Evaluated Nov 26–Dec 5 as nine nights / Saturday departure; explicitly note staying Saturday night would instead mean ten nights, returning Dec 6. Added comparison at page #thanksgiving, preserving original quotes.
 
